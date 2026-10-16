@@ -1,0 +1,60 @@
+name: Render Reel
+
+# Builds every queued Reel that has no result yet. Claude pushes queue/<id>.json; this job
+# writes reels/<id>/ (video, cover, status.json) and commits it. Nothing is published here.
+on:
+  push:
+    branches: [main]
+    paths: ["queue/*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Install Python packages
+        run: pip install -q -r requirements.txt
+
+      - name: Render queued Reels
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          shopt -s nullglob
+          for job in queue/*.json; do
+            id="$(basename "$job" .json)"
+            if [ -f "reels/$id/status.json" ]; then continue; fi
+            echo "::group::$id"
+            python scripts/render_job.py --reel-id "$id" || echo "$id did not pass; see reels/$id/status.json"
+            echo "::endgroup::"
+          done
+
+      - name: Commit results
+        run: |
+          git config user.name "reels-render"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reels content
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "Render results"
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

@@ -1,0 +1,332 @@
+<title>UXOXU Reels</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  /* Layout: one column of reels; each reel pairs its 9:16 player with its details, stacking on phones. */
+  :root {
+    --bg: #eef3f2;
+    --surface: #ffffff;
+    --ink: #0f1e1c;
+    --muted: #586a67;
+    --line: #d4dedc;
+    --amber: #9a6200;
+    --amber-soft: #fff0d1;
+    --cyan: #0b6a80;
+    --ok: #1c7347;
+    --ok-soft: #e1f2e8;
+    --wait: #8a5a00;
+    --wait-soft: #fbefd9;
+    --bad: #b3261e;
+    --bad-soft: #fbe6e4;
+    --font-display: "Cairo", "Segoe UI", Tahoma, sans-serif;
+    --font-body: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #091312; --surface: #0f1d1b; --ink: #e5eeec; --muted: #93a6a2; --line: #20312e;
+      --amber: #ffc14d; --amber-soft: #2a220f; --cyan: #7ad2f2;
+      --ok: #5cc98f; --ok-soft: #11281c; --wait: #f2b35b; --wait-soft: #2a200f; --bad: #f28b82; --bad-soft: #2c1412;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #091312; --surface: #0f1d1b; --ink: #e5eeec; --muted: #93a6a2; --line: #20312e;
+    --amber: #ffc14d; --amber-soft: #2a220f; --cyan: #7ad2f2;
+    --ok: #5cc98f; --ok-soft: #11281c; --wait: #f2b35b; --wait-soft: #2a200f; --bad: #f28b82; --bad-soft: #2c1412;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 28px 56px;
+  }
+  .wrap { max-width: 940px; margin-inline: auto; display: grid; gap: 28px; }
+
+  header { display: grid; gap: 6px; }
+  .brand { font-family: var(--font-display); font-weight: 800; font-size: clamp(28px, 5vw, 38px); line-height: 1.2; margin: 0; letter-spacing: 0.01em; text-wrap: balance; }
+  .brand span { color: var(--amber); }
+  .lede { margin: 0; color: var(--muted); max-width: 60ch; }
+  .tally { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 6px; font-size: 13px; color: var(--muted); }
+  .tally b { font-family: var(--font-mono); font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; margin-inline-end: 4px; }
+
+  .reels { display: grid; gap: 22px; }
+  .reel {
+    display: grid;
+    grid-template-columns: minmax(0, 250px) minmax(0, 1fr);
+    gap: 24px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px;
+  }
+  .player { display: grid; gap: 8px; align-content: start; }
+  .player video, .player .novideo {
+    width: 100%; max-width: 100%; aspect-ratio: 9 / 16; border-radius: 10px;
+    background: #0b1a19; display: block; object-fit: cover;
+  }
+  .player .novideo { display: grid; place-items: center; color: #93a6a2; font-size: 13px; text-align: center; padding: 16px; }
+  .spec { font-family: var(--font-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+
+  .details { display: grid; gap: 14px; align-content: start; min-width: 0; }
+  .topline { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .chip { font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
+  .chip.approved { background: var(--amber-soft); color: var(--amber); }
+  .chip.scheduled { background: var(--wait-soft); color: var(--wait); }
+  .chip.published { background: var(--ok-soft); color: var(--ok); }
+  .chip.failed { background: var(--bad-soft); color: var(--bad); }
+  .chip.net { border-color: var(--line); color: var(--muted); font-weight: 500; }
+  .when { font-size: 13px; color: var(--muted); }
+  .title { font-family: var(--font-display); font-weight: 700; font-size: 22px; line-height: 1.45; margin: 0; text-wrap: balance; }
+
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin: 0; }
+  .facts div { border-inline-start: 2px solid var(--line); padding-inline-start: 10px; }
+  .facts dt { font-size: 12px; color: var(--muted); }
+  .facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .caption-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .label { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0.02em; }
+  .caption {
+    white-space: pre-wrap; overflow-wrap: anywhere; margin: 0;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px; font-family: var(--font-body); font-size: 14px; line-height: 1.8; max-height: 320px; overflow: auto;
+  }
+  button {
+    font: inherit; font-size: 13px; font-weight: 600; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 4px 12px; cursor: pointer;
+  }
+  button:hover { border-color: var(--amber); }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+
+  .sources { margin: 0; padding-inline-start: 18px; font-size: 14px; }
+  .sources a, .post-link { color: var(--cyan); text-underline-offset: 3px; }
+  .post-link { font-weight: 600; }
+
+  .state { background: var(--surface); border: 1px dashed var(--line); border-radius: 14px; padding: 28px 20px; color: var(--muted); }
+  .state h2 { margin: 0 0 4px; font-family: var(--font-display); font-size: 18px; color: var(--ink); }
+  .state p { margin: 0; }
+
+  @media (max-width: 640px) {
+    .reel { grid-template-columns: minmax(0, 1fr); }
+    .player { max-width: 300px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .reel { transition: border-color 0.2s ease; }
+    .reel:hover { border-color: color-mix(in srgb, var(--amber) 40%, var(--line)); }
+  }
+</style>
+
+<div class="wrap" dir="rtl" lang="ar">
+  <header>
+    <h1 class="brand">UXOXU <span>Reels</span></h1>
+    <p class="lede">المقاطع المعتمدة للنشر: الفيديو النهائي، ووصف المنشور، ومصادره، وحالة نشره.</p>
+    <div class="tally" id="tally" hidden>
+      <span><b id="t-all">0</b>مقطع</span>
+      <span><b id="t-pub">0</b>منشور</span>
+      <span><b id="t-next">—</b>النشر القادم</span>
+    </div>
+  </header>
+
+  <section class="reels" id="reels" aria-live="polite">
+    <div class="state" id="state">
+      <h2>تحميل المكتبة…</h2>
+      <p>تظهر هنا المقاطع بعد اعتمادها، كل مقطع مع وصفه ومصادره وحالة نشره.</p>
+    </div>
+  </section>
+</div>
+
+<template id="reel-tpl">
+  <article class="reel">
+    <div class="player">
+      <video controls playsinline preload="metadata"></video>
+      <div class="spec"></div>
+    </div>
+    <div class="details">
+      <div class="topline"></div>
+      <h2 class="title"></h2>
+      <dl class="facts"></dl>
+      <div>
+        <div class="caption-head">
+          <span class="label">وصف المنشور</span>
+          <button type="button" class="copy">نسخ الوصف</button>
+        </div>
+        <pre class="caption"></pre>
+      </div>
+      <div class="sources-wrap">
+        <span class="label">المصادر</span>
+        <ol class="sources"></ol>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script>
+(function () {
+  const STATUS = {
+    approved: "معتمد",
+    scheduled: "مجدول",
+    published: "منشور",
+    failed: "تعذّر النشر"
+  };
+  const NETWORKS = { instagram: "Instagram", tiktok: "TikTok", youtube: "YouTube Shorts" };
+  const fmt = new Intl.DateTimeFormat("ar-SA-u-nu-latn", {
+    timeZone: "Asia/Riyadh", weekday: "short", day: "numeric", month: "long", hour: "numeric", minute: "2-digit"
+  });
+
+  const list = document.getElementById("reels");
+  const state = document.getElementById("state");
+  const tpl = document.getElementById("reel-tpl");
+
+  function showState(title, text) {
+    list.replaceChildren(state);
+    state.querySelector("h2").textContent = title;
+    state.querySelector("p").textContent = text;
+  }
+
+  function when(iso) {
+    const d = iso ? new Date(iso) : null;
+    return d && !isNaN(d) ? fmt.format(d) : "";
+  }
+
+  function safeUrl(u) {
+    return typeof u === "string" && /^https:\/\//.test(u) ? u : null;
+  }
+
+  function assetPath(id) {
+    return typeof id === "string" && /^[0-9a-f]{32}$/.test(id) ? "/_blob/" + id : null;
+  }
+
+  function copyText(btn, pre) {
+    const text = pre.textContent;
+    const done = () => { btn.textContent = "نُسخ"; setTimeout(() => { btn.textContent = "نسخ الوصف"; }, 1600); };
+    const fallback = () => {
+      const r = document.createRange(); r.selectNodeContents(pre);
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = "حدّد النص وانسخه";
+    };
+    try {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } catch (e) { fallback(); }
+  }
+
+  function renderReel(r) {
+    const node = tpl.content.firstElementChild.cloneNode(true);
+    const video = node.querySelector("video");
+    const src = assetPath(r.video);
+    if (src) {
+      video.src = src;
+      const poster = assetPath(r.cover);
+      if (poster) video.poster = poster;
+      video.setAttribute("aria-label", r.title || "Reel");
+    } else {
+      const ph = document.createElement("div");
+      ph.className = "novideo";
+      ph.textContent = "الفيديو غير متاح";
+      video.replaceWith(ph);
+    }
+
+    const spec = node.querySelector(".spec");
+    ["1080×1920", r.durationS ? r.durationS.toFixed(1) + " ث" : null, r.wpm ? r.wpm + " كلمة/د" : null]
+      .filter(Boolean).forEach(t => { const s = document.createElement("span"); s.textContent = t; spec.append(s); });
+
+    const top = node.querySelector(".topline");
+    const chip = document.createElement("span");
+    const st = STATUS[r.status] ? r.status : "approved";
+    chip.className = "chip " + st;
+    chip.textContent = STATUS[st];
+    top.append(chip);
+    (Array.isArray(r.networks) ? r.networks : []).forEach(n => {
+      const c = document.createElement("span");
+      c.className = "chip net";
+      c.textContent = NETWORKS[n] || n;
+      top.append(c);
+    });
+    const at = st === "published" ? r.publishedAt : r.scheduledFor;
+    if (at) {
+      const w = document.createElement("span");
+      w.className = "when";
+      w.textContent = (st === "published" ? "نُشر " : "موعده ") + when(at);
+      top.append(w);
+    }
+    const link = safeUrl(r.publishedUrl);
+    if (link) {
+      const a = document.createElement("a");
+      a.className = "post-link"; a.href = link; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "فتح المنشور";
+      top.append(a);
+    }
+
+    node.querySelector(".title").textContent = r.title || "";
+
+    const facts = node.querySelector(".facts");
+    [["الصوت", r.voice], ["بوابة الوسائط", r.checks], ["الكود", r.id]].forEach(([k, v]) => {
+      if (!v) return;
+      const d = document.createElement("div");
+      const dt = document.createElement("dt"); dt.textContent = k;
+      const dd = document.createElement("dd"); dd.textContent = v;
+      d.append(dt, dd); facts.append(d);
+    });
+
+    const pre = node.querySelector(".caption");
+    pre.textContent = r.caption || "";
+    const btn = node.querySelector(".copy");
+    btn.addEventListener("click", () => copyText(btn, pre));
+
+    const ol = node.querySelector(".sources");
+    const srcs = Array.isArray(r.sources) ? r.sources : [];
+    if (!srcs.length) node.querySelector(".sources-wrap").hidden = true;
+    srcs.forEach(s => {
+      const li = document.createElement("li");
+      const u = safeUrl(s && s.url);
+      if (u) {
+        const a = document.createElement("a");
+        a.href = u; a.target = "_blank"; a.rel = "noopener"; a.textContent = s.label || u;
+        li.append(a);
+      } else {
+        li.textContent = (s && s.label) || "";
+      }
+      ol.append(li);
+    });
+    return node;
+  }
+
+  function render(reels) {
+    if (!reels.length) {
+      showState("لا توجد مقاطع بعد", "يظهر كل مقطع هنا بعد اعتماده، مع وصفه ومصادره وحالة نشره.");
+      document.getElementById("tally").hidden = true;
+      return;
+    }
+    list.replaceChildren(...reels.map(renderReel));
+    const pub = reels.filter(r => r.status === "published").length;
+    const next = reels
+      .filter(r => r.status === "scheduled" && r.scheduledFor && new Date(r.scheduledFor) > new Date())
+      .map(r => r.scheduledFor).sort()[0];
+    document.getElementById("t-all").textContent = reels.length;
+    document.getElementById("t-pub").textContent = pub;
+    document.getElementById("t-next").textContent = next ? when(next) : "—";
+    document.getElementById("tally").hidden = false;
+  }
+
+  (async () => {
+    const c = window.claude;
+    const db = c && typeof c.use === "function" ? await c.use("db") : null;
+    if (!db) {
+      showState("المكتبة متاحة لصاحب الحساب", "سجّل الدخول إلى Claude بحسابك لعرض المقاطع وأوصافها.");
+      return;
+    }
+    db.collection("reels").orderBy("created", "desc").onSnapshot(
+      snap => render(snap.docs.map(d => d.data()).filter(Boolean)),
+      () => showState("تعذّر تحميل المكتبة", "أعد تحميل الصفحة بعد قليل.")
+    );
+  })();
+})();
+</script>

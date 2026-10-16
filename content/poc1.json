@@ -1,0 +1,119 @@
+{
+  "reel_id": "poc1",
+  "status": "PUBLISHED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/poc1.json",
+  "approved": "Approved for publishing by the account owner on 2026-10-16. Visuals are the procedural backgrounds he reviewed.",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "scenes": [
+    {
+      "id": "s1",
+      "visual": "scale",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        -0.3
+      ],
+      "sentences": [
+        {
+          "say": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟",
+          "style": "title"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "visual": "flow",
+      "zoom": [
+        1.07,
+        1.0
+      ],
+      "pan": [
+        0.25,
+        0.0
+      ],
+      "sentences": [
+        {
+          "say": "جسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل."
+        },
+        {
+          "say": "وهذا ما يسمى العجز الحراري.",
+          "show": "وهذا ما يسمى | العجز الحراري (Calorie Deficit)"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "visual": "orbs",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        -0.25,
+        0.0
+      ],
+      "sentences": [
+        {
+          "say": "أحد الأسباب أن هذا الحساب يتغير: كلما نقص وزنك، قلّ ما يحرقه جسمك كل يوم."
+        },
+        {
+          "say": "فالعجز الذي نجح في البداية قد يصغر مع الوقت."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "visual": "dumbbell",
+      "zoom": [
+        1.08,
+        1.0
+      ],
+      "pan": [
+        0.0,
+        0.2
+      ],
+      "sentences": [
+        {
+          "say": "الخلاصة: راجع سعراتك كل بضعة أسابيع، وتناول بروتينًا كافيًا، ومارس تمارين المقاومة لحماية عضلاتك."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "visual": "bookmark",
+      "zoom": [
+        1.0,
+        1.06
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "sentences": [
+        {
+          "say": "احفظ المقطع وشاركه مع صديق يبدأ حميته."
+        }
+      ]
+    }
+  ],
+  "post": {
+    "network": "instagram",
+    "type": "REEL",
+    "video": "output/poc1_release/poc1.mp4",
+    "cover_ms": 1200,
+    "ai_generated_label": true,
+    "caption": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟\n\nجسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل، وهذا هو العجز الحراري. لكن كلما نقص وزنك قلّ ما يحرقه جسمك كل يوم، فقد يصغر العجز الذي نجح في البداية.\n\nالخلاصة:\n• راجع سعراتك كل بضعة أسابيع\n• تناول بروتينًا كافيًا\n• مارس تمارين المقاومة لحماية عضلاتك\n\n📌 احفظ المقطع وشاركه مع صديق يبدأ حميته.\n\nالمصادر:\nHall et al., The Lancet, 2011\nCava et al., Advances in Nutrition, 2017\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#خسارة_الوزن #العجز_الحراري #رجيم #تمارين_المقاومة #بروتين #لياقة #تغذية_صحية",
+    "published": {
+      "instagram_url": "https://www.instagram.com/reel/Deksxk4ib0o/",
+      "published_at": "2026-10-17T02:20:00+03:00",
+      "metricool_post_id": 398202186,
+      "metricool_uuid": "-4400757619027325166",
+      "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@b1ddb289c50aab88e58884885d2766263eb5a1be/reels/poc1/poc1-video-477a2de9e7.mp4"
+    }
+  }
+}
