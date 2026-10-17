@@ -257,13 +257,16 @@
       w.textContent = (st === "published" ? "نُشر " : "موعده ") + when(at);
       top.append(w);
     }
-    const link = safeUrl(r.publishedUrl);
-    if (link) {
+    const links = r.links && typeof r.links === "object" ? Object.entries(r.links)
+      : (r.publishedUrl ? [["instagram", r.publishedUrl]] : []);
+    links.forEach(([net, url]) => {
+      const u = safeUrl(url);
+      if (!u) return;
       const a = document.createElement("a");
-      a.className = "post-link"; a.href = link; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = "فتح المنشور";
+      a.className = "post-link"; a.href = u; a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "فتح على " + (NETWORKS[net] || net);
       top.append(a);
-    }
+    });
 
     node.querySelector(".title").textContent = r.title || "";
 
