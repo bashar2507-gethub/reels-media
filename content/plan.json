@@ -22,14 +22,19 @@
       "seed_sources": [
         "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
       ],
-      "status": "scheduled",
+      "status": "published",
       "narration_credits": 397,
       "scheduled_for": "2026-10-17T13:00:00+03:00",
       "metricool_post_ids": {
         "instagram": 398414732,
         "youtube": 398414769
       },
-      "note": "Published early at the owner's request (planned for 20:00)."
+      "note": "Published early at the owner's request (planned for 20:00).",
+      "published_at": "2026-10-17T13:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
+        "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
+      }
     },
     {
       "id": "r003",
