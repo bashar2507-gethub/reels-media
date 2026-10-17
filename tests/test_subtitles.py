@@ -49,6 +49,35 @@ def test_rendered_captions_read_right_to_left(tmp_path, fake_tts, small_script):
     assert result["checked"] >= 4 and result["passed"], result["failures"]
 
 
+def test_overlay_figure_appears_with_its_word_and_reads_left_to_right(tmp_path, fake_tts, small_script):
+    small_script["scenes"][1]["sentences"][0]["overlay"] = {"big": "70 × 1.6 = 112", "small": "غرام يوميًا",
+                                                            "from": "الدهون"}
+    tl = build_timeline(small_script, fake_tts, tmp_path)
+    ass = build_ass(tl)
+    big = [ln for ln in ass.splitlines() if ",Overlay," in ln]
+    sub = [ln for ln in ass.splitlines() if ",OverlaySub," in ln]
+    assert len(big) == 1 and len(sub) == 1
+    assert "⁦" + "70 × 1.6 = 112" + "⁩" in big[0]
+    sentence = tl.scenes[1].sentences[0]
+    cue = next(w for c in sentence.captions for w in c.words if w.text == "الدهون")
+    assert big[0].split(",")[1] == ass_time(cue.start) and big[0].split(",")[2] == ass_time(tl.scenes[1].sentences[1].start)
+
+
+def test_captions_stay_on_screen_through_short_pauses(tmp_path, fake_tts, small_script):
+    tl = build_timeline(small_script, fake_tts, tmp_path)
+    events = [ln for ln in build_ass(tl).splitlines() if ",Caption," in ln]
+    starts = [ln.split(",")[1] for ln in events]
+    ends = [ln.split(",")[2] for ln in events]
+    assert all(end in starts[k + 1:k + 2] for k, end in enumerate(ends[:-1]))
+
+
+def test_caption_qa_ignores_overlay_figures(tmp_path, fake_tts, small_script):
+    small_script["scenes"][1]["sentences"][0]["overlay"] = {"big": "112", "small": "غرام"}
+    tl = build_timeline(small_script, fake_tts, tmp_path)
+    result = check_caption_order(write_ass(tl, tmp_path / "ov.ass"), tl)
+    assert result["passed"], result["failures"]
+
+
 def test_caption_qa_catches_left_to_right_layout(tmp_path, fake_tts, small_script):
     tl = build_timeline(small_script, fake_tts, tmp_path)
     broken = write_ass(tl, tmp_path / "broken.ass", layout=Layout(encoding=1))

@@ -53,6 +53,14 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
 - Spell numbers as words in `say`; put the numeric form as an unspoken annotation in `show`,
   for example `واحد فاصلة ستة غرام (1.6 g/kg)`. `show` must contain exactly the spoken words plus
   annotations in parentheses and `|` caption breaks of at most 4 words.
+- Figures: when a sentence gives a number or a calculation, add `overlay` to that sentence:
+  `{"big": "70 × 1.6 = 112", "small": "غرام بروتين يوميًا لوزن 70 كغ", "from": "سبعون"}`.
+  `big` holds only digits and symbols (shown left to right, large, in amber), `small` is one short
+  Arabic line, and `from` is the spoken word at which it appears. Don't repeat the number as a
+  bracketed annotation in `show`.
+- `image_style` per scene: `still_life` (objects and food, the default), `athlete` (a person
+  training, face out of frame; for sentences about muscles or exercise) or `anatomy` (a 3D muscle
+  illustration; for how muscles work). At most two scenes with a person per Reel.
 - Each scene: `visual` = `<id>-s<n>`, `image_prompt` (English, one concrete object or still life,
   no people, no hands, no text, no screens with numbers; FLUX invents fake writing on labels, so
   avoid packaged products, jars with labels, books, signs and branded or engraved equipment), `fallback` (one of scale, flow, orbs,
@@ -92,6 +100,13 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
 5. `passed: true`: set the item to `rendered`. The commit that added the video is
    `git log -1 --format=%H -- <status.video>`; the media link is
    `https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@<commit>/<status.video>`.
+
+Visual check (after every passing render): pull, then take one frame from the middle of each
+scene (`ffmpeg -v error -ss <seconds> -i <status.video> -frames:v 1 -vf scale=360:-1 <png>`) and
+look at each with Read. Every frame needs: no invented writing, no visible face, natural hands and
+anatomy, legible captions and figures. If a scene fails, rewrite its `image_prompt` (or change its
+`image_style`) in `queue/<id>.json` and re-render; this costs images only. After two failed tries,
+delete that scene's `image_prompt` so it uses its procedural `fallback`.
 
 Re-render: `git rm -r -q reels/<id>`, set `"rerender_requested": "<UTC time>"` in
 `queue/<id>.json`, commit and push, then poll as in 3. The job reuses

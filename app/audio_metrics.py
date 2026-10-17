@@ -12,7 +12,7 @@ from pathlib import Path
 
 import numpy as np
 
-ARABIC_RATE_WPM = (125, 145)  # target for explanatory Arabic narration
+ARABIC_RATE_WPM = (125, 160)  # explanatory Arabic narration with short natural pauses (approved 2026-10-17)
 
 
 def load_mono(path: Path, rate: int = 16000) -> np.ndarray:

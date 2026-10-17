@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .config import SPEC, VideoSpec
-from .timeline import Caption, Timeline
+from .timeline import Caption, Sentence, Timeline, normalize
 
 WHITE = "&H00FFFFFF&"
 ACCENT = "&H004DC1FF&"      # amber  #FFC14D (ASS colours are BGR)
@@ -32,7 +32,15 @@ class Layout:
     tag_font: str = "Cairo SemiBold"
     tag_size: int = 50
     side_margin: int = 110
-    hold: float = 0.35  # keep a caption up this long if the next one is not there yet
+    # Keep a caption up until the next one starts (for pauses shorter than this), so the
+    # screen never goes blank between sentences.
+    hold: float = 1.0
+    overlay_font: str = "Cairo Black"
+    overlay_size: int = 150
+    overlay_y: int = 560
+    overlay_sub_font: str = "Cairo SemiBold"
+    overlay_sub_size: int = 60
+    overlay_sub_y: int = 690
     # libass only auto-detects right-to-left base direction when a style's Encoding is -1.
     # With the VSFilter default (1), colour-tagged word runs are laid out left to right and
     # Arabic captions come out in the wrong order. caption_qa checks this on every render.
@@ -104,6 +112,34 @@ def caption_events(caption: Caption, until: float, layout: Layout) -> list[str]:
     return events
 
 
+OVERLAY_STYLES = ("Overlay", "OverlaySub")
+
+
+def overlay_events(sentence: Sentence, until: float, layout: Layout, spec: VideoSpec = SPEC) -> list[str]:
+    """A sentence's on-screen figure: a large left-to-right expression (numbers and symbols such as
+    "70 × 1.6 = 112") with an optional Arabic line under it. It appears with the spoken word named
+    in `from` (or with the sentence) and stays until `until`."""
+    data = sentence.overlay or {}
+    big, small = clean(str(data.get("big", ""))), clean(str(data.get("small", "")))
+    if not big and not small:
+        return []
+    start = sentence.start
+    cue = normalize(str(data.get("from", "")))
+    if cue:
+        spoken = [w for c in sentence.captions for w in c.words if w.spoken and normalize(w.text) == cue]
+        if spoken:
+            start = spoken[0].start
+    x, events = spec.width // 2, []
+    fade = "\\fad(150,150)"
+    if big:
+        events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},Overlay,,0,0,0,,"
+                      f"{{\\an5\\pos({x},{layout.overlay_y}){fade}}}{LRI}{big}{PDI}")
+    if small:
+        events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},OverlaySub,,0,0,0,,"
+                      f"{{\\an5\\pos({x},{layout.overlay_sub_y}){fade}}}{small}")
+    return events
+
+
 def build_ass(timeline: Timeline, layout: Layout = Layout(), spec: VideoSpec = SPEC, tag: str | None = None) -> str:
     m, enc = layout.side_margin, layout.encoding
     styles = "\n".join([
@@ -113,6 +149,10 @@ def build_ass(timeline: Timeline, layout: Layout = Layout(), spec: VideoSpec = S
         f"0,0,0,0,100,100,0,0,1,9,3,5,{m - 20},{m - 20},0,{enc}",
         f"Style: Tag,{layout.tag_font},{layout.tag_size},&H40FFFFFF&,&H40FFFFFF&,&H80000000&,&HA0000000&,"
         f"0,0,0,0,100,100,0,0,1,2,0,9,60,60,0,{enc}",
+        f"Style: Overlay,{layout.overlay_font},{layout.overlay_size},{ACCENT},{ACCENT},&H00101010&,&H96000000&,"
+        f"0,0,0,0,100,100,0,0,1,8,3,5,{m},{m},0,{enc}",
+        f"Style: OverlaySub,{layout.overlay_sub_font},{layout.overlay_sub_size},{WHITE},{WHITE},&H00101010&,"
+        f"&H96000000&,0,0,0,0,100,100,0,0,1,5,2,5,{m},{m},0,{enc}",
     ])
     lines = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {spec.width}", f"PlayResY: {spec.height}",
@@ -140,6 +180,10 @@ def build_ass(timeline: Timeline, layout: Layout = Layout(), spec: VideoSpec = S
         next_start = captions[k + 1][1].start if k + 1 < len(captions) else timeline.duration
         until = min(next_start, caption.end + layout.hold) if next_start - caption.end > layout.hold else next_start
         lines.extend(caption_events(caption, until, layout))
+    for k, s in enumerate(sentences):
+        if s.overlay:
+            until = sentences[k + 1].start if k + 1 < len(sentences) else min(s.end + 1.0, timeline.duration)
+            lines.extend(overlay_events(s, until, layout, spec))
     return "\n".join(lines) + "\n"
 
 

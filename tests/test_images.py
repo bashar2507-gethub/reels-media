@@ -20,6 +20,15 @@ def test_prompt_keeps_subject_and_forbids_text():
     assert p.startswith("A plate of grilled chicken. ") and "No text" in p
 
 
+def test_athlete_style_allows_a_person_but_hides_the_face(tmp_path):
+    p = full_prompt("An athlete curling a dumbbell", "athlete")
+    assert "no people" not in p.lower() and "face is out of frame" in p and "No text" in p
+    seen = []
+    scenes = [{"visual": "s1", "image_prompt": "An athlete curling a dumbbell", "image_style": "athlete"}]
+    scene_images(scenes, tmp_path, token="hf_x", generate_fn=lambda prompt, token: seen.append(prompt) or fake_image(prompt, token))
+    assert "face is out of frame" in seen[0]
+
+
 def test_ai_images_are_cropped_and_graded(tmp_path):
     visuals, report = scene_images(SCENES, tmp_path, token="tok", generate_fn=fake_image)
     assert report["ai"] == ["s1", "s2"] and report["fallback"] == ["s3"]

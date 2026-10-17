@@ -57,6 +57,12 @@ def check_caption_order(ass_path: Path, timeline: Timeline, spec: VideoSpec = SP
     if not pairs:
         return {"passed": True, "checked": 0, "failures": []}
     w, h, fps = spec.width // QA_SCALE, spec.height // QA_SCALE, spec.fps
+    # Overlay figures share the accent colour; check the captions on their own.
+    text = Path(ass_path).read_text(encoding="utf-8")
+    kept = [ln for ln in text.splitlines()
+            if not (ln.startswith("Dialogue:") and ln.split(",")[3] in ("Overlay", "OverlaySub"))]
+    ass_path = Path(ass_path).with_name(Path(ass_path).stem + "_qa.ass")
+    ass_path.write_text("\n".join(kept) + "\n", encoding="utf-8")
     wanted = sorted({int(t * fps) for a, b, _ in pairs for t in (a, b)})
     select = "+".join(f"eq(n\\,{n})" for n in wanted)
     cmd = ["ffmpeg", "-v", "error", "-f", "lavfi",

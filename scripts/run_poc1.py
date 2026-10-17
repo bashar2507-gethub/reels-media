@@ -48,8 +48,8 @@ def main() -> int:
     parser.add_argument("--estimate-only", action="store_true", help="print characters and credits, call nothing")
     parser.add_argument("--narration", type=Path,
                         help="words JSON of a narration already generated (its 'audio' file sits next to it)")
-    parser.add_argument("--sentence-gap", type=float, default=0.40, help="extra pause between sentences (s)")
-    parser.add_argument("--scene-gap", type=float, default=0.70, help="extra pause between scenes (s)")
+    parser.add_argument("--sentence-gap", type=float, default=0.12, help="extra pause between sentences (s)")
+    parser.add_argument("--scene-gap", type=float, default=0.28, help="extra pause between scenes (s)")
     parser.add_argument("--release", action="store_true",
                         help="publishing build: no on-screen test label (everything else identical)")
     parser.add_argument("--visuals", choices=["procedural", "auto", "ai"], default="procedural",

@@ -54,6 +54,7 @@ class Sentence:
     start: float
     end: float
     captions: list[Caption] = field(default_factory=list)
+    overlay: dict | None = None  # {"big": "70 × 1.6 = 112", "small": "...", "from": "<spoken word>"}
 
 
 @dataclass
@@ -176,6 +177,7 @@ def build_timeline(
             start, end = cursor, cursor + speech.duration
             sentence = Sentence(item["say"], item.get("show", item["say"]), item.get("style", "caption"), start, end)
             sentence.captions = [Caption(row) for row in time_words(sentence.say, sentence.show, start, end)]
+            sentence.overlay = item.get("overlay")
             sentences.append(sentence)
             clips.append((start, samples))
             cursor = end + sentence_gap
@@ -351,6 +353,7 @@ def timeline_from_speech(script: dict, speech, workdir: Path, lead_in: float = 0
                                 span[0][1], span[-1][2])
             sentence.captions = [Caption(row) for row in exact_words(sentence.say, sentence.show, span,
                                                                     sentence.start, sentence.end)]
+            sentence.overlay = item.get("overlay")
             sentences.append(sentence)
         scenes.append(Scene(
             id=scene_data["id"], visual=scene_data["visual"],

@@ -19,12 +19,22 @@ from .placeholders import H, SCENES, W, make_placeholder
 
 MODEL = "black-forest-labs/FLUX.1-schnell"
 GEN_W, GEN_H = 1024, 1792  # 9:16 at about 1.8 megapixels, multiples of 64
-STYLE = (
-    "Minimal editorial still life photograph, deep teal background, soft warm amber rim light, "
-    "cinematic, high detail, shallow depth of field, vertical composition with calm empty space "
-    "in the lower third. Plain unmarked objects only: no packaging, no labels, no engraving. "
-    "No text, no letters, no numbers, no logos, no people, no hands, no faces."
-)
+_FRAME = ("deep teal background, soft warm amber rim light, cinematic, high detail, vertical composition "
+          "with calm empty space in the upper third and the lower third")
+STYLES = {
+    # objects and food; the default
+    "still_life": (f"Minimal editorial still life photograph, {_FRAME}, shallow depth of field. Plain unmarked "
+                   "objects only: no packaging, no labels, no engraving. No text, no letters, no numbers, no logos, "
+                   "no people, no hands, no faces."),
+    # a person training, for sentences about muscles and exercise
+    "athlete": (f"Cinematic fitness photograph of an athletic adult in a plain dark fitted tank top, {_FRAME}. "
+                "The face is out of frame or in deep shadow, natural realistic anatomy and hands, defined muscles. "
+                "Plain unmarked equipment. No text, no letters, no numbers, no logos, no tattoos."),
+    # how muscles work inside the body
+    "anatomy": (f"Clean educational 3D anatomical illustration of human muscle, realistic muscle fibres, {_FRAME}. "
+                "No skin details, no face. No text, no labels, no arrows, no numbers."),
+}
+STYLE = STYLES["still_life"]
 TITLE_Y, CAPTION_Y = 1200, 1667  # title and caption centres at the 1440x2560 working size
 
 
@@ -32,8 +42,8 @@ class ImageError(RuntimeError):
     """An image could not be generated (message never contains the token)."""
 
 
-def full_prompt(subject: str) -> str:
-    return f"{subject.strip().rstrip('.')}. {STYLE}"
+def full_prompt(subject: str, style: str = "still_life") -> str:
+    return f"{subject.strip().rstrip('.')}. {STYLES.get(style, STYLE)}"
 
 
 def fit(image: Image.Image) -> Image.Image:
@@ -78,17 +88,16 @@ def token_shape(raw: str | None) -> dict:
             "length": len(token or ""), "trimmed": bool(raw) and token != raw}
 
 
-def generate(subject: str, token: str, attempts: int = 3, sleep: Callable[[float], None] = time.sleep,
+def generate(prompt: str, token: str, attempts: int = 3, sleep: Callable[[float], None] = time.sleep,
              client=None) -> Image.Image:
-    """One FLUX.1-schnell image for `subject`; retries transient failures with backoff."""
+    """One FLUX.1-schnell image for a complete prompt; retries transient failures with backoff."""
     if client is None:
         from huggingface_hub import InferenceClient  # imported lazily: tests and offline builds don't need it
         client = InferenceClient(provider="auto", api_key=token, timeout=120)
     last = "no attempt made"
     for k in range(attempts):
         try:
-            return client.text_to_image(full_prompt(subject), model=MODEL, width=GEN_W, height=GEN_H,
-                                        num_inference_steps=4)
+            return client.text_to_image(prompt, model=MODEL, width=GEN_W, height=GEN_H, num_inference_steps=4)
         except Exception as err:  # provider, quota or network errors all fall back the same way
             last = _scrub(f"{type(err).__name__}: {err}", token)
             if k + 1 < attempts:
@@ -117,7 +126,8 @@ def scene_images(scenes: list[dict], out_dir: Path, token: str | None = None, mo
         if prompt and mode != "procedural":
             if token:
                 try:
-                    grade(fit((generate_fn or generate)(prompt, token))).save(path)
+                    full = full_prompt(prompt, scene.get("image_style", "still_life"))
+                    grade(fit((generate_fn or generate)(full, token))).save(path)
                     visuals[key] = path
                     report["ai"].append(key)
                     continue

@@ -44,7 +44,7 @@ def mp4_args() -> list[str]:
 
 
 def render_frames(timeline: Timeline, visuals: dict[str, Path], spec: VideoSpec = SPEC,
-                  crossfade: float = 0.4) -> Iterator[np.ndarray]:
+                  crossfade: float = 0.6) -> Iterator[np.ndarray]:
     scenes = timeline.scenes
     motions = [StillMotion(visuals[s.visual], spec.width, spec.height, s.zoom, s.pan) for s in scenes]
     half = crossfade / 2

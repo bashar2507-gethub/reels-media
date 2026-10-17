@@ -38,13 +38,19 @@
         0.25,
         0.0
       ],
-      "image_prompt": "Laboratory glassware on a dark bench: a beaker, a row of test tubes and a petri dish, glowing softly",
+      "image_prompt": "Close-up of human biceps muscle with visible muscle fibres",
       "sentences": [
         {
           "say": "مراجعة علمية لتسع وأربعين تجربة وجدت أن الفائدة تتوقف تقريبًا عند واحد فاصلة ستة غرام لكل كيلوغرام من وزنك يوميًا.",
-          "show": "مراجعة علمية | لتسع وأربعين تجربة | وجدت أن الفائدة | تتوقف تقريبًا عند | واحد فاصلة ستة غرام (1.6 g/kg) | لكل كيلوغرام | من وزنك يوميًا"
+          "show": "مراجعة علمية | لتسع وأربعين تجربة | وجدت أن الفائدة | تتوقف تقريبًا عند | واحد فاصلة ستة غرام | لكل كيلوغرام | من وزنك يوميًا",
+          "overlay": {
+            "big": "1.6",
+            "small": "غرام بروتين لكل كيلوغرام من وزنك يوميًا",
+            "from": "واحد"
+          }
         }
-      ]
+      ],
+      "image_style": "anatomy"
     },
     {
       "id": "s3",
@@ -64,7 +70,12 @@
           "say": "فوق هذا الرقم لم تظهر فائدة إضافية للعضل."
         },
         {
-          "say": "فشخص وزنه سبعون كيلوغرامًا يحتاج نحو مئة واثني عشر غرامًا يوميًا."
+          "say": "فشخص وزنه سبعون كيلوغرامًا يحتاج نحو مئة واثني عشر غرامًا يوميًا.",
+          "overlay": {
+            "big": "70 × 1.6 = 112",
+            "small": "غرام بروتين يوميًا لوزن 70 كغ",
+            "from": "سبعون"
+          }
         }
       ]
     },
@@ -99,12 +110,13 @@
         0.0,
         0.0
       ],
-      "image_prompt": "A pair of smooth, unmarked black hexagonal dumbbells resting on a dark rubber gym floor",
+      "image_prompt": "An athlete doing a dumbbell biceps curl, seen from the side, arm muscles defined",
       "sentences": [
         {
           "say": "احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك."
         }
-      ]
+      ],
+      "image_style": "athlete"
     }
   ],
   "post": {
