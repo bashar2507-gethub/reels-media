@@ -39,8 +39,8 @@ class Layout:
     overlay_size: int = 150
     overlay_y: int = 560
     overlay_sub_font: str = "Cairo SemiBold"
-    overlay_sub_size: int = 60
-    overlay_sub_y: int = 690
+    overlay_sub_size: int = 68
+    overlay_sub_y: int = 700
     # libass only auto-detects right-to-left base direction when a style's Encoding is -1.
     # With the VSFilter default (1), colour-tagged word runs are laid out left to right and
     # Arabic captions come out in the wrong order. caption_qa checks this on every render.
