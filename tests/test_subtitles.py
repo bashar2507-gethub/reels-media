@@ -31,6 +31,12 @@ def test_annotations_use_their_own_colour():
     assert text.count(ANNOTATION) == 2
 
 
+def test_annotation_runs_are_isolated_left_to_right():
+    text = caption_text(["غرام", "(1.6", "g/kg)", "لكل"], 0, [True, False, False, True])
+    assert text.count("⁦") == 1 and text.count("⁩") == 1
+    assert text.index("⁦") < text.index("(1.6") < text.index("g/kg)") < text.index("⁩")
+
+
 def test_styles_request_automatic_base_direction(tmp_path, fake_tts, small_script):
     ass = build_ass(build_timeline(small_script, fake_tts, tmp_path))
     styles = [line for line in ass.splitlines() if line.startswith("Style:")]

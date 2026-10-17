@@ -16,6 +16,9 @@ ACCENT = "&H004DC1FF&"      # amber  #FFC14D (ASS colours are BGR)
 ANNOTATION = "&H00F2D27A&"  # cyan   #7AD2F2, on-screen terms the voice does not say
 KEEP_PUNCT = "؟?!"
 DROP_PUNCT = ".،,:؛;"
+# Left-to-right isolate around an English or numeric annotation. Without it the bidi algorithm
+# treats "1.6" next to Arabic as right-to-left and shows "(1.6 g/kg)" as "(g/kg 1.6)".
+LRI, PDI = "⁦", "⁩"
 
 
 @dataclass(frozen=True)
@@ -74,6 +77,9 @@ def caption_text(words: list[str], active: int | set[int] | None, spoken: list[b
         if i == last and word and word[-1] in DROP_PUNCT and word[-1] not in KEEP_PUNCT:
             word = word.rstrip(DROP_PUNCT)
         if not spoken[i]:
+            opens = i == 0 or spoken[i - 1]
+            closes = i == last or spoken[i + 1]
+            word = (LRI if opens else "") + word + (PDI if closes else "")
             parts.append("{\\c" + ANNOTATION + "}" + word + "{\\c" + WHITE + "}")
         elif i in lit:
             parts.append("{\\c" + ACCENT + "}" + word + "{\\c" + WHITE + "}")

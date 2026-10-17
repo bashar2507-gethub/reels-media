@@ -76,8 +76,12 @@ def build(reel_id: str, job: dict) -> dict:
            "--out", str(out.relative_to(ROOT)), "--release", "--visuals", "auto"]
 
     narration = job.get("narration") or {}
-    if narration.get("url"):
-        audio_dir = ROOT / "content" / "audio"
+    audio_dir = ROOT / "content" / "audio"
+    saved = audio_dir / f"{reel_id}_narration_words.json"
+    if saved.exists() and (audio_dir / f"{reel_id}_narration.mp3").exists():
+        # a re-render reuses the narration from the first render (its signed links expire)
+        cmd += ["--narration", str(saved.relative_to(ROOT))]
+    elif narration.get("url"):
         audio_dir.mkdir(parents=True, exist_ok=True)
         mp3 = audio_dir / f"{reel_id}_narration.mp3"
         mp3.write_bytes(fetch(narration["url"]))
