@@ -15,6 +15,9 @@ Talk to the owner in Arabic. Report only what tools confirmed.
 
 ## 1. Guards (stop and report if any fails)
 
+- Earlier runs: any plan item still `scheduled` was published by Metricool after its run ended.
+  Read it with `getScheduledPosts` (its publish day) and record `published` with both public links,
+  or `failed` with the provider status, before anything else.
 - Quota: Metricool Free publishes 20 posts a month and a Reel on two networks counts as 2.
   Count this month's Reels in `content/plan.json` with status `published` (published_at in the
   current month, Asia/Riyadh). If 10 or more, stop: nothing to do this month.
@@ -116,9 +119,12 @@ rejects a custom cover unless the channel is verified. If the call errors, check
 
 ## 8. Verify
 
-1. `getScheduledPosts` must show the post with both providers `PENDING`.
-2. Wait until 5 minutes after the publish time, then read it again: each provider must be
-   `PUBLISHED` with a `publicUrl`. Anything else is a failure to report, not a success.
+1. `getScheduledPosts` must show the post with both providers `PENDING`. Set the plan item to
+   `scheduled` with `metricool_post_id` and the publish time, commit and push.
+2. If the publish time is within 60 minutes, wait until 5 minutes after it (an `until` loop on
+   the clock), then read it again: each provider must be `PUBLISHED` with a `publicUrl`. Anything
+   else is a failure to report, not a success. If it is further away, end the run here; the next
+   run records the outcome (step 1).
 
 ## 9. Record
 

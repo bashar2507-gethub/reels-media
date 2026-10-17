@@ -22,7 +22,8 @@
       "seed_sources": [
         "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
       ],
-      "status": "queued"
+      "status": "rendered",
+      "narration_credits": 397
     },
     {
       "id": "r003",
