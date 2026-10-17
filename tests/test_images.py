@@ -43,6 +43,17 @@ def test_api_errors_fall_back_without_leaking_the_token(tmp_path):
     assert "secret-token" not in str(report)
 
 
+def test_pasted_whitespace_and_quotes_are_tolerated(tmp_path):
+    seen = []
+
+    def capture(prompt, token):
+        seen.append(token)
+        return fake_image(prompt, token)
+    visuals, report = scene_images(SCENES[:1], tmp_path, token=' "hf_abc123"\n', generate_fn=capture)
+    assert seen == ["hf_abc123"] and report["ai"] == ["s1"]
+    assert report["token"] == {"set": True, "hf_prefix": True, "length": 9, "trimmed": True}
+
+
 def test_ai_mode_refuses_to_fall_back(tmp_path):
     with pytest.raises(ImageError):
         scene_images(SCENES, tmp_path, token=None, mode="ai")

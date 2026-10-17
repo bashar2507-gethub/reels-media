@@ -61,6 +61,22 @@ def _scrub(text: str, token: str | None) -> str:
     return text.replace(token, "[token]") if token else text
 
 
+def clean_token(raw: str | None) -> str | None:
+    """Tolerate a secret pasted with spaces, a newline or quotes around it."""
+    if not raw:
+        return None
+    return raw.strip().strip("\"'").strip() or None
+
+
+def token_shape(raw: str | None) -> dict:
+    """Safe facts about the secret for the build report (never the value itself).
+    Hugging Face access tokens start with "hf_"; anything else is sent to the image
+    provider as its own key and is rejected."""
+    token = clean_token(raw)
+    return {"set": bool(token), "hf_prefix": bool(token and token.startswith("hf_")),
+            "length": len(token or ""), "trimmed": bool(raw) and token != raw}
+
+
 def generate(subject: str, token: str, attempts: int = 3, sleep: Callable[[float], None] = time.sleep,
              client=None) -> Image.Image:
     """One FLUX.1-schnell image for `subject`; retries transient failures with backoff."""
@@ -88,7 +104,8 @@ def scene_images(scenes: list[dict], out_dir: Path, token: str | None = None, mo
     """
     out_dir.mkdir(parents=True, exist_ok=True)
     visuals: dict[str, Path] = {}
-    report: dict = {"ai": [], "fallback": [], "errors": {}}
+    report: dict = {"ai": [], "fallback": [], "errors": {}, "token": token_shape(token)}
+    raw_token, token = token, clean_token(token)
     names = list(SCENES)
     for i, scene in enumerate(scenes):
         key = scene["visual"]
@@ -104,7 +121,7 @@ def scene_images(scenes: list[dict], out_dir: Path, token: str | None = None, mo
                     report["ai"].append(key)
                     continue
                 except Exception as err:
-                    report["errors"][key] = _scrub(str(err), token)[:300]
+                    report["errors"][key] = _scrub(_scrub(str(err), token), raw_token)[:300]
             else:
                 report["errors"][key] = "HF_TOKEN is not set"
             if mode == "ai":
