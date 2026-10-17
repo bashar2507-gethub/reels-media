@@ -1,0 +1,71 @@
+{
+  "reel_id": "r002",
+  "reviewed_on": "2026-10-17",
+  "method": "Source found by search and checked on the AUT institutional repository record (title, authors, journal, year, volume, pages, DOI, design, size, findings).",
+  "claims": [
+    {
+      "claim_id": "r002-c1",
+      "claim": "مراجعة علمية لتسع وأربعين تجربة وجدت أن الفائدة تتوقف تقريبًا عند 1.6 غرام لكل كيلوغرام من وزنك يوميًا.",
+      "source_title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+      "authors": "Morton RW, Murphy KT, McKellar SR, Schoenfeld BJ, Henselmans M, Helms E, Aragon AA, Devries MC, Banfield L, Krieger JW, Phillips SM",
+      "year": 2018,
+      "journal": "British Journal of Sports Medicine, 52:376-384",
+      "DOI_or_URL": "https://doi.org/10.1136/bjsports-2017-097608 | PMID 28698222 | https://openrepository.aut.ac.nz/handle/10292/11640",
+      "study_type": "Systematic review, meta-analysis and meta-regression of randomized controlled trials",
+      "population": "Healthy adults doing resistance training for at least 6 weeks",
+      "sample_size_if_known": "49 trials, 1,863 participants",
+      "main_finding": "Protein supplementation increased resistance-training gains in fat-free mass (0.30 kg) and strength; beyond a total protein intake of about 1.62 g/kg/day, no further fat-free mass gains were seen.",
+      "limitations": "Effects are modest; the breakpoint refers to total daily protein, not supplement dose; age and training-status effects come from meta-regression across trials.",
+      "confidence": "high",
+      "script_usage": "s2"
+    },
+    {
+      "claim_id": "r002-c2",
+      "claim": "فوق هذا الرقم لم تظهر فائدة إضافية للعضل.",
+      "source_title": "Same as r002-c1",
+      "authors": "Morton RW et al.",
+      "year": 2018,
+      "journal": "British Journal of Sports Medicine",
+      "DOI_or_URL": "https://doi.org/10.1136/bjsports-2017-097608",
+      "study_type": "Meta-regression breakpoint analysis",
+      "population": "As r002-c1",
+      "sample_size_if_known": "49 trials",
+      "main_finding": "No further fat-free mass gains above about 1.62 g/kg/day of total protein.",
+      "limitations": "Population-level estimate; individual needs vary.",
+      "confidence": "high",
+      "script_usage": "s3, sentence 1"
+    },
+    {
+      "claim_id": "r002-c3",
+      "claim": "شخص وزنه 70 كيلوغرامًا يحتاج نحو 112 غرامًا يوميًا.",
+      "source_title": "Arithmetic from r002-c1 (70 x 1.6 = 112)",
+      "authors": "Morton RW et al.",
+      "year": 2018,
+      "journal": "British Journal of Sports Medicine",
+      "DOI_or_URL": "https://doi.org/10.1136/bjsports-2017-097608",
+      "study_type": "Worked example",
+      "population": "Healthy adults doing resistance training",
+      "sample_size_if_known": null,
+      "main_finding": "1.6 g/kg/day for a 70 kg person is about 112 g of protein a day.",
+      "limitations": "An example for healthy adults; people with kidney disease should ask their doctor (stated in the caption).",
+      "confidence": "high",
+      "script_usage": "s3, sentence 2"
+    },
+    {
+      "claim_id": "r002-c4",
+      "claim": "المهم مجموع البروتين في يومك، من الطعام أو المكملات، مع تمارين المقاومة.",
+      "source_title": "Same as r002-c1",
+      "authors": "Morton RW et al.",
+      "year": 2018,
+      "journal": "British Journal of Sports Medicine",
+      "DOI_or_URL": "https://doi.org/10.1136/bjsports-2017-097608",
+      "study_type": "Meta-analysis finding on total intake",
+      "population": "As r002-c1",
+      "sample_size_if_known": "49 trials",
+      "main_finding": "The breakpoint applies to total daily protein intake; supplements helped only as a way of raising total intake, alongside resistance training.",
+      "limitations": "Does not compare protein sources directly.",
+      "confidence": "moderate",
+      "script_usage": "s4"
+    }
+  ]
+}

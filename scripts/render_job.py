@@ -29,19 +29,29 @@ REEL_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,39}$")
 MAX_AUDIO_BYTES = 50_000_000
 
 
-def download(url: str, target: Path) -> None:
+def fetch(url: str, limit: int = MAX_AUDIO_BYTES) -> bytes:
     if not url.startswith("https://"):
-        raise ValueError("narration url must use https")
+        raise ValueError("narration links must use https")
     request = urllib.request.Request(url, headers={"User-Agent": "reels-render/1.0"})
-    size = 0
-    with urllib.request.urlopen(request, timeout=120) as response, target.open("wb") as handle:
+    chunks, size = [], 0
+    with urllib.request.urlopen(request, timeout=120) as response:
         while chunk := response.read(1 << 16):
             size += len(chunk)
-            if size > MAX_AUDIO_BYTES:
-                raise ValueError("narration file is larger than expected")
-            handle.write(chunk)
+            if size > limit:
+                raise ValueError("download is larger than expected")
+            chunks.append(chunk)
     if size == 0:
-        raise ValueError("narration download was empty")
+        raise ValueError("download was empty")
+    return b"".join(chunks)
+
+
+def word_list(raw: bytes) -> list[dict]:
+    """ElevenLabs word timings, whether served as a list or wrapped in {"words": [...]}."""
+    data = json.loads(raw.decode("utf-8"))
+    words = data.get("words") if isinstance(data, dict) else data
+    if not isinstance(words, list) or not words:
+        raise ValueError("the word timings file has no words")
+    return [w for w in words if isinstance(w, dict) and {"text", "start", "end"} <= w.keys()]
 
 
 def sha256(path: Path) -> str:
@@ -70,8 +80,12 @@ def build(reel_id: str, job: dict) -> dict:
         audio_dir = ROOT / "content" / "audio"
         audio_dir.mkdir(parents=True, exist_ok=True)
         mp3 = audio_dir / f"{reel_id}_narration.mp3"
-        download(narration["url"], mp3)
-        meta = {k: v for k, v in narration.items() if k != "url"}
+        mp3.write_bytes(fetch(narration["url"]))
+        meta = {k: v for k, v in narration.items() if k not in ("url", "words_url")}
+        if not meta.get("words"):
+            if not narration.get("words_url"):
+                raise ValueError("narration has neither words nor words_url")
+            meta["words"] = word_list(fetch(narration["words_url"], limit=5_000_000))
         meta["audio"] = mp3.name
         words = audio_dir / f"{reel_id}_narration_words.json"
         write_json(words, meta)

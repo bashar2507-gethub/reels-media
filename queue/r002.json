@@ -1,0 +1,142 @@
+{
+  "reel_id": "r002",
+  "script": {
+    "reel_id": "r002",
+    "status": "QUEUED",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r002.json",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r002-s1",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_prompt": "Protein-rich foods arranged on a dark slate board: a grilled chicken breast, three brown eggs, a small bowl of Greek yogurt and a bowl of cooked lentils, seen from a low angle",
+        "sentences": [
+          {
+            "say": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r002-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.07,
+          1.0
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_prompt": "Laboratory glassware on a dark bench: a beaker, a row of test tubes and a petri dish, glowing softly",
+        "sentences": [
+          {
+            "say": "مراجعة علمية لتسع وأربعين تجربة وجدت أن الفائدة تتوقف تقريبًا عند واحد فاصلة ستة غرام لكل كيلوغرام من وزنك يوميًا.",
+            "show": "مراجعة علمية | لتسع وأربعين تجربة | وجدت أن الفائدة | تتوقف تقريبًا عند | واحد فاصلة ستة غرام (1.6 g/kg) | لكل كيلوغرام | من وزنك يوميًا"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r002-s3",
+        "fallback": "scale",
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_prompt": "A grilled salmon fillet on a plain white plate with a fork, overhead view",
+        "sentences": [
+          {
+            "say": "فوق هذا الرقم لم تظهر فائدة إضافية للعضل."
+          },
+          {
+            "say": "فشخص وزنه سبعون كيلوغرامًا يحتاج نحو مئة واثني عشر غرامًا يوميًا."
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r002-s4",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.08,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.2
+        ],
+        "image_prompt": "A plain protein shaker bottle next to a bowl of boiled eggs and a jar of Greek yogurt on a dark kitchen counter",
+        "sentences": [
+          {
+            "say": "المهم مجموع البروتين في يومك، من الطعام أو المكملات، مع تمارين المقاومة."
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r002-s5",
+        "fallback": "bookmark",
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_prompt": "A pair of black dumbbells resting on a rubber gym floor",
+        "sentences": [
+          {
+            "say": "احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
+      "youtube_tags": [
+        "بروتين",
+        "بناء العضل",
+        "تمارين المقاومة",
+        "تغذية رياضية",
+        "لياقة",
+        "جيم"
+      ],
+      "caption": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟\n\nمراجعة علمية لتسع وأربعين تجربة وجدت أن فائدة البروتين لبناء العضل مع تمارين المقاومة تتوقف تقريبًا عند 1.6 غرام لكل كيلوغرام من وزنك يوميًا، ولم تظهر فائدة إضافية فوق ذلك.\n\nمثال: وزنك 70 كغ ← نحو 112 غرامًا من البروتين يوميًا.\n\nالخلاصة:\n• احسب احتياجك: وزنك × 1.6\n• المهم مجموع البروتين في يومك، من الطعام أو المكملات\n• مع تمارين المقاومة بانتظام\n\n📌 احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك.\n\nالمصدر:\nMorton et al., British Journal of Sports Medicine, 2018\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص، خاصة لمن لديه مشكلة في الكلى.\n\n#بروتين #بناء_العضل #تمارين_المقاومة #تغذية_رياضية #لياقة #جيم #تغذية_صحية"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/Ns6lLuroKvNDe3ySxQff/78Qm2vWrKP7RYAoL1JQY/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T000122Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8ae4a7af5c3c7362ede358ca0d9c070ddd7a3de093f3a001e96e0e8f112570f090669dec0d6f5b385503ec35caa9fc20baecd189d635263d39610ef12738d780a98eafc9ecebd0a5d5ed846479d2ef53dd2da904baa569fcf455fbfb56e7c89b49ca8114c9bf5decbcb789be0d74c6b263cb1e32b314f5699d1d5a3ed8a5a42ad5b3bf8e77376d14d4013acd880784913af7e5d1a6fd392eddf4d9a800036f94d78485ee1391feb7ae1ffa942b285343dfa2a477c95d9ace330d265de23221c97a4a57fe4f07d7e44eb505050c7221de4ad52f7da449965e14458bc497042474ac62c03aad3d6b006242cbceb6a5afcd6850804ebe59b4b7132aa10dc495c2ca",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/41jwir0BXvaKe1Wey17k/EMCpNGDxdOv9E4jVVHBw/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261017%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261017T000143Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-EMCpNGDxdOv9E4jVVHBw-words.json%22&X-Goog-Signature=81ec2aed1e035601bef69f2b8c12324b75d1d124fd95b7a4d11da24c9a15816748ed06d66408969220a6117f0f926a4e5631dda40d69cea3c5b05734d951db6627891686298066f99aacb1b7d70ae9e6e9806cbde3ca685433cfbf7f1d3561e904fd4528be3b92addd33ccabe91b9f6fad6906c85f58387baf74c94771235826a70663192d9e8ad54ff5ad49db7c3cc97be9306c6acd66d8fb3fa3f2af9196113d986d83ebee60721408b1840860c77ecf3bb38f2802eedb581e7dd3cff085fe0a3e825849068068557e0dc937c73db05b97fd8897892384746c45e052a475f4f4229e4d2e93ca5d1084e8b3a1bd09fe4347c9704b6134ee79f25f2ee5eb8362",
+    "voice": "عبدالله سعدون",
+    "voice_id": "t9akNmCDhz230CEXOYmn",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "78Qm2vWrKP7RYAoL1JQY",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-17"
+  }
+}
