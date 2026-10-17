@@ -1,55 +1,128 @@
 {
   "reel_id": "r002",
-  "status": "DRAFT",
+  "status": "QUEUED",
   "evidence_status": "REVIEWED",
   "evidence": "content/evidence/r002.json",
   "language": "ar",
   "cover_at_seconds": 1.2,
   "scenes": [
     {
-      "id": "s1", "visual": "r002-s1", "fallback": "orbs", "zoom": [1.0, 1.1], "pan": [0.0, -0.3],
+      "id": "s1",
+      "visual": "r002-s1",
+      "fallback": "orbs",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        -0.3
+      ],
       "image_prompt": "Protein-rich foods arranged on a dark slate board: a grilled chicken breast, three brown eggs, a small bowl of Greek yogurt and a bowl of cooked lentils, seen from a low angle",
       "sentences": [
-        {"say": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟", "style": "title"}
+        {
+          "say": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
+          "style": "title"
+        }
       ]
     },
     {
-      "id": "s2", "visual": "r002-s2", "fallback": "flow", "zoom": [1.07, 1.0], "pan": [0.25, 0.0],
+      "id": "s2",
+      "visual": "r002-s2",
+      "fallback": "flow",
+      "zoom": [
+        1.07,
+        1.0
+      ],
+      "pan": [
+        0.25,
+        0.0
+      ],
       "image_prompt": "Laboratory glassware on a dark bench: a beaker, a row of test tubes and a petri dish, glowing softly",
       "sentences": [
-        {"say": "مراجعة علمية لتسع وأربعين تجربة وجدت أن الفائدة تتوقف تقريبًا عند واحد فاصلة ستة غرام لكل كيلوغرام من وزنك يوميًا.",
-         "show": "مراجعة علمية | لتسع وأربعين تجربة | وجدت أن الفائدة | تتوقف تقريبًا عند | واحد فاصلة ستة غرام (1.6 g/kg) | لكل كيلوغرام | من وزنك يوميًا"}
+        {
+          "say": "مراجعة علمية لتسع وأربعين تجربة وجدت أن الفائدة تتوقف تقريبًا عند واحد فاصلة ستة غرام لكل كيلوغرام من وزنك يوميًا.",
+          "show": "مراجعة علمية | لتسع وأربعين تجربة | وجدت أن الفائدة | تتوقف تقريبًا عند | واحد فاصلة ستة غرام (1.6 g/kg) | لكل كيلوغرام | من وزنك يوميًا"
+        }
       ]
     },
     {
-      "id": "s3", "visual": "r002-s3", "fallback": "scale", "zoom": [1.0, 1.08], "pan": [-0.25, 0.0],
+      "id": "s3",
+      "visual": "r002-s3",
+      "fallback": "scale",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        -0.25,
+        0.0
+      ],
       "image_prompt": "A grilled salmon fillet on a plain white plate with a fork, overhead view",
       "sentences": [
-        {"say": "فوق هذا الرقم لم تظهر فائدة إضافية للعضل."},
-        {"say": "فشخص وزنه سبعون كيلوغرامًا يحتاج نحو مئة واثني عشر غرامًا يوميًا."}
+        {
+          "say": "فوق هذا الرقم لم تظهر فائدة إضافية للعضل."
+        },
+        {
+          "say": "فشخص وزنه سبعون كيلوغرامًا يحتاج نحو مئة واثني عشر غرامًا يوميًا."
+        }
       ]
     },
     {
-      "id": "s4", "visual": "r002-s4", "fallback": "dumbbell", "zoom": [1.08, 1.0], "pan": [0.0, 0.2],
+      "id": "s4",
+      "visual": "r002-s4",
+      "fallback": "dumbbell",
+      "zoom": [
+        1.08,
+        1.0
+      ],
+      "pan": [
+        0.0,
+        0.2
+      ],
       "image_prompt": "A plain protein shaker bottle next to a bowl of boiled eggs and a jar of Greek yogurt on a dark kitchen counter",
       "sentences": [
-        {"say": "المهم مجموع البروتين في يومك، من الطعام أو المكملات، مع تمارين المقاومة."}
+        {
+          "say": "المهم مجموع البروتين في يومك، من الطعام أو المكملات، مع تمارين المقاومة."
+        }
       ]
     },
     {
-      "id": "s5", "visual": "r002-s5", "fallback": "bookmark", "zoom": [1.0, 1.06], "pan": [0.0, 0.0],
+      "id": "s5",
+      "visual": "r002-s5",
+      "fallback": "bookmark",
+      "zoom": [
+        1.0,
+        1.06
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
       "image_prompt": "A pair of black dumbbells resting on a rubber gym floor",
       "sentences": [
-        {"say": "احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك."}
+        {
+          "say": "احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك."
+        }
       ]
     }
   ],
   "post": {
-    "networks": ["instagram", "youtube"],
+    "networks": [
+      "instagram",
+      "youtube"
+    ],
     "cover_ms": 1200,
     "ai_generated_label": true,
     "youtube_title": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
-    "youtube_tags": ["بروتين", "بناء العضل", "تمارين المقاومة", "تغذية رياضية", "لياقة", "جيم"],
+    "youtube_tags": [
+      "بروتين",
+      "بناء العضل",
+      "تمارين المقاومة",
+      "تغذية رياضية",
+      "لياقة",
+      "جيم"
+    ],
     "caption": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟\n\nمراجعة علمية لتسع وأربعين تجربة وجدت أن فائدة البروتين لبناء العضل مع تمارين المقاومة تتوقف تقريبًا عند 1.6 غرام لكل كيلوغرام من وزنك يوميًا، ولم تظهر فائدة إضافية فوق ذلك.\n\nمثال: وزنك 70 كغ ← نحو 112 غرامًا من البروتين يوميًا.\n\nالخلاصة:\n• احسب احتياجك: وزنك × 1.6\n• المهم مجموع البروتين في يومك، من الطعام أو المكملات\n• مع تمارين المقاومة بانتظام\n\n📌 احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك.\n\nالمصدر:\nMorton et al., British Journal of Sports Medicine, 2018\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص، خاصة لمن لديه مشكلة في الكلى.\n\n#بروتين #بناء_العضل #تمارين_المقاومة #تغذية_رياضية #لياقة #جيم #تغذية_صحية"
   }
 }

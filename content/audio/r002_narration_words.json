@@ -1,0 +1,420 @@
+{
+  "voice": "عبدالله سعدون",
+  "voice_id": "t9akNmCDhz230CEXOYmn",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "78Qm2vWrKP7RYAoL1JQY",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-17",
+  "words": [
+    {
+      "text": "كم",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "text": "غرامًا",
+      "type": "word",
+      "start": 0.32,
+      "end": 0.72
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 0.8,
+      "end": 0.88
+    },
+    {
+      "text": "البروتين",
+      "type": "word",
+      "start": 0.96,
+      "end": 1.44
+    },
+    {
+      "text": "تحتاج",
+      "type": "word",
+      "start": 1.52,
+      "end": 1.92
+    },
+    {
+      "text": "فعلًا",
+      "type": "word",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "text": "لبناء",
+      "type": "word",
+      "start": 2.48,
+      "end": 2.88
+    },
+    {
+      "text": "العضل؟",
+      "type": "word",
+      "start": 2.96,
+      "end": 3.253
+    },
+    {
+      "text": "مراجعة",
+      "type": "word",
+      "start": 3.28,
+      "end": 3.68
+    },
+    {
+      "text": "علمية",
+      "type": "word",
+      "start": 3.76,
+      "end": 4.16
+    },
+    {
+      "text": "لتسع",
+      "type": "word",
+      "start": 4.24,
+      "end": 4.56
+    },
+    {
+      "text": "وأربعين",
+      "type": "word",
+      "start": 4.64,
+      "end": 5.04
+    },
+    {
+      "text": "تجربة",
+      "type": "word",
+      "start": 5.12,
+      "end": 5.6
+    },
+    {
+      "text": "وجدت",
+      "type": "word",
+      "start": 5.68,
+      "end": 6.08
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 6.16,
+      "end": 6.24
+    },
+    {
+      "text": "الفائدة",
+      "type": "word",
+      "start": 6.32,
+      "end": 6.72
+    },
+    {
+      "text": "تتوقف",
+      "type": "word",
+      "start": 6.8,
+      "end": 7.28
+    },
+    {
+      "text": "تقريبًا",
+      "type": "word",
+      "start": 7.4,
+      "end": 7.84
+    },
+    {
+      "text": "عند",
+      "type": "word",
+      "start": 7.92,
+      "end": 8.08
+    },
+    {
+      "text": "واحد",
+      "type": "word",
+      "start": 8.16,
+      "end": 8.48
+    },
+    {
+      "text": "فاصلة",
+      "type": "word",
+      "start": 8.56,
+      "end": 8.88
+    },
+    {
+      "text": "ستة",
+      "type": "word",
+      "start": 8.96,
+      "end": 9.28
+    },
+    {
+      "text": "غرام",
+      "type": "word",
+      "start": 9.36,
+      "end": 9.76
+    },
+    {
+      "text": "لكل",
+      "type": "word",
+      "start": 9.84,
+      "end": 10.16
+    },
+    {
+      "text": "كيلوغرام",
+      "type": "word",
+      "start": 10.2,
+      "end": 10.64
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 10.72,
+      "end": 10.8
+    },
+    {
+      "text": "وزنك",
+      "type": "word",
+      "start": 10.92,
+      "end": 11.2
+    },
+    {
+      "text": "يوميًا.",
+      "type": "word",
+      "start": 11.28,
+      "end": 11.72
+    },
+    {
+      "text": "فوق",
+      "type": "word",
+      "start": 11.76,
+      "end": 12.0
+    },
+    {
+      "text": "هذا",
+      "type": "word",
+      "start": 12.08,
+      "end": 12.28
+    },
+    {
+      "text": "الرقم",
+      "type": "word",
+      "start": 12.32,
+      "end": 12.72
+    },
+    {
+      "text": "لم",
+      "type": "word",
+      "start": 12.8,
+      "end": 12.88
+    },
+    {
+      "text": "تظهر",
+      "type": "word",
+      "start": 12.96,
+      "end": 13.28
+    },
+    {
+      "text": "فائدة",
+      "type": "word",
+      "start": 13.36,
+      "end": 13.68
+    },
+    {
+      "text": "إضافية",
+      "type": "word",
+      "start": 13.76,
+      "end": 14.16
+    },
+    {
+      "text": "للعضل.",
+      "type": "word",
+      "start": 14.24,
+      "end": 14.613
+    },
+    {
+      "text": "فشخص",
+      "type": "word",
+      "start": 14.64,
+      "end": 15.04
+    },
+    {
+      "text": "وزنه",
+      "type": "word",
+      "start": 15.12,
+      "end": 15.52
+    },
+    {
+      "text": "سبعون",
+      "type": "word",
+      "start": 15.6,
+      "end": 16.0
+    },
+    {
+      "text": "كيلوغرامًا",
+      "type": "word",
+      "start": 16.04,
+      "end": 16.56
+    },
+    {
+      "text": "يحتاج",
+      "type": "word",
+      "start": 16.64,
+      "end": 17.04
+    },
+    {
+      "text": "نحو",
+      "type": "word",
+      "start": 17.12,
+      "end": 17.36
+    },
+    {
+      "text": "مئة",
+      "type": "word",
+      "start": 17.44,
+      "end": 17.68
+    },
+    {
+      "text": "واثني",
+      "type": "word",
+      "start": 17.76,
+      "end": 18.0
+    },
+    {
+      "text": "عشر",
+      "type": "word",
+      "start": 18.04,
+      "end": 18.16
+    },
+    {
+      "text": "غرامًا",
+      "type": "word",
+      "start": 18.32,
+      "end": 18.64
+    },
+    {
+      "text": "يوميًا.",
+      "type": "word",
+      "start": 18.72,
+      "end": 19.24
+    },
+    {
+      "text": "المهم",
+      "type": "word",
+      "start": 19.28,
+      "end": 19.6
+    },
+    {
+      "text": "مجموع",
+      "type": "word",
+      "start": 19.68,
+      "end": 20.0
+    },
+    {
+      "text": "البروتين",
+      "type": "word",
+      "start": 20.04,
+      "end": 20.56
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 20.64,
+      "end": 20.72
+    },
+    {
+      "text": "يومك،",
+      "type": "word",
+      "start": 20.92,
+      "end": 21.173
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 21.2,
+      "end": 21.28
+    },
+    {
+      "text": "الطعام",
+      "type": "word",
+      "start": 21.4,
+      "end": 21.76
+    },
+    {
+      "text": "أو",
+      "type": "word",
+      "start": 21.84,
+      "end": 21.92
+    },
+    {
+      "text": "المكملات،",
+      "type": "word",
+      "start": 22.04,
+      "end": 22.68
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 22.72,
+      "end": 22.96
+    },
+    {
+      "text": "تمارين",
+      "type": "word",
+      "start": 23.04,
+      "end": 23.36
+    },
+    {
+      "text": "المقاومة.",
+      "type": "word",
+      "start": 23.44,
+      "end": 24.04
+    },
+    {
+      "text": "احفظ",
+      "type": "word",
+      "start": 24.08,
+      "end": 24.4
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 24.52,
+      "end": 24.88
+    },
+    {
+      "text": "لتحسب",
+      "type": "word",
+      "start": 24.96,
+      "end": 25.36
+    },
+    {
+      "text": "احتياجك،",
+      "type": "word",
+      "start": 25.48,
+      "end": 25.973
+    },
+    {
+      "text": "وشاركه",
+      "type": "word",
+      "start": 26.0,
+      "end": 26.48
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 26.56,
+      "end": 26.72
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 26.8,
+      "end": 26.88
+    },
+    {
+      "text": "يتمرن",
+      "type": "word",
+      "start": 26.92,
+      "end": 27.28
+    },
+    {
+      "text": "معك.",
+      "type": "word",
+      "start": 27.36,
+      "end": 27.6
+    }
+  ],
+  "audio": "r002_narration.mp3"
+}
