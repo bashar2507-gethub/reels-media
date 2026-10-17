@@ -23,6 +23,8 @@ Talk to the owner in Arabic. Report only what tools confirmed.
   current month, Asia/Riyadh). If 10 or more, stop: nothing to do this month.
 - Duplicates: `getScheduledPosts(brandId="7461887", timezone="Asia/Riyadh")` for today and
   tomorrow. If a post for the chosen Reel already exists, do not create another.
+- One Reel a day: if any plan item was published or scheduled for today (Asia/Riyadh), for example
+  because the owner asked for an earlier post, stop: today's Reel is already out.
 
 ## 2. Pick the Reel
 
@@ -114,29 +116,32 @@ Re-render: `git rm -r -q reels/<id>`, set `"rerender_requested": "<UTC time>"` i
 
 ## 7. Publish (Metricool connector)
 
-Time: 20:00 Asia/Riyadh today, or now + 10 minutes if that has passed. One call:
+Time: 20:00 Asia/Riyadh today, or now + 10 minutes if that has passed. Two calls with the same
+time, media and caption, one per network, so Instagram gets the cover frame (YouTube rejects a
+custom cover unless the channel is verified). Shared `info` fields:
 
 ```
-createScheduledPost(blogId="7461887", date="<YYYY-MM-DDTHH:MM:00+03:00>", info={
-  "autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "",
-  "hasNotReadNotes": false, "media": ["<jsDelivr link>"], "mediaAltText": [],
-  "providers": [{"network": "instagram"}, {"network": "youtube"}],
-  "publicationDate": {"dateTime": "<YYYY-MM-DDTHH:MM:00>", "timezone": "Asia/Riyadh"},
-  "shortener": false, "smartLinkData": {"ids": []}, "text": "<post.caption>",
-  "instagramData": {"type": "REEL", "showReelOnFeed": true, "isAiGenerated": true},
-  "youtubeData": {"title": "<post.youtube_title>", "type": "short", "privacy": "public",
-                  "tags": <post.youtube_tags>, "category": "EDUCATION", "madeForKids": false,
-                  "isAiGeneratedContent": true}})
+"autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "",
+"hasNotReadNotes": false, "media": ["<jsDelivr link>"], "mediaAltText": [],
+"publicationDate": {"dateTime": "<YYYY-MM-DDTHH:MM:00>", "timezone": "Asia/Riyadh"},
+"shortener": false, "smartLinkData": {"ids": []}, "text": "<post.caption>"
 ```
 
-Leave out `videoCoverMilliseconds` and `videoThumbnailUrl` when YouTube is a provider: YouTube
-rejects a custom cover unless the channel is verified. If the call errors, check
-`getScheduledPosts` before trying again, so no duplicate is created.
+1. Instagram: add `"providers": [{"network": "instagram"}]`,
+   `"videoCoverMilliseconds": <cover_at_seconds × 1000>` and
+   `"instagramData": {"type": "REEL", "showReelOnFeed": true, "isAiGenerated": true}`.
+2. YouTube: add `"providers": [{"network": "youtube"}]` and
+   `"youtubeData": {"title": "<post.youtube_title>", "type": "short", "privacy": "public",
+   "tags": <post.youtube_tags>, "category": "EDUCATION", "madeForKids": false, "isAiGeneratedContent": true}`
+   (no cover fields).
+
+`createScheduledPost(blogId="7461887", date="<YYYY-MM-DDTHH:MM:00+03:00>", info=<fields above>)`.
+If a call errors, check `getScheduledPosts` before trying again, so no duplicate is created.
 
 ## 8. Verify
 
-1. `getScheduledPosts` must show the post with both providers `PENDING`. Set the plan item to
-   `scheduled` with `metricool_post_id` and the publish time, commit and push.
+1. `getScheduledPosts` must show both posts `PENDING`. Set the plan item to `scheduled` with
+   `metricool_post_ids` {instagram, youtube} and the publish time, commit and push.
 2. If the publish time is within 60 minutes, wait until 5 minutes after it (an `until` loop on
    the clock), then read it again: each provider must be `PUBLISHED` with a `publicUrl`. Anything
    else is a failure to report, not a success. If it is further away, end the run here; the next
