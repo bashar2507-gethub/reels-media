@@ -54,7 +54,8 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
   for example `واحد فاصلة ستة غرام (1.6 g/kg)`. `show` must contain exactly the spoken words plus
   annotations in parentheses and `|` caption breaks of at most 4 words.
 - Each scene: `visual` = `<id>-s<n>`, `image_prompt` (English, one concrete object or still life,
-  no people, no hands, no text, no screens with numbers), `fallback` (one of scale, flow, orbs,
+  no people, no hands, no text, no screens with numbers; FLUX invents fake writing on labels, so
+  avoid packaged products, jars with labels, books, signs and branded or engraved equipment), `fallback` (one of scale, flow, orbs,
   dumbbell, bookmark), `zoom` and `pan` like the existing scripts.
 - `post`: caption (hook, short summary, takeaway bullets, call to action, short sources,
   «🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.», «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.»,

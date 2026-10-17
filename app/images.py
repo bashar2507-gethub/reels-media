@@ -22,7 +22,8 @@ GEN_W, GEN_H = 1024, 1792  # 9:16 at about 1.8 megapixels, multiples of 64
 STYLE = (
     "Minimal editorial still life photograph, deep teal background, soft warm amber rim light, "
     "cinematic, high detail, shallow depth of field, vertical composition with calm empty space "
-    "in the lower third. No text, no letters, no numbers, no logos, no people, no hands, no faces."
+    "in the lower third. Plain unmarked objects only: no packaging, no labels, no engraving. "
+    "No text, no letters, no numbers, no logos, no people, no hands, no faces."
 )
 TITLE_Y, CAPTION_Y = 1200, 1667  # title and caption centres at the 1440x2560 working size
 

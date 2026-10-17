@@ -82,7 +82,7 @@
           0.0,
           0.2
         ],
-        "image_prompt": "A plain protein shaker bottle next to a bowl of boiled eggs and a jar of Greek yogurt on a dark kitchen counter",
+        "image_prompt": "Three peeled boiled eggs in a plain ceramic bowl beside a plain glass of milk on a dark kitchen counter",
         "sentences": [
           {
             "say": "المهم مجموع البروتين في يومك، من الطعام أو المكملات، مع تمارين المقاومة."
@@ -101,7 +101,7 @@
           0.0,
           0.0
         ],
-        "image_prompt": "A pair of black dumbbells resting on a rubber gym floor",
+        "image_prompt": "A pair of smooth, unmarked black hexagonal dumbbells resting on a dark rubber gym floor",
         "sentences": [
           {
             "say": "احفظ المقطع لتحسب احتياجك، وشاركه مع من يتمرن معك."
@@ -139,5 +139,5 @@
     "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
     "generated_on": "2026-10-17"
   },
-  "rerender_requested": "2026-10-17T01:03:20Z"
+  "rerender_requested": "2026-10-17T01:08:11Z"
 }
