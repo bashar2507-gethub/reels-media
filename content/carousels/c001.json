@@ -247,6 +247,18 @@
       "كرياتين",
       "جيم",
       "لياقة"
-    ]
+    ],
+    "published": {
+      "published_at": "2026-10-19T19:15:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/p/Derqz0nigS8/",
+        "youtube": "https://www.youtube.com/shorts/kIUTHSa6GdY"
+      },
+      "metricool_post_ids": {
+        "instagram": 400204115,
+        "youtube": 400204153
+      },
+      "note": "Separate from the 10-Reels plan in content/plan.json; does not count toward the Reels quota."
+    }
   }
 }
