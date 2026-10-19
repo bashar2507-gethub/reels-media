@@ -259,6 +259,12 @@
         "youtube": 400204153
       },
       "note": "Separate from the 10-Reels plan in content/plan.json; does not count toward the Reels quota."
+    },
+    "instagram_reel_with_music": {
+      "metricool_post_id": 400228779,
+      "scheduled_for": "2026-10-19T19:35:00+03:00",
+      "status": "manual_publish_pending",
+      "note": "Owner asked for the Instagram-library track 'She Will (Instrumental)'. Metricool's Instagram audio catalog returned 403 for this account, so the Reel was sent to the owner's Metricool app (autoPublish false) to add the song in Instagram and publish by hand."
     }
   }
 }
