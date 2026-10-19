@@ -1,0 +1,50 @@
+name: Generate Images
+
+# Generates the AI images for each queued job in images/queue/<id>.json that has no
+# images/<id>/status.json yet, and commits them. Nothing is published here.
+on:
+  push:
+    branches: [main]
+    paths: ["images/queue/*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: images
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python packages
+        run: pip install -q -r requirements.txt
+      - name: Generate queued images
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          shopt -s nullglob
+          for job in images/queue/*.json; do
+            id="$(basename "$job" .json)"
+            if [ -f "images/$id/status.json" ]; then continue; fi
+            python scripts/image_job.py --job-id "$id"
+          done
+      - name: Commit results
+        run: |
+          git config user.name "reels-render"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "Generated images"
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

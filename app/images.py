@@ -89,7 +89,7 @@ def token_shape(raw: str | None) -> dict:
 
 
 def generate(prompt: str, token: str, attempts: int = 3, sleep: Callable[[float], None] = time.sleep,
-             client=None) -> Image.Image:
+             client=None, width: int = GEN_W, height: int = GEN_H) -> Image.Image:
     """One FLUX.1-schnell image for a complete prompt; retries transient failures with backoff."""
     if client is None:
         from huggingface_hub import InferenceClient  # imported lazily: tests and offline builds don't need it
@@ -97,7 +97,7 @@ def generate(prompt: str, token: str, attempts: int = 3, sleep: Callable[[float]
     last = "no attempt made"
     for k in range(attempts):
         try:
-            return client.text_to_image(prompt, model=MODEL, width=GEN_W, height=GEN_H, num_inference_steps=4)
+            return client.text_to_image(prompt, model=MODEL, width=width, height=height, num_inference_steps=4)
         except Exception as err:  # provider, quota or network errors all fall back the same way
             last = _scrub(f"{type(err).__name__}: {err}", token)
             if k + 1 < attempts:

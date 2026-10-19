@@ -1,0 +1,19 @@
+{
+  "purpose": "Carousel c001: muscle recovery after resistance training (4:5 slides)",
+  "width": 1024,
+  "height": 1280,
+  "images": [
+    {"key": "s01", "style": "athlete", "prompt": "An athletic adult sitting on a gym bench resting after a workout, a plain towel over the shoulders, forearms on knees, seen from the side, head cropped out of frame"},
+    {"key": "s02", "style": "anatomy", "prompt": "Close-up of human thigh muscle with visible bundles of muscle fibres being repaired, glowing warm highlights along the fibres"},
+    {"key": "s03", "style": "still_life", "prompt": "Protein-rich foods on a dark slate board: a grilled chicken breast, boiled eggs, a bowl of Greek yogurt and a bowl of cooked lentils"},
+    {"key": "s04", "style": "still_life", "prompt": "A bowl of cooked white rice, two ripe bananas and a plain clear glass of water on a dark wooden table"},
+    {"key": "s05", "style": "still_life", "prompt": "A small plain white ceramic bowl of white powder with a plain metal spoon, beside a plain cup of black coffee and a clear glass of water"},
+    {"key": "s06", "style": "still_life", "prompt": "A calm dark bedroom at night, a neatly made bed with white pillows, soft dim warm lamp light, nobody in the room"},
+    {"key": "s07", "style": "still_life", "prompt": "An empty quiet gym corner with a row of plain black hexagonal dumbbells on a rack with no markings, soft evening light"},
+    {"key": "s08", "style": "still_life", "prompt": "A pair of plain running shoes without logos on a quiet park walking path at sunset"},
+    {"key": "s09", "style": "still_life", "prompt": "A plain white bathtub filled with cold clear water and floating ice cubes, cool blue light"},
+    {"key": "s10", "style": "still_life", "prompt": "An empty wooden sauna room with plain wooden benches, soft steam in the air and warm light"},
+    {"key": "s11", "style": "still_life", "prompt": "A gym bench with a folded plain towel, a clear water bottle without labels and a meal container with rice, chicken and vegetables"},
+    {"key": "s12", "style": "anatomy", "prompt": "Strong healthy human back and shoulder muscles, front lit, symmetrical composition"}
+  ]
+}
