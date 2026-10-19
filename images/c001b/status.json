@@ -1,0 +1,16 @@
+{
+  "job": "c001b",
+  "ok": [
+    "s11"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 1024,
+  "height": 1280,
+  "passed": true
+}
