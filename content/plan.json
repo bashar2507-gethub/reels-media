@@ -47,7 +47,9 @@
         "Vispute SS et al., J Strength Cond Res, 2011",
         "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
       ],
-      "status": "planned"
+      "status": "queued",
+      "narration_credits": 393,
+      "queued_at": "2026-10-20T19:33:00+03:00"
     },
     {
       "id": "r004",

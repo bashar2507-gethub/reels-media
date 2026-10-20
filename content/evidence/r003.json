@@ -1,0 +1,55 @@
+{
+  "reel_id": "r003",
+  "reviewed_on": "2026-10-20",
+  "method": "Sources found by search. Vispute 2011: PubMed record (PMID 21804427) located by search; title, authors, journal, volume, pages, design, size and findings read from the abstract on its academia.edu record (PubMed and the journal page returned a browser check). Ramirez-Campillo 2022: title, authors, journal, DOI, design, size and pooled result read from the article page on the Human Movement journal site. Hall 2011: reused from content/evidence/poc1.json (verified on PMC on 2026-10-17). Seed source Ramirez-Campillo 2013 (DOI 10.1519/JSC.0b013e31827e8681, PMID 23222084) confirmed bibliographically only, so not used for a claim.",
+  "claims": [
+    {
+      "claim_id": "r003-c1",
+      "claim": "في تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع، دون تغيير أكلهم، فلم تنقص دهون بطونهم، لكن تحمّل عضلاتهم تحسّن.",
+      "source_title": "The effect of abdominal exercise on abdominal fat",
+      "authors": "Vispute SS, Smith JD, LeCheminant JD, Hurley KS",
+      "year": 2011,
+      "journal": "Journal of Strength and Conditioning Research, 25(9):2559-2564",
+      "DOI_or_URL": "PMID 21804427 | https://pubmed.ncbi.nlm.nih.gov/21804427/",
+      "study_type": "Randomized controlled trial",
+      "population": "Healthy sedentary adults aged 18-40 (14 men, 10 women)",
+      "sample_size_if_known": "24 participants (abdominal exercise group vs control)",
+      "main_finding": "Seven abdominal exercises, 2 sets of 10 repetitions, 5 days a week for 6 weeks, on an isocaloric diet, did not significantly change body weight, body fat percentage, android fat, abdominal circumference or abdominal and suprailiac skinfolds; curl-up endurance improved more than in the control group.",
+      "limitations": "Small sample and short duration; sedentary participants; abdominal training only, without diet change or other exercise.",
+      "confidence": "moderate",
+      "script_usage": "s2"
+    },
+    {
+      "claim_id": "r003-c2",
+      "claim": "ومراجعة لثلاث عشرة دراسة لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.",
+      "source_title": "A proposed model to test the hypothesis of exercise-induced localized fat reduction (spot reduction), including a systematic review with meta-analysis",
+      "authors": "Ramirez-Campillo R, Andrade DC, Clemente FM, Afonso J, Perez-Castilla A, Gentil P",
+      "year": 2022,
+      "journal": "Human Movement, 23(3):1-14 (online 22 December 2021)",
+      "DOI_or_URL": "https://doi.org/10.5114/hm.2022.110373 | https://hummov.awf.wroc.pl/A-proposed-model-to-test-the-hypothesis-of-exercise-induced-localized-fat-reduction,143162,0,2.html",
+      "study_type": "Systematic review with meta-analysis",
+      "population": "Studies comparing fat in a trained versus untrained body region",
+      "sample_size_if_known": "13 studies, 1,158 participants, 37 comparisons",
+      "main_finding": "Pooled effect Hedges' g = -0.03 (95% CI -0.10 to 0.05), p = 0.508, low heterogeneity; 'Localized muscle training had no effect on localized adipose tissue depots.'",
+      "limitations": "Mostly limb-versus-limb comparisons. A 2023 trial on PMC (PMC10680576) is titled 'Abdominal aerobic endurance exercise reveals spot reduction exists' (seen by title only; the page could not be read), so the evidence may not be unanimous. The script therefore says only that the review did not find it.",
+      "confidence": "moderate",
+      "script_usage": "s3"
+    },
+    {
+      "claim_id": "r003-c3",
+      "claim": "لبطن أنحف، ركّز على خسارة الدهون عمومًا، ودرّب بطنك لتقوية عضلاته.",
+      "source_title": "Quantification of the effect of energy imbalance on bodyweight; plus r003-c1 (endurance gain) and r003-c2",
+      "authors": "Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, Swinburn BA",
+      "year": 2011,
+      "journal": "The Lancet, 378(9793)",
+      "DOI_or_URL": "https://doi.org/10.1016/S0140-6736(11)60812-X | PMID 21872751 | https://pmc.ncbi.nlm.nih.gov/articles/PMC3880593",
+      "study_type": "Takeaway combining an energy-balance model with the trial and review above",
+      "population": "Adults",
+      "sample_size_if_known": null,
+      "main_finding": "Body fat falls with a sustained energy deficit; local abdominal training did not reduce local fat but improved abdominal muscle endurance.",
+      "limitations": "General guidance, not individual advice; no promise of a result.",
+      "confidence": "moderate",
+      "script_usage": "s4"
+    }
+  ]
+}

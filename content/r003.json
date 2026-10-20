@@ -1,0 +1,145 @@
+{
+  "reel_id": "r003",
+  "status": "DRAFT",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r003.json",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "scenes": [
+    {
+      "id": "s1",
+      "visual": "r003-s1",
+      "fallback": "orbs",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        -0.3
+      ],
+      "image_prompt": "An empty dark green exercise mat rolled out on a wooden floor beside a folded white towel and a plain glass of water, soft window light, low angle",
+      "sentences": [
+        {
+          "say": "هل تمارين البطن تحرق دهون البطن؟",
+          "style": "title"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "visual": "r003-s2",
+      "fallback": "flow",
+      "zoom": [
+        1.07,
+        1.0
+      ],
+      "pan": [
+        0.25,
+        0.0
+      ],
+      "image_style": "athlete",
+      "image_prompt": "Side view of a fit person doing a crunch on an exercise mat in a gym, torso and bent knees only, the head out of frame",
+      "sentences": [
+        {
+          "say": "في تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع، دون تغيير أكلهم.",
+          "show": "في تجربة عشوائية | أدى أشخاص سبعة | تمارين للبطن | خمسة أيام أسبوعيًا | لستة أسابيع | دون تغيير أكلهم",
+          "overlay": {
+            "big": "6",
+            "small": "أسابيع، خمسة أيام كل أسبوع",
+            "from": "لستة"
+          }
+        },
+        {
+          "say": "لم تنقص دهون بطونهم، لكن تحمّل عضلاتهم تحسّن.",
+          "show": "لم تنقص | دهون بطونهم | لكن تحمّل | عضلاتهم تحسّن"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "visual": "r003-s3",
+      "fallback": "scale",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        -0.25,
+        0.0
+      ],
+      "image_style": "anatomy",
+      "image_prompt": "3D anatomical illustration of the human abdominal muscles, rectus abdominis and obliques, on a dark background",
+      "sentences": [
+        {
+          "say": "ومراجعة لثلاث عشرة دراسة لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.",
+          "show": "ومراجعة لثلاث عشرة دراسة | لم تجد أن | تمرين عضلة بعينها | يذيب الدهون فوقها | تحديدًا",
+          "overlay": {
+            "big": "13",
+            "small": "دراسة بأكثر من ألف مشارك",
+            "from": "لثلاث"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "visual": "r003-s4",
+      "fallback": "dumbbell",
+      "zoom": [
+        1.08,
+        1.0
+      ],
+      "pan": [
+        0.0,
+        0.2
+      ],
+      "image_prompt": "A plate of grilled fish with a green salad and a plain glass of water on a dark wooden table, overhead view",
+      "sentences": [
+        {
+          "say": "الخلاصة: لبطن أنحف، ركّز على خسارة الدهون عمومًا، ودرّب بطنك لتقوية عضلاته.",
+          "show": "الخلاصة: لبطن أنحف | ركّز على خسارة | الدهون عمومًا | ودرّب بطنك | لتقوية عضلاته"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "visual": "r003-s5",
+      "fallback": "bookmark",
+      "zoom": [
+        1.0,
+        1.06
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_prompt": "A pair of plain unbranded running shoes and a coiled jump rope on a wooden bench, soft morning light",
+      "sentences": [
+        {
+          "say": "أرسل المقطع لصديق ما زال يكثر من تمارين البطن ليحرق كرشه.",
+          "show": "أرسل المقطع لصديق | ما زال يكثر | من تمارين البطن | ليحرق كرشه"
+        }
+      ]
+    }
+  ],
+  "post": {
+    "networks": [
+      "instagram",
+      "youtube"
+    ],
+    "cover_ms": 1200,
+    "ai_generated_label": true,
+    "youtube_title": "هل تمارين البطن تحرق دهون البطن؟ ماذا تقول الدراسات",
+    "youtube_tags": [
+      "تمارين البطن",
+      "دهون البطن",
+      "خسارة الدهون",
+      "حرق الدهون",
+      "لياقة",
+      "جيم",
+      "تمارين المقاومة"
+    ],
+    "caption": "هل تمارين البطن تحرق دهون البطن؟\n\nفي تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع دون تغيير أكلهم: لم تنقص دهون بطونهم، لكن تحمّل عضلات البطن تحسّن. ومراجعة لثلاث عشرة دراسة (أكثر من 1100 مشارك) لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.\n\nالخلاصة:\n• الدهون لا تنقص غالبًا من المكان الذي تمرّنه فقط\n• لبطن أنحف: ركّز على خسارة الدهون عمومًا\n• درّب بطنك لقوة عضلاته وتحمّلها\n\n📤 أرسل المقطع لصديق ما زال يكثر من تمارين البطن ليحرق كرشه.\n\nالمصادر:\nVispute et al., J Strength Cond Res, 2011\nRamirez-Campillo et al., Human Movement, 2022\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_البطن #دهون_البطن #خسارة_الدهون #حرق_الدهون #لياقة #جيم #تغذية_صحية"
+  }
+}
