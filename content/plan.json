@@ -47,9 +47,11 @@
         "Vispute SS et al., J Strength Cond Res, 2011",
         "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
       ],
-      "status": "queued",
+      "status": "failed",
       "narration_credits": 393,
-      "queued_at": "2026-10-20T19:33:00+03:00"
+      "queued_at": "2026-10-20T19:33:00+03:00",
+      "failed_reason": "Media Gate 25/27 (passed: true but two internal checks warned): duration_target 34.70 s (limit 25-30 s) and speaking_rate 120 wpm (limit 125-160). The owner-approved steps require all 27 checks to pass, so it was not posted. The narration take was slower than r002 (32.6 s of speech for 67 words). Visual check also found: scene 2 tank top shows a small logo; scene 3 anatomy image is not clearly the abdominal wall. Video kept in reels/r003 for the owner's decision; a shorter script would need a new narration (about 400 credits), which needs the owner's approval.",
+      "render_run_id": "39457940913"
     },
     {
       "id": "r004",

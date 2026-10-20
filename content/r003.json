@@ -1,6 +1,6 @@
 {
   "reel_id": "r003",
-  "status": "DRAFT",
+  "status": "FAILED_MEDIA_GATE",
   "evidence_status": "REVIEWED",
   "evidence": "content/evidence/r003.json",
   "language": "ar",
