@@ -1,0 +1,416 @@
+{
+  "voice": "Jeddawi Echo Arabic Saudi",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "e3VoP8tWJy4Xc5hWY8F7",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-21",
+  "credits": 393,
+  "duration_s": 37.44,
+  "words": [
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "text": "تمارين",
+      "type": "word",
+      "start": 0.24,
+      "end": 0.64
+    },
+    {
+      "text": "البطن",
+      "type": "word",
+      "start": 0.72,
+      "end": 1.08
+    },
+    {
+      "text": "تحرق",
+      "type": "word",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "text": "دهون",
+      "type": "word",
+      "start": 1.68,
+      "end": 2.0
+    },
+    {
+      "text": "البطن؟",
+      "type": "word",
+      "start": 2.08,
+      "end": 2.96
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 3.04,
+      "end": 3.12
+    },
+    {
+      "text": "تجربة",
+      "type": "word",
+      "start": 3.2,
+      "end": 3.68
+    },
+    {
+      "text": "عشوائية،",
+      "type": "word",
+      "start": 3.76,
+      "end": 4.72
+    },
+    {
+      "text": "أدى",
+      "type": "word",
+      "start": 4.8,
+      "end": 5.04
+    },
+    {
+      "text": "أشخاص",
+      "type": "word",
+      "start": 5.12,
+      "end": 5.6
+    },
+    {
+      "text": "سبعة",
+      "type": "word",
+      "start": 5.84,
+      "end": 6.24
+    },
+    {
+      "text": "تمارين",
+      "type": "word",
+      "start": 6.32,
+      "end": 6.72
+    },
+    {
+      "text": "للبطن،",
+      "type": "word",
+      "start": 6.76,
+      "end": 7.52
+    },
+    {
+      "text": "خمسة",
+      "type": "word",
+      "start": 7.68,
+      "end": 8.0
+    },
+    {
+      "text": "أيام",
+      "type": "word",
+      "start": 8.08,
+      "end": 8.4
+    },
+    {
+      "text": "أسبوعيًا،",
+      "type": "word",
+      "start": 8.44,
+      "end": 9.28
+    },
+    {
+      "text": "لستة",
+      "type": "word",
+      "start": 9.36,
+      "end": 9.84
+    },
+    {
+      "text": "أسابيع،",
+      "type": "word",
+      "start": 9.92,
+      "end": 10.64
+    },
+    {
+      "text": "دون",
+      "type": "word",
+      "start": 10.72,
+      "end": 10.96
+    },
+    {
+      "text": "تغيير",
+      "type": "word",
+      "start": 11.04,
+      "end": 11.36
+    },
+    {
+      "text": "أكلهم.",
+      "type": "word",
+      "start": 11.52,
+      "end": 12.16
+    },
+    {
+      "text": "لم",
+      "type": "word",
+      "start": 12.24,
+      "end": 12.4
+    },
+    {
+      "text": "تنقص",
+      "type": "word",
+      "start": 12.52,
+      "end": 12.8
+    },
+    {
+      "text": "دهون",
+      "type": "word",
+      "start": 12.88,
+      "end": 13.12
+    },
+    {
+      "text": "بطونهم،",
+      "type": "word",
+      "start": 13.2,
+      "end": 14.16
+    },
+    {
+      "text": "لكن",
+      "type": "word",
+      "start": 14.24,
+      "end": 14.56
+    },
+    {
+      "text": "تحمّل",
+      "type": "word",
+      "start": 14.64,
+      "end": 15.12
+    },
+    {
+      "text": "عضلاتهم",
+      "type": "word",
+      "start": 15.24,
+      "end": 15.84
+    },
+    {
+      "text": "تحسّن.",
+      "type": "word",
+      "start": 16.08,
+      "end": 16.96
+    },
+    {
+      "text": "ومراجعة",
+      "type": "word",
+      "start": 17.08,
+      "end": 17.68
+    },
+    {
+      "text": "لثلاث",
+      "type": "word",
+      "start": 17.76,
+      "end": 18.32
+    },
+    {
+      "text": "عشرة",
+      "type": "word",
+      "start": 18.4,
+      "end": 18.8
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 19.08,
+      "end": 19.36
+    },
+    {
+      "text": "لم",
+      "type": "word",
+      "start": 19.68,
+      "end": 19.84
+    },
+    {
+      "text": "تجد",
+      "type": "word",
+      "start": 19.92,
+      "end": 20.24
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 20.32,
+      "end": 20.48
+    },
+    {
+      "text": "تمرين",
+      "type": "word",
+      "start": 20.56,
+      "end": 20.96
+    },
+    {
+      "text": "عضلة",
+      "type": "word",
+      "start": 21.04,
+      "end": 21.44
+    },
+    {
+      "text": "بعينها",
+      "type": "word",
+      "start": 21.6,
+      "end": 22.16
+    },
+    {
+      "text": "يذيب",
+      "type": "word",
+      "start": 22.4,
+      "end": 22.8
+    },
+    {
+      "text": "الدهون",
+      "type": "word",
+      "start": 22.88,
+      "end": 23.28
+    },
+    {
+      "text": "فوقها",
+      "type": "word",
+      "start": 23.36,
+      "end": 23.84
+    },
+    {
+      "text": "تحديدًا.",
+      "type": "word",
+      "start": 24.08,
+      "end": 24.88
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 24.96,
+      "end": 25.92
+    },
+    {
+      "text": "لبطن",
+      "type": "word",
+      "start": 26.04,
+      "end": 26.4
+    },
+    {
+      "text": "أنحف،",
+      "type": "word",
+      "start": 26.48,
+      "end": 27.28
+    },
+    {
+      "text": "ركّز",
+      "type": "word",
+      "start": 27.44,
+      "end": 27.76
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 27.88,
+      "end": 28.0
+    },
+    {
+      "text": "خسارة",
+      "type": "word",
+      "start": 28.08,
+      "end": 28.48
+    },
+    {
+      "text": "الدهون",
+      "type": "word",
+      "start": 28.56,
+      "end": 28.96
+    },
+    {
+      "text": "عمومًا،",
+      "type": "word",
+      "start": 29.04,
+      "end": 29.76
+    },
+    {
+      "text": "ودرّب",
+      "type": "word",
+      "start": 29.88,
+      "end": 30.24
+    },
+    {
+      "text": "بطنك",
+      "type": "word",
+      "start": 30.32,
+      "end": 30.72
+    },
+    {
+      "text": "لتقوية",
+      "type": "word",
+      "start": 30.88,
+      "end": 31.44
+    },
+    {
+      "text": "عضلاته.",
+      "type": "word",
+      "start": 31.52,
+      "end": 32.4
+    },
+    {
+      "text": "أرسل",
+      "type": "word",
+      "start": 32.44,
+      "end": 32.8
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 32.88,
+      "end": 33.28
+    },
+    {
+      "text": "لصديق",
+      "type": "word",
+      "start": 33.36,
+      "end": 33.84
+    },
+    {
+      "text": "ما",
+      "type": "word",
+      "start": 34.0,
+      "end": 34.16
+    },
+    {
+      "text": "زال",
+      "type": "word",
+      "start": 34.24,
+      "end": 34.48
+    },
+    {
+      "text": "يكثر",
+      "type": "word",
+      "start": 34.56,
+      "end": 34.96
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 35.04,
+      "end": 35.12
+    },
+    {
+      "text": "تمارين",
+      "type": "word",
+      "start": 35.2,
+      "end": 35.52
+    },
+    {
+      "text": "البطن",
+      "type": "word",
+      "start": 35.6,
+      "end": 36.0
+    },
+    {
+      "text": "ليحرق",
+      "type": "word",
+      "start": 36.24,
+      "end": 36.72
+    },
+    {
+      "text": "كرشه.",
+      "type": "word",
+      "start": 36.8,
+      "end": 37.52
+    }
+  ],
+  "audio": "r003_narration.mp3"
+}
