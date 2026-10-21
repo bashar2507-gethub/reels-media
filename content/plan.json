@@ -13,6 +13,14 @@
       }
     },
     {
+      "id": "r001",
+      "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
+      "status": "queued",
+      "queued_at": "2026-10-21T05:00:00+03:00",
+      "narration_credits": 381,
+      "note": "Owner's request 2026-10-21. Not for the scheduled run: publish only on the owner's decision (status 'review' after rendering)."
+    },
+    {
       "id": "r002",
       "subject": "How much protein you need to build muscle",
       "hook_idea": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",

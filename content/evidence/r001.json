@@ -1,0 +1,71 @@
+{
+  "reel_id": "r001",
+  "reviewed_on": "2026-10-17",
+  "method": "Sources found on PubMed Central; title, authors, journal, year, DOI, PMID, findings and limitations read from the article pages.",
+  "claims": [
+    {
+      "claim_id": "poc1-c1",
+      "claim": "جسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل (العجز الحراري).",
+      "source_title": "Quantification of the effect of energy imbalance on bodyweight",
+      "authors": "Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, Swinburn BA",
+      "year": 2011,
+      "journal": "The Lancet, 378(9793)",
+      "DOI_or_URL": "https://doi.org/10.1016/S0140-6736(11)60812-X | PMID 21872751 | https://pmc.ncbi.nlm.nih.gov/articles/PMC3880593",
+      "study_type": "Mathematical model of energy balance, validated against controlled studies",
+      "population": "Adults; validated with data from CALERIE, inpatient liquid-diet and fasting studies",
+      "sample_size_if_known": null,
+      "main_finding": "Changes in body weight and fat follow the balance between energy intake and expenditure; a sustained deficit draws down the body's energy stores.",
+      "limitations": "Assumes full adherence; individual baseline expenditure is uncertain (about 5%); effects of exercise on body composition are not modelled.",
+      "confidence": "high",
+      "script_usage": "s2, sentence 1"
+    },
+    {
+      "claim_id": "poc1-c2",
+      "claim": "كلما نقص وزنك، قلّ ما يحرقه جسمك كل يوم، فالعجز الذي نجح في البداية قد يصغر مع الوقت.",
+      "source_title": "Quantification of the effect of energy imbalance on bodyweight",
+      "authors": "Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, Swinburn BA",
+      "year": 2011,
+      "journal": "The Lancet, 378(9793)",
+      "DOI_or_URL": "https://doi.org/10.1016/S0140-6736(11)60812-X | PMID 21872751 | https://pmc.ncbi.nlm.nih.gov/articles/PMC3880593",
+      "study_type": "Mathematical model of energy balance, validated against controlled studies",
+      "population": "Adults",
+      "sample_size_if_known": null,
+      "main_finding": "Resting metabolic rate and the energy cost of physical activity fall as weight drops, so the deficit from an unchanged diet shrinks and weight loss slows; the static 3500 kcal rule overestimates later loss.",
+      "limitations": "Same model limitations as poc1-c1; this is one of several reasons weight loss can slow (others include water shifts and changes in adherence), which the script reflects with «أحد الأسباب» and «قد».",
+      "confidence": "high",
+      "script_usage": "s3, sentences 1-2"
+    },
+    {
+      "claim_id": "poc1-c3",
+      "claim": "تناول بروتينًا كافيًا، ومارس تمارين المقاومة لحماية عضلاتك أثناء خسارة الوزن.",
+      "source_title": "Preserving Healthy Muscle during Weight Loss",
+      "authors": "Cava E, Yeat NC, Mittendorfer B",
+      "year": 2017,
+      "journal": "Advances in Nutrition, 8(3):511-519",
+      "DOI_or_URL": "https://doi.org/10.3945/an.116.014506 | PMID 28507015 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5421125",
+      "study_type": "Narrative review (Experimental Biology 2016 symposium)",
+      "population": "Adults losing weight, including older adults with obesity",
+      "sample_size_if_known": null,
+      "main_finding": "Adequate, not excessive, protein helps preserve lean mass during weight loss; resistance exercise preserves muscle mass and improves strength. Recommends a hypocaloric diet with adequate protein plus resistance training.",
+      "limitations": "Narrative rather than systematic review; the protein effect on fat-free mass is small (about 0.4-0.8 kg) and inconsistent; very high protein may blunt metabolic improvements.",
+      "confidence": "moderate",
+      "script_usage": "s4 («بروتينًا كافيًا» matches 'adequate')"
+    },
+    {
+      "claim_id": "poc1-c4",
+      "claim": "راجع سعراتك كل بضعة أسابيع.",
+      "source_title": "Practical inference from poc1-c2 (Hall et al., 2011)",
+      "authors": "Hall KD et al.",
+      "year": 2011,
+      "journal": "The Lancet, 378(9793)",
+      "DOI_or_URL": "https://doi.org/10.1016/S0140-6736(11)60812-X",
+      "study_type": "Practical recommendation derived from the model, not a tested protocol",
+      "population": "Adults",
+      "sample_size_if_known": null,
+      "main_finding": "Because expenditure falls as weight is lost, the intake that created a deficit at the start may not do so later.",
+      "limitations": "'Every few weeks' is a practical interval, not one tested in a trial.",
+      "confidence": "moderate",
+      "script_usage": "s4"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "reel_id": "r001",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r001.json",
+  "remake_of": "poc1",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "target_s": [
+    25,
+    45
+  ],
+  "rate_wpm": [
+    100,
+    160
+  ],
+  "rate_note": "Jeddawi Echo voice (owner's request 2026-10-21) speaks about 107 wpm; not sped up.",
+  "scenes": [
+    {
+      "id": "s1",
+      "visual": "r001-s1",
+      "fallback": "scale",
+      "zoom": [
+        1.0,
+        1.15
+      ],
+      "pan": [
+        0.0,
+        -0.3
+      ],
+      "image_prompt": "A plain bathroom scale with a dark blank display on a wooden floor, a cloth measuring tape coiled beside it, dramatic side light",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟",
+          "style": "title"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "visual": "r001-s2",
+      "fallback": "flow",
+      "zoom": [
+        1.12,
+        1.0
+      ],
+      "pan": [
+        0.3,
+        0.0
+      ],
+      "image_prompt": "An athletic adult running on a treadmill in a dark gym, side view, motion and effort, the head out of frame",
+      "image_style": "athlete",
+      "sentences": [
+        {
+          "say": "جسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل.",
+          "overlay": {
+            "small": "طاقة تصرفها أكثر من طاقة تأكلها",
+            "from": "يصرف"
+          }
+        },
+        {
+          "say": "وهذا ما يسمى العجز الحراري.",
+          "show": "وهذا ما يسمى | العجز الحراري (Calorie Deficit)"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "visual": "r001-s3",
+      "fallback": "orbs",
+      "zoom": [
+        1.0,
+        1.14
+      ],
+      "pan": [
+        -0.3,
+        0.0
+      ],
+      "image_prompt": "A small campfire burning low with fading glowing embers in a dark room, the flame noticeably smaller on one side",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "أحد الأسباب أن هذا الحساب يتغير: كلما نقص وزنك، قلّ ما يحرقه جسمك كل يوم.",
+          "overlay": {
+            "small": "وزن أقل ← حرق يومي أقل",
+            "from": "كلما"
+          }
+        },
+        {
+          "say": "فالعجز الذي نجح في البداية قد يصغر مع الوقت."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "visual": "r001-s4",
+      "fallback": "scale",
+      "zoom": [
+        1.13,
+        1.0
+      ],
+      "pan": [
+        0.0,
+        0.25
+      ],
+      "image_prompt": "A balanced home-cooked meal on a plate beside a small kitchen food scale with a blank dark display, top-down view",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "الخلاصة: راجع سعراتك كل بضعة أسابيع.",
+          "overlay": {
+            "small": "راجع سعراتك كل بضعة أسابيع",
+            "from": "راجع"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "visual": "r001-s5",
+      "fallback": "orbs",
+      "zoom": [
+        1.0,
+        1.15
+      ],
+      "pan": [
+        0.25,
+        0.0
+      ],
+      "image_prompt": "Protein-rich foods on a dark slate board: grilled chicken breast, boiled eggs, a bowl of Greek yogurt and a bowl of cooked lentils",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "وتناول بروتينًا كافيًا.",
+          "overlay": {
+            "small": "بروتين كافٍ في كل وجبة",
+            "from": "وتناول"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "visual": "r001-s6",
+      "fallback": "dumbbell",
+      "zoom": [
+        1.14,
+        1.0
+      ],
+      "pan": [
+        -0.25,
+        0.0
+      ],
+      "image_prompt": "A muscular arm lifting a heavy plain hexagonal dumbbell in a dark gym, seen from behind the shoulder, the head out of frame",
+      "image_style": "athlete",
+      "sentences": [
+        {
+          "say": "ومارس تمارين المقاومة لحماية عضلاتك.",
+          "overlay": {
+            "small": "تمارين المقاومة تحمي عضلاتك",
+            "from": "ومارس"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "visual": "r001-s7",
+      "fallback": "bookmark",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_prompt": "Two plain water bottles and two folded towels side by side on a gym bench, warm light, a sense of training together",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "احفظ المقطع وشاركه مع صديق يبدأ حميته."
+        }
+      ]
+    }
+  ],
+  "post": {
+    "networks": [
+      "instagram",
+      "youtube"
+    ],
+    "cover_ms": 1200,
+    "ai_generated_label": true,
+    "youtube_title": "لماذا يتوقف نزول الوزن رغم الالتزام بالحمية؟",
+    "youtube_tags": [
+      "خسارة الوزن",
+      "العجز الحراري",
+      "رجيم",
+      "ثبات الوزن",
+      "بروتين",
+      "تمارين المقاومة",
+      "لياقة"
+    ],
+    "caption": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟\n\nجسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل، وهذا هو العجز الحراري. لكن كلما نقص وزنك قلّ ما يحرقه جسمك كل يوم، فقد يصغر العجز الذي نجح في البداية.\n\nالخلاصة:\n• راجع سعراتك كل بضعة أسابيع\n• تناول بروتينًا كافيًا\n• مارس تمارين المقاومة لحماية عضلاتك\n\n📌 احفظ المقطع وشاركه مع صديق يبدأ حميته.\n\nالمصادر:\nHall et al., The Lancet, 2011\nCava et al., Advances in Nutrition, 2017\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#خسارة_الوزن #العجز_الحراري #رجيم #تمارين_المقاومة #بروتين #لياقة #تغذية_صحية"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "reel_id": "r001",
+  "script": {
+    "reel_id": "r001",
+    "status": "SCRIPTED",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r001.json",
+    "remake_of": "poc1",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "target_s": [
+      25,
+      45
+    ],
+    "rate_wpm": [
+      100,
+      160
+    ],
+    "rate_note": "Jeddawi Echo voice (owner's request 2026-10-21) speaks about 107 wpm; not sped up.",
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r001-s1",
+        "fallback": "scale",
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_prompt": "A plain bathroom scale with a dark blank display on a wooden floor, a cloth measuring tape coiled beside it, dramatic side light",
+        "image_style": "still_life",
+        "sentences": [
+          {
+            "say": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r001-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          0.3,
+          0.0
+        ],
+        "image_prompt": "An athletic adult running on a treadmill in a dark gym, side view, motion and effort, the head out of frame",
+        "image_style": "athlete",
+        "sentences": [
+          {
+            "say": "جسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل.",
+            "overlay": {
+              "small": "طاقة تصرفها أكثر من طاقة تأكلها",
+              "from": "يصرف"
+            }
+          },
+          {
+            "say": "وهذا ما يسمى العجز الحراري.",
+            "show": "وهذا ما يسمى | العجز الحراري (Calorie Deficit)"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r001-s3",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.14
+        ],
+        "pan": [
+          -0.3,
+          0.0
+        ],
+        "image_prompt": "A small campfire burning low with fading glowing embers in a dark room, the flame noticeably smaller on one side",
+        "image_style": "still_life",
+        "sentences": [
+          {
+            "say": "أحد الأسباب أن هذا الحساب يتغير: كلما نقص وزنك، قلّ ما يحرقه جسمك كل يوم.",
+            "overlay": {
+              "small": "وزن أقل ← حرق يومي أقل",
+              "from": "كلما"
+            }
+          },
+          {
+            "say": "فالعجز الذي نجح في البداية قد يصغر مع الوقت."
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r001-s4",
+        "fallback": "scale",
+        "zoom": [
+          1.13,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.25
+        ],
+        "image_prompt": "A balanced home-cooked meal on a plate beside a small kitchen food scale with a blank dark display, top-down view",
+        "image_style": "still_life",
+        "sentences": [
+          {
+            "say": "الخلاصة: راجع سعراتك كل بضعة أسابيع.",
+            "overlay": {
+              "small": "راجع سعراتك كل بضعة أسابيع",
+              "from": "راجع"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r001-s5",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_prompt": "Protein-rich foods on a dark slate board: grilled chicken breast, boiled eggs, a bowl of Greek yogurt and a bowl of cooked lentils",
+        "image_style": "still_life",
+        "sentences": [
+          {
+            "say": "وتناول بروتينًا كافيًا.",
+            "overlay": {
+              "small": "بروتين كافٍ في كل وجبة",
+              "from": "وتناول"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "visual": "r001-s6",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.14,
+          1.0
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_prompt": "A muscular arm lifting a heavy plain hexagonal dumbbell in a dark gym, seen from behind the shoulder, the head out of frame",
+        "image_style": "athlete",
+        "sentences": [
+          {
+            "say": "ومارس تمارين المقاومة لحماية عضلاتك.",
+            "overlay": {
+              "small": "تمارين المقاومة تحمي عضلاتك",
+              "from": "ومارس"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s7",
+        "visual": "r001-s7",
+        "fallback": "bookmark",
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_prompt": "Two plain water bottles and two folded towels side by side on a gym bench, warm light, a sense of training together",
+        "image_style": "still_life",
+        "sentences": [
+          {
+            "say": "احفظ المقطع وشاركه مع صديق يبدأ حميته."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "لماذا يتوقف نزول الوزن رغم الالتزام بالحمية؟",
+      "youtube_tags": [
+        "خسارة الوزن",
+        "العجز الحراري",
+        "رجيم",
+        "ثبات الوزن",
+        "بروتين",
+        "تمارين المقاومة",
+        "لياقة"
+      ],
+      "caption": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟\n\nجسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل، وهذا هو العجز الحراري. لكن كلما نقص وزنك قلّ ما يحرقه جسمك كل يوم، فقد يصغر العجز الذي نجح في البداية.\n\nالخلاصة:\n• راجع سعراتك كل بضعة أسابيع\n• تناول بروتينًا كافيًا\n• مارس تمارين المقاومة لحماية عضلاتك\n\n📌 احفظ المقطع وشاركه مع صديق يبدأ حميته.\n\nالمصادر:\nHall et al., The Lancet, 2011\nCava et al., Advances in Nutrition, 2017\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#خسارة_الوزن #العجز_الحراري #رجيم #تمارين_المقاومة #بروتين #لياقة #تغذية_صحية"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/P766dpWMSDpSLZVdAvsP/LDtNyU3JWNeBSKPdQiXU/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T015714Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=acd1522f900145f11ec07eb3046934d15398f3c7d7dbce098a86d9709836fdaa67c85f921a4403ea03e83aa49580e0226d14e082670e226337eb9dde80b8b43c8d8bd2e444b7d2449d46a19ca0a76c33aa9cb3db0aa48ff96e76fcb8303b58dfa39153b31572a7f023139873b190cca79be7089542d99399860e43b0c1fd88412e18301a382f1c2cf646b0bc5f229a78c7f52d4eb9c4e44bad36980bcd64b886ad2d7f2b543962b7ee512c9f63a874780e331f65860796e476d0b4809f5147a0863f34b25944ea894aa4319b2e161cf84a7a5b41e9392169ef1872c5fbad387265cd66d3a81fa3839c080eb5f6fb5b4771bc23810dc26ee2b28ca80072b95f62",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/4GI2YX6fWqfPwwANQ6rQ/PTh1J8HweqZvB2Ezk2AC/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T015803Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-PTh1J8HweqZvB2Ezk2AC-words.json%22&X-Goog-Signature=9ea40fff0eee1a447f78a4b2dd7cdf4a2571b8ce86c21752817c38080c55847e47708caeedb5830f28d8a84b0a0a59cdd15061d85f8989957ee6602ff74c256cf43aff64fdc43ad7dc93202fab00379d7a7f7bf7613d9af8905f5640c391d10f4624f9ba921f9479752aa80a20f4962a1977b1546930f0614f46fac0359d0ac39646c6deeb6f65c43cc11e0eacd32131945c001344f9c985839a303f75508607bc2ed9885f6f274ffc85b886bf688752380ee0f0190b424028a401db1b67ef0559e545018bdfdc302aae65851fa0b6bd78c141749efe3d5e417962fe2a5d1cd3c476686e0c82b844c3ea51677aeecbd72c69639dd17a346ac49b575f52f79801",
+    "voice": "Jeddawi Echo Arabic Saudi",
+    "voice_id": "yXEnnEln9armDCyhkXcA",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "LDtNyU3JWNeBSKPdQiXU",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-21",
+    "credits": 381,
+    "duration_s": 37.28
+  }
+}
