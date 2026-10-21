@@ -17,7 +17,8 @@ Talk to the owner in Arabic. Report only what tools confirmed.
 
 - Earlier runs: any plan item still `scheduled` was published by Metricool after its run ended.
   Read it with `getScheduledPosts` (its publish day) and record `published` with both public links,
-  or `failed` with the provider status, before anything else.
+  or `failed` with the provider status, before anything else. An item whose publish time is still in the
+  future (status `PENDING`) stays `scheduled`.
 - Quota: Metricool Free publishes 20 posts a month and a Reel on two networks counts as 2.
   Count this month's Reels in `content/plan.json` with status `published` (published_at in the
   current month, Asia/Riyadh). If 10 or more, stop: nothing to do this month.
