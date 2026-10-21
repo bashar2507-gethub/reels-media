@@ -99,10 +99,19 @@
       "seed_sources": [
         "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand)"
       ],
-      "status": "queued",
+      "status": "published",
       "queued_at": "2026-10-21T03:51:00+03:00",
       "narration_credits": 777,
-      "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length."
+      "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length.",
+      "published_at": "2026-10-21T04:15:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
+        "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
+      },
+      "metricool_post_ids": {
+        "instagram": 401656846,
+        "youtube": 401656888
+      }
     },
     {
       "id": "r008",

@@ -1,6 +1,6 @@
 {
   "reel_id": "r007",
-  "status": "SCRIPTED",
+  "status": "PUBLISHED",
   "evidence_status": "REVIEWED",
   "evidence": "content/evidence/r007.json",
   "language": "ar",
@@ -174,7 +174,19 @@
       "مكملات"
     ],
     "caption": "الكرياتين: هل يزيد العضلات أم يسبب احتباس الماء؟\n\nزيادة الوزن بعد بدء الكرياتين لا تعني بالضرورة زيادة الدهون. اكتشف كيف يؤثر الكرياتين على أداء التمرين والماء داخل العضلات، وما الجرعة اليومية الشائعة للبالغين الأصحاء.\n\nالمعلومات مبنية على الأدلة العلمية. احفظ المنشور للرجوع إليه.\n\nالمصادر:\nNIH Office of Dietary Supplements\nAntonio et al., JISSN, 2021\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص، خاصة لمن لديه مرض في الكلى.\n\n#الكرياتين #بناء_العضلات #التغذية_الرياضية #كمال_الأجسام #حرق_الدهون",
-    "youtube_description": "هل زيادة الوزن بعد بدء الكرياتين تعني زيادة العضلات أم احتباس الماء؟\n\nفي هذا الفيديو نشرح علمياً كيف يؤثر الكرياتين مونوهيدرات على أداء التمرين والماء داخل العضلات، والجرعة اليومية الشائعة، والفرق بين زيادة الماء وبناء العضلات.\n\nالمصادر العلمية:\nhttps://ods.od.nih.gov/factsheets/ExerciseandAthleticPerformance-HealthProfessional/\nhttps://jissn.biomedcentral.com/articles/10.1186/s12970-021-00412-w\n\nالتعليق الصوتي والصور مولّدة بالذكاء الاصطناعي. معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#Creatine #بناء_العضلات #الكرياتين #YouTubeShorts"
+    "youtube_description": "هل زيادة الوزن بعد بدء الكرياتين تعني زيادة العضلات أم احتباس الماء؟\n\nفي هذا الفيديو نشرح علمياً كيف يؤثر الكرياتين مونوهيدرات على أداء التمرين والماء داخل العضلات، والجرعة اليومية الشائعة، والفرق بين زيادة الماء وبناء العضلات.\n\nالمصادر العلمية:\nhttps://ods.od.nih.gov/factsheets/ExerciseandAthleticPerformance-HealthProfessional/\nhttps://jissn.biomedcentral.com/articles/10.1186/s12970-021-00412-w\n\nالتعليق الصوتي والصور مولّدة بالذكاء الاصطناعي. معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#Creatine #بناء_العضلات #الكرياتين #YouTubeShorts",
+    "published": {
+      "published_at": "2026-10-21T04:15:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
+        "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
+      },
+      "metricool_post_ids": {
+        "instagram": 401656846,
+        "youtube": 401656888
+      },
+      "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@60adbf9a286d4351dc192a449c9482f2564f7479/reels/r007/r007-video-2aaec3b97f.mp4"
+    }
   },
   "rate_wpm": [
     105,
