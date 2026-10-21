@@ -1,0 +1,42 @@
+{
+  "reel_id": "r007",
+  "reviewed_on": "2026-10-21",
+  "method": "Sources named in the owner's brief, read directly (NIH ODS page; JISSN 2021 full text PDF); Kreider 2017 verified earlier for dosing and safety.",
+  "claims": [
+    {
+      "claim_id": "r007-c1",
+      "claim": "Creatine supplies energy (ATP via phosphocreatine) for short high-intensity efforts such as lifting.",
+      "source_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet (Creatine)",
+      "authors": "NIH Office of Dietary Supplements",
+      "year": 2026,
+      "DOI_or_URL": "https://ods.od.nih.gov/factsheets/ExerciseandAthleticPerformance-HealthProfessional/",
+      "finding": "Creatine 'helps generate ATP and thereby supplies the muscles with energy, particularly for short-term events.'"
+    },
+    {
+      "claim_id": "r007-c2",
+      "claim": "With regular resistance training it may help strength and muscle mass over time (hedged: ممكن).",
+      "source_title": "NIH ODS fact sheet; Kreider et al., ISSN position stand: creatine",
+      "year": "2026; 2017",
+      "DOI_or_URL": "https://ods.od.nih.gov/factsheets/ExerciseandAthleticPerformance-HealthProfessional/ | https://doi.org/10.1186/s12970-017-0173-z",
+      "finding": "Supplementation 'over weeks or months helps training adaptations to structured, increased workloads over time.'"
+    },
+    {
+      "claim_id": "r007-c3",
+      "claim": "Early weight gain is often water stored in muscle, not fat; water alone is not new muscle.",
+      "source_title": "Common questions and misconceptions about creatine supplementation",
+      "authors": "Antonio J, Candow DG, Forbes SC, et al.",
+      "year": 2021,
+      "journal": "JISSN 18:13",
+      "DOI_or_URL": "https://doi.org/10.1186/s12970-021-00412-w | PMID 33557850",
+      "finding": "Water retention is most common in the early stages; creatine 'does not increase fat mass across a variety of populations'. NIH: creatine 'often leads to weight gain, because it increases water retention' (1–2 kg within a month in several studies)."
+    },
+    {
+      "claim_id": "r007-c4",
+      "claim": "3–5 g/day of creatine monohydrate is a common, studied dose for healthy adults; consistency matters (stores saturate over about 4 weeks).",
+      "source_title": "Antonio et al. 2021; NIH ODS; Kreider et al. 2017",
+      "DOI_or_URL": "https://doi.org/10.1186/s12970-021-00412-w",
+      "finding": "'it is currently recommended that individuals consume ~3-5 g/day of creatine for a minimum of 4 weeks'. Timing (pre vs post) is not established; the script's 'consistency over timing' is framed as practical guidance."
+    }
+  ],
+  "limitations": "Timing evidence is limited and mixed; the script does not claim one time is better. Kidney disease: consult a doctor (in caption)."
+}

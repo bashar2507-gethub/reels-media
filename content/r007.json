@@ -1,0 +1,184 @@
+{
+  "reel_id": "r007",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r007.json",
+  "language": "ar",
+  "dialect": "Levantine (owner's brief)",
+  "cover_at_seconds": 1.2,
+  "target_s": [
+    45,
+    75
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "visual": "r007-s1",
+      "fallback": "orbs",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        -0.3
+      ],
+      "image_prompt": "An athletic man seen from behind, broad shoulders, black sleeveless training shirt, a dark teal towel over one shoulder, head turned away from the camera",
+      "image_style": "athlete",
+      "sentences": [
+        {
+          "say": "بدأت كرياتين ووزنك زاد؟",
+          "style": "title"
+        },
+        {
+          "say": "هل هذا يعني إنك بنيت عضلات، ولا جسمك بس احتبس ماء؟"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "visual": "r007-s2",
+      "fallback": "flow",
+      "zoom": [
+        1.07,
+        1.0
+      ],
+      "pan": [
+        0.25,
+        0.0
+      ],
+      "image_prompt": "A small scoop of pure white fine powder beside a plain matte-black container with no label, fine powder texture, a few floating dust particles",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "الحقيقة إن الكرياتين ممكن يعمل الاثنين: يساعدك تطور أداءك بالتمرين، ويزيد كمية الماء داخل العضلات، خصوصاً في بداية الاستخدام."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "visual": "r007-s3",
+      "fallback": "dumbbell",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        -0.25,
+        0.0
+      ],
+      "image_prompt": "A muscular man performing a heavy dumbbell curl in a dark modern gym, seen from the side, face in deep shadow, subject on the left of the frame",
+      "image_style": "athlete",
+      "sentences": [
+        {
+          "say": "الكرياتين بيساعد عضلاتك على توفير الطاقة خلال الجهد العالي، مثل رفع الأوزان."
+        },
+        {
+          "say": "ومع التدريب المنتظم، ممكن يساعدك تحقق قوة أكبر وتبني كتلة عضلية أكثر مع الوقت."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "visual": "r007-s4",
+      "fallback": "scale",
+      "zoom": [
+        1.08,
+        1.0
+      ],
+      "pan": [
+        0.0,
+        0.2
+      ],
+      "image_prompt": "Skeletal muscle fibres with small translucent water droplets distributed inside the muscle tissue, subtle cyan reflections",
+      "image_style": "anatomy",
+      "sentences": [
+        {
+          "say": "مش بالضرورة! الزيادة الأولية بالميزان ممكن تكون بسبب الماء، مش الدهون."
+        },
+        {
+          "say": "لكن انتبه: الماء لحاله مش عضلات جديدة، وبناء العضلات يحتاج تدريباً وتغذية مناسبين."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "visual": "r007-s5",
+      "fallback": "scale",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_prompt": "A small metal scoop of white powder resting on a compact digital kitchen scale with a blank dark display, dark matte surface",
+      "image_style": "still_life",
+      "sentences": [
+        {
+          "say": "لأغلب البالغين الأصحاء، جرعة ثلاثة إلى خمسة غرامات يومياً من الكرياتين مونوهيدرات خيار شائع ومدروس.",
+          "overlay": {
+            "big": "3–5 g",
+            "small": "يوميًا لأغلب البالغين الأصحاء",
+            "from": "ثلاثة"
+          }
+        },
+        {
+          "say": "والأهم الاستمرار، مش توقيت الجرعة."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "visual": "r007-s6",
+      "fallback": "bookmark",
+      "zoom": [
+        1.0,
+        1.06
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_prompt": "A fit man standing confidently after a workout in a dark gym, seen from behind, golden light outlining his back and shoulders",
+      "image_style": "athlete",
+      "sentences": [
+        {
+          "say": "الخلاصة: الكرياتين مش مجرد احتباس ماء، ومش مكمل سحري."
+        },
+        {
+          "say": "هو أداة تساعدك تتمرن بكفاءة أعلى، والنتائج تعتمد على تدريبك وأكلك ونومك.",
+          "overlay": {
+            "small": "الكرياتين أداة، والنتائج يصنعها التزامك",
+            "from": "هو"
+          }
+        }
+      ]
+    }
+  ],
+  "post": {
+    "networks": [
+      "instagram",
+      "youtube"
+    ],
+    "cover_ms": 1200,
+    "ai_generated_label": true,
+    "youtube_title": "الكرياتين: هل يزيد العضلات أم يسبب احتباس الماء؟",
+    "youtube_tags": [
+      "الكرياتين",
+      "Creatine",
+      "بناء العضلات",
+      "التغذية الرياضية",
+      "كمال الأجسام",
+      "مكملات"
+    ],
+    "caption": "الكرياتين: هل يزيد العضلات أم يسبب احتباس الماء؟\n\nزيادة الوزن بعد بدء الكرياتين لا تعني بالضرورة زيادة الدهون. اكتشف كيف يؤثر الكرياتين على أداء التمرين والماء داخل العضلات، وما الجرعة اليومية الشائعة للبالغين الأصحاء.\n\nالمعلومات مبنية على الأدلة العلمية. احفظ المنشور للرجوع إليه.\n\nالمصادر:\nNIH Office of Dietary Supplements\nAntonio et al., JISSN, 2021\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص، خاصة لمن لديه مرض في الكلى.\n\n#الكرياتين #بناء_العضلات #التغذية_الرياضية #كمال_الأجسام #حرق_الدهون",
+    "youtube_description": "هل زيادة الوزن بعد بدء الكرياتين تعني زيادة العضلات أم احتباس الماء؟\n\nفي هذا الفيديو نشرح علمياً كيف يؤثر الكرياتين مونوهيدرات على أداء التمرين والماء داخل العضلات، والجرعة اليومية الشائعة، والفرق بين زيادة الماء وبناء العضلات.\n\nالمصادر العلمية:\nhttps://ods.od.nih.gov/factsheets/ExerciseandAthleticPerformance-HealthProfessional/\nhttps://jissn.biomedcentral.com/articles/10.1186/s12970-021-00412-w\n\nالتعليق الصوتي والصور مولّدة بالذكاء الاصطناعي. معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#Creatine #بناء_العضلات #الكرياتين #YouTubeShorts"
+  },
+  "rate_wpm": [
+    105,
+    160
+  ],
+  "rate_note": "Owner-specified voice yXEnnEln9armDCyhkXcA speaks about 113 wpm with natural short pauses; owner set ~60 s for this 125-word script and forbade speeding up, so this Reel uses 105-160 wpm."
+}

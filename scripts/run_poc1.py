@@ -101,9 +101,13 @@ def main() -> int:
     render_seconds = time.time() - started
     cover = extract_cover(video, script.get("cover_at_seconds", 1.0), out / f"{script['reel_id']}_cover.jpg")
 
-    report = validate_reel(video, SPEC)
+    spec = SPEC
+    if script.get("target_s"):  # per-Reel duration range set by the owner, e.g. [45, 75]
+        from dataclasses import replace
+        spec = replace(SPEC, target_min_s=float(script["target_s"][0]), target_max_s=float(script["target_s"][1]))
+    report = validate_reel(video, spec)
     qa = check_caption_order(ass_path, timeline)
-    low, high = ARABIC_RATE_WPM
+    low, high = script.get("rate_wpm") or ARABIC_RATE_WPM  # per-Reel range when the owner picked a slower voice
     report["checks"] += [
         {"name": "captions_rtl_order", "passed": qa["passed"],
          "value": f"{qa['checked']} positions checked" + (f", {len(qa['failures'])} wrong" if qa["failures"] else ""),

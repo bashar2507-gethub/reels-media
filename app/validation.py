@@ -163,7 +163,7 @@ def validate_reel(path: Path, spec: VideoSpec = SPEC) -> dict:
 
     duration = float(fmt.get("duration", 0.0))
     add("duration_instagram", 3 <= duration <= 900, f"{duration:.2f} s", "3 s to 15 min", "instagram")
-    add("duration_autopublish", duration < 60, f"{duration:.2f} s", "< 60 s", "metricool")
+    add("duration_autopublish", 3 <= duration <= 900, f"{duration:.2f} s", "3 s to 15 min (Metricool help centre)", "metricool")
     add("duration_target", spec.target_min_s <= duration <= spec.target_max_s, f"{duration:.2f} s",
         f"{spec.target_min_s:.0f}-{spec.target_max_s:.0f} s", "internal", "soft")
 
