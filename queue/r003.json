@@ -2,7 +2,7 @@
   "reel_id": "r003",
   "script": {
     "reel_id": "r003",
-    "status": "DRAFT",
+    "status": "SCRIPTED",
     "evidence_status": "REVIEWED",
     "evidence": "content/evidence/r003.json",
     "language": "ar",
@@ -41,7 +41,7 @@
           0.0
         ],
         "image_style": "athlete",
-        "image_prompt": "Side view of a fit person doing a crunch on an exercise mat in a gym, torso and bent knees only, the head out of frame",
+        "image_prompt": "Side view of a fit man doing a crunch on a plain exercise mat in a dark gym, wearing a plain black tank top with no print or logo, torso and bent knees only, the head out of frame",
         "sentences": [
           {
             "say": "في تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع، دون تغيير أكلهم.",
@@ -71,7 +71,7 @@
           0.0
         ],
         "image_style": "anatomy",
-        "image_prompt": "3D anatomical illustration of the human abdominal muscles, rectus abdominis and obliques, on a dark background",
+        "image_prompt": "Front view of a human torso showing the abdominal wall muscles: the segmented rectus abdominis down the centre and the obliques on both sides, under a thin translucent layer of fat",
         "sentences": [
           {
             "say": "ومراجعة لثلاث عشرة دراسة لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.",
@@ -143,17 +143,29 @@
         "تمارين المقاومة"
       ],
       "caption": "هل تمارين البطن تحرق دهون البطن؟\n\nفي تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع دون تغيير أكلهم: لم تنقص دهون بطونهم، لكن تحمّل عضلات البطن تحسّن. ومراجعة لثلاث عشرة دراسة (أكثر من 1100 مشارك) لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.\n\nالخلاصة:\n• الدهون لا تنقص غالبًا من المكان الذي تمرّنه فقط\n• لبطن أنحف: ركّز على خسارة الدهون عمومًا\n• درّب بطنك لقوة عضلاته وتحمّلها\n\n📤 أرسل المقطع لصديق ما زال يكثر من تمارين البطن ليحرق كرشه.\n\nالمصادر:\nVispute et al., J Strength Cond Res, 2011\nRamirez-Campillo et al., Human Movement, 2022\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_البطن #دهون_البطن #خسارة_الدهون #حرق_الدهون #لياقة #جيم #تغذية_صحية"
-    }
+    },
+    "target_s": [
+      25,
+      45
+    ],
+    "rate_wpm": [
+      100,
+      160
+    ],
+    "rate_note": "Owner asked (2026-10-21) to redo this Reel in the Jeddawi Echo voice, which speaks about 107 wpm; not sped up."
   },
   "narration": {
-    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/5TsXPl4Y9ihNcDcN5fYg/ePO4FELRlCsLijYGfqW0/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T162313Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1eaf50154a0bccb47f736a4532310c7fa84bddaaa9104c4deeadf6015bb80c86b56f8f58749b3c237d93616c2325675c77b83a275f8a7ea9bea4ea9c1214668cbefccba7a4fb27d56973ebb9b0f0147a6a6aade9fbc2cf07483b1cbb0f753e5fd51e6c29ed8cdf438189b5703e95c204df9a951a04d506fdb19698e7a536f6ab25ee883a2e5a6ddd5fe5013a51062e429c0a9071d4c0cbf118882dda5d5ba3b4220634d729e4b02c77de4b457e780ffb278086e0b45893ee1e73b0a49c9ca69231650a34e2058d795b93270681937c65651440c8a2ed9cca8b44e03de98521b036ffa0eef3963e1fa92cf91176ab303ddd1cdd27b5ff63e20c9b6e91ecd8b2d9",
-    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/pAj6Mn1oI8Lras92dSFj/AJcoo30Lpj4pembvznua/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T162730Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-AJcoo30Lpj4pembvznua-words.json%22&X-Goog-Signature=4101b6d46ec54ada39fbfbf4b3ed8edc4a0e3dcd5a737a65e3235065cc74e17a7ca342e1baf28031333a0595534bfc3a3f15a20e3279a98e09f4a9ef6a191b58728503c9884fb419bcd82b40eb2823cfb7c1e52d911dea4d26aa9e506640e6d76e801388be05cc3501dea7ac4fa3f29aee9646e3d33674670e3f4e840ea989c2ecdd6e432ed317df6ee28f8cf20773a1867c62e50f328ab64f1005d0510ae0f35f3977ca259528379070185d4470d6370e163aaa7f1c570e91c86b13615b204f8ea693a94472e280e66dbabfb5bc45b072cc1d9b2625441347bade28323ed3a305e2c47b155c356abd12e094b54fa2e2b6783c4660ae27ed48bcb37342080031",
-    "voice": "عبدالله سعدون",
-    "voice_id": "t9akNmCDhz230CEXOYmn",
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/ytktojeyBfIuvgqEkMQm/e3VoP8tWJy4Xc5hWY8F7/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T012445Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=7fd46e411f2f7f635cec83426526cb037aa0ad6d97ae888eae3e891d32b6678a630540c115d30d64322d2292c2c0de063e11e8e2235aaa8d6d88367d8ad74933699eaa6653624a140cc5fb3ae6d3d59ab17447cd15a20c889d730427c827a5b1e654df40d7623a3856d31b7c6c1ade1348fc0860084aded18b651986d7590d545485366f916506498c6f5dc6eb03ffc8646fac697017095150a4edbb40e8a1e3d79dd5f47d2885763cae672cee2d824a2eeca1933b2a365c902154c7dde6d83a0778b285c473803faa00d10d283ff41ed38d250fbad9e3db8496175bb4723824f65971bf8ad31c06a7b51a2f045299c5957a7353d38bd960fe46ed86e66d152d",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/t4f2q5HdRhAAJO0YypBI/0C8oE8a8lgSQz4VGjWTq/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261021%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261021T012530Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-0C8oE8a8lgSQz4VGjWTq-words.json%22&X-Goog-Signature=359ca0bf75224ac0fa47b3fe866f38761b3837c436e0652f1e75c31f707d70bd2311098b849ee5c4228d4cbff33a08f0b5d3f11da04267afe769ebdcdd095100b6aebbf5ef1e16173416f2937f5e2c3d048947966d90771fe87770114597c6a6e6416f90b18495834cb0cfd7a0b1f98a4a09fa89087b2daa3451b14f4afec4843560bc295b3b161fe9d13bb2b9d2c0f702e6bd88afb825e50f489cd321f53844aa34e45e4e6543b49dc23e4d31630147b6cd854bbc203a2be36e426960531e2c8474cf9b9a76f60f0c852a1877b6fd32764c2dae7dc2072cb09d32490aa07a064c4aa6780643b7428e7bc60e54860d09464439a4623c0ff958377e27afdee454",
+    "voice": "Jeddawi Echo Arabic Saudi",
+    "voice_id": "yXEnnEln9armDCyhkXcA",
     "model_id": "eleven_v4",
     "language_code": "ar",
-    "generation_id": "ePO4FELRlCsLijYGfqW0",
+    "generation_id": "e3VoP8tWJy4Xc5hWY8F7",
     "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
-    "generated_on": "2026-10-20"
-  }
+    "generated_on": "2026-10-21",
+    "credits": 393,
+    "duration_s": 37.44
+  },
+  "rerender_requested": "2026-10-21T01:25:54Z"
 }

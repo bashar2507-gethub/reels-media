@@ -1,6 +1,6 @@
 {
   "reel_id": "r003",
-  "status": "FAILED_MEDIA_GATE",
+  "status": "SCRIPTED",
   "evidence_status": "REVIEWED",
   "evidence": "content/evidence/r003.json",
   "language": "ar",
@@ -39,7 +39,7 @@
         0.0
       ],
       "image_style": "athlete",
-      "image_prompt": "Side view of a fit person doing a crunch on an exercise mat in a gym, torso and bent knees only, the head out of frame",
+      "image_prompt": "Side view of a fit man doing a crunch on a plain exercise mat in a dark gym, wearing a plain black tank top with no print or logo, torso and bent knees only, the head out of frame",
       "sentences": [
         {
           "say": "في تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع، دون تغيير أكلهم.",
@@ -69,7 +69,7 @@
         0.0
       ],
       "image_style": "anatomy",
-      "image_prompt": "3D anatomical illustration of the human abdominal muscles, rectus abdominis and obliques, on a dark background",
+      "image_prompt": "Front view of a human torso showing the abdominal wall muscles: the segmented rectus abdominis down the centre and the obliques on both sides, under a thin translucent layer of fat",
       "sentences": [
         {
           "say": "ومراجعة لثلاث عشرة دراسة لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.",
@@ -141,5 +141,14 @@
       "تمارين المقاومة"
     ],
     "caption": "هل تمارين البطن تحرق دهون البطن؟\n\nفي تجربة عشوائية، أدى أشخاص سبعة تمارين للبطن، خمسة أيام أسبوعيًا، لستة أسابيع دون تغيير أكلهم: لم تنقص دهون بطونهم، لكن تحمّل عضلات البطن تحسّن. ومراجعة لثلاث عشرة دراسة (أكثر من 1100 مشارك) لم تجد أن تمرين عضلة بعينها يذيب الدهون فوقها تحديدًا.\n\nالخلاصة:\n• الدهون لا تنقص غالبًا من المكان الذي تمرّنه فقط\n• لبطن أنحف: ركّز على خسارة الدهون عمومًا\n• درّب بطنك لقوة عضلاته وتحمّلها\n\n📤 أرسل المقطع لصديق ما زال يكثر من تمارين البطن ليحرق كرشه.\n\nالمصادر:\nVispute et al., J Strength Cond Res, 2011\nRamirez-Campillo et al., Human Movement, 2022\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_البطن #دهون_البطن #خسارة_الدهون #حرق_الدهون #لياقة #جيم #تغذية_صحية"
-  }
+  },
+  "target_s": [
+    25,
+    45
+  ],
+  "rate_wpm": [
+    100,
+    160
+  ],
+  "rate_note": "Owner asked (2026-10-21) to redo this Reel in the Jeddawi Echo voice, which speaks about 107 wpm; not sped up."
 }
