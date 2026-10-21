@@ -69,7 +69,7 @@
           -0.25,
           0.0
         ],
-        "image_prompt": "A muscular man performing a heavy dumbbell curl in a dark modern gym, seen from the side, face in deep shadow, subject on the left of the frame",
+        "image_prompt": "A muscular arm curling a heavy plain hexagonal dumbbell in a dark modern gym, seen from behind the shoulder, the head out of frame, biceps and shoulder clearly defined",
         "image_style": "athlete",
         "sentences": [
           {
@@ -115,7 +115,7 @@
           0.0,
           0.0
         ],
-        "image_prompt": "A small metal scoop of white powder resting on a compact digital kitchen scale with a blank dark display, dark matte surface",
+        "image_prompt": "A small plain metal scoop heaped with fine white powder on a dark matte surface beside a small pile of the same powder, nothing else",
         "image_style": "still_life",
         "sentences": [
           {
@@ -196,5 +196,6 @@
     "generated_on": "2026-10-21",
     "credits": 777,
     "duration_s": 66.24
-  }
+  },
+  "rerender_requested": "2026-10-21T00:57:22Z"
 }
