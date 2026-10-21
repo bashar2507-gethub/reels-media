@@ -1,0 +1,416 @@
+{
+  "voice": "Jeddawi Echo Arabic Saudi",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "LDtNyU3JWNeBSKPdQiXU",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-21",
+  "credits": 381,
+  "duration_s": 37.28,
+  "words": [
+    {
+      "text": "لماذا",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "text": "قد",
+      "type": "word",
+      "start": 0.48,
+      "end": 0.64
+    },
+    {
+      "text": "يتوقف",
+      "type": "word",
+      "start": 0.72,
+      "end": 1.36
+    },
+    {
+      "text": "نزول",
+      "type": "word",
+      "start": 1.48,
+      "end": 1.76
+    },
+    {
+      "text": "وزنك",
+      "type": "word",
+      "start": 1.84,
+      "end": 2.32
+    },
+    {
+      "text": "رغم",
+      "type": "word",
+      "start": 2.56,
+      "end": 2.8
+    },
+    {
+      "text": "التزامك",
+      "type": "word",
+      "start": 3.08,
+      "end": 3.44
+    },
+    {
+      "text": "بالحمية؟",
+      "type": "word",
+      "start": 3.52,
+      "end": 4.56
+    },
+    {
+      "text": "جسمك",
+      "type": "word",
+      "start": 4.64,
+      "end": 5.12
+    },
+    {
+      "text": "يخسر",
+      "type": "word",
+      "start": 5.24,
+      "end": 5.52
+    },
+    {
+      "text": "الدهون",
+      "type": "word",
+      "start": 5.56,
+      "end": 6.08
+    },
+    {
+      "text": "عندما",
+      "type": "word",
+      "start": 6.32,
+      "end": 6.72
+    },
+    {
+      "text": "يصرف",
+      "type": "word",
+      "start": 6.8,
+      "end": 7.2
+    },
+    {
+      "text": "طاقة",
+      "type": "word",
+      "start": 7.28,
+      "end": 7.76
+    },
+    {
+      "text": "أكثر",
+      "type": "word",
+      "start": 8.0,
+      "end": 8.4
+    },
+    {
+      "text": "مما",
+      "type": "word",
+      "start": 8.48,
+      "end": 8.8
+    },
+    {
+      "text": "يأكل.",
+      "type": "word",
+      "start": 8.84,
+      "end": 9.6
+    },
+    {
+      "text": "وهذا",
+      "type": "word",
+      "start": 9.76,
+      "end": 10.08
+    },
+    {
+      "text": "ما",
+      "type": "word",
+      "start": 10.16,
+      "end": 10.24
+    },
+    {
+      "text": "يسمى",
+      "type": "word",
+      "start": 10.32,
+      "end": 10.8
+    },
+    {
+      "text": "العجز",
+      "type": "word",
+      "start": 10.96,
+      "end": 11.52
+    },
+    {
+      "text": "الحراري.",
+      "type": "word",
+      "start": 11.6,
+      "end": 12.48
+    },
+    {
+      "text": "أحد",
+      "type": "word",
+      "start": 12.56,
+      "end": 12.8
+    },
+    {
+      "text": "الأسباب",
+      "type": "word",
+      "start": 12.92,
+      "end": 13.44
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 13.68,
+      "end": 13.92
+    },
+    {
+      "text": "هذا",
+      "type": "word",
+      "start": 14.0,
+      "end": 14.16
+    },
+    {
+      "text": "الحساب",
+      "type": "word",
+      "start": 14.24,
+      "end": 14.72
+    },
+    {
+      "text": "يتغير:",
+      "type": "word",
+      "start": 14.84,
+      "end": 15.68
+    },
+    {
+      "text": "كلما",
+      "type": "word",
+      "start": 15.84,
+      "end": 16.08
+    },
+    {
+      "text": "نقص",
+      "type": "word",
+      "start": 16.16,
+      "end": 16.56
+    },
+    {
+      "text": "وزنك،",
+      "type": "word",
+      "start": 16.68,
+      "end": 17.36
+    },
+    {
+      "text": "قلّ",
+      "type": "word",
+      "start": 17.48,
+      "end": 17.68
+    },
+    {
+      "text": "ما",
+      "type": "word",
+      "start": 17.76,
+      "end": 17.84
+    },
+    {
+      "text": "يحرقه",
+      "type": "word",
+      "start": 17.92,
+      "end": 18.48
+    },
+    {
+      "text": "جسمك",
+      "type": "word",
+      "start": 18.56,
+      "end": 19.04
+    },
+    {
+      "text": "كل",
+      "type": "word",
+      "start": 19.12,
+      "end": 19.36
+    },
+    {
+      "text": "يوم.",
+      "type": "word",
+      "start": 19.48,
+      "end": 20.0
+    },
+    {
+      "text": "فالعجز",
+      "type": "word",
+      "start": 20.12,
+      "end": 20.48
+    },
+    {
+      "text": "الذي",
+      "type": "word",
+      "start": 20.56,
+      "end": 20.88
+    },
+    {
+      "text": "نجح",
+      "type": "word",
+      "start": 21.08,
+      "end": 21.28
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 21.32,
+      "end": 21.36
+    },
+    {
+      "text": "البداية",
+      "type": "word",
+      "start": 21.4,
+      "end": 21.92
+    },
+    {
+      "text": "قد",
+      "type": "word",
+      "start": 22.24,
+      "end": 22.48
+    },
+    {
+      "text": "يصغر",
+      "type": "word",
+      "start": 22.6,
+      "end": 22.88
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 22.96,
+      "end": 23.04
+    },
+    {
+      "text": "الوقت.",
+      "type": "word",
+      "start": 23.12,
+      "end": 23.6
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 24.08,
+      "end": 25.04
+    },
+    {
+      "text": "راجع",
+      "type": "word",
+      "start": 25.12,
+      "end": 25.44
+    },
+    {
+      "text": "سعراتك",
+      "type": "word",
+      "start": 25.52,
+      "end": 26.16
+    },
+    {
+      "text": "كل",
+      "type": "word",
+      "start": 26.24,
+      "end": 26.56
+    },
+    {
+      "text": "بضعة",
+      "type": "word",
+      "start": 26.6,
+      "end": 26.96
+    },
+    {
+      "text": "أسابيع،",
+      "type": "word",
+      "start": 27.08,
+      "end": 27.84
+    },
+    {
+      "text": "وتناول",
+      "type": "word",
+      "start": 27.92,
+      "end": 28.48
+    },
+    {
+      "text": "بروتينًا",
+      "type": "word",
+      "start": 28.56,
+      "end": 29.04
+    },
+    {
+      "text": "كافيًا،",
+      "type": "word",
+      "start": 29.12,
+      "end": 29.92
+    },
+    {
+      "text": "ومارس",
+      "type": "word",
+      "start": 30.04,
+      "end": 30.4
+    },
+    {
+      "text": "تمارين",
+      "type": "word",
+      "start": 30.52,
+      "end": 30.88
+    },
+    {
+      "text": "المقاومة",
+      "type": "word",
+      "start": 30.96,
+      "end": 31.68
+    },
+    {
+      "text": "لحماية",
+      "type": "word",
+      "start": 31.84,
+      "end": 32.48
+    },
+    {
+      "text": "عضلاتك.",
+      "type": "word",
+      "start": 32.6,
+      "end": 33.6
+    },
+    {
+      "text": "احفظ",
+      "type": "word",
+      "start": 33.68,
+      "end": 33.92
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 34.0,
+      "end": 34.48
+    },
+    {
+      "text": "وشاركه",
+      "type": "word",
+      "start": 34.64,
+      "end": 35.28
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 35.36,
+      "end": 35.44
+    },
+    {
+      "text": "صديق",
+      "type": "word",
+      "start": 35.52,
+      "end": 36.0
+    },
+    {
+      "text": "يبدأ",
+      "type": "word",
+      "start": 36.08,
+      "end": 36.4
+    },
+    {
+      "text": "حميته.",
+      "type": "word",
+      "start": 36.48,
+      "end": 37.36
+    }
+  ],
+  "audio": "r001_narration.mp3"
+}
