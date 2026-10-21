@@ -15,10 +15,11 @@
     {
       "id": "r001",
       "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
-      "status": "queued",
+      "status": "review",
       "queued_at": "2026-10-21T05:00:00+03:00",
       "narration_credits": 381,
-      "note": "Owner's request 2026-10-21. Not for the scheduled run: publish only on the owner's decision (status 'review' after rendering)."
+      "note": "Owner's request 2026-10-21. Not for the scheduled run: publish only on the owner's decision (status 'review' after rendering).",
+      "rendered_video": "reels/r001/r001-video-0ec769d4ef.mp4"
     },
     {
       "id": "r002",
