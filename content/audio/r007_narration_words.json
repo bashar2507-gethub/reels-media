@@ -1,0 +1,764 @@
+{
+  "voice": "Jeddawi Echo Arabic Saudi",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "PVNfas4AAuDX3xiQsz62",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-21",
+  "credits": 777,
+  "duration_s": 66.24,
+  "words": [
+    {
+      "text": "بدأت",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "text": "كرياتين",
+      "type": "word",
+      "start": 0.52,
+      "end": 1.04
+    },
+    {
+      "text": "ووزنك",
+      "type": "word",
+      "start": 1.28,
+      "end": 1.76
+    },
+    {
+      "text": "زاد؟",
+      "type": "word",
+      "start": 1.96,
+      "end": 2.4
+    },
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 2.64,
+      "end": 2.72
+    },
+    {
+      "text": "هذا",
+      "type": "word",
+      "start": 2.8,
+      "end": 3.04
+    },
+    {
+      "text": "يعني",
+      "type": "word",
+      "start": 3.12,
+      "end": 3.36
+    },
+    {
+      "text": "إنك",
+      "type": "word",
+      "start": 3.48,
+      "end": 3.68
+    },
+    {
+      "text": "بنيت",
+      "type": "word",
+      "start": 3.8,
+      "end": 4.0
+    },
+    {
+      "text": "عضلات،",
+      "type": "word",
+      "start": 4.12,
+      "end": 4.88
+    },
+    {
+      "text": "ولا",
+      "type": "word",
+      "start": 5.0,
+      "end": 5.12
+    },
+    {
+      "text": "جسمك",
+      "type": "word",
+      "start": 5.2,
+      "end": 5.68
+    },
+    {
+      "text": "بس",
+      "type": "word",
+      "start": 5.8,
+      "end": 5.92
+    },
+    {
+      "text": "احتبس",
+      "type": "word",
+      "start": 6.0,
+      "end": 6.4
+    },
+    {
+      "text": "ماء؟",
+      "type": "word",
+      "start": 6.52,
+      "end": 7.04
+    },
+    {
+      "text": "الحقيقة",
+      "type": "word",
+      "start": 7.12,
+      "end": 7.68
+    },
+    {
+      "text": "إن",
+      "type": "word",
+      "start": 7.92,
+      "end": 8.08
+    },
+    {
+      "text": "الكرياتين",
+      "type": "word",
+      "start": 8.12,
+      "end": 8.72
+    },
+    {
+      "text": "ممكن",
+      "type": "word",
+      "start": 8.8,
+      "end": 9.12
+    },
+    {
+      "text": "يعمل",
+      "type": "word",
+      "start": 9.2,
+      "end": 9.44
+    },
+    {
+      "text": "الاثنين:",
+      "type": "word",
+      "start": 9.52,
+      "end": 10.32
+    },
+    {
+      "text": "يساعدك",
+      "type": "word",
+      "start": 10.44,
+      "end": 10.88
+    },
+    {
+      "text": "تطور",
+      "type": "word",
+      "start": 11.08,
+      "end": 11.28
+    },
+    {
+      "text": "أداءك",
+      "type": "word",
+      "start": 11.36,
+      "end": 11.76
+    },
+    {
+      "text": "بالتمرين،",
+      "type": "word",
+      "start": 11.84,
+      "end": 12.72
+    },
+    {
+      "text": "ويزيد",
+      "type": "word",
+      "start": 12.84,
+      "end": 13.2
+    },
+    {
+      "text": "كمية",
+      "type": "word",
+      "start": 13.32,
+      "end": 13.68
+    },
+    {
+      "text": "الماء",
+      "type": "word",
+      "start": 13.8,
+      "end": 14.08
+    },
+    {
+      "text": "داخل",
+      "type": "word",
+      "start": 14.16,
+      "end": 14.48
+    },
+    {
+      "text": "العضلات،",
+      "type": "word",
+      "start": 14.52,
+      "end": 15.28
+    },
+    {
+      "text": "خصوصاً",
+      "type": "word",
+      "start": 15.36,
+      "end": 15.92
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 16.0,
+      "end": 16.08
+    },
+    {
+      "text": "بداية",
+      "type": "word",
+      "start": 16.2,
+      "end": 16.48
+    },
+    {
+      "text": "الاستخدام.",
+      "type": "word",
+      "start": 16.56,
+      "end": 17.44
+    },
+    {
+      "text": "الكرياتين",
+      "type": "word",
+      "start": 17.52,
+      "end": 18.16
+    },
+    {
+      "text": "بيساعد",
+      "type": "word",
+      "start": 18.24,
+      "end": 18.64
+    },
+    {
+      "text": "عضلاتك",
+      "type": "word",
+      "start": 18.72,
+      "end": 19.28
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 19.4,
+      "end": 19.52
+    },
+    {
+      "text": "توفير",
+      "type": "word",
+      "start": 19.56,
+      "end": 19.92
+    },
+    {
+      "text": "الطاقة",
+      "type": "word",
+      "start": 20.0,
+      "end": 20.4
+    },
+    {
+      "text": "خلال",
+      "type": "word",
+      "start": 20.48,
+      "end": 20.8
+    },
+    {
+      "text": "الجهد",
+      "type": "word",
+      "start": 20.88,
+      "end": 21.2
+    },
+    {
+      "text": "العالي،",
+      "type": "word",
+      "start": 21.28,
+      "end": 21.92
+    },
+    {
+      "text": "مثل",
+      "type": "word",
+      "start": 22.08,
+      "end": 22.24
+    },
+    {
+      "text": "رفع",
+      "type": "word",
+      "start": 22.36,
+      "end": 22.48
+    },
+    {
+      "text": "الأوزان.",
+      "type": "word",
+      "start": 22.56,
+      "end": 23.28
+    },
+    {
+      "text": "ومع",
+      "type": "word",
+      "start": 23.36,
+      "end": 23.52
+    },
+    {
+      "text": "التدريب",
+      "type": "word",
+      "start": 23.56,
+      "end": 24.0
+    },
+    {
+      "text": "المنتظم،",
+      "type": "word",
+      "start": 24.08,
+      "end": 24.88
+    },
+    {
+      "text": "ممكن",
+      "type": "word",
+      "start": 24.96,
+      "end": 25.28
+    },
+    {
+      "text": "يساعدك",
+      "type": "word",
+      "start": 25.36,
+      "end": 25.76
+    },
+    {
+      "text": "تحقق",
+      "type": "word",
+      "start": 26.0,
+      "end": 26.24
+    },
+    {
+      "text": "قوة",
+      "type": "word",
+      "start": 26.32,
+      "end": 26.64
+    },
+    {
+      "text": "أكبر",
+      "type": "word",
+      "start": 26.68,
+      "end": 27.04
+    },
+    {
+      "text": "وتبني",
+      "type": "word",
+      "start": 27.28,
+      "end": 27.76
+    },
+    {
+      "text": "كتلة",
+      "type": "word",
+      "start": 27.84,
+      "end": 28.08
+    },
+    {
+      "text": "عضلية",
+      "type": "word",
+      "start": 28.2,
+      "end": 28.64
+    },
+    {
+      "text": "أكثر",
+      "type": "word",
+      "start": 28.84,
+      "end": 29.04
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 29.12,
+      "end": 29.2
+    },
+    {
+      "text": "الوقت.",
+      "type": "word",
+      "start": 29.24,
+      "end": 29.68
+    },
+    {
+      "text": "مش",
+      "type": "word",
+      "start": 30.0,
+      "end": 30.24
+    },
+    {
+      "text": "بالضرورة!",
+      "type": "word",
+      "start": 30.32,
+      "end": 30.88
+    },
+    {
+      "text": "الزيادة",
+      "type": "word",
+      "start": 31.2,
+      "end": 31.68
+    },
+    {
+      "text": "الأولية",
+      "type": "word",
+      "start": 31.76,
+      "end": 32.24
+    },
+    {
+      "text": "بالميزان",
+      "type": "word",
+      "start": 32.28,
+      "end": 32.88
+    },
+    {
+      "text": "ممكن",
+      "type": "word",
+      "start": 33.12,
+      "end": 33.44
+    },
+    {
+      "text": "تكون",
+      "type": "word",
+      "start": 33.6,
+      "end": 33.76
+    },
+    {
+      "text": "بسبب",
+      "type": "word",
+      "start": 33.84,
+      "end": 34.24
+    },
+    {
+      "text": "الماء،",
+      "type": "word",
+      "start": 34.36,
+      "end": 34.88
+    },
+    {
+      "text": "مش",
+      "type": "word",
+      "start": 34.96,
+      "end": 35.04
+    },
+    {
+      "text": "الدهون.",
+      "type": "word",
+      "start": 35.12,
+      "end": 35.84
+    },
+    {
+      "text": "لكن",
+      "type": "word",
+      "start": 35.96,
+      "end": 36.16
+    },
+    {
+      "text": "انتبه:",
+      "type": "word",
+      "start": 36.28,
+      "end": 36.96
+    },
+    {
+      "text": "الماء",
+      "type": "word",
+      "start": 37.12,
+      "end": 37.36
+    },
+    {
+      "text": "لحاله",
+      "type": "word",
+      "start": 37.52,
+      "end": 37.92
+    },
+    {
+      "text": "مش",
+      "type": "word",
+      "start": 38.16,
+      "end": 38.32
+    },
+    {
+      "text": "عضلات",
+      "type": "word",
+      "start": 38.44,
+      "end": 38.72
+    },
+    {
+      "text": "جديدة،",
+      "type": "word",
+      "start": 38.8,
+      "end": 39.44
+    },
+    {
+      "text": "وبناء",
+      "type": "word",
+      "start": 39.56,
+      "end": 39.84
+    },
+    {
+      "text": "العضلات",
+      "type": "word",
+      "start": 39.92,
+      "end": 40.48
+    },
+    {
+      "text": "يحتاج",
+      "type": "word",
+      "start": 40.52,
+      "end": 40.96
+    },
+    {
+      "text": "تدريباً",
+      "type": "word",
+      "start": 41.08,
+      "end": 41.6
+    },
+    {
+      "text": "وتغذية",
+      "type": "word",
+      "start": 41.68,
+      "end": 42.24
+    },
+    {
+      "text": "مناسبين.",
+      "type": "word",
+      "start": 42.44,
+      "end": 43.12
+    },
+    {
+      "text": "لأغلب",
+      "type": "word",
+      "start": 43.2,
+      "end": 43.6
+    },
+    {
+      "text": "البالغين",
+      "type": "word",
+      "start": 43.68,
+      "end": 44.16
+    },
+    {
+      "text": "الأصحاء،",
+      "type": "word",
+      "start": 44.28,
+      "end": 45.12
+    },
+    {
+      "text": "جرعة",
+      "type": "word",
+      "start": 45.24,
+      "end": 45.52
+    },
+    {
+      "text": "ثلاثة",
+      "type": "word",
+      "start": 45.72,
+      "end": 46.08
+    },
+    {
+      "text": "إلى",
+      "type": "word",
+      "start": 46.12,
+      "end": 46.32
+    },
+    {
+      "text": "خمسة",
+      "type": "word",
+      "start": 46.4,
+      "end": 46.68
+    },
+    {
+      "text": "غرامات",
+      "type": "word",
+      "start": 46.72,
+      "end": 47.12
+    },
+    {
+      "text": "يومياً",
+      "type": "word",
+      "start": 47.2,
+      "end": 47.68
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 47.76,
+      "end": 47.84
+    },
+    {
+      "text": "الكرياتين",
+      "type": "word",
+      "start": 47.92,
+      "end": 48.4
+    },
+    {
+      "text": "مونوهيدرات",
+      "type": "word",
+      "start": 48.48,
+      "end": 49.28
+    },
+    {
+      "text": "خيار",
+      "type": "word",
+      "start": 49.52,
+      "end": 49.84
+    },
+    {
+      "text": "شائع",
+      "type": "word",
+      "start": 49.92,
+      "end": 50.32
+    },
+    {
+      "text": "ومدروس.",
+      "type": "word",
+      "start": 50.4,
+      "end": 51.28
+    },
+    {
+      "text": "والأهم",
+      "type": "word",
+      "start": 51.32,
+      "end": 51.84
+    },
+    {
+      "text": "الاستمرار،",
+      "type": "word",
+      "start": 52.16,
+      "end": 53.2
+    },
+    {
+      "text": "مش",
+      "type": "word",
+      "start": 53.28,
+      "end": 53.36
+    },
+    {
+      "text": "توقيت",
+      "type": "word",
+      "start": 53.52,
+      "end": 53.76
+    },
+    {
+      "text": "الجرعة.",
+      "type": "word",
+      "start": 53.84,
+      "end": 54.56
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 54.64,
+      "end": 55.52
+    },
+    {
+      "text": "الكرياتين",
+      "type": "word",
+      "start": 55.6,
+      "end": 56.24
+    },
+    {
+      "text": "مش",
+      "type": "word",
+      "start": 56.32,
+      "end": 56.48
+    },
+    {
+      "text": "مجرد",
+      "type": "word",
+      "start": 56.56,
+      "end": 56.96
+    },
+    {
+      "text": "احتباس",
+      "type": "word",
+      "start": 57.04,
+      "end": 57.44
+    },
+    {
+      "text": "ماء،",
+      "type": "word",
+      "start": 57.52,
+      "end": 57.92
+    },
+    {
+      "text": "ومش",
+      "type": "word",
+      "start": 58.08,
+      "end": 58.32
+    },
+    {
+      "text": "مكمل",
+      "type": "word",
+      "start": 58.4,
+      "end": 58.8
+    },
+    {
+      "text": "سحري.",
+      "type": "word",
+      "start": 58.88,
+      "end": 59.44
+    },
+    {
+      "text": "هو",
+      "type": "word",
+      "start": 59.52,
+      "end": 59.68
+    },
+    {
+      "text": "أداة",
+      "type": "word",
+      "start": 59.76,
+      "end": 60.08
+    },
+    {
+      "text": "تساعدك",
+      "type": "word",
+      "start": 60.16,
+      "end": 60.64
+    },
+    {
+      "text": "تتمرن",
+      "type": "word",
+      "start": 60.72,
+      "end": 61.2
+    },
+    {
+      "text": "بكفاءة",
+      "type": "word",
+      "start": 61.32,
+      "end": 61.76
+    },
+    {
+      "text": "أعلى،",
+      "type": "word",
+      "start": 61.84,
+      "end": 62.4
+    },
+    {
+      "text": "والنتائج",
+      "type": "word",
+      "start": 62.48,
+      "end": 63.12
+    },
+    {
+      "text": "تعتمد",
+      "type": "word",
+      "start": 63.28,
+      "end": 63.76
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 63.84,
+      "end": 64.0
+    },
+    {
+      "text": "تدريبك",
+      "type": "word",
+      "start": 64.24,
+      "end": 64.64
+    },
+    {
+      "text": "وأكلك",
+      "type": "word",
+      "start": 64.8,
+      "end": 65.44
+    },
+    {
+      "text": "ونومك.",
+      "type": "word",
+      "start": 65.6,
+      "end": 66.32
+    }
+  ],
+  "audio": "r007_narration.mp3"
+}
