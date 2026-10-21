@@ -49,7 +49,7 @@
         0.3,
         0.0
       ],
-      "image_prompt": "An athletic adult running on a treadmill in a dark gym, side view, motion and effort, the head out of frame",
+      "image_prompt": "Close-up of running shoes and lower legs in motion on a treadmill belt in a dark gym, side view, motion blur, no upper body",
       "image_style": "athlete",
       "sentences": [
         {
@@ -152,7 +152,7 @@
         -0.25,
         0.0
       ],
-      "image_prompt": "A muscular arm lifting a heavy plain hexagonal dumbbell in a dark gym, seen from behind the shoulder, the head out of frame",
+      "image_prompt": "A muscular man seen from behind in a dark gym holding two plain hexagonal dumbbells at his sides, broad back and shoulder muscles clearly defined, head turned away",
       "image_style": "athlete",
       "sentences": [
         {
@@ -203,5 +203,9 @@
       "لياقة"
     ],
     "caption": "لماذا قد يتوقف نزول وزنك رغم التزامك بالحمية؟\n\nجسمك يخسر الدهون عندما يصرف طاقة أكثر مما يأكل، وهذا هو العجز الحراري. لكن كلما نقص وزنك قلّ ما يحرقه جسمك كل يوم، فقد يصغر العجز الذي نجح في البداية.\n\nالخلاصة:\n• راجع سعراتك كل بضعة أسابيع\n• تناول بروتينًا كافيًا\n• مارس تمارين المقاومة لحماية عضلاتك\n\n📌 احفظ المقطع وشاركه مع صديق يبدأ حميته.\n\nالمصادر:\nHall et al., The Lancet, 2011\nCava et al., Advances in Nutrition, 2017\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#خسارة_الوزن #العجز_الحراري #رجيم #تمارين_المقاومة #بروتين #لياقة #تغذية_صحية"
+  },
+  "gaps": {
+    "sentence": 0,
+    "scene": 0
   }
 }

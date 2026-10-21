@@ -68,6 +68,8 @@ def main() -> int:
     visuals, image_report = scene_images(script["scenes"], out / "visuals",
                                          token=os.environ.get("HF_TOKEN"), mode=args.visuals)
     gaps = {"sentence_gap": args.sentence_gap, "scene_gap": args.scene_gap}
+    if "gaps" in script:  # per-Reel pauses added between sentences/scenes, e.g. 0 for a voice with natural pauses
+        gaps = {"sentence_gap": float(script["gaps"].get("sentence", 0)), "scene_gap": float(script["gaps"].get("scene", 0))}
     if args.narration:
         meta = json.loads(args.narration.read_text(encoding="utf-8"))
         (out / "audio").mkdir(parents=True, exist_ok=True)

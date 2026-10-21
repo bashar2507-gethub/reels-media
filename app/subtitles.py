@@ -41,6 +41,8 @@ class Layout:
     overlay_sub_font: str = "Cairo SemiBold"
     overlay_sub_size: int = 68
     overlay_sub_y: int = 700
+    # a key point with no figure is shown larger, in the figure's place
+    overlay_note_size: int = 88
     # libass only auto-detects right-to-left base direction when a style's Encoding is -1.
     # With the VSFilter default (1), colour-tagged word runs are laid out left to right and
     # Arabic captions come out in the wrong order. caption_qa checks this on every render.
@@ -134,7 +136,10 @@ def overlay_events(sentence: Sentence, until: float, layout: Layout, spec: Video
     if big:
         events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},Overlay,,0,0,0,,"
                       f"{{\\an5\\pos({x},{layout.overlay_y}){fade}}}{LRI}{big}{PDI}")
-    if small:
+    if small and not big:
+        events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},OverlaySub,,0,0,0,,"
+                      f"{{\\an5\\pos({x},{layout.overlay_y})\\fs{layout.overlay_note_size}{fade}}}{small}")
+    elif small:
         events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},OverlaySub,,0,0,0,,"
                       f"{{\\an5\\pos({x},{layout.overlay_sub_y}){fade}}}{small}")
     return events
