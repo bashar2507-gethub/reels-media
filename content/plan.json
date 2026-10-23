@@ -88,7 +88,7 @@
       "seed_sources": [
         "Nedeltcheva AV et al., Ann Intern Med, 2010"
       ],
-      "status": "scheduled",
+      "status": "published",
       "queued_at": "2026-10-23T19:24:00+03:00",
       "narration_credits": 405,
       "render_run_id": "39986286913",
@@ -96,6 +96,11 @@
       "metricool_post_ids": {
         "instagram": 404343669,
         "youtube": 404343696
+      },
+      "published_at": "2026-10-23T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
+        "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
       }
     },
     {
