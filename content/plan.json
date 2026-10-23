@@ -88,7 +88,9 @@
       "seed_sources": [
         "Nedeltcheva AV et al., Ann Intern Med, 2010"
       ],
-      "status": "planned"
+      "status": "queued",
+      "queued_at": "2026-10-23T19:24:00+03:00",
+      "narration_credits": 405
     },
     {
       "id": "r005",

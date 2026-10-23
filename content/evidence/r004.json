@@ -1,0 +1,71 @@
+{
+  "reel_id": "r004",
+  "reviewed_on": "2026-10-23",
+  "method": "Source found by WebSearch (PubMed record PMID 20921542) and checked in the PMC author manuscript PMC2951287 (title, authors, journal, year, volume, pages, DOI, design, size, Table 1 results, abstract results and conclusions).",
+  "claims": [
+    {
+      "claim_id": "r004-c1",
+      "claim": "في تجربة صغيرة، اتبع عشرة أشخاص حمية لأسبوعين مرتين: مرة بفرصة نوم ثماني ساعات ونصف، ومرة خمس ساعات ونصف.",
+      "source_title": "Insufficient sleep undermines dietary efforts to reduce adiposity",
+      "authors": "Nedeltcheva AV, Kilkus JM, Imperial J, Schoeller DA, Penev PD",
+      "year": 2010,
+      "journal": "Annals of Internal Medicine, 153(7):435-441",
+      "DOI_or_URL": "https://doi.org/10.1059/0003-4819-153-7-201010050-00006 | PMID 20921542 | https://pmc.ncbi.nlm.nih.gov/articles/PMC2951287/",
+      "study_type": "Randomized two-period crossover trial (sleep laboratory, University of Chicago)",
+      "population": "Overweight, sedentary, non-smoking adults aged 35-49 (mean age 41, mean BMI 27.4); 3 women, 7 men",
+      "sample_size_if_known": "12 enrolled, 10 completed",
+      "main_finding": "Each participant did two 14-day periods of moderate calorie restriction (90% of resting metabolic rate) with 8.5 h or 5.5 h time in bed, in random order, at least 3 months apart (measured sleep 7h25 vs 5h14).",
+      "limitations": "Very small (n=10) and short (14 days per condition); fat-free mass loss includes water and other lean tissue, not only muscle; laboratory setting; a single study.",
+      "confidence": "high",
+      "script_usage": "s2"
+    },
+    {
+      "claim_id": "r004-c2",
+      "claim": "نقص الوزن تقريبًا بالقدر نفسه.",
+      "source_title": "Insufficient sleep undermines dietary efforts to reduce adiposity",
+      "authors": "Nedeltcheva AV, Kilkus JM, Imperial J, Schoeller DA, Penev PD",
+      "year": 2010,
+      "journal": "Annals of Internal Medicine, 153(7):435-441",
+      "DOI_or_URL": "https://doi.org/10.1059/0003-4819-153-7-201010050-00006 | PMID 20921542 | https://pmc.ncbi.nlm.nih.gov/articles/PMC2951287/",
+      "study_type": "Randomized two-period crossover trial (sleep laboratory, University of Chicago)",
+      "population": "Overweight, sedentary, non-smoking adults aged 35-49 (mean age 41, mean BMI 27.4); 3 women, 7 men",
+      "sample_size_if_known": "12 enrolled, 10 completed",
+      "main_finding": "Total weight loss was similar: 2.9 kg (8.5 h) vs 3.0 kg (5.5 h), P=0.24.",
+      "limitations": "Very small (n=10) and short (14 days per condition); fat-free mass loss includes water and other lean tissue, not only muscle; laboratory setting; a single study.",
+      "confidence": "high",
+      "script_usage": "s3, sentence 1"
+    },
+    {
+      "claim_id": "r004-c3",
+      "claim": "لكن مع النوم القصير خسروا دهونًا أقل بنحو النصف، وكتلة خالية من الدهون أكثر، كالعضل والماء.",
+      "source_title": "Insufficient sleep undermines dietary efforts to reduce adiposity",
+      "authors": "Nedeltcheva AV, Kilkus JM, Imperial J, Schoeller DA, Penev PD",
+      "year": 2010,
+      "journal": "Annals of Internal Medicine, 153(7):435-441",
+      "DOI_or_URL": "https://doi.org/10.1059/0003-4819-153-7-201010050-00006 | PMID 20921542 | https://pmc.ncbi.nlm.nih.gov/articles/PMC2951287/",
+      "study_type": "Randomized two-period crossover trial (sleep laboratory, University of Chicago)",
+      "population": "Overweight, sedentary, non-smoking adults aged 35-49 (mean age 41, mean BMI 27.4); 3 women, 7 men",
+      "sample_size_if_known": "12 enrolled, 10 completed",
+      "main_finding": "Sleep curtailment decreased fat loss by 55% (1.4 vs 0.6 kg, P=0.043) and increased loss of fat-free body mass by 60% (1.5 vs 2.4 kg, P=0.002); also increased hunger and lower fat oxidation (higher RQ).",
+      "limitations": "Very small (n=10) and short (14 days per condition); fat-free mass loss includes water and other lean tissue, not only muscle; laboratory setting; a single study.",
+      "confidence": "moderate",
+      "script_usage": "s3, sentence 2 (overlay 55%)"
+    },
+    {
+      "claim_id": "r004-c4",
+      "claim": "إن كنت تتبع حمية، فاجعل نومك جزءًا من خطتك. الدراسة صغيرة وقصيرة، فنتيجتها أولية.",
+      "source_title": "Insufficient sleep undermines dietary efforts to reduce adiposity",
+      "authors": "Nedeltcheva AV, Kilkus JM, Imperial J, Schoeller DA, Penev PD",
+      "year": 2010,
+      "journal": "Annals of Internal Medicine, 153(7):435-441",
+      "DOI_or_URL": "https://doi.org/10.1059/0003-4819-153-7-201010050-00006 | PMID 20921542 | https://pmc.ncbi.nlm.nih.gov/articles/PMC2951287/",
+      "study_type": "Randomized two-period crossover trial (sleep laboratory, University of Chicago)",
+      "population": "Overweight, sedentary, non-smoking adults aged 35-49 (mean age 41, mean BMI 27.4); 3 women, 7 men",
+      "sample_size_if_known": "12 enrolled, 10 completed",
+      "main_finding": "Authors' conclusion: lack of sufficient sleep may compromise the efficacy of typical dietary interventions for weight loss. The script states the study is small and the result preliminary.",
+      "limitations": "Very small (n=10) and short (14 days per condition); fat-free mass loss includes water and other lean tissue, not only muscle; laboratory setting; a single study.",
+      "confidence": "moderate",
+      "script_usage": "s4"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "reel_id": "r004",
+  "script": {
+    "reel_id": "r004",
+    "status": "DRAFT",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r004.json",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r004-s1",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_prompt": "A dim bedroom at night: an unmade bed with rumpled white sheets lit by cool blue moonlight from a window, a plain bowl of salad on the bedside table, moody cinematic lighting",
+        "sentences": [
+          {
+            "say": "هل قلة النوم تجعل وزنك ينزل من العضل لا من الدهون؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r004-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.07,
+          1.0
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_prompt": "A plain analog alarm clock with a blank white face and no numbers on a wooden nightstand beside a folded grey blanket, soft warm lamp light, shallow depth of field",
+        "sentences": [
+          {
+            "say": "في تجربة صغيرة، اتبع عشرة أشخاص حمية لأسبوعين مرتين: مرة بفرصة نوم ثماني ساعات ونصف، ومرة خمس ساعات ونصف.",
+            "show": "في تجربة صغيرة، | اتبع عشرة أشخاص | حمية لأسبوعين مرتين: | مرة بفرصة نوم | ثماني ساعات ونصف، | ومرة خمس ساعات ونصف.",
+            "overlay": {
+              "big": "8.5 / 5.5",
+              "small": "ساعات فرصة النوم في الفترتين",
+              "from": "ثماني"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r004-s3",
+        "fallback": "scale",
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_prompt": "Detailed 3D anatomical illustration of human thigh muscles with visible muscle fibres, dark studio background",
+        "image_style": "anatomy",
+        "sentences": [
+          {
+            "say": "نقص الوزن تقريبًا بالقدر نفسه."
+          },
+          {
+            "say": "لكن مع النوم القصير خسروا دهونًا أقل بنحو النصف، وكتلة خالية من الدهون أكثر، كالعضل والماء.",
+            "show": "لكن مع النوم القصير | خسروا دهونًا أقل | بنحو النصف، | وكتلة خالية من الدهون | أكثر، كالعضل والماء.",
+            "overlay": {
+              "big": "55%",
+              "small": "دهون أقل فُقدت مع النوم القصير",
+              "from": "دهونًا"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r004-s4",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.08,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.2
+        ],
+        "image_prompt": "A neatly made bed with a soft white pillow and a folded linen blanket in a calm, softly lit bedroom at dawn, warm natural light",
+        "sentences": [
+          {
+            "say": "إن كنت تتبع حمية، فاجعل نومك جزءًا من خطتك."
+          },
+          {
+            "say": "الدراسة صغيرة وقصيرة، فنتيجتها أولية."
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r004-s5",
+        "fallback": "bookmark",
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_prompt": "A steaming cup of chamomile tea in a plain white ceramic mug on a wooden bedside table next to a dimmed lamp, cozy evening light",
+        "sentences": [
+          {
+            "say": "شارك المقطع مع صديق يسهر وهو يتبع حمية."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "قلة النوم أثناء الحمية: هل تخسر عضلًا بدل الدهون؟",
+      "youtube_tags": [
+        "النوم",
+        "خسارة الدهون",
+        "رجيم",
+        "حمية",
+        "خسارة الوزن",
+        "لياقة",
+        "الكتلة العضلية"
+      ],
+      "caption": "هل قلة النوم تجعل وزنك ينزل من العضل لا من الدهون؟\n\nفي تجربة صغيرة، اتبع عشرة بالغين ممن لديهم وزن زائد حمية لمدة أسبوعين مرتين: مرة بفرصة نوم ثماني ساعات ونصف، ومرة خمس ساعات ونصف. نقص وزنهم تقريبًا بالقدر نفسه، لكن مع النوم القصير خسروا دهونًا أقل بنحو 55%، وخسروا كتلة خالية من الدهون (كالعضل والماء) أكثر بنحو 60%.\n\nالخلاصة:\n• النوم قد يؤثر في نوع الوزن الذي تخسره، لا في مقداره فقط\n• إن كنت تتبع حمية، فاجعل نومك جزءًا من خطتك\n• الدراسة صغيرة وقصيرة، فخذ نتيجتها بحذر\n\n💬 شارك المقطع مع صديق يسهر وهو يتبع حمية.\n\nالمصدر:\nNedeltcheva et al., Annals of Internal Medicine, 2010\n\n🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#النوم #خسارة_الدهون #رجيم #حمية #خسارة_الوزن #لياقة #تغذية_صحية"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/reSbiwPi8Nn3j1gcX8wH/7MtiyHOd2gFIy79AIukk/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T162135Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=82f18bbfcbd69b0d7cbdef5974444bb1be85f4e31d135d5c2ba7c4382502f522a75ec696b3af2b29fe024fbf78280f11c815f66a08865841981f678e70a78821908d6888d0f4ffebf63e7389ab161ea25b4024ecb4e4c46e037ce4b47e2a894ed93d546f30ede1b074a212c4b5469da07b78cac4d316b1a0da4b730ba73b91933713a913edaed9fdbaada8a7b18d77218c2547c839325c3a06cfc75d014468a038f837013ca8d56d11f4bfff517f21974427d023bc0a51f9b3d750bc539b4d4738468bc8ba4c69f4c786f03fddad4ef4669f3bcea41f4d9a5f1aaf72f72ae3d73e4a46622f123212984ef69d05c78cd2fd79a7ba88ff41062aa34e6bcfd7504e",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/gWgIeYzqZtrTMCxTjsWG/98w91QiE44FTLeeLHfuv/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T162223Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-98w91QiE44FTLeeLHfuv-words.json%22&X-Goog-Signature=05af3eeef6da4cbabfcb3048481f8511707ed25d32ad7b4f09fecb59511664153ba759493a0dd5c91fbd5fecd462b11249b8d544f8cbc1b70e701f22acf4b768cc6a60ea87b30495e517531bb37e8814ae73909aae2b7abbb7f039c6a39ca53f98771ff8bed757beb6957c307fa3a948fee1213ddd631bce95c0c4e8839e341d8fefb7448784ecccfa7249aad00d61ddb77006f163761357d01bcec8ddde1d85a865e92beb16b8743205d4673ff682edef64d0e37c2694292b72af3fbf8b111290de6c0f300d6151bbf050c3567ec3539c1c50ce9f8451b6d845de1a6782ed0dc8b3f2abaee5bfcad74dab34d22738e531985637d2e32e5266d0eda5aec1dcdf",
+    "voice": "عبدالله سعدون",
+    "voice_id": "t9akNmCDhz230CEXOYmn",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "7MtiyHOd2gFIy79AIukk",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-23"
+  }
+}
