@@ -62,7 +62,7 @@
         "Vispute SS et al., J Strength Cond Res, 2011",
         "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
       ],
-      "status": "scheduled",
+      "status": "published",
       "narration_credits": 786,
       "queued_at": "2026-10-21T04:28:00+03:00",
       "render_run_id": "39457940913",
@@ -71,6 +71,11 @@
       "metricool_post_ids": {
         "instagram": 401671622,
         "youtube": 401671669
+      },
+      "published_at": "2026-10-22T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
+        "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
       }
     },
     {
