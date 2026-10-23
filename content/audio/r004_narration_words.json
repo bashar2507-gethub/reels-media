@@ -1,0 +1,450 @@
+{
+  "voice": "عبدالله سعدون",
+  "voice_id": "t9akNmCDhz230CEXOYmn",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "7MtiyHOd2gFIy79AIukk",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-23",
+  "words": [
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "text": "قلة",
+      "type": "word",
+      "start": 0.36,
+      "end": 0.56
+    },
+    {
+      "text": "النوم",
+      "type": "word",
+      "start": 0.64,
+      "end": 1.04
+    },
+    {
+      "text": "تجعل",
+      "type": "word",
+      "start": 1.12,
+      "end": 1.44
+    },
+    {
+      "text": "وزنك",
+      "type": "word",
+      "start": 1.56,
+      "end": 1.84
+    },
+    {
+      "text": "ينزل",
+      "type": "word",
+      "start": 1.92,
+      "end": 2.24
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 2.32,
+      "end": 2.4
+    },
+    {
+      "text": "العضل",
+      "type": "word",
+      "start": 2.48,
+      "end": 2.88
+    },
+    {
+      "text": "لا",
+      "type": "word",
+      "start": 3.12,
+      "end": 3.28
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 3.36,
+      "end": 3.44
+    },
+    {
+      "text": "الدهون؟",
+      "type": "word",
+      "start": 3.48,
+      "end": 4.16
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 4.4,
+      "end": 4.48
+    },
+    {
+      "text": "تجربة",
+      "type": "word",
+      "start": 4.56,
+      "end": 4.96
+    },
+    {
+      "text": "صغيرة،",
+      "type": "word",
+      "start": 5.04,
+      "end": 5.76
+    },
+    {
+      "text": "اتبع",
+      "type": "word",
+      "start": 5.88,
+      "end": 6.24
+    },
+    {
+      "text": "عشرة",
+      "type": "word",
+      "start": 6.32,
+      "end": 6.64
+    },
+    {
+      "text": "أشخاص",
+      "type": "word",
+      "start": 6.88,
+      "end": 7.12
+    },
+    {
+      "text": "حمية",
+      "type": "word",
+      "start": 7.2,
+      "end": 7.52
+    },
+    {
+      "text": "لأسبوعين",
+      "type": "word",
+      "start": 7.56,
+      "end": 8.16
+    },
+    {
+      "text": "مرتين:",
+      "type": "word",
+      "start": 8.28,
+      "end": 9.12
+    },
+    {
+      "text": "مرة",
+      "type": "word",
+      "start": 9.2,
+      "end": 9.52
+    },
+    {
+      "text": "بفرصة",
+      "type": "word",
+      "start": 9.6,
+      "end": 10.08
+    },
+    {
+      "text": "نوم",
+      "type": "word",
+      "start": 10.12,
+      "end": 10.32
+    },
+    {
+      "text": "ثماني",
+      "type": "word",
+      "start": 10.4,
+      "end": 10.64
+    },
+    {
+      "text": "ساعات",
+      "type": "word",
+      "start": 10.72,
+      "end": 11.12
+    },
+    {
+      "text": "ونصف،",
+      "type": "word",
+      "start": 11.24,
+      "end": 11.84
+    },
+    {
+      "text": "ومرة",
+      "type": "word",
+      "start": 11.96,
+      "end": 12.4
+    },
+    {
+      "text": "خمس",
+      "type": "word",
+      "start": 12.48,
+      "end": 12.72
+    },
+    {
+      "text": "ساعات",
+      "type": "word",
+      "start": 12.8,
+      "end": 13.12
+    },
+    {
+      "text": "ونصف.",
+      "type": "word",
+      "start": 13.2,
+      "end": 14.0
+    },
+    {
+      "text": "نقص",
+      "type": "word",
+      "start": 14.16,
+      "end": 14.32
+    },
+    {
+      "text": "الوزن",
+      "type": "word",
+      "start": 14.36,
+      "end": 14.72
+    },
+    {
+      "text": "تقريبًا",
+      "type": "word",
+      "start": 14.84,
+      "end": 15.36
+    },
+    {
+      "text": "بالقدر",
+      "type": "word",
+      "start": 15.48,
+      "end": 15.84
+    },
+    {
+      "text": "نفسه.",
+      "type": "word",
+      "start": 16.0,
+      "end": 16.56
+    },
+    {
+      "text": "لكن",
+      "type": "word",
+      "start": 16.72,
+      "end": 17.04
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 17.36,
+      "end": 17.52
+    },
+    {
+      "text": "النوم",
+      "type": "word",
+      "start": 17.56,
+      "end": 17.76
+    },
+    {
+      "text": "القصير",
+      "type": "word",
+      "start": 17.84,
+      "end": 18.32
+    },
+    {
+      "text": "خسروا",
+      "type": "word",
+      "start": 18.48,
+      "end": 18.88
+    },
+    {
+      "text": "دهونًا",
+      "type": "word",
+      "start": 18.96,
+      "end": 19.36
+    },
+    {
+      "text": "أقل",
+      "type": "word",
+      "start": 19.44,
+      "end": 19.76
+    },
+    {
+      "text": "بنحو",
+      "type": "word",
+      "start": 19.88,
+      "end": 20.16
+    },
+    {
+      "text": "النصف،",
+      "type": "word",
+      "start": 20.2,
+      "end": 20.88
+    },
+    {
+      "text": "وكتلة",
+      "type": "word",
+      "start": 20.96,
+      "end": 21.44
+    },
+    {
+      "text": "خالية",
+      "type": "word",
+      "start": 21.6,
+      "end": 22.0
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 22.08,
+      "end": 22.24
+    },
+    {
+      "text": "الدهون",
+      "type": "word",
+      "start": 22.28,
+      "end": 22.72
+    },
+    {
+      "text": "أكثر،",
+      "type": "word",
+      "start": 22.8,
+      "end": 23.36
+    },
+    {
+      "text": "كالعضل",
+      "type": "word",
+      "start": 23.4,
+      "end": 23.92
+    },
+    {
+      "text": "والماء.",
+      "type": "word",
+      "start": 24.0,
+      "end": 24.88
+    },
+    {
+      "text": "إن",
+      "type": "word",
+      "start": 24.92,
+      "end": 24.96
+    },
+    {
+      "text": "كنت",
+      "type": "word",
+      "start": 25.04,
+      "end": 25.28
+    },
+    {
+      "text": "تتبع",
+      "type": "word",
+      "start": 25.36,
+      "end": 25.76
+    },
+    {
+      "text": "حمية،",
+      "type": "word",
+      "start": 25.88,
+      "end": 26.4
+    },
+    {
+      "text": "فاجعل",
+      "type": "word",
+      "start": 26.44,
+      "end": 26.8
+    },
+    {
+      "text": "نومك",
+      "type": "word",
+      "start": 26.88,
+      "end": 27.36
+    },
+    {
+      "text": "جزءًا",
+      "type": "word",
+      "start": 27.44,
+      "end": 27.84
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 27.92,
+      "end": 28.0
+    },
+    {
+      "text": "خطتك.",
+      "type": "word",
+      "start": 28.08,
+      "end": 28.88
+    },
+    {
+      "text": "الدراسة",
+      "type": "word",
+      "start": 28.96,
+      "end": 29.44
+    },
+    {
+      "text": "صغيرة",
+      "type": "word",
+      "start": 29.52,
+      "end": 29.92
+    },
+    {
+      "text": "وقصيرة،",
+      "type": "word",
+      "start": 30.0,
+      "end": 30.72
+    },
+    {
+      "text": "فنتيجتها",
+      "type": "word",
+      "start": 30.76,
+      "end": 31.52
+    },
+    {
+      "text": "أولية.",
+      "type": "word",
+      "start": 31.56,
+      "end": 32.48
+    },
+    {
+      "text": "شارك",
+      "type": "word",
+      "start": 32.64,
+      "end": 32.8
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 32.88,
+      "end": 33.28
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 33.36,
+      "end": 33.44
+    },
+    {
+      "text": "صديق",
+      "type": "word",
+      "start": 33.52,
+      "end": 33.92
+    },
+    {
+      "text": "يسهر",
+      "type": "word",
+      "start": 34.08,
+      "end": 34.4
+    },
+    {
+      "text": "وهو",
+      "type": "word",
+      "start": 34.48,
+      "end": 34.72
+    },
+    {
+      "text": "يتبع",
+      "type": "word",
+      "start": 34.84,
+      "end": 35.12
+    },
+    {
+      "text": "حمية.",
+      "type": "word",
+      "start": 35.2,
+      "end": 35.76
+    }
+  ],
+  "audio": "r004_narration.mp3"
+}
