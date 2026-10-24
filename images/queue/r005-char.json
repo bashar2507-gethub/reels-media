@@ -1,0 +1,33 @@
+{
+  "purpose": "r005 scene images with the owner's character 'The Blanket'",
+  "width": 720,
+  "height": 1280,
+  "character": "a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, a navy baseball cap with a letter B, a silver whistle on a black cord, khaki cargo shorts, barefoot",
+  "images": [
+    {
+      "key": "s1",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he stands with one hand on his chin, thinking, next to a single plain hexagonal dumbbell on a low stand"
+    },
+    {
+      "key": "s2",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he stands between two identical racks of plain hexagonal dumbbells, looking from one rack to the other, comparing"
+    },
+    {
+      "key": "s3",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he performs a barbell back squat with a plain unmarked barbell, strong and focused, side three-quarter view"
+    },
+    {
+      "key": "s4",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he points at a neat row of plain hexagonal dumbbells arranged from small to large, explaining"
+    },
+    {
+      "key": "s5",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he gives a thumbs up with one hand, the whistle in his other hand, friendly and confident, facing the viewer"
+    }
+  ]
+}

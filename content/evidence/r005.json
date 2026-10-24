@@ -1,0 +1,35 @@
+{
+  "reel_id": "r005",
+  "reviewed_on": "2026-10-24",
+  "method": "Abstract records read directly (lida.sport-iat.de); 2019 review supersedes the 2016 volume-equated finding.",
+  "claims": [
+    {
+      "claim_id": "r005-c1",
+      "claim": "A review of 25 studies found that weekly frequency does not clearly change muscle growth when weekly sets are equal.",
+      "source_title": "How many times per week should a muscle be trained to maximize muscle hypertrophy? A systematic review and meta-analysis of studies examining the effects of resistance training frequency",
+      "authors": "Schoenfeld BJ, Grgic J, Krieger J",
+      "year": 2019,
+      "journal": "Journal of Sports Sciences 37(11):1286-1295",
+      "DOI_or_URL": "https://doi.org/10.1080/02640414.2018.1555906",
+      "study_type": "Systematic review and meta-analysis (25 studies)",
+      "finding": "Volume-equated: no significant difference between frequencies; authors: strong evidence frequency does not meaningfully affect hypertrophy when volume is equated."
+    },
+    {
+      "claim_id": "r005-c2",
+      "claim": "When frequency rose together with weekly sets, growth was slightly greater.",
+      "source_title": "Same review (meta-regression, volume not equated)",
+      "DOI_or_URL": "https://doi.org/10.1080/02640414.2018.1555906",
+      "finding": "Significant effect favouring higher frequencies when volume was not equated; difference between 1 and 3+ days per week described as modest."
+    },
+    {
+      "claim_id": "r005-c3",
+      "claim": "Context: an earlier 2016 meta-analysis (10 studies) favoured twice over once a week.",
+      "source_title": "Effects of Resistance Training Frequency on Measures of Muscle Hypertrophy: A Systematic Review and Meta-Analysis",
+      "authors": "Schoenfeld BJ, Ogborn D, Krieger JW",
+      "year": 2016,
+      "journal": "Sports Medicine 46(11):1689-1697",
+      "DOI_or_URL": "https://doi.org/10.1007/s40279-016-0543-8",
+      "finding": "Twice weekly superior to once with volume equated (10 studies); superseded by the larger 2019 review, so the script follows 2019."
+    }
+  ]
+}

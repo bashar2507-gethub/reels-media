@@ -27,14 +27,19 @@ def character_prompt(scene: str, character: str) -> str:
             "third and the lower third. No text, no captions, no extra letters or numbers anywhere.")
 
 
-def edit_from_reference(reference: Path, prompt: str, token: str, model: str, attempts: int = 3):
+def edit_from_reference(reference: Path, prompt: str, token: str, model: str, attempts: int = 3, size=None):
     import time
     from huggingface_hub import InferenceClient
     client = InferenceClient(provider="auto", api_key=token, timeout=180)
     last = "no attempt"
     for k in range(attempts):
         try:
-            return client.image_to_image(reference.read_bytes(), prompt=prompt, model=model)
+            from huggingface_hub import ImageToImageTargetSize
+            target = ImageToImageTargetSize(width=size[0], height=size[1]) if size else None
+            try:
+                return client.image_to_image(reference.read_bytes(), prompt=prompt, model=model, target_size=target)
+            except TypeError:
+                return client.image_to_image(reference.read_bytes(), prompt=prompt, model=model)
         except Exception as err:
             last = _scrub(f"{type(err).__name__}: {err}", token)
             time.sleep(2 ** k)
@@ -65,7 +70,7 @@ def main() -> int:
         try:
             if item.get("reference"):
                 img = edit_from_reference(Path(item["reference"]), character_prompt(item["prompt"], job.get("character", "")),
-                                          token, job.get("edit_model", EDIT_MODEL))
+                                          token, job.get("edit_model", EDIT_MODEL), size=(w, h))
             else:
                 img = generate(full_prompt(item["prompt"], item.get("style", "still_life")), token, width=w, height=h)
             img.convert("RGB").save(out / f"{key}.jpg", quality=92)

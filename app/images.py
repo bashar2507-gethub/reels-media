@@ -122,6 +122,12 @@ def scene_images(scenes: list[dict], out_dir: Path, token: str | None = None, mo
         if key in visuals:
             continue
         path = out_dir / f"{key}.png"
+        made = scene.get("image_file")  # an image already generated and checked (e.g. the owner's character)
+        if made and Path(made).is_file():
+            grade(fit(Image.open(made))).save(path)
+            visuals[key] = path
+            report["ai"].append(key)
+            continue
         prompt = scene.get("image_prompt")
         if prompt and mode != "procedural":
             if token:
