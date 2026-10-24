@@ -1,0 +1,18 @@
+{
+  "purpose": "Test: exercise poses from the movements sheet",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, khaki cargo shorts",
+  "images": [
+    {
+      "key": "deadlift",
+      "reference": "assets/characters/blanket/move_deadlift.png",
+      "prompt": "he performs a conventional barbell deadlift with a plain unmarked barbell, side three-quarter view, one figure only; remove the second figure, the kettlebell, all arrows, red guide lines and panel numbers"
+    },
+    {
+      "key": "bench",
+      "reference": "assets/characters/blanket/move_bench.png",
+      "prompt": "he performs a barbell bench press on a flat bench with a plain unmarked barbell, feet planted; remove all arrows, red guide lines and panel numbers"
+    }
+  ]
+}
