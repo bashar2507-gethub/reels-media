@@ -1,0 +1,13 @@
+{
+  "purpose": "r005 scene 4 with the anatomy version of The Blanket",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket shown as a muscle-anatomy figure: gray faceless smooth oval head with two round glowing white eyes and no other facial features, the whole body drawn as detailed muscle fibres exactly as in the image",
+  "images": [
+    {
+      "key": "s4",
+      "reference": "assets/characters/blanket/reference_anatomy.png",
+      "prompt": "front view, standing confidently; the chest, shoulders, arms and thigh muscles glow softly in warm amber one group at a time, as if each muscle group is being counted; remove every label, word, arrow and text box from the image"
+    }
+  ]
+}
