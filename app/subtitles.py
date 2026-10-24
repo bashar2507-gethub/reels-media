@@ -133,15 +133,17 @@ def overlay_events(sentence: Sentence, until: float, layout: Layout, spec: Video
             start = spoken[0].start
     x, events = spec.width // 2, []
     fade = "\\fad(150,150)"
+    big_y = int(data.get("y", layout.overlay_y))  # per-overlay height, e.g. above a character's head
+    sub_y = big_y + (layout.overlay_sub_y - layout.overlay_y)
     if big:
         events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},Overlay,,0,0,0,,"
-                      f"{{\\an5\\pos({x},{layout.overlay_y}){fade}}}{LRI}{big}{PDI}")
+                      f"{{\\an5\\pos({x},{big_y}){fade}}}{LRI}{big}{PDI}")
     if small and not big:
         events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},OverlaySub,,0,0,0,,"
-                      f"{{\\an5\\pos({x},{layout.overlay_y})\\fs{layout.overlay_note_size}{fade}}}{small}")
+                      f"{{\\an5\\pos({x},{big_y})\\fs{layout.overlay_note_size}{fade}}}{small}")
     elif small:
         events.append(f"Dialogue: 2,{ass_time(start)},{ass_time(until)},OverlaySub,,0,0,0,,"
-                      f"{{\\an5\\pos({x},{layout.overlay_sub_y}){fade}}}{small}")
+                      f"{{\\an5\\pos({x},{sub_y}){fade}}}{small}")
     return events
 
 
