@@ -49,7 +49,7 @@ Write `content/evidence/<id>.json` in the same shape as `content/evidence/r002.j
 ## 4. Script
 
 Write `content/<id>.json` in the same shape as `content/r002.json`:
-- 55 to 75 spoken Arabic words, 4 to 6 scenes: hook question (scene 1, style "title"),
+- 55 to 75 spoken Arabic words (the Jeddawi Echo voice reads that in about 31-42 s), 4 to 6 scenes: hook question (scene 1, style "title"),
   explanation, practical example or myth correction, takeaway, save or share call to action.
   Vary the call to action between Reels.
 - Hedge where the evidence is limited («قد»، «في دراسة»). No guarantees, no medical advice.
@@ -77,7 +77,7 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
 ## 5. Narration (ElevenLabs connector, about 1 credit per character)
 
 1. `creative_create_flow(name="UXOXU Reel <id>")`.
-2. `creative_generate_speech(flow_id, model_id="eleven_v4", voice_id="t9akNmCDhz230CEXOYmn",
+2. `creative_generate_speech(flow_id, model_id="eleven_v4", voice_id="yXEnnEln9armDCyhkXcA",
    generations_count=1, prompt=narration_text(script))`. One take only. Never call it again to
    retry: if it fails, stop and report.
 3. Poll `creative_get_flow_run_status` until `all_completed`. Keep `generations[0].id` and
@@ -91,7 +91,7 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
 ## 6. Render (GitHub Actions)
 
 1. Write `queue/<id>.json`: `{"reel_id", "script", "narration": {"url", "words_url", "voice":
-   "عبدالله سعدون", "voice_id", "model_id": "eleven_v4", "language_code": "ar", "generation_id",
+   "Jeddawi Echo", "voice_id", "model_id": "eleven_v4", "language_code": "ar", "generation_id",
    "timing_source": "ElevenLabs eleven_scribe_v1 transcription", "generated_on"}}`. Copy the two
    signed links exactly; each signature is 512 hex characters.
 2. Set the plan item to `queued`, commit queue, script, evidence and plan, and push to `main`.
