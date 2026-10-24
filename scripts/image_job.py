@@ -17,6 +17,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app.images import _scrub, clean_token, full_prompt, generate, token_shape  # noqa: E402
 
 
+EDIT_MODEL = "Qwen/Qwen-Image-Edit-2509"  # Apache-2.0; keeps a character from a reference image
+
+
+def character_prompt(scene: str, character: str) -> str:
+    return (f"Keep exactly the same character as in the image: {character}. Same flat cartoon illustration style with "
+            f"clean black outlines and soft cel shading. New scene: {scene.strip().rstrip('.')}. Background: dark "
+            "petrol-teal gym with warm amber rim light. Vertical 9:16 composition with calm empty space in the upper "
+            "third and the lower third. No text, no captions, no extra letters or numbers anywhere.")
+
+
+def edit_from_reference(reference: Path, prompt: str, token: str, model: str, attempts: int = 3):
+    import time
+    from huggingface_hub import InferenceClient
+    client = InferenceClient(provider="auto", api_key=token, timeout=180)
+    last = "no attempt"
+    for k in range(attempts):
+        try:
+            return client.image_to_image(reference.read_bytes(), prompt=prompt, model=model)
+        except Exception as err:
+            last = _scrub(f"{type(err).__name__}: {err}", token)
+            time.sleep(2 ** k)
+    raise RuntimeError(last[:300])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--job-id", required=True)
@@ -39,7 +63,11 @@ def main() -> int:
             status["errors"][key] = "HF_TOKEN is not set"
             continue
         try:
-            img = generate(full_prompt(item["prompt"], item.get("style", "still_life")), token, width=w, height=h)
+            if item.get("reference"):
+                img = edit_from_reference(Path(item["reference"]), character_prompt(item["prompt"], job.get("character", "")),
+                                          token, job.get("edit_model", EDIT_MODEL))
+            else:
+                img = generate(full_prompt(item["prompt"], item.get("style", "still_life")), token, width=w, height=h)
             img.convert("RGB").save(out / f"{key}.jpg", quality=92)
             status["ok"].append(key)
         except Exception as err:
