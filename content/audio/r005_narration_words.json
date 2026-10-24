@@ -1,0 +1,374 @@
+{
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "AdkdT3AnOGk285ajpk3s",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-24",
+  "credits": 352,
+  "duration_s": 33.6,
+  "words": [
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "text": "يكفي",
+      "type": "word",
+      "start": 0.36,
+      "end": 0.64
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 0.72,
+      "end": 0.8
+    },
+    {
+      "text": "تدرّب",
+      "type": "word",
+      "start": 0.88,
+      "end": 1.28
+    },
+    {
+      "text": "العضلة",
+      "type": "word",
+      "start": 1.36,
+      "end": 1.84
+    },
+    {
+      "text": "مرة",
+      "type": "word",
+      "start": 1.92,
+      "end": 2.32
+    },
+    {
+      "text": "واحدة",
+      "type": "word",
+      "start": 2.4,
+      "end": 2.76
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 2.8,
+      "end": 2.88
+    },
+    {
+      "text": "الأسبوع؟",
+      "type": "word",
+      "start": 2.96,
+      "end": 3.72
+    },
+    {
+      "text": "مراجعة",
+      "type": "word",
+      "start": 4.0,
+      "end": 4.56
+    },
+    {
+      "text": "لخمس",
+      "type": "word",
+      "start": 4.64,
+      "end": 4.96
+    },
+    {
+      "text": "وعشرين",
+      "type": "word",
+      "start": 5.12,
+      "end": 5.52
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 5.68,
+      "end": 6.16
+    },
+    {
+      "text": "وجدت",
+      "type": "word",
+      "start": 6.48,
+      "end": 6.96
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 7.08,
+      "end": 7.2
+    },
+    {
+      "text": "عدد",
+      "type": "word",
+      "start": 7.36,
+      "end": 7.52
+    },
+    {
+      "text": "المرات",
+      "type": "word",
+      "start": 7.6,
+      "end": 8.16
+    },
+    {
+      "text": "لا",
+      "type": "word",
+      "start": 8.4,
+      "end": 8.56
+    },
+    {
+      "text": "يغيّر",
+      "type": "word",
+      "start": 8.64,
+      "end": 9.08
+    },
+    {
+      "text": "نمو",
+      "type": "word",
+      "start": 9.12,
+      "end": 9.44
+    },
+    {
+      "text": "العضل",
+      "type": "word",
+      "start": 9.52,
+      "end": 9.92
+    },
+    {
+      "text": "بوضوح،",
+      "type": "word",
+      "start": 10.0,
+      "end": 10.8
+    },
+    {
+      "text": "إذا",
+      "type": "word",
+      "start": 10.88,
+      "end": 11.12
+    },
+    {
+      "text": "تساوى",
+      "type": "word",
+      "start": 11.24,
+      "end": 11.68
+    },
+    {
+      "text": "مجموع",
+      "type": "word",
+      "start": 12.0,
+      "end": 12.48
+    },
+    {
+      "text": "المجموعات",
+      "type": "word",
+      "start": 12.56,
+      "end": 13.2
+    },
+    {
+      "text": "الأسبوعية.",
+      "type": "word",
+      "start": 13.28,
+      "end": 14.12
+    },
+    {
+      "text": "لكن",
+      "type": "word",
+      "start": 14.32,
+      "end": 14.8
+    },
+    {
+      "text": "عندما",
+      "type": "word",
+      "start": 15.12,
+      "end": 15.52
+    },
+    {
+      "text": "زادت",
+      "type": "word",
+      "start": 15.6,
+      "end": 15.92
+    },
+    {
+      "text": "المرات",
+      "type": "word",
+      "start": 16.0,
+      "end": 16.56
+    },
+    {
+      "text": "وزادت",
+      "type": "word",
+      "start": 16.8,
+      "end": 17.32
+    },
+    {
+      "text": "معها",
+      "type": "word",
+      "start": 17.36,
+      "end": 17.68
+    },
+    {
+      "text": "المجموعات،",
+      "type": "word",
+      "start": 17.8,
+      "end": 18.8
+    },
+    {
+      "text": "كان",
+      "type": "word",
+      "start": 18.96,
+      "end": 19.12
+    },
+    {
+      "text": "النمو",
+      "type": "word",
+      "start": 19.16,
+      "end": 19.6
+    },
+    {
+      "text": "أفضل",
+      "type": "word",
+      "start": 19.76,
+      "end": 20.16
+    },
+    {
+      "text": "قليلًا.",
+      "type": "word",
+      "start": 20.24,
+      "end": 20.8
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 21.2,
+      "end": 22.16
+    },
+    {
+      "text": "الأهم",
+      "type": "word",
+      "start": 22.32,
+      "end": 22.72
+    },
+    {
+      "text": "مجموع",
+      "type": "word",
+      "start": 23.04,
+      "end": 23.52
+    },
+    {
+      "text": "مجموعاتك",
+      "type": "word",
+      "start": 23.84,
+      "end": 24.24
+    },
+    {
+      "text": "الأسبوعية",
+      "type": "word",
+      "start": 24.36,
+      "end": 25.04
+    },
+    {
+      "text": "لكل",
+      "type": "word",
+      "start": 25.16,
+      "end": 25.52
+    },
+    {
+      "text": "عضلة،",
+      "type": "word",
+      "start": 25.6,
+      "end": 26.32
+    },
+    {
+      "text": "ووزّعها",
+      "type": "word",
+      "start": 26.4,
+      "end": 27.12
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 27.24,
+      "end": 27.36
+    },
+    {
+      "text": "الأيام",
+      "type": "word",
+      "start": 27.48,
+      "end": 27.84
+    },
+    {
+      "text": "التي",
+      "type": "word",
+      "start": 27.92,
+      "end": 28.16
+    },
+    {
+      "text": "تناسبك.",
+      "type": "word",
+      "start": 28.24,
+      "end": 29.08
+    },
+    {
+      "text": "شارك",
+      "type": "word",
+      "start": 29.28,
+      "end": 29.6
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 29.68,
+      "end": 30.16
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 30.24,
+      "end": 30.4
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 30.48,
+      "end": 30.56
+    },
+    {
+      "text": "يدرّب",
+      "type": "word",
+      "start": 30.64,
+      "end": 31.12
+    },
+    {
+      "text": "كل",
+      "type": "word",
+      "start": 31.2,
+      "end": 31.44
+    },
+    {
+      "text": "عضلة",
+      "type": "word",
+      "start": 31.52,
+      "end": 32.08
+    },
+    {
+      "text": "مرة",
+      "type": "word",
+      "start": 32.32,
+      "end": 32.56
+    },
+    {
+      "text": "واحدة",
+      "type": "word",
+      "start": 32.64,
+      "end": 33.04
+    },
+    {
+      "text": "فقط.",
+      "type": "word",
+      "start": 33.12,
+      "end": 33.68
+    }
+  ],
+  "audio": "r005_narration.mp3"
+}
