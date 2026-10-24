@@ -1,6 +1,6 @@
 {
   "reel_id": "r005",
-  "status": "SCRIPTED",
+  "status": "SCHEDULED",
   "evidence_status": "REVIEWED",
   "evidence": "content/evidence/r005.json",
   "language": "ar",

@@ -113,10 +113,16 @@
       "seed_sources": [
         "Schoenfeld BJ et al., Sports Med, 2016"
       ],
-      "status": "queued",
+      "status": "scheduled",
       "queued_at": "2026-10-24T21:45:00+03:00",
       "narration_credits": 352,
-      "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00."
+      "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00.",
+      "scheduled_for": "2026-10-26T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 405190510,
+        "youtube": 405190567
+      },
+      "rendered_video": "reels/r005/r005-video-ab7dbb43f3.mp4"
     },
     {
       "id": "r006",
