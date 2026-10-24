@@ -8,3 +8,10 @@ Scene images are made with `scripts/image_job.py` (entries with `"reference"`), 
 (Apache-2.0) through Hugging Face, then used in a script with `"image_file"`. Keep the face blank apart from the eyes
 (no mouth or nose), no labels or text in the image, and put on-screen figures above the head (`"y": 330`).
 First used in r005.
+
+## Exercise poses (`movements_sheet.jpg`)
+
+`move_<exercise>.png` are cleaned 9:16 references (arrows, panel numbers and borders removed) for scenes that show a
+movement: `pullup`, `squat`, `bench`, `deadlift` (conventional), `pulldown`, `dips`, `row` (one-arm dumbbell), `ohp`
+(overhead press). The movements sheet shows an "S" on the cap; always ask for the letter B. Use `reference_front.png`
+for non-exercise scenes and `reference_anatomy.png` when the narration names specific muscles.
