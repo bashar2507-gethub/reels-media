@@ -1,0 +1,154 @@
+{
+  "reel_id": "r005",
+  "script": {
+    "reel_id": "r005",
+    "status": "SCRIPTED",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r005.json",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "character": "The Blanket (owner's character, 2026-10-24)",
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r005-s1",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_file": "images/r005-char/s1.jpg",
+        "sentences": [
+          {
+            "say": "هل يكفي أن تدرّب العضلة مرة واحدة في الأسبوع؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r005-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_file": "images/r005-char/s2.jpg",
+        "sentences": [
+          {
+            "say": "مراجعة لخمس وعشرين دراسة وجدت أن عدد المرات لا يغيّر نمو العضل بوضوح، إذا تساوى مجموع المجموعات الأسبوعية.",
+            "overlay": {
+              "big": "25",
+              "small": "دراسة في المراجعة",
+              "from": "لخمس"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r005-s3",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_file": "images/r005-char/s3.jpg",
+        "sentences": [
+          {
+            "say": "لكن عندما زادت المرات وزادت معها المجموعات، كان النمو أفضل قليلًا.",
+            "overlay": {
+              "small": "مرات أكثر ← مجموعات أكثر",
+              "from": "زادت"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r005-s4",
+        "fallback": "scale",
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.2
+        ],
+        "image_file": "images/r005-char/s4.jpg",
+        "sentences": [
+          {
+            "say": "الخلاصة: الأهم مجموع مجموعاتك الأسبوعية لكل عضلة، ووزّعها على الأيام التي تناسبك.",
+            "overlay": {
+              "small": "مجموع المجموعات أولًا",
+              "from": "الأهم"
+            }
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r005-s5",
+        "fallback": "bookmark",
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_file": "images/r005-char/s5.jpg",
+        "sentences": [
+          {
+            "say": "شارك المقطع مع من يدرّب كل عضلة مرة واحدة فقط."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "كم مرة تدرّب العضلة في الأسبوع؟ ماذا تقول الدراسات",
+      "youtube_tags": [
+        "تمارين المقاومة",
+        "بناء العضل",
+        "عدد مرات التمرين",
+        "جدول تمارين",
+        "جيم",
+        "لياقة"
+      ],
+      "caption": "هل يكفي أن تدرّب العضلة مرة واحدة في الأسبوع؟\n\nمراجعة لخمس وعشرين دراسة وجدت أن عدد مرات تدريب العضلة لا يغيّر نموها بوضوح إذا تساوى مجموع المجموعات الأسبوعية. وعندما زادت المرات وزادت معها المجموعات، كان النمو أفضل قليلًا.\n\nالخلاصة:\n• الأهم مجموع مجموعاتك الأسبوعية لكل عضلة\n• وزّعها على الأيام التي تناسبك\n• تقسيمها على يومين أو أكثر قد يسهّل زيادتها\n\n📤 شارك المقطع مع من يدرّب كل عضلة مرة واحدة فقط.\n\nالمصادر:\nSchoenfeld, Grgic & Krieger, J Sports Sci, 2019\nSchoenfeld, Ogborn & Krieger, Sports Med, 2016\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_المقاومة #بناء_العضل #جدول_تمارين #جيم #لياقة #تضخيم"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/VrayjMaV8WQGofTgMedy/AdkdT3AnOGk285ajpk3s/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T182915Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4a97c16ba32785a368a8d778da5ca104a33fdf1b677d7fec0b9e1006d791781c79a9f4c996a3a364cc1b75e5e6e91562083497c0000d972d606f369120c350cd0107f519a6d2500d8d29e9ef3a1f9de2bc2967278ceae69df2304caa4f28e97755b1907b6d40c55eb11295f2e606ee04e8edc20349172865e584d2176c74c335637c28df18fca317503ee017b801ae435470b4c5e0853ee17c885314b1aa6ade2598689cae82583ac53ea722877723e53902ea26aef691c03fd756029284f80cd4338f90be25cb01532038dd586eaa52b207abb0b774d67071c1ee9b06042b6f99bd28ff12e04a36761dd17dcc346dd7d3ee3064dda8640b5f1f18190a486a8e",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/8HQP8wod7jE9BTziG5SB/IPCZZQEE1VxvJeJlzDhM/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261024%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261024T183000Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-IPCZZQEE1VxvJeJlzDhM-words.json%22&X-Goog-Signature=2755aa21aa58c0e06f1c2e7ff31932e3ad94ad63b00ca11f85aa3d32fdf6f107685d53506a6c805016d29e9252ac2729a3aacc9dff2053bfc24063a74a75f21e4bdafdb94f441daeb755d44bb1351448388156457eb838285d09a2bc37df18f0aa7f830cafce822dd1fc18c56309d88cd6fef20b9c655e2e180ef38d4ef1a8976b676b135cab1c70fbe8a27bed5646577374334f2637f4a9838f4a4a8f2b025e36b847aa71c6a4c5e889ff7a06f2391c5408d80eb2bc5cb04117db6deb2d946010fdb9c5c4c9264ad2cc4220a11a298baa5e42ce6e33d30ed665e688e57d7ed933ca538a03fc54a632d2fe30b87999ad630663ebf00168af9556bce616c89a07",
+    "voice": "Jeddawi Echo",
+    "voice_id": "yXEnnEln9armDCyhkXcA",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "AdkdT3AnOGk285ajpk3s",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-24",
+    "credits": 352,
+    "duration_s": 33.6
+  }
+}

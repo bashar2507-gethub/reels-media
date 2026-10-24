@@ -113,7 +113,10 @@
       "seed_sources": [
         "Schoenfeld BJ et al., Sports Med, 2016"
       ],
-      "status": "planned"
+      "status": "queued",
+      "queued_at": "2026-10-24T21:45:00+03:00",
+      "narration_credits": 352,
+      "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00."
     },
     {
       "id": "r006",
