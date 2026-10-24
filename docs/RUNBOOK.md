@@ -61,7 +61,7 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
   `big` holds only digits and symbols (shown left to right, large, in amber), `small` is one short
   Arabic line, and `from` is the spoken word at which it appears. Don't repeat the number as a
   bracketed annotation in `show`.
-- `image_style` per scene: `still_life` (objects and food, the default), `athlete` (a person
+- (Superseded by step 5b, which puts the owner's character in every scene.) `image_style` per scene: `still_life` (objects and food, the default), `athlete` (a person
   training, face out of frame; for sentences about muscles or exercise) or `anatomy` (a 3D muscle
   illustration; for how muscles work). At most two scenes with a person per Reel.
 - Each scene: `visual` = `<id>-s<n>`, `image_prompt` (English, one concrete object or still life,
@@ -87,6 +87,25 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
 5. `creative_transcribe_audio(flow_id, model_id="eleven_scribe_v1", connect_from=[node])`, poll
    until done, and keep `transcripts[0].words_download_url` and `word_count`.
    The transcript must match the narration text; if words are missing or changed, stop and report.
+
+## 5b. Scene images with the owner's character (from 2026-10-24)
+
+Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`). Before step 6:
+
+1. Write `images/queue/<id>-char.json`: `{"purpose", "width": 720, "height": 1280, "character": "The Blanket: a gray
+   faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the
+   eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo
+   shorts", "images": [{"key": "s<n>", "reference": "<ref>", "prompt": "<what he does in this scene>"}]}`.
+   `<ref>` is `assets/characters/blanket/move_<exercise>.png` when the scene shows that exercise,
+   `reference_anatomy.png` when the sentence names specific muscles (ask for the named muscles to glow amber and for
+   every label to be removed), otherwise `reference_front.png`. Props must be plain and unmarked.
+2. Commit and push; the "Generate Images" workflow writes `images/<id>-char/` and `status.json` (poll as in step 6.3).
+3. Look at every image with Read. Each needs: the B cap, a blank face apart from the eyes, no labels, arrows, numbers
+   or other text, natural hands and limbs. Regenerate a failed image once with a clearer prompt (new job file
+   `images/queue/<id>-char-s<n>.json`, then copy the result over); after a second failure use `reference_front.png`
+   with a simple standing pose.
+4. In the script, give each scene `"image_file": "images/<id>-char/s<n>.jpg"` (no `image_prompt`) and every overlay
+   `"y": 330` so figures sit above his head.
 
 ## 6. Render (GitHub Actions)
 
