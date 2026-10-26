@@ -16,7 +16,7 @@
     {
       "id": "r001",
       "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
-      "status": "scheduled",
+      "status": "published",
       "queued_at": "2026-10-21T05:00:00+03:00",
       "narration_credits": 381,
       "note": "Remake of poc1, owner-approved 2026-10-21 for Friday 20:00. Owner deletes the old poc1 posts himself (deleting published posts is not done by Claude). A scheduled run before 2026-10-24 20:05 should leave this item as scheduled (still PENDING is not a failure).",
@@ -25,6 +25,11 @@
       "metricool_post_ids": {
         "instagram": 401689045,
         "youtube": 401689078
+      },
+      "published_at": "2026-10-24T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
+        "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
       }
     },
     {
