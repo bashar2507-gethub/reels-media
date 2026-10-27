@@ -1,0 +1,31 @@
+{
+  "reel_id": "r006",
+  "reviewed_on": "2026-10-27",
+  "method": "Full text PDF read (abstract, results, limitations).",
+  "claims": [
+    {
+      "claim_id": "r006-c1",
+      "claim": "A review of 15 studies found each additional weekly set was associated with slightly more muscle growth.",
+      "source_title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis",
+      "authors": "Schoenfeld BJ, Ogborn D, Krieger JW",
+      "year": 2017,
+      "journal": "Journal of Sports Sciences 35(11):1073-1082",
+      "DOI_or_URL": "https://doi.org/10.1080/02640414.2016.1210197",
+      "study_type": "Systematic review and meta-analysis (15 studies, 34 treatment groups)",
+      "finding": "Graded dose-response; each additional weekly set associated with ES +0.023 (about +0.37% gain)."
+    },
+    {
+      "claim_id": "r006-c2",
+      "claim": "On average, 10+ weekly sets per muscle showed larger gains than fewer than 5 (hedged: 'في المتوسط').",
+      "DOI_or_URL": "https://doi.org/10.1080/02640414.2016.1210197",
+      "finding": "Mean ES 0.307 (<5 sets, ~5.4%), 0.378 (5-9, ~6.6%), 0.520 (10+, ~9.8%); category comparison was a trend (P = 0.074) and sensitive to one study, hence the hedge."
+    },
+    {
+      "claim_id": "r006-c3",
+      "claim": "The upper limit is unknown and studies on advanced trainees are few.",
+      "DOI_or_URL": "https://doi.org/10.1080/02640414.2016.1210197",
+      "finding": "Authors: too little data above about 12 weekly sets; 'it remains unclear as to where the upper threshold lies'; only two studies in resistance-trained people."
+    }
+  ],
+  "limitations": "Recovery-based progression in the takeaway is practical guidance, not a study finding."
+}

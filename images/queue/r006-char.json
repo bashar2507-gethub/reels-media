@@ -1,0 +1,38 @@
+{
+  "purpose": "r006 scene images with The Blanket",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts",
+  "images": [
+    {
+      "key": "s1",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he stands with one hand on his chin, thinking, beside a plain rack of hexagonal dumbbells, curious"
+    },
+    {
+      "key": "s2",
+      "reference": "assets/characters/blanket/move_bench.png",
+      "prompt": "he performs a barbell bench press on a flat bench with a plain unmarked barbell, feet planted; remove all arrows, red guide lines and panel numbers"
+    },
+    {
+      "key": "s3",
+      "reference": "assets/characters/blanket/move_squat.png",
+      "prompt": "he performs a barbell back squat with a plain unmarked barbell, strong and focused, side three-quarter view; remove all arrows, red guide lines and panel numbers"
+    },
+    {
+      "key": "s4",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he looks up at a very tall stack of plain weight plates, one hand on his cap, wondering how high it goes"
+    },
+    {
+      "key": "s5",
+      "reference": "assets/characters/blanket/reference_anatomy.png",
+      "prompt": "front view, standing confidently; the chest, shoulders, arms and thigh muscles glow softly in warm amber one group at a time, as if each muscle's sets are being counted; remove every label, word, arrow and text box from the image"
+    },
+    {
+      "key": "s6",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he gives a thumbs up with one hand, facing the viewer, confident, the whistle hanging on his chest"
+    }
+  ]
+}
