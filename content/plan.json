@@ -144,10 +144,16 @@
       "seed_sources": [
         "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
       ],
-      "status": "queued",
+      "status": "scheduled",
       "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
       "queued_at": "2026-10-27T20:20:00+03:00",
-      "narration_credits": 404
+      "narration_credits": 404,
+      "scheduled_for": "2026-10-29T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 408074097,
+        "youtube": 408074626
+      },
+      "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4"
     },
     {
       "id": "r007",
