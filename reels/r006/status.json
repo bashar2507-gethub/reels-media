@@ -1,0 +1,38 @@
+{
+  "reel_id": "r006",
+  "passed": true,
+  "run_id": "40547020598",
+  "built_at": "2026-10-27T17:08:59Z",
+  "build_seconds": 123,
+  "log_tail": " s window) [instagram]\n  PASS duration_instagram     37.07 s                            limit: 3 s to 15 min [instagram]\n  PASS duration_autopublish   37.07 s                            limit: 3 s to 15 min (Metricool help centre) [metricool]\n  PASS duration_target        37.07 s                            limit: 28-45 s [internal]\n  PASS audio_codec            aac                                limit: AAC [instagram]\n  PASS audio_sample_rate      48000 Hz                           limit: <= 48 kHz [instagram]\n  PASS audio_channels         2                                  limit: mono or stereo [instagram]\n  PASS audio_bitrate          125 kbps                           limit: 128 kbps [instagram]\n  PASS loudness               -16.7 LUFS                         limit: -16 +/- 2 LUFS [internal]\n  PASS true_peak              -4.4 dBTP                          limit: <= -1.0 dBTP [internal]\n  PASS no_long_silence        0 gaps                             limit: no silence >= 1.5 s [internal]\n  PASS av_duration_match      video 37.00 s, audio 37.06 s       limit: <= 0.1 s apart [internal]\n  PASS decodes_cleanly        no errors                          limit: full decode [internal]\n  PASS captions_rtl_order     18 positions checked               limit: highlight follows right-to-left reading [internal]\n  PASS speaking_rate          110 wpm                            limit: 100-160 Arabic words per minute [internal]\nvisuals: 6 AI, 0 procedural\nMEDIA GATE: PASSED | warnings: none\n",
+  "checks": "27/27",
+  "failed_checks": [],
+  "warnings": [],
+  "visuals": {
+    "ai": [
+      "r006-s1",
+      "r006-s2",
+      "r006-s3",
+      "r006-s4",
+      "r006-s5",
+      "r006-s6"
+    ],
+    "fallback": [],
+    "errors": {},
+    "token": {
+      "set": true,
+      "hf_prefix": true,
+      "length": 37,
+      "trimmed": false
+    }
+  },
+  "duration_s": 36.99,
+  "wpm": 110,
+  "video": "reels/r006/r006-video-d6ac254c4f.mp4",
+  "video_sha256": "d6ac254c4f470fcc88240d1a9f57677ce6b253844bcdd9bd09fa7919567f9bc2",
+  "video_bytes": 9695958,
+  "cover": "reels/r006/r006-cover-cd42a88df5.jpg",
+  "cover_sha256": "cd42a88df553fb7b4cffca80e5fe9c4be698884ab2a9b308a8291a3b744bbf4f",
+  "cover_bytes": 107230,
+  "cover_at_seconds": 1.2
+}

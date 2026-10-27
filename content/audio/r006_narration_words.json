@@ -1,0 +1,410 @@
+{
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "pCIcZyuX0H5xhxmGds7u",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-27",
+  "credits": 404,
+  "duration_s": 36.24,
+  "words": [
+    {
+      "text": "كم",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "text": "مجموعة",
+      "type": "word",
+      "start": 0.24,
+      "end": 0.68
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 0.72,
+      "end": 0.78
+    },
+    {
+      "text": "الأسبوع",
+      "type": "word",
+      "start": 0.8,
+      "end": 1.44
+    },
+    {
+      "text": "تحتاج",
+      "type": "word",
+      "start": 1.52,
+      "end": 1.92
+    },
+    {
+      "text": "العضلة",
+      "type": "word",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "text": "لتنمو؟",
+      "type": "word",
+      "start": 2.48,
+      "end": 3.28
+    },
+    {
+      "text": "مراجعة",
+      "type": "word",
+      "start": 3.36,
+      "end": 3.84
+    },
+    {
+      "text": "لخمس",
+      "type": "word",
+      "start": 3.92,
+      "end": 4.32
+    },
+    {
+      "text": "عشرة",
+      "type": "word",
+      "start": 4.4,
+      "end": 4.72
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 5.0,
+      "end": 5.28
+    },
+    {
+      "text": "وجدت",
+      "type": "word",
+      "start": 5.52,
+      "end": 6.0
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 6.12,
+      "end": 6.24
+    },
+    {
+      "text": "كل",
+      "type": "word",
+      "start": 6.32,
+      "end": 6.56
+    },
+    {
+      "text": "مجموعة",
+      "type": "word",
+      "start": 6.64,
+      "end": 7.12
+    },
+    {
+      "text": "أسبوعية",
+      "type": "word",
+      "start": 7.16,
+      "end": 7.76
+    },
+    {
+      "text": "إضافية",
+      "type": "word",
+      "start": 7.96,
+      "end": 8.4
+    },
+    {
+      "text": "ارتبطت",
+      "type": "word",
+      "start": 8.8,
+      "end": 9.52
+    },
+    {
+      "text": "بنمو",
+      "type": "word",
+      "start": 9.64,
+      "end": 10.0
+    },
+    {
+      "text": "عضلي",
+      "type": "word",
+      "start": 10.08,
+      "end": 10.56
+    },
+    {
+      "text": "أكبر",
+      "type": "word",
+      "start": 10.64,
+      "end": 10.96
+    },
+    {
+      "text": "قليلًا.",
+      "type": "word",
+      "start": 11.04,
+      "end": 11.84
+    },
+    {
+      "text": "وفي",
+      "type": "word",
+      "start": 11.92,
+      "end": 12.0
+    },
+    {
+      "text": "المتوسط،",
+      "type": "word",
+      "start": 12.08,
+      "end": 13.04
+    },
+    {
+      "text": "نمت",
+      "type": "word",
+      "start": 13.12,
+      "end": 13.36
+    },
+    {
+      "text": "العضلة",
+      "type": "word",
+      "start": 13.44,
+      "end": 13.84
+    },
+    {
+      "text": "أكثر",
+      "type": "word",
+      "start": 13.92,
+      "end": 14.32
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 14.4,
+      "end": 14.64
+    },
+    {
+      "text": "عشر",
+      "type": "word",
+      "start": 14.72,
+      "end": 14.96
+    },
+    {
+      "text": "مجموعات",
+      "type": "word",
+      "start": 15.04,
+      "end": 15.52
+    },
+    {
+      "text": "أسبوعيًا",
+      "type": "word",
+      "start": 15.56,
+      "end": 16.24
+    },
+    {
+      "text": "أو",
+      "type": "word",
+      "start": 16.32,
+      "end": 16.4
+    },
+    {
+      "text": "أكثر،",
+      "type": "word",
+      "start": 16.48,
+      "end": 17.2
+    },
+    {
+      "text": "مقارنة",
+      "type": "word",
+      "start": 17.56,
+      "end": 17.92
+    },
+    {
+      "text": "بأقل",
+      "type": "word",
+      "start": 18.0,
+      "end": 18.48
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 18.56,
+      "end": 18.64
+    },
+    {
+      "text": "خمس.",
+      "type": "word",
+      "start": 18.84,
+      "end": 19.44
+    },
+    {
+      "text": "لكن",
+      "type": "word",
+      "start": 19.56,
+      "end": 19.76
+    },
+    {
+      "text": "الحد",
+      "type": "word",
+      "start": 19.84,
+      "end": 20.08
+    },
+    {
+      "text": "الأعلى",
+      "type": "word",
+      "start": 20.16,
+      "end": 20.72
+    },
+    {
+      "text": "غير",
+      "type": "word",
+      "start": 20.8,
+      "end": 21.04
+    },
+    {
+      "text": "معروف،",
+      "type": "word",
+      "start": 21.12,
+      "end": 21.84
+    },
+    {
+      "text": "والدراسات",
+      "type": "word",
+      "start": 21.92,
+      "end": 22.48
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 22.56,
+      "end": 22.72
+    },
+    {
+      "text": "المتدربين",
+      "type": "word",
+      "start": 22.8,
+      "end": 23.44
+    },
+    {
+      "text": "المتقدمين",
+      "type": "word",
+      "start": 23.52,
+      "end": 24.4
+    },
+    {
+      "text": "قليلة.",
+      "type": "word",
+      "start": 24.64,
+      "end": 25.52
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 25.6,
+      "end": 26.48
+    },
+    {
+      "text": "احسب",
+      "type": "word",
+      "start": 26.56,
+      "end": 26.8
+    },
+    {
+      "text": "مجموعاتك",
+      "type": "word",
+      "start": 27.08,
+      "end": 27.52
+    },
+    {
+      "text": "الأسبوعية",
+      "type": "word",
+      "start": 27.6,
+      "end": 28.24
+    },
+    {
+      "text": "لكل",
+      "type": "word",
+      "start": 28.36,
+      "end": 28.72
+    },
+    {
+      "text": "عضلة،",
+      "type": "word",
+      "start": 28.84,
+      "end": 29.36
+    },
+    {
+      "text": "وزدها",
+      "type": "word",
+      "start": 29.48,
+      "end": 29.84
+    },
+    {
+      "text": "تدريجيًا",
+      "type": "word",
+      "start": 29.96,
+      "end": 30.64
+    },
+    {
+      "text": "ما",
+      "type": "word",
+      "start": 30.8,
+      "end": 30.96
+    },
+    {
+      "text": "دمت",
+      "type": "word",
+      "start": 31.08,
+      "end": 31.28
+    },
+    {
+      "text": "تتعافى",
+      "type": "word",
+      "start": 31.36,
+      "end": 31.92
+    },
+    {
+      "text": "جيدًا.",
+      "type": "word",
+      "start": 32.0,
+      "end": 32.8
+    },
+    {
+      "text": "احفظ",
+      "type": "word",
+      "start": 32.88,
+      "end": 33.12
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 33.2,
+      "end": 33.68
+    },
+    {
+      "text": "لتراجع",
+      "type": "word",
+      "start": 33.76,
+      "end": 34.32
+    },
+    {
+      "text": "جدولك",
+      "type": "word",
+      "start": 34.44,
+      "end": 34.88
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 34.92,
+      "end": 34.96
+    },
+    {
+      "text": "التمرين",
+      "type": "word",
+      "start": 35.0,
+      "end": 35.44
+    },
+    {
+      "text": "القادم.",
+      "type": "word",
+      "start": 35.52,
+      "end": 36.24
+    }
+  ],
+  "audio": "r006_narration.mp3"
+}
