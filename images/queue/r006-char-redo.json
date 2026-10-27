@@ -1,0 +1,18 @@
+{
+  "purpose": "r006 redo of scenes 4 and 5",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts",
+  "images": [
+    {
+      "key": "s4",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he stands next to a tall plain stack of round black weight plates that rises above his head, looking up at the top of it, one hand touching his cap; exactly one figure, no shadow figure or silhouette behind him, his whole body evenly lit"
+    },
+    {
+      "key": "s5",
+      "reference": "assets/characters/blanket/reference_anatomy.png",
+      "prompt": "front view, standing confidently, his body drawn as detailed muscle anatomy; the chest, shoulders, arms and thigh muscles glow warm amber; replace the whole light background with a dark petrol-teal gym background; remove every label, word, arrow and text box"
+    }
+  ]
+}
