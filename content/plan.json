@@ -144,8 +144,10 @@
       "seed_sources": [
         "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
       ],
-      "status": "scripted",
-      "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot."
+      "status": "queued",
+      "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
+      "queued_at": "2026-10-27T20:20:00+03:00",
+      "narration_credits": 404
     },
     {
       "id": "r007",

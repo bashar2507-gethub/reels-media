@@ -1,0 +1,177 @@
+{
+  "reel_id": "r006",
+  "script": {
+    "reel_id": "r006",
+    "status": "SCRIPTED",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r006.json",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "character": "The Blanket",
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r006-s1",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_file": "images/r006-char/s1.jpg",
+        "sentences": [
+          {
+            "say": "كم مجموعة في الأسبوع تحتاج العضلة لتنمو؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r006-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_file": "images/r006-char/s2.jpg",
+        "sentences": [
+          {
+            "say": "مراجعة لخمس عشرة دراسة وجدت أن كل مجموعة أسبوعية إضافية ارتبطت بنمو عضلي أكبر قليلًا.",
+            "overlay": {
+              "big": "15",
+              "small": "دراسة في المراجعة",
+              "from": "لخمس",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r006-s3",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_file": "images/r006-char/s3.jpg",
+        "sentences": [
+          {
+            "say": "وفي المتوسط، نمت العضلة أكثر مع عشر مجموعات أسبوعيًا أو أكثر، مقارنة بأقل من خمس.",
+            "overlay": {
+              "big": "10+",
+              "small": "مجموعات أسبوعيًا لكل عضلة",
+              "from": "عشر",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r006-s4",
+        "fallback": "scale",
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.2
+        ],
+        "image_file": "images/r006-char/s4.jpg",
+        "sentences": [
+          {
+            "say": "لكن الحد الأعلى غير معروف، والدراسات على المتدربين المتقدمين قليلة."
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r006-s5",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_file": "images/r006-char/s5.jpg",
+        "sentences": [
+          {
+            "say": "الخلاصة: احسب مجموعاتك الأسبوعية لكل عضلة، وزدها تدريجيًا ما دمت تتعافى جيدًا.",
+            "overlay": {
+              "small": "احسب مجموعاتك لكل عضلة",
+              "from": "احسب",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "visual": "r006-s6",
+        "fallback": "bookmark",
+        "zoom": [
+          1.08,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_file": "images/r006-char/s6.jpg",
+        "sentences": [
+          {
+            "say": "احفظ المقطع لتراجع جدولك في التمرين القادم."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "كم مجموعة أسبوعيًا تحتاج العضلة لتنمو؟ ماذا تقول الدراسات",
+      "youtube_tags": [
+        "تمارين المقاومة",
+        "بناء العضل",
+        "عدد المجموعات",
+        "حجم التمرين",
+        "جيم",
+        "لياقة"
+      ],
+      "caption": "كم مجموعة في الأسبوع تحتاج العضلة لتنمو؟\n\nمراجعة لخمس عشرة دراسة وجدت علاقة متدرجة: كل مجموعة أسبوعية إضافية ارتبطت بنمو عضلي أكبر قليلًا. وفي المتوسط كان النمو أكبر مع عشر مجموعات أسبوعيًا أو أكثر لكل عضلة مقارنة بأقل من خمس، لكن الحد الأعلى غير معروف، والدراسات على المتدربين المتقدمين قليلة.\n\nالخلاصة:\n• احسب مجموعاتك الأسبوعية لكل عضلة\n• زدها تدريجيًا ما دمت تتعافى جيدًا\n• الأكثر ليس دائمًا أفضل إذا ضعف أداؤك\n\n📌 احفظ المقطع لتراجع جدولك في التمرين القادم.\n\nالمصدر:\nSchoenfeld, Ogborn & Krieger, J Sports Sci, 2017\n\n🎙️ التعليق الصوتي والصور مولّدة بالذكاء الاصطناعي.\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_المقاومة #بناء_العضل #جدول_تمارين #جيم #لياقة #تضخيم"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/0OAF0P0BBAr9xXPos01X/pCIcZyuX0H5xhxmGds7u/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T165654Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=8555c234290bf41390f30db53c91e514313c6495ed4acc332287501a0a875f4af60ee8daab4152ee598cce5825ec0667f49abd675d26ca01d4d3564692bcc3a559f282e99bb9ad4928000c48f182ab69e620e63be6f7772e846898cc14d3c0d8fda9bd6d159c9f425a4f6ef1414abfb94ada129f4de672e1487feee3a6198bffcd12c224f5a09f7c8b2b61ec389e6aba3b5c9231d9c7c13e9acbcb17367af3a7b8cd21134999b9d01e6e1e45b000dde3b823d4041ad634c3d6c209e485b564829adc3377b98f068c7f580fc3babae8ffa7bace6904fe530ab17d3ae81cdad504b64d249e620a9e868c51b94e2de6a98b5ec2199ad7ad9f56f364e6e6c3ef3358",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/Qcfams7gffP48txMsWhv/XjijILTnYWdPJscyPuux/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261027%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261027T170146Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-XjijILTnYWdPJscyPuux-words.json%22&X-Goog-Signature=37a966e5c7a379ba2094d98a3876c78d184f7a2ab1f58d35569a46b1fbb0b2085d472731e7f15403029574795d136e13e265f28570cf1ed41d788d9af73629277402e68159b51d1d601afd263c65fb65c4af14f83fa72353145d95befef125d71778651501a456a98a38b0ad3436d9d8129ef8d71d73bfdf721010340a6be5c31ba35781ec62aadd5005a42d7611347a507617a9344d9b6661a72197853ec7eb4c1861104628c2068f6d1cf7a3c71d6d7f6414651b001106a5870a77de62563a3e8069811ff8cbbaeffa4f31d9caf766155da3a1b5b25f585bf83a501e124fa3af523e00cc0d5709d93552bbdc54c55bd8ada431d6be371f20c2d0eddfbdd0f9",
+    "voice": "Jeddawi Echo",
+    "voice_id": "yXEnnEln9armDCyhkXcA",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "pCIcZyuX0H5xhxmGds7u",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-27",
+    "credits": 404,
+    "duration_s": 36.24
+  }
+}
