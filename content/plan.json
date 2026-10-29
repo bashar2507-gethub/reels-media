@@ -144,7 +144,7 @@
       "seed_sources": [
         "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
       ],
-      "status": "scheduled",
+      "status": "published",
       "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
       "queued_at": "2026-10-27T20:20:00+03:00",
       "narration_credits": 404,
@@ -153,7 +153,16 @@
         "instagram": 409727279,
         "youtube": 409727458
       },
-      "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4"
+      "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4",
+      "published_at": "2026-10-29T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfFgeubAr9_/",
+        "youtube": "https://www.youtube.com/shorts/582Y_ffiOa4"
+      },
+      "metricool_post_id": {
+        "instagram": 409727279,
+        "youtube": 409727458
+      }
     },
     {
       "id": "r007",
