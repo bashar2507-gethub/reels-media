@@ -69,7 +69,8 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
   avoid packaged products, jars with labels, books, signs and branded or engraved equipment), `fallback` (one of scale, flow, orbs,
   dumbbell, bookmark), `zoom` and `pan` like the existing scripts.
 - `post`: caption (hook, short summary, takeaway bullets, call to action, short sources,
-  «🎙️ التعليق الصوتي مولّد بالذكاء الاصطناعي.», «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.»,
+  «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.» (no AI-voice/images line in the caption, owner 2026-10-29;
+  keep the platform AI labels isAiGenerated / isAiGeneratedContent),
   5 to 8 hashtags), `youtube_title` (under 90 characters), `youtube_tags`.
 - Check it: `python3 -c` with `app.timeline.narration_text` and `build_timeline(script, EspeakTTS("ar", 210), tmp)`
   must run without errors and give 55 to 75 words.
