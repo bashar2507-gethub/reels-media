@@ -1,0 +1,21 @@
+{
+  "job": "r008-char",
+  "ok": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
