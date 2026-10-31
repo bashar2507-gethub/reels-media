@@ -1,0 +1,398 @@
+{
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "rro0Sw6Gp0T0N2rT1pQ8",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-10-31",
+  "credits": 390,
+  "duration_s": 35.84,
+  "words": [
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "text": "الصيام",
+      "type": "word",
+      "start": 0.12,
+      "end": 0.24
+    },
+    {
+      "text": "المتقطع",
+      "type": "word",
+      "start": 0.28,
+      "end": 0.76
+    },
+    {
+      "text": "أفضل",
+      "type": "word",
+      "start": 0.96,
+      "end": 1.6
+    },
+    {
+      "text": "لخسارة",
+      "type": "word",
+      "start": 1.68,
+      "end": 2.24
+    },
+    {
+      "text": "الوزن؟",
+      "type": "word",
+      "start": 2.32,
+      "end": 2.72
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 2.8,
+      "end": 2.96
+    },
+    {
+      "text": "تجربة",
+      "type": "word",
+      "start": 3.44,
+      "end": 3.8
+    },
+    {
+      "text": "عشوائية",
+      "type": "word",
+      "start": 3.84,
+      "end": 4.56
+    },
+    {
+      "text": "لسنة",
+      "type": "word",
+      "start": 4.68,
+      "end": 5.12
+    },
+    {
+      "text": "كاملة",
+      "type": "word",
+      "start": 5.24,
+      "end": 5.84
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 5.947,
+      "end": 6.24
+    },
+    {
+      "text": "مئة",
+      "type": "word",
+      "start": 6.48,
+      "end": 6.72
+    },
+    {
+      "text": "وتسعة",
+      "type": "word",
+      "start": 6.8,
+      "end": 7.44
+    },
+    {
+      "text": "وثلاثين",
+      "type": "word",
+      "start": 7.52,
+      "end": 8.16
+    },
+    {
+      "text": "شخصًا،",
+      "type": "word",
+      "start": 8.24,
+      "end": 8.72
+    },
+    {
+      "text": "أكلت",
+      "type": "word",
+      "start": 8.8,
+      "end": 9.52
+    },
+    {
+      "text": "مجموعة",
+      "type": "word",
+      "start": 9.573,
+      "end": 10.027
+    },
+    {
+      "text": "نفس",
+      "type": "word",
+      "start": 10.12,
+      "end": 10.4
+    },
+    {
+      "text": "السعرات",
+      "type": "word",
+      "start": 10.48,
+      "end": 10.96
+    },
+    {
+      "text": "خلال",
+      "type": "word",
+      "start": 11.04,
+      "end": 11.44
+    },
+    {
+      "text": "ثماني",
+      "type": "word",
+      "start": 11.52,
+      "end": 11.92
+    },
+    {
+      "text": "ساعات",
+      "type": "word",
+      "start": 12.0,
+      "end": 12.4
+    },
+    {
+      "text": "فقط،",
+      "type": "word",
+      "start": 12.44,
+      "end": 12.8
+    },
+    {
+      "text": "والأخرى",
+      "type": "word",
+      "start": 12.88,
+      "end": 13.84
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 13.92,
+      "end": 14.16
+    },
+    {
+      "text": "مدار",
+      "type": "word",
+      "start": 14.4,
+      "end": 14.8
+    },
+    {
+      "text": "اليوم.",
+      "type": "word",
+      "start": 14.84,
+      "end": 15.147
+    },
+    {
+      "text": "خسرت",
+      "type": "word",
+      "start": 15.2,
+      "end": 15.88
+    },
+    {
+      "text": "المجموعتان",
+      "type": "word",
+      "start": 15.92,
+      "end": 16.72
+    },
+    {
+      "text": "وزنًا",
+      "type": "word",
+      "start": 16.8,
+      "end": 17.32
+    },
+    {
+      "text": "متقاربًا،",
+      "type": "word",
+      "start": 17.44,
+      "end": 18.72
+    },
+    {
+      "text": "ولم",
+      "type": "word",
+      "start": 18.84,
+      "end": 19.0
+    },
+    {
+      "text": "يكن",
+      "type": "word",
+      "start": 19.04,
+      "end": 19.28
+    },
+    {
+      "text": "الفرق",
+      "type": "word",
+      "start": 19.36,
+      "end": 19.76
+    },
+    {
+      "text": "مؤكدًا",
+      "type": "word",
+      "start": 19.88,
+      "end": 20.4
+    },
+    {
+      "text": "إحصائيًا.",
+      "type": "word",
+      "start": 20.44,
+      "end": 21.44
+    },
+    {
+      "text": "فمجموع",
+      "type": "word",
+      "start": 21.52,
+      "end": 22.0
+    },
+    {
+      "text": "السعرات",
+      "type": "word",
+      "start": 22.08,
+      "end": 22.64
+    },
+    {
+      "text": "هو",
+      "type": "word",
+      "start": 22.8,
+      "end": 23.04
+    },
+    {
+      "text": "ما",
+      "type": "word",
+      "start": 23.12,
+      "end": 23.2
+    },
+    {
+      "text": "صنع",
+      "type": "word",
+      "start": 23.28,
+      "end": 23.52
+    },
+    {
+      "text": "الفرق",
+      "type": "word",
+      "start": 23.6,
+      "end": 23.92
+    },
+    {
+      "text": "الأكبر،",
+      "type": "word",
+      "start": 24.0,
+      "end": 24.72
+    },
+    {
+      "text": "لا",
+      "type": "word",
+      "start": 24.8,
+      "end": 24.96
+    },
+    {
+      "text": "توقيت",
+      "type": "word",
+      "start": 25.12,
+      "end": 25.36
+    },
+    {
+      "text": "الأكل.",
+      "type": "word",
+      "start": 25.44,
+      "end": 26.24
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 26.32,
+      "end": 27.28
+    },
+    {
+      "text": "اختر",
+      "type": "word",
+      "start": 27.36,
+      "end": 27.68
+    },
+    {
+      "text": "الطريقة",
+      "type": "word",
+      "start": 27.8,
+      "end": 28.24
+    },
+    {
+      "text": "التي",
+      "type": "word",
+      "start": 28.32,
+      "end": 28.64
+    },
+    {
+      "text": "تساعدك",
+      "type": "word",
+      "start": 28.76,
+      "end": 29.36
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 29.48,
+      "end": 29.6
+    },
+    {
+      "text": "الالتزام",
+      "type": "word",
+      "start": 29.64,
+      "end": 30.24
+    },
+    {
+      "text": "بسعراتك.",
+      "type": "word",
+      "start": 30.32,
+      "end": 31.32
+    },
+    {
+      "text": "أرسل",
+      "type": "word",
+      "start": 31.6,
+      "end": 31.92
+    },
+    {
+      "text": "المقطع",
+      "type": "word",
+      "start": 32.04,
+      "end": 32.48
+    },
+    {
+      "text": "لمن",
+      "type": "word",
+      "start": 32.56,
+      "end": 32.8
+    },
+    {
+      "text": "يظن",
+      "type": "word",
+      "start": 32.84,
+      "end": 33.2
+    },
+    {
+      "text": "أن",
+      "type": "word",
+      "start": 33.32,
+      "end": 33.44
+    },
+    {
+      "text": "الصيام",
+      "type": "word",
+      "start": 33.48,
+      "end": 33.92
+    },
+    {
+      "text": "وحده",
+      "type": "word",
+      "start": 34.04,
+      "end": 34.56
+    },
+    {
+      "text": "يحرق",
+      "type": "word",
+      "start": 34.72,
+      "end": 35.12
+    },
+    {
+      "text": "الدهون.",
+      "type": "word",
+      "start": 35.16,
+      "end": 35.84
+    }
+  ],
+  "audio": "r008_narration.mp3"
+}
