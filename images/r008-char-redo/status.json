@@ -1,0 +1,17 @@
+{
+  "job": "r008-char-redo",
+  "ok": [
+    "s1",
+    "s6"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
