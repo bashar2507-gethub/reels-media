@@ -1,0 +1,18 @@
+{
+  "job": "intro-frames",
+  "ok": [
+    "a_dormant",
+    "b_ignite",
+    "c_lunge"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
