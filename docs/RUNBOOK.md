@@ -89,6 +89,14 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
    until done, and keep `transcripts[0].words_download_url` and `word_count`.
    The transcript must match the narration text; if words are missing or changed, stop and report.
 
+## 5a. THE BLANKET EFFECT intro (from 2026-10-31)
+
+Every Reel starts with the fixed 1.8 s intro `assets/intro/blanket_effect.mp4` (built once by
+`scripts/build_intro.py`; never regenerate it per Reel). The render prepends it automatically and the Media Gate
+checks the final file. Per Reel, choose only the transition into the first scene with `"intro_transition"` in the
+script: `flash` (default), `zoom`, `circle`, `slide` or `fade`, matching the topic's first image. In step 7 take
+`videoCoverMilliseconds` from `reels/<id>/status.json` `cover_at_seconds` × 1000 (it already includes the intro).
+
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 
 Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`). Before step 6:

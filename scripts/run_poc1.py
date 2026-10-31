@@ -100,8 +100,15 @@ def main() -> int:
 
     started = time.time()
     video = assemble(timeline, visuals, ass_path, out / f"{script['reel_id']}.mp4")
+    cover_at = script.get("cover_at_seconds", 1.0)
+    from app import intro
+    if script.get("intro", True) and intro.INTRO.exists():   # THE BLANKET EFFECT on every Reel
+        body = video.with_name(video.stem + "_body.mp4")
+        video.replace(body)
+        intro.prepend(body, video, script.get("intro_transition", "flash"))
+        cover_at += intro.offset()
     render_seconds = time.time() - started
-    cover = extract_cover(video, script.get("cover_at_seconds", 1.0), out / f"{script['reel_id']}_cover.jpg")
+    cover = extract_cover(video, cover_at, out / f"{script['reel_id']}_cover.jpg")
 
     spec = SPEC
     if script.get("target_s"):  # per-Reel duration range set by the owner, e.g. [45, 75]
