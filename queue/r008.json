@@ -1,0 +1,177 @@
+{
+  "reel_id": "r008",
+  "script": {
+    "reel_id": "r008",
+    "status": "SCRIPTED",
+    "evidence_status": "REVIEWED",
+    "evidence": "content/evidence/r008.json",
+    "language": "ar",
+    "cover_at_seconds": 1.2,
+    "character": "The Blanket",
+    "intro_transition": "flash",
+    "scenes": [
+      {
+        "id": "s1",
+        "visual": "r008-s1",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          0.0,
+          -0.3
+        ],
+        "image_file": "images/r008-char/s1.jpg",
+        "sentences": [
+          {
+            "say": "هل الصيام المتقطع أفضل لخسارة الوزن؟",
+            "style": "title"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "visual": "r008-s2",
+        "fallback": "flow",
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          0.25,
+          0.0
+        ],
+        "image_file": "images/r008-char/s2.jpg",
+        "sentences": [
+          {
+            "say": "في تجربة عشوائية لسنة كاملة على مئة وتسعة وثلاثين شخصًا، أكلت مجموعة نفس السعرات خلال ثماني ساعات فقط، والأخرى على مدار اليوم.",
+            "overlay": {
+              "big": "139",
+              "small": "مشاركًا لمدة سنة",
+              "from": "مئة",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "visual": "r008-s3",
+        "fallback": "scale",
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          -0.25,
+          0.0
+        ],
+        "image_file": "images/r008-char/s3.jpg",
+        "sentences": [
+          {
+            "say": "خسرت المجموعتان وزنًا متقاربًا، ولم يكن الفرق مؤكدًا إحصائيًا.",
+            "overlay": {
+              "small": "فرق غير مؤكد إحصائيًا",
+              "from": "خسرت",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "visual": "r008-s4",
+        "fallback": "dumbbell",
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.2
+        ],
+        "image_file": "images/r008-char/s4.jpg",
+        "sentences": [
+          {
+            "say": "فمجموع السعرات هو ما صنع الفرق الأكبر، لا توقيت الأكل.",
+            "overlay": {
+              "small": "السعرات قبل التوقيت",
+              "from": "فمجموع",
+              "y": 330
+            }
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "visual": "r008-s5",
+        "fallback": "orbs",
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_file": "images/r008-char/s5.jpg",
+        "sentences": [
+          {
+            "say": "الخلاصة: اختر الطريقة التي تساعدك على الالتزام بسعراتك."
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "visual": "r008-s6",
+        "fallback": "bookmark",
+        "zoom": [
+          1.08,
+          1.0
+        ],
+        "pan": [
+          0.0,
+          0.0
+        ],
+        "image_file": "images/r008-char/s6.jpg",
+        "sentences": [
+          {
+            "say": "أرسل المقطع لمن يظن أن الصيام وحده يحرق الدهون."
+          }
+        ]
+      }
+    ],
+    "post": {
+      "networks": [
+        "instagram",
+        "youtube"
+      ],
+      "cover_ms": 1200,
+      "ai_generated_label": true,
+      "youtube_title": "هل الصيام المتقطع أفضل لخسارة الوزن؟ تجربة لسنة كاملة",
+      "youtube_tags": [
+        "الصيام المتقطع",
+        "خسارة الوزن",
+        "السعرات الحرارية",
+        "رجيم",
+        "تغذية",
+        "لياقة"
+      ],
+      "caption": "هل الصيام المتقطع أفضل لخسارة الوزن؟\n\nفي تجربة عشوائية لسنة كاملة على 139 شخصًا، أكلت مجموعة نفس السعرات خلال 8 ساعات فقط، والأخرى على مدار اليوم. خسرت المجموعتان وزنًا متقاربًا، ولم يكن الفرق مؤكدًا إحصائيًا. الاستنتاج: مجموع السعرات هو ما صنع الفرق الأكبر، لا توقيت الأكل.\n\nالخلاصة:\n• الصيام المتقطع طريقة لتقليل السعرات، وليس سحرًا\n• اختر النظام الذي تستطيع الالتزام به\n• راقب مجموع سعراتك اليومية\n\n📤 أرسل المقطع لمن يظن أن الصيام وحده يحرق الدهون.\n\nالمصدر:\nLiu et al., New England Journal of Medicine, 2022\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص، خاصة لمن لديه مرض مزمن أو يتناول أدوية.\n\n#الصيام_المتقطع #خسارة_الوزن #رجيم #السعرات_الحرارية #تغذية_صحية #لياقة"
+    }
+  },
+  "narration": {
+    "url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/SZOzjEF5NiSnurRivwO1/rro0Sw6Gp0T0N2rT1pQ8/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T093102Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=b73157e395a71d51ea87d317f37f47d297f7716b249f5cd2f0d07faabccc9792967f91f4be7cfc848d7c48cf602f76749e08c64280651052d3022d0f8176be30350429960fa28bc697aa84efe8ea6a353c714cb4f0ada465d8af5cc96ead8434d46348140b5e0029ebfb33cf761742b65cf94b9de390c1f796ae952ebe0ae9d626076d0fe6f1ea4332c44d714da902b97372c7e54afe8f2028038f93ce81535b1b1ca388e838bb7982ea04bbae2ef40eef4e6b5b89dfc0f25b90d0f897528a702c9df3c99c8a69c215a7cf30a2b2197a161228e6a238c8374cdd88fad24f218a6c6fa9636bb125846d07d0bc34e07758de73d6f5cdda45676a6d69c0a70e1481",
+    "words_url": "https://storage.googleapis.com/xi-backend/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/g9NchGuC0WgDYAJGzJJ7/1Ri6kQxPyD2Kz0TkYpWc/words.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261031%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261031T093240Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22transcript-1Ri6kQxPyD2Kz0TkYpWc-words.json%22&X-Goog-Signature=9361b7039f3e612fb38e953696682c126750c188e6e04987e55e2f18f61cb7781430a9fb76b501e0b66ecf86fad42404145223322b5005c549dc1158c125ee5918d10b459d92885d3a75d15c46064dfa4cd09a51828e4259ed683d0c2a317ab7cb518c233203292f8ca061e7ed77e3f700bad5eda1b5cf1fd820b35291a31563fcb7b44d2da810eaa8d560f4060e5e8182eecb35fd35c9ad18c25cd1451f740e053db6d6e91a8a47d1e1da94d777a92f9dd4f9502ef96e814d3f40ec3780594304eb71b7e6078403035777b349937cbddc37a587b8d939f0929c9cdaad36fd3d9b0dbb72b87db7b98d0bcf57200a016b07399aeeb9cc0cc34da0136d13d59362",
+    "voice": "Jeddawi Echo",
+    "voice_id": "yXEnnEln9armDCyhkXcA",
+    "model_id": "eleven_v4",
+    "language_code": "ar",
+    "generation_id": "rro0Sw6Gp0T0N2rT1pQ8",
+    "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+    "generated_on": "2026-10-31",
+    "credits": 390,
+    "duration_s": 35.84
+  }
+}
