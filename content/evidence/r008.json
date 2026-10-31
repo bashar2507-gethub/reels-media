@@ -1,0 +1,19 @@
+{
+  "reel_id": "r008",
+  "reviewed_on": "2026-10-31",
+  "method": "Trial summary read directly (pace-cme.org, with full NEJM citation and results).",
+  "claims": [
+    {
+      "claim_id": "r008-c1",
+      "claim": "In a 12-month RCT of 139 adults, eating the same calories within 8 hours gave similar weight loss to daily calorie restriction; the difference was not statistically significant.",
+      "source_title": "Calorie Restriction with or without Time-Restricted Eating in Weight Loss",
+      "authors": "Liu D, Huang Y, Huang C, et al.",
+      "year": 2022,
+      "journal": "N Engl J Med 386(16):1495-1504",
+      "DOI_or_URL": "https://doi.org/10.1056/NEJMoa2114833 | PMID 35443107",
+      "study_type": "Randomized controlled trial, 12 months, n=139 (adults with obesity, China)",
+      "finding": "TRE (8:00-16:00) -8.0 kg vs daily calorie restriction -6.3 kg; net -1.8 kg (95% CI -4.0 to 0.4). Authors: caloric restriction explained most of the beneficial effects."
+    }
+  ],
+  "limitations": "Single-centre trial in China with obesity; the script says 'similar' and 'not statistically certain'."
+}
