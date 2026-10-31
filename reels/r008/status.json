@@ -1,7 +1,0 @@
-{
-  "reel_id": "r008",
-  "passed": false,
-  "run_id": "41189498123",
-  "built_at": "2026-10-31T09:38:45Z",
-  "error": "ModuleNotFoundError: No module named 'app'"
-}

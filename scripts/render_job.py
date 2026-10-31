@@ -25,6 +25,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))  # run as scripts/render_job.py: make `app` importable
 REEL_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,39}$")
 MAX_AUDIO_BYTES = 50_000_000
 
