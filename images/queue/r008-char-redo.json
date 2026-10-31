@@ -1,0 +1,18 @@
+{
+  "purpose": "r008 redo of scenes 1 and 6",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts; the face is completely blank apart from the two round white eyes: no mouth, no smile, no teeth, no nose",
+  "images": [
+    {
+      "key": "s1",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he sits at a plain table looking at an empty plate, thinking, one hand on his chin; behind him a plain round wall clock whose face is completely blank with only two hands, no numbers or marks"
+    },
+    {
+      "key": "s6",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he points toward the viewer with one hand, friendly and confident, standing, the whistle hanging on his chest; his face blank apart from the two glowing eyes"
+    }
+  ]
+}
