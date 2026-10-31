@@ -198,8 +198,16 @@
       "seed_sources": [
         "Liu D et al., N Engl J Med, 2022"
       ],
-      "status": "queued",
-      "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00."
+      "status": "scheduled",
+      "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00.",
+      "queued_at": "2026-10-31T12:31:00+03:00",
+      "narration_credits": 390,
+      "scheduled_for": "2026-11-02T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 412035081,
+        "youtube": 412035111
+      },
+      "rendered_video": "reels/r008/r008-video-120d840859.mp4"
     },
     {
       "id": "r009",
