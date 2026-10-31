@@ -1,0 +1,24 @@
+{
+  "purpose": "THE BLANKET EFFECT intro frames",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round eyes, the face completely blank apart from the eyes (no mouth, no nose, no eyebrows), a navy baseball cap with the letter B, khaki cargo shorts",
+  "style": "Cinematic, realistic 3D film look of this same character with identical proportions and design, dramatic low-key lighting, deep petrol-teal and near-black atmosphere, golden-orange rim light, strong contrast, controlled shadows, vertical 9:16.",
+  "images": [
+    {
+      "key": "a_dormant",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he stands perfectly still in near-total darkness, head slightly bowed as if asleep, his eyes dark and unlit, only a faint golden rim light tracing his shoulders and cap; the frame is mostly black"
+    },
+    {
+      "key": "b_ignite",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "same pose and framing, standing still in near-total darkness, head slightly bowed, but his two round eyes now blaze with an intense golden-white glow that lights the fog around his face; the rest of the frame is mostly black"
+    },
+    {
+      "key": "c_lunge",
+      "reference": "assets/characters/blanket/reference_front.png",
+      "prompt": "he lunges suddenly toward the camera: an extreme close-up of his blank face and shoulders filling the frame, leaning in, his two round eyes blazing golden-white, slight motion blur, dark petrol-teal and black background"
+    }
+  ]
+}

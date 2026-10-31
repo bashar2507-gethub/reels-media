@@ -20,7 +20,10 @@ from app.images import _scrub, clean_token, full_prompt, generate, token_shape  
 EDIT_MODEL = "Qwen/Qwen-Image-Edit-2509"  # Apache-2.0; keeps a character from a reference image
 
 
-def character_prompt(scene: str, character: str) -> str:
+def character_prompt(scene: str, character: str, style: str | None = None) -> str:
+    if style:  # job-level look, e.g. the cinematic intro
+        return (f"Keep exactly the same character as in the image: {character}. {style} New scene: "
+                f"{scene.strip().rstrip('.')}. No text, no captions, no letters or numbers anywhere.")
     return (f"Keep exactly the same character as in the image: {character}. Same flat cartoon illustration style with "
             f"clean black outlines and soft cel shading. New scene: {scene.strip().rstrip('.')}. Background: dark "
             "petrol-teal gym with warm amber rim light. Vertical 9:16 composition with calm empty space in the upper "
@@ -69,7 +72,7 @@ def main() -> int:
             continue
         try:
             if item.get("reference"):
-                img = edit_from_reference(Path(item["reference"]), character_prompt(item["prompt"], job.get("character", "")),
+                img = edit_from_reference(Path(item["reference"]), character_prompt(item["prompt"], job.get("character", ""), job.get("style")),
                                           token, job.get("edit_model", EDIT_MODEL), size=(w, h))
             else:
                 img = generate(full_prompt(item["prompt"], item.get("style", "still_life")), token, width=w, height=h)
