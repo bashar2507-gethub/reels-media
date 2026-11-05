@@ -1,0 +1,446 @@
+{
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "OTR5mxlQaz62fVsLdgTa",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-11-05",
+  "credits": 446,
+  "duration_s": 41.12,
+  "words": [
+    {
+      "text": "قليل",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "text": "الكربوهيدرات",
+      "type": "word",
+      "start": 0.32,
+      "end": 1.307
+    },
+    {
+      "text": "أم",
+      "type": "word",
+      "start": 1.44,
+      "end": 1.72
+    },
+    {
+      "text": "قليل",
+      "type": "word",
+      "start": 1.84,
+      "end": 2.24
+    },
+    {
+      "text": "الدهون:",
+      "type": "word",
+      "start": 2.28,
+      "end": 3.2
+    },
+    {
+      "text": "أيهما",
+      "type": "word",
+      "start": 3.24,
+      "end": 3.76
+    },
+    {
+      "text": "أفضل",
+      "type": "word",
+      "start": 3.8,
+      "end": 4.16
+    },
+    {
+      "text": "لخسارة",
+      "type": "word",
+      "start": 4.24,
+      "end": 4.72
+    },
+    {
+      "text": "الوزن؟",
+      "type": "word",
+      "start": 4.8,
+      "end": 5.68
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 5.76,
+      "end": 5.92
+    },
+    {
+      "text": "تجربة",
+      "type": "word",
+      "start": 6.04,
+      "end": 6.48
+    },
+    {
+      "text": "عشوائية",
+      "type": "word",
+      "start": 6.56,
+      "end": 7.28
+    },
+    {
+      "text": "لسنة",
+      "type": "word",
+      "start": 7.36,
+      "end": 7.84
+    },
+    {
+      "text": "كاملة",
+      "type": "word",
+      "start": 8.0,
+      "end": 8.56
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 8.64,
+      "end": 8.88
+    },
+    {
+      "text": "ستمئة",
+      "type": "word",
+      "start": 9.04,
+      "end": 9.6
+    },
+    {
+      "text": "وتسعة",
+      "type": "word",
+      "start": 9.68,
+      "end": 10.16
+    },
+    {
+      "text": "بالغين،",
+      "type": "word",
+      "start": 10.24,
+      "end": 11.2
+    },
+    {
+      "text": "اتبع",
+      "type": "word",
+      "start": 11.32,
+      "end": 11.68
+    },
+    {
+      "text": "نصفهم",
+      "type": "word",
+      "start": 11.76,
+      "end": 12.24
+    },
+    {
+      "text": "نظامًا",
+      "type": "word",
+      "start": 12.32,
+      "end": 12.72
+    },
+    {
+      "text": "صحيًا",
+      "type": "word",
+      "start": 12.8,
+      "end": 13.28
+    },
+    {
+      "text": "قليل",
+      "type": "word",
+      "start": 13.44,
+      "end": 13.68
+    },
+    {
+      "text": "الدهون،",
+      "type": "word",
+      "start": 13.76,
+      "end": 14.56
+    },
+    {
+      "text": "والنصف",
+      "type": "word",
+      "start": 14.64,
+      "end": 14.96
+    },
+    {
+      "text": "الآخر",
+      "type": "word",
+      "start": 15.04,
+      "end": 15.44
+    },
+    {
+      "text": "قليل",
+      "type": "word",
+      "start": 15.76,
+      "end": 16.08
+    },
+    {
+      "text": "الكربوهيدرات.",
+      "type": "word",
+      "start": 16.16,
+      "end": 17.28
+    },
+    {
+      "text": "خسرت",
+      "type": "word",
+      "start": 17.52,
+      "end": 17.92
+    },
+    {
+      "text": "المجموعتان",
+      "type": "word",
+      "start": 18.04,
+      "end": 18.8
+    },
+    {
+      "text": "وزنًا",
+      "type": "word",
+      "start": 18.88,
+      "end": 19.28
+    },
+    {
+      "text": "متقاربًا،",
+      "type": "word",
+      "start": 19.4,
+      "end": 20.32
+    },
+    {
+      "text": "نحو",
+      "type": "word",
+      "start": 20.36,
+      "end": 20.64
+    },
+    {
+      "text": "خمسة",
+      "type": "word",
+      "start": 20.8,
+      "end": 21.2
+    },
+    {
+      "text": "إلى",
+      "type": "word",
+      "start": 21.24,
+      "end": 21.44
+    },
+    {
+      "text": "ستة",
+      "type": "word",
+      "start": 21.52,
+      "end": 21.76
+    },
+    {
+      "text": "كيلوغرامات،",
+      "type": "word",
+      "start": 21.92,
+      "end": 22.96
+    },
+    {
+      "text": "ولم",
+      "type": "word",
+      "start": 23.08,
+      "end": 23.28
+    },
+    {
+      "text": "يكن",
+      "type": "word",
+      "start": 23.32,
+      "end": 23.52
+    },
+    {
+      "text": "الفرق",
+      "type": "word",
+      "start": 23.6,
+      "end": 24.0
+    },
+    {
+      "text": "مؤكدًا",
+      "type": "word",
+      "start": 24.12,
+      "end": 24.64
+    },
+    {
+      "text": "إحصائيًا.",
+      "type": "word",
+      "start": 24.68,
+      "end": 25.76
+    },
+    {
+      "text": "وفي",
+      "type": "word",
+      "start": 25.88,
+      "end": 26.0
+    },
+    {
+      "text": "هذه",
+      "type": "word",
+      "start": 26.08,
+      "end": 26.32
+    },
+    {
+      "text": "التجربة،",
+      "type": "word",
+      "start": 26.4,
+      "end": 27.28
+    },
+    {
+      "text": "لم",
+      "type": "word",
+      "start": 27.36,
+      "end": 27.44
+    },
+    {
+      "text": "تتنبأ",
+      "type": "word",
+      "start": 27.52,
+      "end": 28.08
+    },
+    {
+      "text": "الجينات",
+      "type": "word",
+      "start": 28.16,
+      "end": 28.72
+    },
+    {
+      "text": "ولا",
+      "type": "word",
+      "start": 28.88,
+      "end": 29.12
+    },
+    {
+      "text": "مستوى",
+      "type": "word",
+      "start": 29.2,
+      "end": 29.52
+    },
+    {
+      "text": "الإنسولين",
+      "type": "word",
+      "start": 29.6,
+      "end": 30.16
+    },
+    {
+      "text": "بمن",
+      "type": "word",
+      "start": 30.4,
+      "end": 30.64
+    },
+    {
+      "text": "ينجح",
+      "type": "word",
+      "start": 30.72,
+      "end": 31.12
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 31.2,
+      "end": 31.36
+    },
+    {
+      "text": "أي",
+      "type": "word",
+      "start": 31.44,
+      "end": 31.68
+    },
+    {
+      "text": "نظام.",
+      "type": "word",
+      "start": 31.76,
+      "end": 32.56
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 32.64,
+      "end": 33.6
+    },
+    {
+      "text": "جودة",
+      "type": "word",
+      "start": 33.64,
+      "end": 34.0
+    },
+    {
+      "text": "الأكل",
+      "type": "word",
+      "start": 34.12,
+      "end": 34.4
+    },
+    {
+      "text": "والالتزام",
+      "type": "word",
+      "start": 34.48,
+      "end": 35.2
+    },
+    {
+      "text": "أهم",
+      "type": "word",
+      "start": 35.52,
+      "end": 36.0
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 36.08,
+      "end": 36.24
+    },
+    {
+      "text": "اسم",
+      "type": "word",
+      "start": 36.36,
+      "end": 36.48
+    },
+    {
+      "text": "النظام.",
+      "type": "word",
+      "start": 36.52,
+      "end": 37.44
+    },
+    {
+      "text": "احفظ",
+      "type": "word",
+      "start": 37.52,
+      "end": 37.76
+    },
+    {
+      "text": "المقطع،",
+      "type": "word",
+      "start": 37.88,
+      "end": 38.56
+    },
+    {
+      "text": "وشاركه",
+      "type": "word",
+      "start": 38.6,
+      "end": 39.12
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 39.2,
+      "end": 39.36
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 39.44,
+      "end": 39.52
+    },
+    {
+      "text": "يحتار",
+      "type": "word",
+      "start": 39.6,
+      "end": 40.0
+    },
+    {
+      "text": "بين",
+      "type": "word",
+      "start": 40.08,
+      "end": 40.24
+    },
+    {
+      "text": "النظامين.",
+      "type": "word",
+      "start": 40.32,
+      "end": 41.12
+    }
+  ],
+  "audio": "r009_narration.mp3"
+}
