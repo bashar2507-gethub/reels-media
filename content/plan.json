@@ -228,7 +228,7 @@
       "seed_sources": [
         "Gardner CD et al., JAMA, 2018"
       ],
-      "status": "scheduled",
+      "status": "published",
       "queued_at": "2026-11-05T19:30:00+03:00",
       "narration_credits": 446,
       "evidence_note": "DIETFITS verified via NIHR Evidence record (PubMed/JAMA pages unreachable from workspace)",
@@ -237,7 +237,16 @@
         "instagram": 417962524,
         "youtube": 417962626
       },
-      "rendered_video": "reels/r009/r009-video-e581e82513.mp4"
+      "rendered_video": "reels/r009/r009-video-e581e82513.mp4",
+      "published_at": "2026-11-05T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfXibZnkX_N/",
+        "youtube": "https://www.youtube.com/shorts/x0Z7rxmEg_w"
+      },
+      "metricool_post_id": {
+        "instagram": 417962524,
+        "youtube": 417962626
+      }
     },
     {
       "id": "r010",
