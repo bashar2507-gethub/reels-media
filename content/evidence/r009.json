@@ -1,0 +1,19 @@
+{
+  "reel_id": "r009",
+  "reviewed_on": "2026-11-05",
+  "method": "Trial record read directly (NIHR Evidence summary of the JAMA paper, with full citation, DOI link and results). PubMed and the JAMA page could not be fetched from the workspace (PubMed client error, PMC captcha, JAMA permission timeout).",
+  "claims": [
+    {
+      "claim_id": "r009-c1",
+      "claim": "In the 12-month DIETFITS randomized trial of 609 adults with overweight or obesity, a healthy low-fat diet and a healthy low-carbohydrate diet led to similar weight loss; the difference was not significant.",
+      "source_title": "Effect of Low-Fat vs Low-Carbohydrate Diet on 12-Month Weight Loss in Overweight Adults and the Association With Genotype Pattern or Insulin Secretion: The DIETFITS Randomized Clinical Trial",
+      "authors": "Gardner CD, Trepanowski JF, et al.",
+      "year": 2018,
+      "journal": "JAMA 319(7):667-679",
+      "DOI_or_URL": "https://doi.org/10.1001/jama.2018.0245 | summary: https://evidence.nihr.ac.uk/alert/low-fat-or-low-carbohydrate-diets-seem-just-as-effective-for-weight-loss/ (doi 10.3310/signal-00597)",
+      "study_type": "Randomized clinical trial, 12 months, n=609 US adults, BMI 28-40, 22 diet-specific sessions; 79% completed follow-up, all analysed",
+      "finding": "Low-fat -5.3 kg (95% CI -5.9 to -4.7) vs low-carbohydrate -6.0 kg (95% CI -6.6 to -5.4); difference 0.7 kg (95% CI -0.2 to 1.6). Neither genotype pattern nor insulin secretion (insulin 30 min after a glucose load) changed the result."
+    }
+  ],
+  "limitations": "US adults with overweight/obesity; both diets emphasised healthy, minimally processed food; secondary record used for figures. The script says 'similar', 'not statistically significant' and 'in this trial'."
+}
