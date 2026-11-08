@@ -1,0 +1,14 @@
+{
+  "purpose": "r010 scene images with The Blanket",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts",
+  "images": [
+    {"key": "s1", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he stands next to a plain birthday cake with three plain unlit candles, scratching the back of his cap, puzzled"},
+    {"key": "s2", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he stands in a bright plain laboratory holding a plain clear glass of water up to the light, examining it closely"},
+    {"key": "s3", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he walks steadily along a long straight flat road at golden hour, calm and confident, seen from the side"},
+    {"key": "s4", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he walks slowly down a gentle grassy slope in a quiet park in the evening, relaxed"},
+    {"key": "s5", "reference": "assets/characters/blanket/move_squat.png", "prompt": "he performs a bodyweight squat in a bright home living room next to a table with a plain plate of vegetables and grilled chicken"},
+    {"key": "s6", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he holds a plain blank smartphone with a dark screen out toward the viewer with a friendly gesture, the whistle hanging on his chest"}
+  ]
+}

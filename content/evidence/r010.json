@@ -1,0 +1,19 @@
+{
+  "reel_id": "r010",
+  "reviewed_on": "2026-11-08",
+  "method": "Abstract and citation read directly from the Duke Scholars record and the Tilburg University research record of the Science paper (both carry the same abstract, DOI and PMID 34385400). PubMed and PMC could not be fetched from the workspace (permission timeout).",
+  "claims": [
+    {
+      "claim_id": "r010-c1",
+      "claim": "In a pooled doubly labelled water database covering people aged 8 days to 95 years, total daily energy expenditure adjusted for fat-free mass (body size and composition) stayed stable from about age 20 to 60, even during pregnancy, and declined only in older adults.",
+      "source_title": "Daily energy expenditure through the human life course",
+      "authors": "Pontzer H, Yamada Y, Sagayama H, et al.; IAEA DLW Database Consortium (Speakman JR, last author)",
+      "year": 2021,
+      "journal": "Science 373(6556):808-812",
+      "DOI_or_URL": "https://doi.org/10.1126/science.abe5017 | PMID 34385400 | record: https://scholars.duke.edu/individual/pub1494161",
+      "study_type": "Pooled analysis of total energy expenditure measured by doubly labelled water in a large, diverse international database, males and females aged 8 days to 95 years",
+      "finding": "Abstract: fat-free mass-adjusted expenditure rises to about 50% above adult values at about 1 year, declines slowly to adult levels by about 20 years, remains stable in adulthood (20 to 60 years), even during pregnancy, then declines in older adults."
+    }
+  ],
+  "limitations": "Observational, cross-sectional pooled data; the stability is after adjusting for fat-free mass, so total expenditure can still fall if a person loses muscle. The participant count and the rate of decline after 60 were not read from the full text, so the script gives neither. The script says 'in a large study', 'after accounting for body size and muscle', and hedges the takeaway with 'قد'."
+}
