@@ -1,0 +1,179 @@
+{
+ "reel_id": "r010",
+ "script": {
+  "reel_id": "r010",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r010.json",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "character": "The Blanket",
+  "intro_transition": "zoom",
+  "scenes": [
+   {
+    "id": "s1",
+    "visual": "r010-s1",
+    "fallback": "orbs",
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     0.0,
+     -0.3
+    ],
+    "image_file": "images/r010-char/s1.jpg",
+    "sentences": [
+     {
+      "say": "هل يبطؤ حرقك فعلًا بعد الثلاثين؟",
+      "style": "title"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "visual": "r010-s2",
+    "fallback": "flow",
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     0.25,
+     0.0
+    ],
+    "image_file": "images/r010-char/s2.jpg",
+    "sentences": [
+     {
+      "say": "في دراسة كبيرة نُشرت في مجلة ساينس، قاس الباحثون الطاقة اليومية لأشخاص من عمر ثمانية أيام حتى خمسة وتسعين عامًا.",
+      "overlay": {
+       "big": "8 → 95",
+       "small": "عمر المشاركين (أيام ← سنوات)",
+       "from": "ثمانية",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "visual": "r010-s3",
+    "fallback": "scale",
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -0.25,
+     0.0
+    ],
+    "image_file": "images/r010-char/s3.jpg",
+    "sentences": [
+     {
+      "say": "وبعد احتساب حجم الجسم والعضلات، بقي الحرق ثابتًا تقريبًا من العشرين حتى الستين.",
+      "overlay": {
+       "big": "20 → 60",
+       "small": "حرق ثابت بعد ضبط حجم الجسم",
+       "from": "العشرين",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s4",
+    "visual": "r010-s4",
+    "fallback": "flow",
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     0.0,
+     0.2
+    ],
+    "image_file": "images/r010-char/s4.jpg",
+    "sentences": [
+     {
+      "say": "ولم يبدأ بالانخفاض إلا لدى كبار السن بعد الستين.",
+      "overlay": {
+       "big": "60+",
+       "small": "بداية الانخفاض",
+       "from": "الستين",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s5",
+    "visual": "r010-s5",
+    "fallback": "dumbbell",
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r010-char/s5.jpg",
+    "sentences": [
+     {
+      "say": "الخلاصة: إن زاد وزنك بعد الثلاثين، فقد لا يكون السبب بطء الحرق، بل الأكل والحركة. حافظ على عضلاتك."
+     }
+    ]
+   },
+   {
+    "id": "s6",
+    "visual": "r010-s6",
+    "fallback": "bookmark",
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r010-char/s6.jpg",
+    "sentences": [
+     {
+      "say": "أرسل المقطع لصديق يلوم عمره على وزنه."
+     }
+    ]
+   }
+  ],
+  "post": {
+   "networks": [
+    "instagram",
+    "youtube"
+   ],
+   "cover_ms": 1200,
+   "ai_generated_label": true,
+   "youtube_title": "هل يبطؤ الحرق بعد الثلاثين؟ ماذا وجدت دراسة Science",
+   "youtube_tags": [
+    "الحرق",
+    "الأيض",
+    "السعرات الحرارية",
+    "خسارة الوزن",
+    "العمر",
+    "لياقة"
+   ],
+   "caption": "هل يبطؤ حرقك فعلًا بعد الثلاثين؟\n\nفي دراسة كبيرة نُشرت في مجلة Science، قاس الباحثون الطاقة اليومية بطريقة الماء مزدوج الوسم لأشخاص من عمر 8 أيام حتى 95 عامًا. وبعد احتساب حجم الجسم والعضلات، بقي الحرق ثابتًا تقريبًا من 20 حتى 60 عامًا، ولم يبدأ بالانخفاض إلا لدى كبار السن بعد الستين.\n\nالخلاصة:\n• العمر وحده قد لا يفسّر زيادة الوزن بعد الثلاثين\n• راجع أكلك وحركتك اليومية\n• حافظ على عضلاتك بتمارين المقاومة\n\n📩 أرسل المقطع لصديق يلوم عمره على وزنه.\n\nالمصدر:\nPontzer et al., Science, 2021\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#الحرق #الأيض #خسارة_الوزن #السعرات_الحرارية #لياقة #تغذية_صحية"
+  }
+ },
+ "narration": {
+  "url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/tLKlJDj8AINhCpl9oPtC/Xgt7vFzrtruWaMjY8Akw/content.mp3?Expires=1794164400&KeyName=assets-cdn-key-1&Signature=1X8mHorgC5Ug6uu9DtOihZuq6fA=",
+  "words_url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/KbAKSwAR9ueJOPHqZU2f/wC8GkGt0lWECASi7eTjB/words.json?response-content-disposition=attachment%3B%20filename%3D%22transcript-wC8GkGt0lWECASi7eTjB-words.json%22&Expires=1794164400&KeyName=assets-cdn-key-1&Signature=l16ImSWAq3GeW63kkl2DB-G_dOg=",
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "Xgt7vFzrtruWaMjY8Akw",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-11-08",
+  "credits": 416,
+  "duration_s": 38.08
+ }
+}
