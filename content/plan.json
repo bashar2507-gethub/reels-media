@@ -258,7 +258,7 @@
       "seed_sources": [
         "Pontzer H et al., Science, 2021"
       ],
-      "status": "scheduled",
+      "status": "published",
       "queued_at": "2026-11-08T19:27:00+03:00",
       "narration_credits": 416,
       "evidence_note": "Pontzer 2021 verified via Duke Scholars and Tilburg research records (PubMed/PMC unreachable from workspace)",
@@ -267,7 +267,16 @@
         "instagram": 420879905,
         "youtube": 420879925
       },
-      "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4"
+      "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4",
+      "published_at": "2026-11-08T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DffQgGekU-h/",
+        "youtube": "https://www.youtube.com/shorts/iXwE1SXHQow"
+      },
+      "metricool_post_id": {
+        "instagram": 420879905,
+        "youtube": 420879925
+      }
     },
     {
       "id": "r011",
