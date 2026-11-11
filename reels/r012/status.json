@@ -1,0 +1,43 @@
+{
+  "reel_id": "r012",
+  "passed": true,
+  "run_id": "43064929882",
+  "built_at": "2026-11-11T17:07:30Z",
+  "build_seconds": 233,
+  "log_tail": " s window) [instagram]\n  PASS duration_instagram     39.90 s                            limit: 3 s to 15 min [instagram]\n  PASS duration_autopublish   39.90 s                            limit: 3 s to 15 min (Metricool help centre) [metricool]\n  PASS duration_target        39.90 s                            limit: 28-45 s [internal]\n  PASS audio_codec            aac                                limit: AAC [instagram]\n  PASS audio_sample_rate      48000 Hz                           limit: <= 48 kHz [instagram]\n  PASS audio_channels         2                                  limit: mono or stereo [instagram]\n  PASS audio_bitrate          126 kbps                           limit: 128 kbps [instagram]\n  PASS loudness               -16.7 LUFS                         limit: -16 +/- 2 LUFS [internal]\n  PASS true_peak              -2.5 dBTP                          limit: <= -1.0 dBTP [internal]\n  PASS no_long_silence        0 gaps                             limit: no silence >= 1.5 s [internal]\n  PASS av_duration_match      video 39.83 s, audio 39.84 s       limit: <= 0.1 s apart [internal]\n  PASS decodes_cleanly        no errors                          limit: full decode [internal]\n  PASS captions_rtl_order     20 positions checked               limit: highlight follows right-to-left reading [internal]\n  PASS speaking_rate          110 wpm                            limit: 100-160 Arabic words per minute [internal]\nvisuals: 6 AI, 0 procedural\nMEDIA GATE: PASSED | warnings: none\n",
+  "checks": "27/27",
+  "failed_checks": [],
+  "warnings": [],
+  "visuals": {
+    "ai": [
+      "r012-s1",
+      "r012-s2",
+      "r012-s3",
+      "r012-s4",
+      "r012-s5",
+      "r012-s6"
+    ],
+    "fallback": [],
+    "errors": {},
+    "token": {
+      "set": true,
+      "hf_prefix": true,
+      "length": 37,
+      "trimmed": false
+    }
+  },
+  "duration_s": 38.11,
+  "wpm": 110,
+  "video": "reels/r012/r012-video-0192c28410.mp4",
+  "video_sha256": "0192c28410a8486c95bc6b6ba11e7a0fa1cbf1c97ac82b2f8558120f74e084d1",
+  "video_bytes": 10153118,
+  "cover": "reels/r012/r012-cover-fa852b67ad.jpg",
+  "cover_sha256": "fa852b67ad2107f0f7c4f52bbbca1949f6b89d12faf911de1bdb4bbdc11d566b",
+  "cover_bytes": 95996,
+  "cover_at_seconds": 2.87,
+  "intro": {
+    "file": "assets/intro/blanket_effect.mp4",
+    "offset_s": 1.667,
+    "transition": "circle"
+  }
+}
