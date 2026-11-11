@@ -311,11 +311,17 @@
       "seed_sources": [
         "Dennis EA et al., Obesity, 2010"
       ],
-      "status": "queued",
+      "status": "scheduled",
       "queued_at": "2026-11-11T20:07:00+03:00",
       "narration_credits": 392,
       "note": "Prepared on 2026-11-11 in the owner's chat (he asked to try Fable 5.2 on the next video), for the 2026-11-14 20:00 slot.",
-      "evidence_note": "Dennis 2010 verified via University of Kentucky and FAO AGRIS records, Parretti 2015 via the University of Birmingham record, Hakam 2024 via the Washington University record (PubMed and PMC served a captcha)"
+      "evidence_note": "Dennis 2010 verified via University of Kentucky and FAO AGRIS records, Parretti 2015 via the University of Birmingham record, Hakam 2024 via the Washington University record (PubMed and PMC served a captcha)",
+      "scheduled_for": "2026-11-14T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 424698728,
+        "youtube": 424698916
+      },
+      "rendered_video": "reels/r012/r012-video-0192c28410.mp4"
     },
     {
       "id": "r013",
