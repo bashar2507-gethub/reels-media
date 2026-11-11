@@ -27,7 +27,26 @@ jobs:
           python-version: "3.12"
 
       - name: Install FFmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        # FFmpeg still comes from Ubuntu's own signed packages. The time limits and the second mirror are here
+        # because this step hung for 15 minutes on the runner's default mirror on 2026-11-11.
+        run: |
+          if command -v ffmpeg >/dev/null 2>&1 && command -v ffprobe >/dev/null 2>&1; then
+            ffmpeg -version | head -1
+            exit 0
+          fi
+          export DEBIAN_FRONTEND=noninteractive NEEDRESTART_SUSPEND=1
+          sudo rm -f /var/lib/man-db/auto-update
+          opts="-o Acquire::Retries=2 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 -o Acquire::ForceIPv4=true -o DPkg::Lock::Timeout=60"
+          attempt() {
+            timeout -k 10 "$1" sudo -E apt-get $opts update -qq || echo "apt-get update did not finish cleanly; trying the install anyway"
+            timeout -k 10 "$2" sudo -E apt-get $opts install -y -qq ffmpeg
+          }
+          attempt 45 120 && exit 0
+          echo "Default mirror slow or unreachable; retrying with the main Ubuntu archive"
+          timeout -k 10 60 sudo -E dpkg --configure -a || true
+          printf 'http://archive.ubuntu.com/ubuntu/\tpriority:1\nhttp://security.ubuntu.com/ubuntu/\tpriority:2\n' | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
+          sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list /etc/apt/sources.list.d/* 2>/dev/null || true
+          attempt 90 300
 
       - name: Install Python packages
         run: pip install -q -r requirements.txt
