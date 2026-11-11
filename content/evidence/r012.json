@@ -1,0 +1,52 @@
+{
+  "reel_id": "r012",
+  "reviewed_on": "2026-11-11",
+  "method": "Abstracts and citations read directly from institutional research records: the University of Kentucky Scholars record and the FAO AGRIS record for Dennis 2010 (same abstract and DOI on both), the University of Birmingham research portal record for Parretti 2015, and the Washington University Profiles record for Hakam 2024. PubMed and PMC could not be fetched from the workspace (browser-verification page).",
+  "claims": [
+    {
+      "claim_id": "r012-c1",
+      "claim": "In a 12-week trial of 48 overweight or obese adults aged 55 to 75 on a hypocaloric diet, the group that also drank 500 ml of water before each daily meal lost about 2 kg more than the group on the diet alone.",
+      "source_title": "Water consumption increases weight loss during a hypocaloric diet intervention in middle-aged and older adults",
+      "authors": "Dennis EA, Dengo AL, Comber DL, Flack KD, Savla J, Davy KP, Davy BM",
+      "year": 2010,
+      "journal": "Obesity (Silver Spring) 18(2):300-307",
+      "DOI_or_URL": "https://doi.org/10.1038/oby.2009.235 | PMID 19661958 | records: https://scholars.uky.edu/en/publications/water-consumption-increases-weight-loss-during-a-hypocaloric-diet/ and https://agris.fao.org/search/es/records/65de5e417c7033e84beab932",
+      "study_type": "12-week controlled trial, two groups: hypocaloric diet plus 500 ml water before each daily meal (water group) versus hypocaloric diet alone (nonwater group); 48 adults aged 55-75 years, BMI 25-40 kg/m2",
+      "finding": "Abstract: weight loss was about 2 kg greater in the water group, which showed a 44% greater decline in weight over the 12 weeks (both slopes P < 0.001)."
+    },
+    {
+      "claim_id": "r012-c2",
+      "claim": "A likely reason is that water before a meal can make people eat less at that meal.",
+      "source_title": "Water consumption increases weight loss during a hypocaloric diet intervention in middle-aged and older adults",
+      "authors": "Dennis EA, Dengo AL, Comber DL, Flack KD, Savla J, Davy KP, Davy BM",
+      "year": 2010,
+      "journal": "Obesity (Silver Spring) 18(2):300-307",
+      "DOI_or_URL": "https://doi.org/10.1038/oby.2009.235 | PMID 19661958",
+      "study_type": "Ad libitum test meals with and without a 500 ml water preload, at baseline and at week 12, within the same trial",
+      "finding": "Abstract: at baseline, test-meal energy intake was lower after the water preload than without it (498 +/- 25 vs 541 +/- 27 kcal, P = 0.009); at week 12 the difference was no longer significant (480 +/- 25 vs 506 +/- 25 kcal, P = 0.069). The authors say the extra weight loss may be due in part to an acute reduction in meal energy intake after drinking water."
+    },
+    {
+      "claim_id": "r012-c3",
+      "claim": "In a second, randomized trial (84 adults with obesity, 12 weeks), drinking 500 ml of water 30 minutes before main meals led to about 1.3 kg more weight loss than the comparison group.",
+      "source_title": "Efficacy of water preloading before main meals as a strategy for weight loss in primary care patients with obesity: RCT",
+      "authors": "Parretti H, Aveyard P, Blannin A, Clifford S, Coleman S, Roalfe A, Daley A",
+      "year": 2015,
+      "journal": "Obesity (Silver Spring) 23(9):1785-1791",
+      "DOI_or_URL": "https://doi.org/10.1002/oby.21167 | PMID 26237305 (from the search listing; the record itself shows only the DOI) | record: https://research.birmingham.ac.uk/en/publications/efficacy-of-water-preloading-before-main-meals-as-a-strategy-for-",
+      "study_type": "Two-group randomized controlled trial in general practices in Birmingham, England: 41 adults asked to drink 500 ml of water 30 minutes before main meals versus 43 asked to imagine a full stomach before meals (attention control); follow-up at 12 weeks",
+      "finding": "Abstract: the water preloading group lost 1.3 kg more than comparators (95% CI -2.4 to -0.1, P = 0.028); after adjustment for ethnicity, deprivation, age and gender the difference was 1.2 kg (95% CI -2.4 to 0.07, P = 0.063). Conclusion: preliminary evidence that water preloading before main meals leads to a moderate weight loss at follow up."
+    },
+    {
+      "claim_id": "r012-c4",
+      "claim": "A 2024 systematic review of 18 randomized trials of changing daily water intake reported that drinking additional water was associated with greater weight loss (caption only, as context).",
+      "source_title": "Outcomes in Randomized Clinical Trials Testing Changes in Daily Water Intake: A Systematic Review",
+      "authors": "Hakam N, Guzman Fuentes JL, Nabavizadeh B, Sudhakar A, Li KD, Nicholas C, Lui J, Tahir P, Jones CP, Bent S, Breyer BN",
+      "year": 2024,
+      "journal": "JAMA Network Open 7(11):e2447621",
+      "DOI_or_URL": "https://doi.org/10.1001/jamanetworkopen.2024.47621 | PMID 39585691 | record: https://profiles.wustl.edu/en/publications/outcomes-in-randomized-clinical-trials-testing-changes-in-daily-w/",
+      "study_type": "Systematic review of randomized clinical trials (18 eligible studies: 15 parallel-group, 3 crossover; interventions from 4 days to 5 years)",
+      "finding": "Abstract: consuming additional water was associated with greater weight loss (range, 44%-100% more than control conditions)."
+    }
+  ],
+  "limitations": "Both trials are small (48 and 84 people) and short (12 weeks). Dennis 2010 studied adults aged 55 to 75 who were all on a hypocaloric diet, so it shows water as an addition to a diet, not a replacement, and the records read here do not say 'randomized' for it, so the script calls it 'a trial'. In Parretti 2015 the difference was no longer statistically significant after adjustment (P = 0.063) and the authors call the evidence preliminary. The meal-intake effect in Dennis 2010 was significant at baseline but not at week 12, so the script says 'the likely reason'. The script therefore says 'about', 'in a trial', 'the likely reason', and frames water as a small addition to a diet with no guaranteed result. People told by a doctor to limit fluids are covered by the caption's health note."
+}
