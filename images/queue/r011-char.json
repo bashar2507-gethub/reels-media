@@ -1,0 +1,14 @@
+{
+  "purpose": "r011 scene images with The Blanket",
+  "width": 720,
+  "height": 1280,
+  "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts",
+  "images": [
+    {"key": "s1", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he stands up from a plain office chair beside a plain wooden desk in a bright modern room, curious, one hand on his hip"},
+    {"key": "s2", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he sits at a plain wooden dining table in front of a very large plate piled with rice, grilled chicken and bread, looking at it in surprise"},
+    {"key": "s3", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he walks briskly up a plain indoor staircase in a bright home, energetic, seen from the side"},
+    {"key": "s4", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he slumps on a plain gray sofa in a quiet living room, relaxed and still, with a plain blank remote control in his hand"},
+    {"key": "s5", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he walks along a bright plain office corridor carrying a plain white mug, relaxed stride"},
+    {"key": "s6", "reference": "assets/characters/blanket/reference_front.png", "prompt": "he stands beside a plain wooden desk stretching both arms up overhead, the whistle hanging on his chest, friendly posture"}
+  ]
+}
