@@ -1,0 +1,13 @@
+{
+ "purpose": "r012 s3 second composition: jug held high so the caption line does not cover it (the first s3 had no defect and stays as the fallback)",
+ "width": 720,
+ "height": 1280,
+ "character": "The Blanket: a gray faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a navy baseball cap with the letter B, a silver whistle on a black cord, khaki cargo shorts",
+ "images": [
+  {
+   "key": "s3",
+   "reference": "images/refs/blanket_front_dark_headroom.png",
+   "prompt": "he holds a plain clear glass jug up at shoulder height with one hand and pours a long thin stream of water straight down into a tall plain clear glass that stands on a low plain wooden table at knee height in front of him, next to a plain white plate of food; his other arm hangs relaxed. He stays small in the frame, in the lower half of the picture, with plain dark empty space above his head. His face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no smile, no nose, no expression lines. No text, no symbols, no question marks anywhere."
+  }
+ ]
+}
