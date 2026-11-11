@@ -289,10 +289,17 @@
         "Levine JA et al., Science, 1999",
         "Levine JA et al., Science, 2005"
       ],
-      "status": "queued",
+      "status": "scheduled",
       "queued_at": "2026-11-11T19:25:00+03:00",
       "narration_credits": 412,
-      "evidence_note": "Levine 1999 verified on PubMed (PMID 9880251); Levine 2005 verified via ASU research record (PubMed served a captcha)"
+      "evidence_note": "Levine 1999 verified on PubMed (PMID 9880251); Levine 2005 verified via ASU research record (PubMed served a captcha)",
+      "scheduled_for": "2026-11-11T20:18:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 424691154,
+        "youtube": 424691393
+      },
+      "rendered_video": "reels/r011/r011-video-c6b3f7937f.mp4",
+      "note": "The scheduled run stopped at the usage limit (19:50) after queuing the render; the first render hung on GitHub's FFmpeg install. The owner's chat session restarted the render, added headroom to scene 2 and published at 20:18 instead of 20:00."
     },
     {
       "id": "r012",
