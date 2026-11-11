@@ -1,0 +1,173 @@
+{
+ "reel_id": "r011",
+ "script": {
+  "reel_id": "r011",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r011.json",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "character": "The Blanket",
+  "intro_transition": "slide",
+  "scenes": [
+   {
+    "id": "s1",
+    "visual": "r011-s1",
+    "fallback": "orbs",
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     0.0,
+     -0.3
+    ],
+    "image_file": "images/r011-char/s1.jpg",
+    "sentences": [
+     {
+      "say": "هل حركتك خارج النادي أهم مما تظن؟",
+      "style": "title"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "visual": "r011-s2",
+    "fallback": "scale",
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     0.25,
+     0.0
+    ],
+    "image_file": "images/r011-char/s2.jpg",
+    "sentences": [
+     {
+      "say": "في دراسة صغيرة نُشرت في مجلة ساينس، أكل ستة عشر متطوعًا ألف سعرة زائدة يوميًا لمدة ثمانية أسابيع.",
+      "overlay": {
+       "big": "+1000 × 8",
+       "small": "سعرة زائدة يوميًا لثمانية أسابيع",
+       "from": "ألف",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "visual": "r011-s3",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -0.25,
+     0.0
+    ],
+    "image_file": "images/r011-char/s3.jpg",
+    "sentences": [
+     {
+      "say": "فاختلف تخزين الدهون بينهم كثيرًا، ومن زادت حركته اليومية العفوية، كالوقوف والمشي والتململ، خزّن دهونًا أقل."
+     }
+    ]
+   },
+   {
+    "id": "s4",
+    "visual": "r011-s4",
+    "fallback": "scale",
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     0.0,
+     0.2
+    ],
+    "image_file": "images/r011-char/s4.jpg",
+    "sentences": [
+     {
+      "say": "وفي دراسة أخرى، جلس أصحاب السمنة نحو ساعتين أكثر يوميًا من النحيفين.",
+      "overlay": {
+       "big": "+2h",
+       "small": "جلوس أكثر يوميًا",
+       "from": "ساعتين",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s5",
+    "visual": "r011-s5",
+    "fallback": "dumbbell",
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r011-char/s5.jpg",
+    "sentences": [
+     {
+      "say": "الخلاصة: قِف وامشِ أكثر خلال يومك، فقد يفرق ذلك مع الوقت."
+     }
+    ]
+   },
+   {
+    "id": "s6",
+    "visual": "r011-s6",
+    "fallback": "bookmark",
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r011-char/s6.jpg",
+    "sentences": [
+     {
+      "say": "احفظ المقطع، وذكّر نفسك بالقيام كل ساعة."
+     }
+    ]
+   }
+  ],
+  "post": {
+   "networks": [
+    "instagram",
+    "youtube"
+   ],
+   "cover_ms": 1200,
+   "ai_generated_label": true,
+   "youtube_title": "حركتك اليومية خارج النادي: ماذا وجدت دراسات Science؟",
+   "youtube_tags": [
+    "NEAT",
+    "الحركة اليومية",
+    "خسارة الوزن",
+    "الجلوس",
+    "حرق السعرات",
+    "لياقة"
+   ],
+   "caption": "هل حركتك خارج النادي أهم مما تظن؟\n\nفي دراسة صغيرة نُشرت في مجلة Science، أكل 16 متطوعًا 1000 سعرة زائدة يوميًا لمدة 8 أسابيع. اختلف تخزين الدهون بينهم كثيرًا، ومن زادت حركته اليومية العفوية (الوقوف والمشي والتململ، وتُسمّى NEAT) خزّن دهونًا أقل. وفي دراسة أخرى، جلس أصحاب السمنة نحو ساعتين أكثر يوميًا من النحيفين.\n\nالخلاصة:\n• الحركة خارج التمرين قد تفرق مع الوقت\n• قِف وامشِ أكثر خلال يومك\n• قلّل الجلوس الطويل المتواصل\n\n🔖 احفظ المقطع، وذكّر نفسك بالقيام كل ساعة.\n\nالمصادر:\nLevine et al., Science, 1999\nLevine et al., Science, 2005\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#الحركة_اليومية #NEAT #خسارة_الوزن #لياقة #صحة #قلة_الجلوس"
+  }
+ },
+ "narration": {
+  "url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/0cgZeHgPi95U9AePaK53/PN2TV5sJLcdZLCUPKKg0/content.mp3?Expires=1794423600&KeyName=assets-cdn-key-1&Signature=TIB0nZwGOPCkT-Z81PerdbBRpoY=",
+  "words_url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/907ZyrMUMT3xnEgbJFoM/oFkSKgx7hpmZv4W2qImm/words.json?response-content-disposition=attachment%3B%20filename%3D%22transcript-oFkSKgx7hpmZv4W2qImm-words.json%22&Expires=1794423600&KeyName=assets-cdn-key-1&Signature=39nyWTEwE28_3IIX2-SMPVoiboo=",
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "PN2TV5sJLcdZLCUPKKg0",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-11-11",
+  "credits": 412,
+  "duration_s": 40.16
+ }
+}

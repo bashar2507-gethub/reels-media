@@ -1,0 +1,30 @@
+{
+  "reel_id": "r011",
+  "reviewed_on": "2026-11-11",
+  "method": "Paper 1: title, citation, DOI, design and abstract read on its PubMed record (PMID 9880251). Paper 2: PubMed returned a captcha page, so title, authors, citation, DOI, PMID and abstract were read on the Arizona State University research record of the Science paper.",
+  "claims": [
+    {
+      "claim_id": "r011-c1",
+      "claim": "When 16 non-obese adults were overfed by 1000 kcal a day for 8 weeks, fat storage differed about tenfold between people, and those whose non-exercise activity (NEAT: posture, fidgeting, daily movement) rose more gained less fat.",
+      "source_title": "Role of nonexercise activity thermogenesis in resistance to fat gain in humans",
+      "authors": "Levine JA, Eberhardt NL, Jensen MD",
+      "year": 1999,
+      "journal": "Science 283(5399):212-214",
+      "DOI_or_URL": "https://doi.org/10.1126/science.283.5399.212 | PMID 9880251 | https://pubmed.ncbi.nlm.nih.gov/9880251/",
+      "study_type": "Controlled overfeeding trial, 16 non-obese volunteers, +1000 kcal/day for 8 weeks",
+      "finding": "Abstract: two-thirds of the rise in daily energy expenditure came from NEAT; NEAT changes accounted for the 10-fold differences in fat storage; change in NEAT predicted resistance to fat gain (r = 0.77, P < 0.001)."
+    },
+    {
+      "claim_id": "r011-c2",
+      "claim": "Mildly obese sedentary adults sat about 2 hours a day longer than lean ones.",
+      "source_title": "Interindividual variation in posture allocation: possible role in human obesity",
+      "authors": "Levine JA, Lanningham-Foster LM, McCrady SK, Krizan AC, Olson LR, Kane PH, Jensen MD, Clark MM",
+      "year": 2005,
+      "journal": "Science 307(5709):584-586",
+      "DOI_or_URL": "https://doi.org/10.1126/science.1106561 | PMID 15681386 | https://asu.elsevierpure.com/en/publications/interindividual-variation-in-posture-allocation-possible-role-in-/",
+      "study_type": "Observational study, 10 lean and 10 mildly obese sedentary volunteers, posture and movement recorded every half second for 10 days",
+      "finding": "Abstract: obese individuals were seated, on average, 2 hours longer per day than lean individuals; posture allocation did not change with weight loss or gain; adopting lean people's NEAT could expend an estimated additional 350 kcal per day."
+    }
+  ],
+  "limitations": "Both studies are small (16 and 20 people) and the 2005 study is observational, so it shows an association, not that sitting causes obesity. The 350 kcal figure is a model estimate and is left out of the script. The script says 'small study', and hedges the takeaway with 'قد'."
+}

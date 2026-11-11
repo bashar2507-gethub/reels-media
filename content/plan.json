@@ -1,418 +1,421 @@
 {
-  "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 8 PM Asia/Riyadh",
-  "statuses": "planned -> queued -> rendered -> published | failed | skipped",
-  "note": "Seed sources are starting points only. Every run verifies each source on PubMed or PMC before using it, and drops or softens any claim it cannot verify.",
-  "items": [
-    {
-      "id": "poc1",
-      "subject": "Why weight loss can stall on a diet",
-      "status": "published",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
-        "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
-      },
-      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published."
-    },
-    {
-      "id": "r001",
-      "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
-      "status": "published",
-      "queued_at": "2026-10-21T05:00:00+03:00",
-      "narration_credits": 381,
-      "note": "Remake of poc1, owner-approved 2026-10-21 for Friday 20:00. Owner deletes the old poc1 posts himself (deleting published posts is not done by Claude). A scheduled run before 2026-10-24 20:05 should leave this item as scheduled (still PENDING is not a failure).",
-      "rendered_video": "reels/r001/r001-video-0ec769d4ef.mp4",
-      "scheduled_for": "2026-10-24T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 401689045,
-        "youtube": 401689078
-      },
-      "published_at": "2026-10-24T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
-        "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
-      }
-    },
-    {
-      "id": "r002",
-      "subject": "How much protein you need to build muscle",
-      "hook_idea": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
-      "claims": [
-        "With resistance training, the benefit of extra protein levels off around 1.6 g per kg of body weight per day"
-      ],
-      "seed_sources": [
-        "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
-      ],
-      "status": "published",
-      "narration_credits": 397,
-      "scheduled_for": "2026-10-17T13:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 398414732,
-        "youtube": 398414769
-      },
-      "note": "Published early at the owner's request (planned for 20:00).",
-      "published_at": "2026-10-17T13:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
-        "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
-      }
-    },
-    {
-      "id": "r003",
-      "subject": "Ab exercises do not burn belly fat",
-      "hook_idea": "هل تمارين البطن تحرق دهون البطن؟",
-      "claims": [
-        "Training one body part does not selectively reduce the fat over it"
-      ],
-      "seed_sources": [
-        "Vispute SS et al., J Strength Cond Res, 2011",
-        "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
-      ],
-      "status": "published",
-      "narration_credits": 786,
-      "queued_at": "2026-10-21T04:28:00+03:00",
-      "render_run_id": "39457940913",
-      "note": "Redone at the owner's request with the Jeddawi Echo voice; previous take kept in git history.",
-      "scheduled_for": "2026-10-22T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 401671622,
-        "youtube": 401671669
-      },
-      "published_at": "2026-10-22T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
-        "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
-      }
-    },
-    {
-      "id": "r004",
-      "subject": "Short sleep while dieting shifts loss from fat to muscle",
-      "hook_idea": "قلة النوم قد تجعل خسارتك من العضل لا من الدهون",
-      "claims": [
-        "In a small controlled study, dieters sleeping 5.5 hours lost less fat and more fat-free mass than at 8.5 hours"
-      ],
-      "seed_sources": [
-        "Nedeltcheva AV et al., Ann Intern Med, 2010"
-      ],
-      "status": "published",
-      "queued_at": "2026-10-23T19:24:00+03:00",
-      "narration_credits": 405,
-      "render_run_id": "39986286913",
-      "scheduled_for": "2026-10-23T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 404343669,
-        "youtube": 404343696
-      },
-      "published_at": "2026-10-23T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
-        "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
-      }
-    },
-    {
-      "id": "r005",
-      "subject": "Training each muscle twice a week",
-      "hook_idea": "تمرين العضلة مرة في الأسبوع يكفي؟",
-      "claims": [
-        "Training a muscle at least twice a week tends to build more muscle than once a week, especially when it adds weekly volume"
-      ],
-      "seed_sources": [
-        "Schoenfeld BJ et al., Sports Med, 2016"
-      ],
-      "status": "published",
-      "queued_at": "2026-10-24T21:45:00+03:00",
-      "narration_credits": 352,
-      "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00.",
-      "scheduled_for": "2026-10-26T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 405190510,
-        "youtube": 405190567
-      },
-      "rendered_video": "reels/r005/r005-video-ab7dbb43f3.mp4",
-      "published_at": "2026-10-26T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/De9xtHzFWn9/",
-        "youtube": "https://www.youtube.com/shorts/FKN2l5il7xk"
-      }
-    },
-    {
-      "id": "r006",
-      "subject": "Weekly sets for muscle growth",
-      "hook_idea": "كم مجموعة أسبوعيًا تحتاج العضلة لتنمو؟",
-      "claims": [
-        "More weekly sets per muscle are associated with more growth, with about 10 or more sets outperforming fewer"
-      ],
-      "seed_sources": [
-        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
-      ],
-      "status": "published",
-      "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
-      "queued_at": "2026-10-27T20:20:00+03:00",
-      "narration_credits": 404,
-      "scheduled_for": "2026-10-29T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 409727279,
-        "youtube": 409727458
-      },
-      "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4",
-      "published_at": "2026-10-29T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DfFgeubAr9_/",
-        "youtube": "https://www.youtube.com/shorts/582Y_ffiOa4"
-      },
-      "metricool_post_id": {
-        "instagram": 409727279,
-        "youtube": 409727458
-      }
-    },
-    {
-      "id": "r007",
-      "subject": "Creatine: effective and safe for healthy people",
-      "hook_idea": "الكرياتين: هل هو آمن ومفيد فعلًا؟",
-      "claims": [
-        "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
-      ],
-      "seed_sources": [
-        "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand)"
-      ],
-      "status": "published",
-      "queued_at": "2026-10-21T03:51:00+03:00",
-      "narration_credits": 777,
-      "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length.",
-      "published_at": "2026-10-21T04:15:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
-        "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
-      },
-      "metricool_post_ids": {
-        "instagram": 401656846,
-        "youtube": 401656888
-      }
-    },
-    {
-      "id": "r008",
-      "subject": "Intermittent fasting versus calorie restriction",
-      "hook_idea": "الصيام المتقطع أفضل لخسارة الوزن؟",
-      "claims": [
-        "In a 12-month randomized trial, time-restricted eating with calorie restriction was not better than calorie restriction alone"
-      ],
-      "seed_sources": [
-        "Liu D et al., N Engl J Med, 2022"
-      ],
-      "status": "published",
-      "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00.",
-      "queued_at": "2026-10-31T12:31:00+03:00",
-      "narration_credits": 390,
-      "scheduled_for": "2026-11-02T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 412035081,
-        "youtube": 412035111
-      },
-      "rendered_video": "reels/r008/r008-video-120d840859.mp4",
-      "published_at": "2026-11-02T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DfPzhetAM8D/",
-        "youtube": "https://www.youtube.com/shorts/W_0o917DNXk"
-      },
-      "metricool_post_id": {
-        "instagram": 412035081,
-        "youtube": 412035111
-      }
-    },
-    {
-      "id": "r009",
-      "subject": "Low-carb versus low-fat",
-      "hook_idea": "قليل الكربوهيدرات أم قليل الدهون؟",
-      "claims": [
-        "In the 12-month DIETFITS trial, healthy low-fat and healthy low-carb diets led to similar weight loss"
-      ],
-      "seed_sources": [
-        "Gardner CD et al., JAMA, 2018"
-      ],
-      "status": "published",
-      "queued_at": "2026-11-05T19:30:00+03:00",
-      "narration_credits": 446,
-      "evidence_note": "DIETFITS verified via NIHR Evidence record (PubMed/JAMA pages unreachable from workspace)",
-      "scheduled_for": "2026-11-05T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 417962524,
-        "youtube": 417962626
-      },
-      "rendered_video": "reels/r009/r009-video-e581e82513.mp4",
-      "published_at": "2026-11-05T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DfXibZnkX_N/",
-        "youtube": "https://www.youtube.com/shorts/x0Z7rxmEg_w"
-      },
-      "metricool_post_id": {
-        "instagram": 417962524,
-        "youtube": 417962626
-      }
-    },
-    {
-      "id": "r010",
-      "subject": "Metabolism does not slow down after 30",
-      "hook_idea": "هل يبطؤ حرقك بعد الثلاثين؟",
-      "claims": [
-        "Adjusted for body size and composition, daily energy expenditure stays stable from about age 20 to 60"
-      ],
-      "seed_sources": [
-        "Pontzer H et al., Science, 2021"
-      ],
-      "status": "published",
-      "queued_at": "2026-11-08T19:27:00+03:00",
-      "narration_credits": 416,
-      "evidence_note": "Pontzer 2021 verified via Duke Scholars and Tilburg research records (PubMed/PMC unreachable from workspace)",
-      "scheduled_for": "2026-11-08T20:00:00+03:00",
-      "metricool_post_ids": {
-        "instagram": 420879905,
-        "youtube": 420879925
-      },
-      "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4",
-      "published_at": "2026-11-08T20:00:00+03:00",
-      "links": {
-        "instagram": "https://www.instagram.com/reel/DffQgGekU-h/",
-        "youtube": "https://www.youtube.com/shorts/iXwE1SXHQow"
-      },
-      "metricool_post_id": {
-        "instagram": 420879905,
-        "youtube": 420879925
-      }
-    },
-    {
-      "id": "r011",
-      "subject": "Everyday movement outside the gym (NEAT)",
-      "hook_idea": "حركتك اليومية خارج النادي قد تفرق أكثر مما تتوقع",
-      "claims": [
-        "Non-exercise activity varies widely between people and helps explain differences in fat gain"
-      ],
-      "seed_sources": [
-        "Levine JA et al., Science, 1999",
-        "Levine JA et al., Science, 2005"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r012",
-      "subject": "Water before meals",
-      "hook_idea": "كوب ماء قبل الوجبة يساعد في خسارة الوزن؟",
-      "claims": [
-        "In a 12-week trial in middle-aged and older adults, 500 ml of water before meals plus a diet led to more weight loss"
-      ],
-      "seed_sources": [
-        "Dennis EA et al., Obesity, 2010"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r013",
-      "subject": "Liquid calories and sugary drinks",
-      "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
-      "claims": [
-        "Sugar-sweetened drinks are associated with weight gain in adults and children"
-      ],
-      "seed_sources": [
-        "Malik VS et al., Am J Clin Nutr, 2013"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r014",
-      "subject": "Light versus heavy weights for muscle",
-      "hook_idea": "أوزان خفيفة أم ثقيلة لبناء العضل؟",
-      "claims": [
-        "Light and heavy loads build similar muscle when sets end close to failure; heavy loads build more strength"
-      ],
-      "seed_sources": [
-        "Schoenfeld BJ et al., J Strength Cond Res, 2017"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r015",
-      "subject": "You do not need to train to failure",
-      "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
-      "claims": [
-        "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
-      ],
-      "seed_sources": [
-        "Refalo MC et al., Sports Med, 2023",
-        "Grgic J et al., J Sport Health Sci, 2022"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r016",
-      "subject": "Rest between sets",
-      "hook_idea": "كم ترتاح بين المجموعات؟",
-      "claims": [
-        "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
-      ],
-      "seed_sources": [
-        "Schoenfeld BJ et al., J Strength Cond Res, 2016"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r017",
-      "subject": "The post-workout protein window",
-      "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
-      "claims": [
-        "Total daily protein matters more than eating it immediately after training"
-      ],
-      "seed_sources": [
-        "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r018",
-      "subject": "Diet breaks",
-      "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
-      "claims": [
-        "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
-      ],
-      "seed_sources": [
-        "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r019",
-      "subject": "Weighing yourself regularly",
-      "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
-      "claims": [
-        "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
-      ],
-      "seed_sources": [
-        "Zheng Y et al., Obesity, 2015 (systematic review)"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r020",
-      "subject": "Muscle memory after a break",
-      "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
-      "claims": [
-        "Previously trained muscle tends to regain size faster after a training break"
-      ],
-      "seed_sources": [
-        "Seaborne RA et al., Sci Rep, 2018",
-        "Psilander N et al., J Appl Physiol, 2019"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r021",
-      "subject": "Does cardio kill muscle gains?",
-      "hook_idea": "هل الكارديو يقتل العضل؟",
-      "claims": [
-        "Combining endurance and strength training interferes little with muscle growth for most people; high running volume matters most"
-      ],
-      "seed_sources": [
-        "Wilson JM et al., J Strength Cond Res, 2012",
-        "Schumann M et al., Sports Med, 2022"
-      ],
-      "status": "planned"
-    }
-  ]
+ "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 8 PM Asia/Riyadh",
+ "statuses": "planned -> queued -> rendered -> published | failed | skipped",
+ "note": "Seed sources are starting points only. Every run verifies each source on PubMed or PMC before using it, and drops or softens any claim it cannot verify.",
+ "items": [
+  {
+   "id": "poc1",
+   "subject": "Why weight loss can stall on a diet",
+   "status": "published",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
+    "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
+   },
+   "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published."
+  },
+  {
+   "id": "r001",
+   "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
+   "status": "published",
+   "queued_at": "2026-10-21T05:00:00+03:00",
+   "narration_credits": 381,
+   "note": "Remake of poc1, owner-approved 2026-10-21 for Friday 20:00. Owner deletes the old poc1 posts himself (deleting published posts is not done by Claude). A scheduled run before 2026-10-24 20:05 should leave this item as scheduled (still PENDING is not a failure).",
+   "rendered_video": "reels/r001/r001-video-0ec769d4ef.mp4",
+   "scheduled_for": "2026-10-24T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 401689045,
+    "youtube": 401689078
+   },
+   "published_at": "2026-10-24T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
+    "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
+   }
+  },
+  {
+   "id": "r002",
+   "subject": "How much protein you need to build muscle",
+   "hook_idea": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
+   "claims": [
+    "With resistance training, the benefit of extra protein levels off around 1.6 g per kg of body weight per day"
+   ],
+   "seed_sources": [
+    "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
+   ],
+   "status": "published",
+   "narration_credits": 397,
+   "scheduled_for": "2026-10-17T13:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 398414732,
+    "youtube": 398414769
+   },
+   "note": "Published early at the owner's request (planned for 20:00).",
+   "published_at": "2026-10-17T13:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
+    "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
+   }
+  },
+  {
+   "id": "r003",
+   "subject": "Ab exercises do not burn belly fat",
+   "hook_idea": "هل تمارين البطن تحرق دهون البطن؟",
+   "claims": [
+    "Training one body part does not selectively reduce the fat over it"
+   ],
+   "seed_sources": [
+    "Vispute SS et al., J Strength Cond Res, 2011",
+    "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
+   ],
+   "status": "published",
+   "narration_credits": 786,
+   "queued_at": "2026-10-21T04:28:00+03:00",
+   "render_run_id": "39457940913",
+   "note": "Redone at the owner's request with the Jeddawi Echo voice; previous take kept in git history.",
+   "scheduled_for": "2026-10-22T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 401671622,
+    "youtube": 401671669
+   },
+   "published_at": "2026-10-22T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
+    "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
+   }
+  },
+  {
+   "id": "r004",
+   "subject": "Short sleep while dieting shifts loss from fat to muscle",
+   "hook_idea": "قلة النوم قد تجعل خسارتك من العضل لا من الدهون",
+   "claims": [
+    "In a small controlled study, dieters sleeping 5.5 hours lost less fat and more fat-free mass than at 8.5 hours"
+   ],
+   "seed_sources": [
+    "Nedeltcheva AV et al., Ann Intern Med, 2010"
+   ],
+   "status": "published",
+   "queued_at": "2026-10-23T19:24:00+03:00",
+   "narration_credits": 405,
+   "render_run_id": "39986286913",
+   "scheduled_for": "2026-10-23T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 404343669,
+    "youtube": 404343696
+   },
+   "published_at": "2026-10-23T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
+    "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
+   }
+  },
+  {
+   "id": "r005",
+   "subject": "Training each muscle twice a week",
+   "hook_idea": "تمرين العضلة مرة في الأسبوع يكفي؟",
+   "claims": [
+    "Training a muscle at least twice a week tends to build more muscle than once a week, especially when it adds weekly volume"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ et al., Sports Med, 2016"
+   ],
+   "status": "published",
+   "queued_at": "2026-10-24T21:45:00+03:00",
+   "narration_credits": 352,
+   "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00.",
+   "scheduled_for": "2026-10-26T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 405190510,
+    "youtube": 405190567
+   },
+   "rendered_video": "reels/r005/r005-video-ab7dbb43f3.mp4",
+   "published_at": "2026-10-26T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/De9xtHzFWn9/",
+    "youtube": "https://www.youtube.com/shorts/FKN2l5il7xk"
+   }
+  },
+  {
+   "id": "r006",
+   "subject": "Weekly sets for muscle growth",
+   "hook_idea": "كم مجموعة أسبوعيًا تحتاج العضلة لتنمو؟",
+   "claims": [
+    "More weekly sets per muscle are associated with more growth, with about 10 or more sets outperforming fewer"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
+   ],
+   "status": "published",
+   "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
+   "queued_at": "2026-10-27T20:20:00+03:00",
+   "narration_credits": 404,
+   "scheduled_for": "2026-10-29T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 409727279,
+    "youtube": 409727458
+   },
+   "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4",
+   "published_at": "2026-10-29T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DfFgeubAr9_/",
+    "youtube": "https://www.youtube.com/shorts/582Y_ffiOa4"
+   },
+   "metricool_post_id": {
+    "instagram": 409727279,
+    "youtube": 409727458
+   }
+  },
+  {
+   "id": "r007",
+   "subject": "Creatine: effective and safe for healthy people",
+   "hook_idea": "الكرياتين: هل هو آمن ومفيد فعلًا؟",
+   "claims": [
+    "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
+   ],
+   "seed_sources": [
+    "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand)"
+   ],
+   "status": "published",
+   "queued_at": "2026-10-21T03:51:00+03:00",
+   "narration_credits": 777,
+   "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length.",
+   "published_at": "2026-10-21T04:15:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
+    "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
+   },
+   "metricool_post_ids": {
+    "instagram": 401656846,
+    "youtube": 401656888
+   }
+  },
+  {
+   "id": "r008",
+   "subject": "Intermittent fasting versus calorie restriction",
+   "hook_idea": "الصيام المتقطع أفضل لخسارة الوزن؟",
+   "claims": [
+    "In a 12-month randomized trial, time-restricted eating with calorie restriction was not better than calorie restriction alone"
+   ],
+   "seed_sources": [
+    "Liu D et al., N Engl J Med, 2022"
+   ],
+   "status": "published",
+   "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00.",
+   "queued_at": "2026-10-31T12:31:00+03:00",
+   "narration_credits": 390,
+   "scheduled_for": "2026-11-02T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 412035081,
+    "youtube": 412035111
+   },
+   "rendered_video": "reels/r008/r008-video-120d840859.mp4",
+   "published_at": "2026-11-02T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DfPzhetAM8D/",
+    "youtube": "https://www.youtube.com/shorts/W_0o917DNXk"
+   },
+   "metricool_post_id": {
+    "instagram": 412035081,
+    "youtube": 412035111
+   }
+  },
+  {
+   "id": "r009",
+   "subject": "Low-carb versus low-fat",
+   "hook_idea": "قليل الكربوهيدرات أم قليل الدهون؟",
+   "claims": [
+    "In the 12-month DIETFITS trial, healthy low-fat and healthy low-carb diets led to similar weight loss"
+   ],
+   "seed_sources": [
+    "Gardner CD et al., JAMA, 2018"
+   ],
+   "status": "published",
+   "queued_at": "2026-11-05T19:30:00+03:00",
+   "narration_credits": 446,
+   "evidence_note": "DIETFITS verified via NIHR Evidence record (PubMed/JAMA pages unreachable from workspace)",
+   "scheduled_for": "2026-11-05T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 417962524,
+    "youtube": 417962626
+   },
+   "rendered_video": "reels/r009/r009-video-e581e82513.mp4",
+   "published_at": "2026-11-05T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DfXibZnkX_N/",
+    "youtube": "https://www.youtube.com/shorts/x0Z7rxmEg_w"
+   },
+   "metricool_post_id": {
+    "instagram": 417962524,
+    "youtube": 417962626
+   }
+  },
+  {
+   "id": "r010",
+   "subject": "Metabolism does not slow down after 30",
+   "hook_idea": "هل يبطؤ حرقك بعد الثلاثين؟",
+   "claims": [
+    "Adjusted for body size and composition, daily energy expenditure stays stable from about age 20 to 60"
+   ],
+   "seed_sources": [
+    "Pontzer H et al., Science, 2021"
+   ],
+   "status": "published",
+   "queued_at": "2026-11-08T19:27:00+03:00",
+   "narration_credits": 416,
+   "evidence_note": "Pontzer 2021 verified via Duke Scholars and Tilburg research records (PubMed/PMC unreachable from workspace)",
+   "scheduled_for": "2026-11-08T20:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 420879905,
+    "youtube": 420879925
+   },
+   "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4",
+   "published_at": "2026-11-08T20:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/DffQgGekU-h/",
+    "youtube": "https://www.youtube.com/shorts/iXwE1SXHQow"
+   },
+   "metricool_post_id": {
+    "instagram": 420879905,
+    "youtube": 420879925
+   }
+  },
+  {
+   "id": "r011",
+   "subject": "Everyday movement outside the gym (NEAT)",
+   "hook_idea": "حركتك اليومية خارج النادي قد تفرق أكثر مما تتوقع",
+   "claims": [
+    "Non-exercise activity varies widely between people and helps explain differences in fat gain"
+   ],
+   "seed_sources": [
+    "Levine JA et al., Science, 1999",
+    "Levine JA et al., Science, 2005"
+   ],
+   "status": "queued",
+   "queued_at": "2026-11-11T19:25:00+03:00",
+   "narration_credits": 412,
+   "evidence_note": "Levine 1999 verified on PubMed (PMID 9880251); Levine 2005 verified via ASU research record (PubMed served a captcha)"
+  },
+  {
+   "id": "r012",
+   "subject": "Water before meals",
+   "hook_idea": "كوب ماء قبل الوجبة يساعد في خسارة الوزن؟",
+   "claims": [
+    "In a 12-week trial in middle-aged and older adults, 500 ml of water before meals plus a diet led to more weight loss"
+   ],
+   "seed_sources": [
+    "Dennis EA et al., Obesity, 2010"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r013",
+   "subject": "Liquid calories and sugary drinks",
+   "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
+   "claims": [
+    "Sugar-sweetened drinks are associated with weight gain in adults and children"
+   ],
+   "seed_sources": [
+    "Malik VS et al., Am J Clin Nutr, 2013"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r014",
+   "subject": "Light versus heavy weights for muscle",
+   "hook_idea": "أوزان خفيفة أم ثقيلة لبناء العضل؟",
+   "claims": [
+    "Light and heavy loads build similar muscle when sets end close to failure; heavy loads build more strength"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ et al., J Strength Cond Res, 2017"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r015",
+   "subject": "You do not need to train to failure",
+   "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
+   "claims": [
+    "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
+   ],
+   "seed_sources": [
+    "Refalo MC et al., Sports Med, 2023",
+    "Grgic J et al., J Sport Health Sci, 2022"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r016",
+   "subject": "Rest between sets",
+   "hook_idea": "كم ترتاح بين المجموعات؟",
+   "claims": [
+    "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ et al., J Strength Cond Res, 2016"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r017",
+   "subject": "The post-workout protein window",
+   "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
+   "claims": [
+    "Total daily protein matters more than eating it immediately after training"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r018",
+   "subject": "Diet breaks",
+   "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
+   "claims": [
+    "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
+   ],
+   "seed_sources": [
+    "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r019",
+   "subject": "Weighing yourself regularly",
+   "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
+   "claims": [
+    "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
+   ],
+   "seed_sources": [
+    "Zheng Y et al., Obesity, 2015 (systematic review)"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r020",
+   "subject": "Muscle memory after a break",
+   "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
+   "claims": [
+    "Previously trained muscle tends to regain size faster after a training break"
+   ],
+   "seed_sources": [
+    "Seaborne RA et al., Sci Rep, 2018",
+    "Psilander N et al., J Appl Physiol, 2019"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "r021",
+   "subject": "Does cardio kill muscle gains?",
+   "hook_idea": "هل الكارديو يقتل العضل؟",
+   "claims": [
+    "Combining endurance and strength training interferes little with muscle growth for most people; high running volume matters most"
+   ],
+   "seed_sources": [
+    "Wilson JM et al., J Strength Cond Res, 2012",
+    "Schumann M et al., Sports Med, 2022"
+   ],
+   "status": "planned"
+  }
+ ]
 }
