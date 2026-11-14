@@ -24,6 +24,7 @@ def test_hook_first_keeps_the_same_length_as_the_intro_at_the_start(tmp_path):
                     "-f", "lavfi", "-i", "sine=f=220:d=6:sample_rate=48000",
                     "-ac", "2", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", str(main)],
                    check=True)
-    out = tmp_path / "out.mp4"
-    intro.insert_after(main, out, 2.0, "flash")
-    assert intro.duration(out) == pytest.approx(intro.duration(main) + intro.offset(), abs=0.1)
+    hook_first, at_start = tmp_path / "hook_first.mp4", tmp_path / "at_start.mp4"
+    intro.insert_after(main, hook_first, 2.0, "flash")
+    intro.prepend(main, at_start, "flash")
+    assert intro.duration(hook_first) == pytest.approx(intro.duration(at_start), abs=0.05)
