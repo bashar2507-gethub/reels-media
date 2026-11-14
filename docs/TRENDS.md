@@ -7,7 +7,8 @@ enters `content/plan.json` without his yes. Talk to him in Arabic.
 
 ## 1. Read first
 
-`CLAUDE.md`, `content/plan.json` (every item, any status), `content/analytics/summary.json` (what holds our viewers)
+If `content/ideas/` already holds a file dated today (Asia/Riyadh), this week's report was already made, for example
+in a chat: stop there and send nothing. Otherwise read `CLAUDE.md`, `content/plan.json` (every item, any status), `content/analytics/summary.json` (what holds our viewers)
 and the last four files in `content/ideas/`, so nothing is proposed twice without new evidence.
 
 ## 2. Collect this week's signals
