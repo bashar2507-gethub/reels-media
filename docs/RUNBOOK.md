@@ -50,8 +50,14 @@ Write `content/evidence/<id>.json` in the same shape as `content/evidence/r002.j
 
 Write `content/<id>.json` in the same shape as `content/r002.json`:
 - 55 to 75 spoken Arabic words (the Jeddawi Echo voice reads that in about 31-42 s), 4 to 6 scenes: hook question (scene 1, style "title"),
-  explanation, practical example or myth correction, takeaway, save or share call to action.
-  Vary the call to action between Reels.
+  explanation, practical example or myth correction, takeaway, engagement call to action (last scene).
+- Engagement call to action (owner, 2026-11-15): one natural sentence of at most 12 spoken words that asks the viewer
+  to like the video, to comment with their experience or opinion, and to share it with a friend it would help.
+  Keep it professional and tied to the video's value: no begging or pressure («لا تنسَ»), no "comment YES" or
+  "tag three friends", no promises. Vary the wording between Reels, for example:
+  «إذا أفادك المقطع، اضغط إعجاب، وشاركنا رأيك في التعليقات، وأرسله لصديق يهمه.»
+  «اضغط إعجاب، واكتب لنا تجربتك في التعليقات، وأرسل المقطع لصديق يتمرن معك.»
+  «جرّبت هذا من قبل؟ أخبرنا في التعليقات، واضغط إعجاب، وشارك المقطع.»
 - Hedge where the evidence is limited («قد»، «في دراسة»). No guarantees, no medical advice.
 - Spell numbers as words in `say`; put the numeric form as an unspoken annotation in `show`,
   for example `واحد فاصلة ستة غرام (1.6 g/kg)`. `show` must contain exactly the spoken words plus
@@ -68,10 +74,14 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
   no people, no hands, no text, no screens with numbers; FLUX invents fake writing on labels, so
   avoid packaged products, jars with labels, books, signs and branded or engraved equipment), `fallback` (one of scale, flow, orbs,
   dumbbell, bookmark), `zoom` and `pan` like the existing scripts.
-- `post`: caption (hook, short summary, takeaway bullets, call to action, short sources,
+- `post`: caption (hook, short summary, takeaway bullets, a two-line engagement block, short sources,
   «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.» (no AI-voice/images line in the caption, owner 2026-10-29;
   keep the platform AI labels isAiGenerated / isAiGeneratedContent),
   5 to 8 hashtags), `youtube_title` (under 90 characters), `youtube_tags`.
+  The engagement block: first a concrete question about the topic that invites the viewer's experience or opinion in
+  the comments, then a like and share line, for example
+  `💬 هل جرّبت شرب الماء قبل الوجبة؟ شاركنا تجربتك أو رأيك في التعليقات.` and
+  `👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يهمه الموضوع.`
 - Check it: `python3 -c` with `app.timeline.narration_text` and `build_timeline(script, EspeakTTS("ar", 210), tmp)`
   must run without errors and give 55 to 75 words.
 
