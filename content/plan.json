@@ -1,5 +1,5 @@
 {
-  "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 8 PM Asia/Riyadh",
+  "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 6 PM Asia/Riyadh (8 PM until 2026-11-14; the owner moved it on 2026-11-15)",
   "statuses": "planned -> queued -> rendered -> published | failed | skipped",
   "note": "Seed sources are starting points only. Every run verifies each source on PubMed or PMC before using it, and drops or softens any claim it cannot verify.",
   "items": [
@@ -11,7 +11,7 @@
         "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
         "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
       },
-      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published.",
+      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published. 2026-11-15: the owner approved archiving it instead (same topic as r001); he archives the Instagram Reel and sets the Short to unlisted himself.",
       "category": "fat_loss",
       "hook_type": "why",
       "series": "none"
@@ -474,6 +474,24 @@
       "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation"
     },
     {
+      "id": "r026",
+      "subject": "Remake of r004: short sleep while dieting shifts loss from fat to muscle",
+      "remake_of": "r004",
+      "hook_idea": "تنام خمس ساعات وأنت في دايت؟",
+      "claims": [
+        "In a small controlled study (10 adults, two 14-day diets), 5.5 hours in bed instead of 8.5 gave a similar weight loss, but less of it was fat and more was fat-free mass"
+      ],
+      "seed_sources": [
+        "Nedeltcheva AV et al., Ann Intern Med, 2010 (PMID 20921542; verified for r004)",
+        "Wang X et al., Sleep, 2018 (sleep restriction during caloric restriction; a hint to verify)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خطأ شائع",
+      "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice"
+    },
+    {
       "id": "r017",
       "subject": "The post-workout protein window",
       "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
@@ -487,6 +505,25 @@
       "category": "muscle",
       "hook_type": "myth",
       "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r027",
+      "subject": "Remake of r007: the weight gained on creatine is mostly water, not fat",
+      "remake_of": "r007",
+      "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
+      "claims": [
+        "Creatine often raises body weight by about 1-2 kg in the first week, mostly water held in muscle rather than fat",
+        "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
+      ],
+      "seed_sources": [
+        "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
+        "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket"
     },
     {
       "id": "r020",
@@ -503,6 +540,23 @@
       "category": "muscle",
       "hook_type": "situation",
       "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r028",
+      "subject": "Remake of r002: how much protein a day builds muscle",
+      "remake_of": "r002",
+      "hook_idea": "وزنك ثمانين كيلو؟ هذا بروتينك في اليوم",
+      "claims": [
+        "With resistance training, the benefit of extra protein for muscle levels off around 1.6 g per kg of body weight per day; the upper confidence limit was about 2.2 g"
+      ],
+      "seed_sources": [
+        "Morton RW et al., Br J Sports Med, 2018 (meta-analysis of 49 trials; verified for r002)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none",
+      "idea_from": "owner 2026-11-15: remake of r002 (142 views, 8.6 s average watch) with the current rules; the old one had no Blanket and the old voice"
     },
     {
       "id": "r018",
@@ -583,5 +637,5 @@
       "series": "خرافة أم حقيقة؟"
     }
   ],
-  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics."
+  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics."
 }

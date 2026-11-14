@@ -2,7 +2,8 @@
 
 Each scheduled run follows these steps exactly. The owner (Bashar) approved this process on
 2026-10-17: 10 Reels a month, each on Instagram and YouTube Shorts, published directly at
-8 PM Asia/Riyadh, with no per-clip review. Read `CLAUDE.md` first; its rules always win.
+6 PM Asia/Riyadh (8 PM until 2026-11-14; the owner moved it on 2026-11-15), with no per-clip review. The run starts
+at 16:24. Read `CLAUDE.md` first; its rules always win.
 
 Talk to the owner in Arabic. Report only what tools confirmed.
 
@@ -50,6 +51,11 @@ step 7). Otherwise take the first `planned` item. A `queued` item older than 2 h
 A `rendered` item whose `reels/<id>/status.json` lists no AI images (`visuals.ai` is empty) gets
 one re-render first, in case `HF_TOKEN` has been added since (step 6, "Re-render"). It costs no
 credits because the narration is already in `content/audio/`. Publish whichever result passes.
+
+Remakes (owner, 2026-11-15): an item with `remake_of` is a new version of an earlier Reel that did well. Make it like
+any new item (steps 3-9: its own evidence file, a new script with the item's new hook, Blanket scenes, the current
+voice, one narration take); never reuse the old video, narration or text. Start from
+`content/evidence/<remake_of>.json`, but verify every source again. Step 9 ends with a reminder about the old posts.
 
 ## 3. Evidence
 
@@ -206,7 +212,8 @@ Re-render: `git rm -r -q reels/<id>`, set `"rerender_requested": "<UTC time>"` i
 
 ## 7. Publish (Metricool connector)
 
-Time: 20:00 Asia/Riyadh today, or now + 10 minutes if that has passed. Two calls with the same
+Time: 18:00 Asia/Riyadh today (the owner moved it from 20:00 on 2026-11-15, so it is out before evening gym
+hours), or now + 10 minutes if that has passed. Two calls with the same
 time and media, one per network, each with its own text: Instagram gets the caption, the cover frame and a first
 comment (YouTube rejects a custom cover unless the channel is verified). Shared `info` fields:
 
@@ -233,7 +240,7 @@ If a call errors, check `getScheduledPosts` before trying again, so no duplicate
 
 1. `getScheduledPosts` must show both posts `PENDING`. Set the plan item to `scheduled` with
    `metricool_post_ids` {instagram, youtube} and the publish time, commit and push.
-2. If the publish time is within 60 minutes, wait until 5 minutes after it (an `until` loop on
+2. If the publish time is within 90 minutes (the run starts about 95 minutes before 18:00), wait until 5 minutes after it (an `until` loop on
    the clock), then read it again: each provider must be `PUBLISHED` with a `publicUrl`. Anything
    else is a failure to report, not a success. If it is further away, end the run here; the next
    run records the outcome (step 1).
@@ -246,4 +253,7 @@ If a call errors, check `getScheduledPosts` before trying again, so no duplicate
    video and cover as assets (`Artifact` publish with `url`, `asset: true`, `file_paths`), then
    `ArtifactData set` collection `reels`, doc `<id>` in the same shape as doc `poc1` (status
    `published`, `links`, `publishedAt`, asset ids, caption, sources, checks, wpm, durationS).
-3. Final message (Arabic): the topic, both links, the checks result, and any problem.
+3. Final message (Arabic): the topic, both links, the checks result, and any problem. For an item with
+   `remake_of`, end with a reminder for the owner, with both old links from that item: archive the old Instagram
+   Reel (⋯ ثم «أرشفة») and set the old Short to «غير مدرج» in YouTube Studio. Claude never deletes or archives a
+   published post; the owner does.

@@ -17,3 +17,6 @@ Numbers come from `content/analytics/summary.json` (Instagram, via Metricool).
 - Owner, same day: hook-first approved from r014 on (compare `intro` after_hook with start in the next entry), and
   four new ideas in the pattern of the best Reels added (r022 protein per meal, r023 caffeine, r024 stretching
   before lifting, r025 rep speed). The log now also groups by publish hour, for a time test.
+- Owner, later the same day: publishing moves to 18:00 from 2026-11-17. It starts with the same Reel as hook first, so
+  in the next entry read the skip rate mainly for the opening and views and reach mainly for the time. Remakes of r004,
+  r007 and r002 come in December (r026-r028), and a trend report goes to the owner every Sunday (`docs/TRENDS.md`).

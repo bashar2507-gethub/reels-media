@@ -9,8 +9,9 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Never ask for API keys or passwords in chat. Secrets live only in GitHub Secrets
   (`HF_TOKEN`, optionally `ELEVENLABS_API_KEY`) and never appear in code, logs, commits or reports.
 - Publishing: the owner approved unattended publishing of 10 Reels a month on Instagram and
-  YouTube Shorts at 8 PM Asia/Riyadh (2026-10-17). Never create duplicate posts, and report a post
-  as published only after Metricool shows it `PUBLISHED` with a public link.
+  YouTube Shorts (2026-10-17), at 6 PM Asia/Riyadh from 2026-11-17 (8 PM before; he moved it on 2026-11-15).
+  Never create duplicate posts, and report a post as published only after Metricool shows it `PUBLISHED`
+  with a public link. Never delete or archive a published post; the owner does that himself.
 - Every health claim needs a verified source in `content/evidence/<id>.json`. No exaggerated
   claims or guaranteed results; hedge limited evidence.
 - Only media we have rights to: Cairo fonts (OFL), FLUX.1-schnell images (Apache-2.0), procedural
@@ -29,5 +30,7 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Rendering runs in GitHub Actions ("Render Reel", on pushes to `queue/*.json`); the workspace
   cannot download ElevenLabs files, so the job downloads the narration from its signed link.
 - Library page: https://claude.ai/artifact/3xktcPAsz3jeNUW2fuudKo (database collection `reels`).
+- Weekly trend research (owner, 2026-11-15): every Sunday morning a scheduled run follows `docs/TRENDS.md` and sends
+  the owner ideas to approve; nothing enters `content/plan.json` without his yes.
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`

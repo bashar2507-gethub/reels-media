@@ -46,7 +46,7 @@ the steps and `docs/APPROVED_STEPS.md` (Arabic) what the owner approved. The own
 ## The ten improvements and where they live
 
 1. Hook heard in the first second, concrete, at most 8 words, typed (`hook_type`): RUNBOOK step 4.
-2. Hook-first option (hook, then the intro): built in `app/intro.py`, waits for the owner's approval (step 5a).
+2. Hook first (hook, then the intro): built in `app/intro.py`; approved 2026-11-15, the default from r014 (step 5a).
 3. Open-loop structure with one mid-video turn and the answer in the second half: step 4.
 4. 6-8 scenes (a new picture every 4-6 s), scene 1 shows the question, character placed below the figures: steps 4, 5b.
 5. Worth sending: a takeaway usable today and "send it to …" in the call to action: step 4.
@@ -58,12 +58,20 @@ the steps and `docs/APPROVED_STEPS.md` (Arabic) what the owner approved. The own
 9. Recurring series with a small on-screen label: `series` in the plan, `series_label` in the script.
 10. Performance log every run and lessons every 5 Reels: step 1b, `scripts/perf_log.py`, `docs/LEARNINGS.md`.
 
-## Open decisions for the owner
+## Decisions
 
-- Hook-first: approved by the owner on 2026-11-15; the default from r014 on.
-- Publish time for gym-goers: 18:00 recommended, waiting for the owner's yes. In a 2023 study of 385 adults in Riyadh
-  (Alkhaldi et al., Cureus 15(7):e41638), 53% exercised in the evening (within 4 hours of bedtime), 26% in the
-  afternoon and 21% in the morning; Metricool's best-time data for this brand peak around 18:00 for Instagram and
-  15:00-17:00 for YouTube. A Reel out at 18:00 is in the feed before and during the evening gym hours.
+- Hook first: approved by the owner on 2026-11-15; the default from r014 on.
+- Publish time for gym-goers: approved by the owner on 2026-11-15: 18:00 Riyadh from 2026-11-17 (it was 20:00); the
+  scheduled run starts at 16:24. In a 2023 study of 385 adults in Riyadh (Alkhaldi et al., Cureus 15(7):e41638), 53%
+  exercised in the evening (within 4 hours of bedtime), 26% in the afternoon and 21% in the morning; Metricool's
+  best-time data for this brand peak around 18:00 for Instagram and 15:00-17:00 for YouTube. A Reel out at 18:00 is in
+  the feed before and during the evening gym hours. Hook first and 18:00 start with the same Reel (r014), so the next
+  reviews cannot fully separate them: skip rate mostly reflects the opening, views and reach reflect the time more.
+- Remakes: approved on 2026-11-15. The three best older Reels without the character are made again with the current
+  rules, one a week from December: r026 (sleep, from r004), r027 (creatine, from r007) and r028 (protein, from r002).
+  After each new version is published the owner archives the old Instagram Reel and sets the old Short to unlisted;
+  nothing is deleted. He archives poc1 (same topic as r001) now.
+- Weekly trend research: asked for on 2026-11-15. Every Sunday a scheduled run follows `docs/TRENDS.md` and sends the
+  owner a numbered list of ideas with their view or search numbers and evidence; ideas enter the plan only with his yes.
 - More than 10 Reels a month needs a paid Metricool plan (Free = 20 posts a month).
 - Instagram profile: a readable name and a bio that promises what the account gives; only the owner can change it.
