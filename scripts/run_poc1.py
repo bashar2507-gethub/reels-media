@@ -91,7 +91,7 @@ def main() -> int:
         voice_label, tag = "espeak-ng placeholder", "PoC-1 · خلفيات وصوت مؤقتان للاختبار"
 
     if args.release:
-        tag = None
+        tag = script.get("series_label")  # e.g. «خرافة أم حقيقة؟ · 3», small at the top; nothing when absent
     voice = analyse(timeline.voice_path, " ".join(s.say for s in timeline.sentences))
     ass_path = write_ass(timeline, out / "captions.ass", tag=tag)
     (out / "timeline.json").write_text(json.dumps(
@@ -102,11 +102,21 @@ def main() -> int:
     video = assemble(timeline, visuals, ass_path, out / f"{script['reel_id']}.mp4")
     cover_at = script.get("cover_at_seconds", 1.0)
     from app import intro
+    intro_info = None
     if script.get("intro", True) and intro.INTRO.exists():   # THE BLANKET EFFECT on every Reel
         body = video.with_name(video.stem + "_body.mp4")
         video.replace(body)
-        intro.prepend(body, video, script.get("intro_transition", "flash"))
-        cover_at += intro.offset()
+        transition = script.get("intro_transition", "flash")
+        if script.get("intro_position", "start") == "after_hook" and len(timeline.sentences) > 1:
+            at = intro.hook_end(timeline)  # hook question first, then the intro, then the rest
+            intro.insert_after(body, video, at, transition)
+            if cover_at >= at:
+                cover_at += intro.offset()
+            intro_info = {"position": "after_hook", "at_s": round(at, 3), "transition": transition}
+        else:
+            intro.prepend(body, video, transition)
+            cover_at += intro.offset()
+            intro_info = {"position": "start", "transition": transition}
     render_seconds = time.time() - started
     cover = extract_cover(video, cover_at, out / f"{script['reel_id']}_cover.jpg")
 
@@ -126,6 +136,7 @@ def main() -> int:
     ]
     report["passed"] = report["passed"] and qa["passed"]
     report["warnings"] = [c["name"] for c in report["checks"] if c["severity"] == "soft" and not c["passed"]]
+    report.update({"cover_at_seconds": round(cover_at, 2), "intro": intro_info})
     report.update({"render_seconds": round(render_seconds, 1), "cover": str(cover), "voice": voice_label,
                    "voice_metrics": voice.as_dict(), "caption_failures": qa["failures"], "visuals": image_report})
     (out / "media_gate.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

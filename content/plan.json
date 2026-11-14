@@ -11,7 +11,10 @@
         "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
         "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
       },
-      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published."
+      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published.",
+      "category": "fat_loss",
+      "hook_type": "why",
+      "series": "none"
     },
     {
       "id": "r001",
@@ -30,7 +33,10 @@
       "links": {
         "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
         "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
-      }
+      },
+      "category": "fat_loss",
+      "hook_type": "why",
+      "series": "none"
     },
     {
       "id": "r002",
@@ -54,7 +60,10 @@
       "links": {
         "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
         "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
-      }
+      },
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none"
     },
     {
       "id": "r003",
@@ -81,7 +90,10 @@
       "links": {
         "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
         "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
-      }
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r004",
@@ -106,7 +118,10 @@
       "links": {
         "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
         "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
-      }
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r005",
@@ -132,7 +147,10 @@
       "links": {
         "instagram": "https://www.instagram.com/reel/De9xtHzFWn9/",
         "youtube": "https://www.youtube.com/shorts/FKN2l5il7xk"
-      }
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r006",
@@ -162,7 +180,10 @@
       "metricool_post_id": {
         "instagram": 409727279,
         "youtube": 409727458
-      }
+      },
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none"
     },
     {
       "id": "r007",
@@ -186,7 +207,10 @@
       "metricool_post_ids": {
         "instagram": 401656846,
         "youtube": 401656888
-      }
+      },
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "none"
     },
     {
       "id": "r008",
@@ -216,7 +240,10 @@
       "metricool_post_id": {
         "instagram": 412035081,
         "youtube": 412035111
-      }
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r009",
@@ -246,7 +273,10 @@
       "metricool_post_id": {
         "instagram": 417962524,
         "youtube": 417962626
-      }
+      },
+      "category": "fat_loss",
+      "hook_type": "versus",
+      "series": "none"
     },
     {
       "id": "r010",
@@ -276,7 +306,10 @@
       "metricool_post_id": {
         "instagram": 420879905,
         "youtube": 420879925
-      }
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r011",
@@ -308,7 +341,10 @@
       "metricool_post_id": {
         "instagram": 424691154,
         "youtube": 424691393
-      }
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r012",
@@ -339,19 +375,10 @@
       "metricool_post_id": {
         "instagram": 424698728,
         "youtube": 424698916
-      }
-    },
-    {
-      "id": "r013",
-      "subject": "Liquid calories and sugary drinks",
-      "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
-      "claims": [
-        "Sugar-sweetened drinks are associated with weight gain in adults and children"
-      ],
-      "seed_sources": [
-        "Malik VS et al., Am J Clin Nutr, 2013"
-      ],
-      "status": "planned"
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
     },
     {
       "id": "r014",
@@ -363,7 +390,10 @@
       "seed_sources": [
         "Schoenfeld BJ et al., J Strength Cond Res, 2017"
       ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟"
     },
     {
       "id": "r015",
@@ -376,7 +406,25 @@
         "Refalo MC et al., Sports Med, 2023",
         "Grgic J et al., J Sport Health Sci, 2022"
       ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r013",
+      "subject": "Liquid calories and sugary drinks",
+      "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
+      "claims": [
+        "Sugar-sweetened drinks are associated with weight gain in adults and children"
+      ],
+      "seed_sources": [
+        "Malik VS et al., Am J Clin Nutr, 2013"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "mistake",
+      "series": "خطأ شائع"
     },
     {
       "id": "r016",
@@ -388,7 +436,10 @@
       "seed_sources": [
         "Schoenfeld BJ et al., J Strength Cond Res, 2016"
       ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "أيهما أفضل؟"
     },
     {
       "id": "r017",
@@ -400,31 +451,10 @@
       "seed_sources": [
         "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
       ],
-      "status": "planned"
-    },
-    {
-      "id": "r018",
-      "subject": "Diet breaks",
-      "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
-      "claims": [
-        "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
-      ],
-      "seed_sources": [
-        "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
-      ],
-      "status": "planned"
-    },
-    {
-      "id": "r019",
-      "subject": "Weighing yourself regularly",
-      "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
-      "claims": [
-        "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
-      ],
-      "seed_sources": [
-        "Zheng Y et al., Obesity, 2015 (systematic review)"
-      ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟"
     },
     {
       "id": "r020",
@@ -437,7 +467,25 @@
         "Seaborne RA et al., Sci Rep, 2018",
         "Psilander N et al., J Appl Physiol, 2019"
       ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r018",
+      "subject": "Diet breaks",
+      "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
+      "claims": [
+        "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
+      ],
+      "seed_sources": [
+        "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟"
     },
     {
       "id": "r021",
@@ -450,7 +498,26 @@
         "Wilson JM et al., J Strength Cond Res, 2012",
         "Schumann M et al., Sports Med, 2022"
       ],
-      "status": "planned"
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r019",
+      "subject": "Weighing yourself regularly",
+      "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
+      "claims": [
+        "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
+      ],
+      "seed_sources": [
+        "Zheng Y et al., Obesity, 2015 (systematic review)"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "خرافة أم حقيقة؟"
     }
-  ]
+  ],
+  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json."
 }

@@ -133,7 +133,11 @@ def build(reel_id: str, job: dict) -> dict:
         status[f"{kind}_bytes"] = dest.stat().st_size
     status["cover_at_seconds"] = script.get("cover_at_seconds", 1.0)
     from app import intro
-    if script.get("intro", True) and intro.INTRO.exists():
+    if gate.get("cover_at_seconds") is not None:  # the build reports the final cover time, intro included
+        status["cover_at_seconds"] = gate["cover_at_seconds"]
+        if gate.get("intro"):
+            status["intro"] = {"file": "assets/intro/blanket_effect.mp4", "offset_s": intro.offset(), **gate["intro"]}
+    elif script.get("intro", True) and intro.INTRO.exists():
         status["cover_at_seconds"] = round(status["cover_at_seconds"] + intro.offset(), 2)
         status["intro"] = {"file": "assets/intro/blanket_effect.mp4", "offset_s": intro.offset(),
                            "transition": script.get("intro_transition", "flash")}

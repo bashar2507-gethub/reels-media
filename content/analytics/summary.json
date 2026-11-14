@@ -1,0 +1,134 @@
+{
+  "reels": 12,
+  "overall": {
+    "skip_rate_pct": 65.8,
+    "avg_watch_s": 6.8,
+    "watch_pct": 17.7,
+    "views": 124.2,
+    "likes_per_reach_pct": 2.7,
+    "shares_per_reach_pct": 0.4,
+    "saves_per_reach_pct": 0.3,
+    "comments_per_reach_pct": 0.0
+  },
+  "by": {
+    "category": {
+      "fat_loss": {
+        "n": 6,
+        "skip_rate_pct": 71.3,
+        "avg_watch_s": 5.0,
+        "watch_pct": 12.5,
+        "views": 122.7,
+        "likes_per_reach_pct": 1.5,
+        "shares_per_reach_pct": 0.1,
+        "saves_per_reach_pct": 0.4,
+        "comments_per_reach_pct": 0.0
+      },
+      "muscle": {
+        "n": 6,
+        "skip_rate_pct": 60.2,
+        "avg_watch_s": 8.6,
+        "watch_pct": 22.0,
+        "views": 125.7,
+        "likes_per_reach_pct": 4.0,
+        "shares_per_reach_pct": 0.6,
+        "saves_per_reach_pct": 0.1,
+        "comments_per_reach_pct": 0.0
+      }
+    },
+    "hook_type": {
+      "how_many": {
+        "n": 2,
+        "skip_rate_pct": 55.3,
+        "avg_watch_s": 9.7,
+        "watch_pct": 29.1,
+        "views": 155.0,
+        "likes_per_reach_pct": 2.6,
+        "shares_per_reach_pct": 0.4,
+        "saves_per_reach_pct": 0.3,
+        "comments_per_reach_pct": 0.0
+      },
+      "situation": {
+        "n": 1,
+        "skip_rate_pct": 59.8,
+        "avg_watch_s": 10.2,
+        "watch_pct": 14.8,
+        "views": 132.0,
+        "likes_per_reach_pct": 3.3,
+        "shares_per_reach_pct": 0.0,
+        "saves_per_reach_pct": 0.0,
+        "comments_per_reach_pct": 0.0
+      },
+      "versus": {
+        "n": 1,
+        "skip_rate_pct": 68.2,
+        "avg_watch_s": 4.9,
+        "watch_pct": 11.2,
+        "views": 121.0,
+        "likes_per_reach_pct": 1.9,
+        "shares_per_reach_pct": 0.0,
+        "saves_per_reach_pct": 0.9,
+        "comments_per_reach_pct": 0.0
+      },
+      "why": {
+        "n": 2,
+        "skip_rate_pct": 77.1,
+        "avg_watch_s": 4.1,
+        "watch_pct": 8.8,
+        "views": 126.0,
+        "likes_per_reach_pct": 2.7,
+        "shares_per_reach_pct": 0.4,
+        "saves_per_reach_pct": 0.9,
+        "comments_per_reach_pct": 0.0
+      },
+      "yes_no": {
+        "n": 6,
+        "skip_rate_pct": 66.0,
+        "avg_watch_s": 6.5,
+        "watch_pct": 17.0,
+        "views": 112.5,
+        "likes_per_reach_pct": 2.9,
+        "shares_per_reach_pct": 0.4,
+        "saves_per_reach_pct": 0.0,
+        "comments_per_reach_pct": 0.0
+      }
+    },
+    "series": {
+      "none": {
+        "n": 12,
+        "skip_rate_pct": 65.8,
+        "avg_watch_s": 6.8,
+        "watch_pct": 17.7,
+        "views": 124.2,
+        "likes_per_reach_pct": 2.7,
+        "shares_per_reach_pct": 0.4,
+        "saves_per_reach_pct": 0.3,
+        "comments_per_reach_pct": 0.0
+      }
+    },
+    "intro": {
+      "none": {
+        "n": 8,
+        "skip_rate_pct": 64.4,
+        "avg_watch_s": 7.5,
+        "watch_pct": 20.1,
+        "views": 125.8,
+        "likes_per_reach_pct": 3.7,
+        "shares_per_reach_pct": 0.5,
+        "saves_per_reach_pct": 0.3,
+        "comments_per_reach_pct": 0.0
+      },
+      "start": {
+        "n": 4,
+        "skip_rate_pct": 68.5,
+        "avg_watch_s": 5.5,
+        "watch_pct": 13.5,
+        "views": 121.0,
+        "likes_per_reach_pct": 0.9,
+        "shares_per_reach_pct": 0.0,
+        "saves_per_reach_pct": 0.2,
+        "comments_per_reach_pct": 0.0
+      }
+    }
+  },
+  "generated": "2026-11-15"
+}

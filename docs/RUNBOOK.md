@@ -27,6 +27,20 @@ Talk to the owner in Arabic. Report only what tools confirmed.
 - One Reel a day: if any plan item was published or scheduled for today (Asia/Riyadh), for example
   because the owner asked for an earlier post, stop: today's Reel is already out.
 
+## 1b. Performance log (data loop, from 2026-11-15)
+
+Every run, before picking the Reel (background: `docs/GROWTH.md`):
+1. `getAnalyticsDataByMetrics(brandId="7461887", from=<45 days ago>T00:00:00+03:00, to=<today>T23:59:59+03:00,
+   metrics=["IGRE02","IGRE06","IGRE23","IGRE11","IGRE10","IGRE07","IGRE21","IGRE12","IGRE24","IGRE28","IGRE30"])`.
+   Save the result to `/tmp/ig_rows.json` and run `python scripts/perf_log.py --rows /tmp/ig_rows.json --write`.
+   It refreshes `content/analytics/instagram_reels.json` and `content/analytics/summary.json`; commit both with the
+   run. Metricool has no per-Short YouTube numbers for this channel; YouTube is judged in YouTube Studio.
+2. When the number of published Reels is a multiple of 5, add a dated entry to `docs/LEARNINGS.md`: the summary by
+   category, hook type, series and intro position, the best and worst Reel by skip rate and watch time, and at
+   most two adjustments for the next five Reels (reorder the remaining `planned` items, prefer the hook types that
+   hold best). Groups of fewer than 3 Reels are hints, not results. Never change an approved step (voice, pace, the
+   intro, publish time, quota) from this data: propose it to the owner in the final message instead.
+
 ## 2. Pick the Reel
 
 In `content/plan.json` take the first item whose status is `rendered` (already built: go to
@@ -48,16 +62,34 @@ Write `content/evidence/<id>.json` in the same shape as `content/evidence/r002.j
 
 ## 4. Script
 
-Write `content/<id>.json` in the same shape as `content/r002.json`:
-- 55 to 75 spoken Arabic words (the Jeddawi Echo voice reads that in about 31-42 s), 4 to 6 scenes: hook question (scene 1, style "title"),
-  explanation, practical example or myth correction, takeaway, engagement call to action (last scene).
-- Engagement call to action (owner, 2026-11-15): one natural sentence of at most 12 spoken words that asks the viewer
-  to like the video, to comment with their experience or opinion, and to share it with a friend it would help.
-  Keep it professional and tied to the video's value: no begging or pressure («لا تنسَ»), no "comment YES" or
-  "tag three friends", no promises. Vary the wording between Reels, for example:
-  «إذا أفادك المقطع، اضغط إعجاب، وشاركنا رأيك في التعليقات، وأرسله لصديق يهمه.»
-  «اضغط إعجاب، واكتب لنا تجربتك في التعليقات، وأرسل المقطع لصديق يتمرن معك.»
-  «جرّبت هذا من قبل؟ أخبرنا في التعليقات، واضغط إعجاب، وشارك المقطع.»
+Write `content/<id>.json` in the same shape as `content/r002.json`. The growth rules here come from the research
+of 2026-11-15 (`docs/GROWTH.md`): the first 3 seconds, watch time and sends decide how far a Reel travels.
+- 55 to 75 spoken Arabic words (the Jeddawi Echo voice reads that in about 31-42 s) in 6 to 8 scenes, so the picture
+  changes about every 4-6 s. Scene 1 holds only the hook (style "title"); the last scene holds the call to action.
+- Hook (scene 1): at most 8 words, heard from the first second, naming something concrete the viewer cares about: a
+  number («كم مجموعة تحتاج العضلة أسبوعيًا؟»), a situation from their life («بدأت كرياتين ووزنك زاد؟»), a belief to
+  test («هل تمارين البطن تحرق دهون البطن؟») or a choice («خفيف أم ثقيل: أيهما يبني عضلًا أكثر؟»). No abstract
+  "why" openers and no filler («هل تعلم»، «في هذا المقطع»). The video must answer it: no clickbait. Record the
+  hook in `"hook_type"` in the script and in the plan item: myth, how_many, versus, situation, mistake, number,
+  yes_no or why; prefer the types that hold best in `content/analytics/summary.json`.
+- Structure: hook, then the study and its surprising number (as an overlay), then one short turn that keeps attention
+  in the middle («لكن المفاجأة…»، «والأهم…»), then a takeaway the viewer can use today (a number, a portion, a
+  rule), then the call to action. Give the full answer in the second half, not in the first sentence.
+- Worth sending: the takeaway is concrete and useful today, and the call to action names who to send it to
+  («لصديق يتمرن معك»، «لمن يحاول خسارة الوزن»); on Instagram, sends are what reaches people who don't follow us.
+- Angle: frame each topic for gym-goers (muscle, training, performance) where the evidence allows; muscle and
+  training topics held viewers longer in our data.
+- Series: when the plan item's `series` is not "none", add `"series_label": "<series> · <n>"` (n = 1 + the number of
+  published items of that series); it shows small at the top of the video.
+- Call to action (owner, 2026-11-15, with follow/subscribe added the same day): the last scene is one natural sentence
+  of at most 14 spoken words. It always invites the viewer to follow, with a concrete reason, plus at most two of:
+  like, comment with their experience or opinion, send to a friend. Rotate the two so each comes up regularly; the
+  caption always carries the full set. Professional and tied to the video's value: no begging or pressure
+  («لا تنسَ»), no "comment YES", no "tag three friends", no promises. «تابعنا» works for both Instagram and YouTube.
+  Examples:
+  «إذا أفادك، اضغط إعجاب وأرسله لصديق يتمرن معك، وتابعنا لحقيقة جديدة كل ثلاثة أيام.»
+  «جرّبتها من قبل؟ شاركنا تجربتك في التعليقات، وتابعنا لحقائق اللياقة من الدراسات.»
+  «أرسل المقطع لمن يحاول خسارة الوزن، وتابعنا للحلقة القادمة من خرافة أم حقيقة.»
 - Hedge where the evidence is limited («قد»، «في دراسة»). No guarantees, no medical advice.
 - Spell numbers as words in `say`; put the numeric form as an unspoken annotation in `show`,
   for example `واحد فاصلة ستة غرام (1.6 g/kg)`. `show` must contain exactly the spoken words plus
@@ -74,16 +106,24 @@ Write `content/<id>.json` in the same shape as `content/r002.json`:
   no people, no hands, no text, no screens with numbers; FLUX invents fake writing on labels, so
   avoid packaged products, jars with labels, books, signs and branded or engraved equipment), `fallback` (one of scale, flow, orbs,
   dumbbell, bookmark), `zoom` and `pan` like the existing scripts.
-- `post`: caption (hook, short summary, takeaway bullets, a two-line engagement block, short sources,
-  «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.» (no AI-voice/images line in the caption, owner 2026-10-29;
-  keep the platform AI labels isAiGenerated / isAiGeneratedContent),
-  5 to 8 hashtags), `youtube_title` (under 90 characters), `youtube_tags`.
-  The engagement block: first a concrete question about the topic that invites the viewer's experience or opinion in
-  the comments, then a like and share line, for example
-  `💬 هل جرّبت شرب الماء قبل الوجبة؟ شاركنا تجربتك أو رأيك في التعليقات.` and
+- `post`, one text per network (Metricool takes one call per network):
+  - `caption` (Instagram): the first line is the hook with the topic's main keyword (Instagram search reads
+    captions), then a short summary, takeaway bullets, the engagement block, short sources,
+    «معلومات عامة للتثقيف، ولا تغني عن استشارة مختص.» (no AI-voice/images line, owner 2026-10-29; keep the platform
+    AI labels isAiGenerated / isAiGeneratedContent), and 3 to 5 targeted hashtags (Instagram allows 5 at most).
+  - `first_comment` (Instagram): the engagement question alone; it is posted as the account's first comment.
+  - `youtube_title`: the main search keyword first, under 60 characters, a promise the video keeps.
+  - `youtube_description`: two keyword-rich sentences on what the Short answers, the takeaway, the engagement block
+    with the YouTube follow line, short sources, the health note, then exactly 3 hashtags related to the video
+    (YouTube shows up to three above the title).
+  - `youtube_tags` as before.
+  The engagement block, three lines:
+  `💬 <a concrete question about the topic>؟ شاركنا تجربتك أو رأيك في التعليقات.`
   `👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يهمه الموضوع.`
+  `➕ تابع الحساب لحقيقة جديدة عن اللياقة كل ثلاثة أيام.` (YouTube: `🔔 اشترك في القناة لحقيقة جديدة عن اللياقة كل ثلاثة أيام.`)
 - Check it: `python3 -c` with `app.timeline.narration_text` and `build_timeline(script, EspeakTTS("ar", 210), tmp)`
-  must run without errors and give 55 to 75 words.
+  must run without errors and give 55 to 75 words, 6 to 8 scenes, a hook of at most 8 words and a call to action of
+  at most 14.
 
 ## 5. Narration (ElevenLabs connector, about 1 credit per character)
 
@@ -107,6 +147,11 @@ checks the final file. Per Reel, choose only the transition into the first scene
 script: `flash` (default), `zoom`, `circle`, `slide` or `fade`, matching the topic's first image. In step 7 take
 `videoCoverMilliseconds` from `reels/<id>/status.json` `cover_at_seconds` × 1000 (it already includes the intro).
 
+Hook-first option (built 2026-11-15, NOT approved yet): `"intro_position": "after_hook"` in the script plays the hook
+question first, then the intro, then the rest (same total length; the cover frame stays on the hook). Our data show
+about two thirds of Instagram viewers leave in the first 3 seconds, which the 1.8 s intro currently fills. Leave
+`intro_position` out (the default, "start") until `docs/APPROVED_STEPS.md` section 9 says the owner approved it.
+
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 
 Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`). Before step 6:
@@ -117,7 +162,12 @@ Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`). Be
    shorts", "images": [{"key": "s<n>", "reference": "<ref>", "prompt": "<what he does in this scene>"}]}`.
    `<ref>` is `assets/characters/blanket/move_<exercise>.png` when the scene shows that exercise,
    `reference_anatomy.png` when the sentence names specific muscles (ask for the named muscles to glow amber and for
-   every label to be removed), otherwise `reference_front.png`. Props must be plain and unmarked.
+   every label to be removed), otherwise `images/refs/blanket_front_dark.png` (the owner's front reference on the
+   series' dark background). For a scene whose sentence has an overlay, use `images/refs/blanket_front_dark_headroom.png`
+   (him smaller and lower) and add to the prompt "He stays small in the frame, in the lower half of the picture, with
+   plain dark empty space above his head", so the figure never covers his face. Props must be plain and unmarked.
+   Scene 1 makes the hook visible: the object or situation the question is about (a scale, a plate, a barbell), so
+   the first frame already says what the video is about.
 2. Commit and push; the "Generate Images" workflow writes `images/<id>-char/` and `status.json` (poll as in step 6.3).
 3. Look at every image with Read. Each needs: the B cap, a blank face apart from the eyes, no labels, arrows, numbers
    or other text, natural hands and limbs. Regenerate a failed image once with a clearer prompt (new job file
@@ -156,20 +206,21 @@ Re-render: `git rm -r -q reels/<id>`, set `"rerender_requested": "<UTC time>"` i
 ## 7. Publish (Metricool connector)
 
 Time: 20:00 Asia/Riyadh today, or now + 10 minutes if that has passed. Two calls with the same
-time, media and caption, one per network, so Instagram gets the cover frame (YouTube rejects a
-custom cover unless the channel is verified). Shared `info` fields:
+time and media, one per network, each with its own text: Instagram gets the caption, the cover frame and a first
+comment (YouTube rejects a custom cover unless the channel is verified). Shared `info` fields:
 
 ```
-"autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "",
+"autoPublish": true, "draft": false, "descendants": [],
 "hasNotReadNotes": false, "media": ["<jsDelivr link>"], "mediaAltText": [],
 "publicationDate": {"dateTime": "<YYYY-MM-DDTHH:MM:00>", "timezone": "Asia/Riyadh"},
-"shortener": false, "smartLinkData": {"ids": []}, "text": "<post.caption>"
+"shortener": false, "smartLinkData": {"ids": []}
 ```
 
-1. Instagram: add `"providers": [{"network": "instagram"}]`,
-   `"videoCoverMilliseconds": <cover_at_seconds × 1000>` and
+1. Instagram: add `"providers": [{"network": "instagram"}]`, `"text": "<post.caption>"`,
+   `"firstCommentText": "<post.first_comment>"`, `"videoCoverMilliseconds": <cover_at_seconds × 1000>` and
    `"instagramData": {"type": "REEL", "showReelOnFeed": true, "isAiGenerated": true}`.
-2. YouTube: add `"providers": [{"network": "youtube"}]` and
+2. YouTube: add `"providers": [{"network": "youtube"}]`, `"text": "<post.youtube_description, or post.caption when a
+   script has none>"`, `"firstCommentText": ""` and
    `"youtubeData": {"title": "<post.youtube_title>", "type": "short", "privacy": "public",
    "tags": <post.youtube_tags>, "category": "EDUCATION", "madeForKids": false, "isAiGeneratedContent": true}`
    (no cover fields).
