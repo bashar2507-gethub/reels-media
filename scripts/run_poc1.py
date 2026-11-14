@@ -107,7 +107,8 @@ def main() -> int:
         body = video.with_name(video.stem + "_body.mp4")
         video.replace(body)
         transition = script.get("intro_transition", "flash")
-        if script.get("intro_position", "start") == "after_hook" and len(timeline.sentences) > 1:
+        # hook first is the default since the owner approved it on 2026-11-15; "start" puts the intro first
+        if script.get("intro_position", "after_hook") == "after_hook" and len(timeline.sentences) > 1:
             at = intro.hook_end(timeline)  # hook question first, then the intro, then the rest
             intro.insert_after(body, video, at, transition)
             if cover_at >= at:

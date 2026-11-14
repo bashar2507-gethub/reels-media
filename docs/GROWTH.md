@@ -60,7 +60,10 @@ the steps and `docs/APPROVED_STEPS.md` (Arabic) what the owner approved. The own
 
 ## Open decisions for the owner
 
-- Turn on hook-first (sample sent 2026-11-15).
-- Test 18:00 against 20:00 (Metricool's best-time data peaks around 18:00 for Instagram and 15:00-17:00 for YouTube).
+- Hook-first: approved by the owner on 2026-11-15; the default from r014 on.
+- Publish time for gym-goers: 18:00 recommended, waiting for the owner's yes. In a 2023 study of 385 adults in Riyadh
+  (Alkhaldi et al., Cureus 15(7):e41638), 53% exercised in the evening (within 4 hours of bedtime), 26% in the
+  afternoon and 21% in the morning; Metricool's best-time data for this brand peak around 18:00 for Instagram and
+  15:00-17:00 for YouTube. A Reel out at 18:00 is in the feed before and during the evening gym hours.
 - More than 10 Reels a month needs a paid Metricool plan (Free = 20 posts a month).
 - Instagram profile: a readable name and a bio that promises what the account gives; only the owner can change it.

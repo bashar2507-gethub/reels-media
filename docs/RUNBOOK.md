@@ -147,10 +147,11 @@ checks the final file. Per Reel, choose only the transition into the first scene
 script: `flash` (default), `zoom`, `circle`, `slide` or `fade`, matching the topic's first image. In step 7 take
 `videoCoverMilliseconds` from `reels/<id>/status.json` `cover_at_seconds` × 1000 (it already includes the intro).
 
-Hook-first option (built 2026-11-15, NOT approved yet): `"intro_position": "after_hook"` in the script plays the hook
-question first, then the intro, then the rest (same total length; the cover frame stays on the hook). Our data show
-about two thirds of Instagram viewers leave in the first 3 seconds, which the 1.8 s intro currently fills. Leave
-`intro_position` out (the default, "start") until `docs/APPROVED_STEPS.md` section 9 says the owner approved it.
+Hook first (owner approved 2026-11-15, the default from r014 on): the Reel opens on the hook question, then the
+intro plays, then the rest (same total length; the cover frame stays on the hook, so `cover_at_seconds` 1.2 is
+right). About two thirds of Instagram viewers left in the first 3 seconds while the 1.8 s intro filled them. Set
+`"intro_position": "after_hook"` in every script so the choice is visible; `"start"` (intro first) is only for a
+re-render of an older Reel. The performance log compares the two by `intro`.
 
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 

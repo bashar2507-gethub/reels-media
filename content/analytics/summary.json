@@ -128,6 +128,52 @@
         "saves_per_reach_pct": 0.2,
         "comments_per_reach_pct": 0.0
       }
+    },
+    "publish_hour": {
+      "02:00 Riyadh": {
+        "n": 1,
+        "skip_rate_pct": 77.6,
+        "avg_watch_s": 4.8,
+        "watch_pct": null,
+        "views": 136.0,
+        "likes_per_reach_pct": 2.6,
+        "shares_per_reach_pct": 0.9,
+        "saves_per_reach_pct": 1.7,
+        "comments_per_reach_pct": 0.0
+      },
+      "04:00 Riyadh": {
+        "n": 1,
+        "skip_rate_pct": 59.8,
+        "avg_watch_s": 10.2,
+        "watch_pct": 14.8,
+        "views": 132.0,
+        "likes_per_reach_pct": 3.3,
+        "shares_per_reach_pct": 0.0,
+        "saves_per_reach_pct": 0.0,
+        "comments_per_reach_pct": 0.0
+      },
+      "13:00 Riyadh": {
+        "n": 1,
+        "skip_rate_pct": 63.3,
+        "avg_watch_s": 8.6,
+        "watch_pct": 28.8,
+        "views": 142.0,
+        "likes_per_reach_pct": 3.2,
+        "shares_per_reach_pct": 0.8,
+        "saves_per_reach_pct": 0.0,
+        "comments_per_reach_pct": 0.0
+      },
+      "20:00 Riyadh": {
+        "n": 9,
+        "skip_rate_pct": 65.4,
+        "avg_watch_s": 6.5,
+        "watch_pct": 16.8,
+        "views": 120.0,
+        "likes_per_reach_pct": 2.7,
+        "shares_per_reach_pct": 0.3,
+        "saves_per_reach_pct": 0.2,
+        "comments_per_reach_pct": 0.0
+      }
     }
   },
   "generated": "2026-11-15"

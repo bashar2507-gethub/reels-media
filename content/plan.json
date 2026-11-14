@@ -412,6 +412,22 @@
       "series": "خرافة أم حقيقة؟"
     },
     {
+      "id": "r022",
+      "subject": "How much protein one meal can use for muscle",
+      "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
+      "claims": [
+        "The common idea that the body can use only about 30 g of protein per meal for muscle is too simple; spreading about 0.4 g/kg over at least four meals is a practical target"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Aragon AA, J Int Soc Sports Nutr, 2018 (How much protein can the body use in a single meal for muscle-building?)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle"
+    },
+    {
       "id": "r013",
       "subject": "Liquid calories and sugary drinks",
       "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
@@ -440,6 +456,22 @@
       "category": "muscle",
       "hook_type": "how_many",
       "series": "أيهما أفضل؟"
+    },
+    {
+      "id": "r023",
+      "subject": "Caffeine before training",
+      "hook_idea": "قهوتك قبل التمرين ترفع أداءك فعلًا؟",
+      "claims": [
+        "Caffeine taken before exercise improves performance in many studies, at doses around 3-6 mg/kg"
+      ],
+      "seed_sources": [
+        "Guest NS et al., ISSN position stand: caffeine and exercise performance, J Int Soc Sports Nutr, 2021"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation"
     },
     {
       "id": "r017",
@@ -488,6 +520,22 @@
       "series": "أيهما أفضل؟"
     },
     {
+      "id": "r024",
+      "subject": "Static stretching before lifting",
+      "hook_idea": "الإطالة الثابتة قبل الحديد تضعف قوتك؟",
+      "claims": [
+        "Long static stretches right before lifting can slightly reduce maximal strength; short stretches have little effect"
+      ],
+      "seed_sources": [
+        "Simic L, Sarabon N, Markovic G, Scand J Med Sci Sports, 2013 (meta-analysis of pre-exercise static stretching)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r004 and r006: a gym habit tested against a study, with a rule to apply today"
+    },
+    {
       "id": "r021",
       "subject": "Does cardio kill muscle gains?",
       "hook_idea": "هل الكارديو يقتل العضل؟",
@@ -502,6 +550,22 @@
       "category": "muscle",
       "hook_type": "myth",
       "series": "خرافة أم حقيقة؟"
+    },
+    {
+      "id": "r025",
+      "subject": "Slow or fast repetitions for muscle growth",
+      "hook_idea": "التكرار البطيء أم السريع: أيهما يبني عضلًا أكثر؟",
+      "claims": [
+        "Across a wide range of repetition durations (about 0.5 to 8 seconds) muscle growth was similar; very slow reps did not add more"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Ogborn DI, Krieger JW, Sports Med, 2015 (repetition duration and hypertrophy, meta-analysis)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟",
+      "idea_from": "r006 (sets) and r005 (frequency): how to train for muscle, answered with one clear number"
     },
     {
       "id": "r019",
@@ -519,5 +583,5 @@
       "series": "خرافة أم حقيقة؟"
     }
   ],
-  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json."
+  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics."
 }

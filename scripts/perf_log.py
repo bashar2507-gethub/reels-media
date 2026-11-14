@@ -10,7 +10,7 @@ fields, in this order (the run saves the tool result to a file first):
 
 Each row is matched to its plan item through the item's Instagram link. With --write the numbers are kept in
 content/analytics/instagram_reels.json (one entry per Reel, refreshed every run) and a comparison by topic
-category, hook type, series and intro position goes to content/analytics/summary.json. Reels younger than
+category, hook type, series, intro position and publish hour goes to content/analytics/summary.json. Reels younger than
 3 days are logged but left out of the comparison, because their numbers are still moving.
 """
 from __future__ import annotations
@@ -29,7 +29,7 @@ sys.path.insert(0, str(ROOT))
 FIELDS = ["IGRE02", "IGRE06", "IGRE23", "IGRE11", "IGRE10", "IGRE07", "IGRE21", "IGRE12", "IGRE24", "IGRE28", "IGRE30"]
 KEYS = ["published", "url", "views", "reach", "likes", "comments", "shares", "saves",
         "avg_watch_s", "view_rate_pct", "skip_rate_pct"]
-GROUPS = ["category", "hook_type", "series", "intro"]
+GROUPS = ["category", "hook_type", "series", "intro", "publish_hour"]
 MIN_AGE_DAYS = 3
 LOG = ROOT / "content" / "analytics" / "instagram_reels.json"
 SUMMARY = ROOT / "content" / "analytics" / "summary.json"
@@ -91,6 +91,7 @@ def build_log(rows: list[list], now: datetime) -> dict:
             "id": item["id"], "subject": item.get("subject"), "category": item.get("category", "unknown"),
             "hook_type": item.get("hook_type", "unknown"), "series": item.get("series", "none"),
             "intro": intro_position(item["id"], published), "age_days": age,
+            "publish_hour": f"{(int(published[8:10]) + 3) % 24:02d}:00 Riyadh",  # Metricool gives UTC
             "video_s": seconds,
             "watch_pct": round(100 * rec["avg_watch_s"] / seconds, 1) if seconds and rec["avg_watch_s"] else None,
             "likes_per_reach_pct": per_reach(rec["likes"]), "shares_per_reach_pct": per_reach(rec["shares"]),
