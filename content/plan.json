@@ -320,7 +320,7 @@
       "seed_sources": [
         "Dennis EA et al., Obesity, 2010"
       ],
-      "status": "scheduled",
+      "status": "published",
       "queued_at": "2026-11-11T20:07:00+03:00",
       "narration_credits": 392,
       "note": "Prepared on 2026-11-11 in the owner's chat (he asked to try Fable 5.2 on the next video), for the 2026-11-14 20:00 slot.",
@@ -330,7 +330,16 @@
         "instagram": 424698728,
         "youtube": 424698916
       },
-      "rendered_video": "reels/r012/r012-video-0192c28410.mp4"
+      "rendered_video": "reels/r012/r012-video-0192c28410.mp4",
+      "published_at": "2026-11-14T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Dfus6XVnC--/",
+        "youtube": "https://www.youtube.com/shorts/YOdwV6hgXIw"
+      },
+      "metricool_post_id": {
+        "instagram": 424698728,
+        "youtube": 424698916
+      }
     },
     {
       "id": "r013",
