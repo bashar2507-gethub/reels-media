@@ -390,7 +390,7 @@
    "seed_sources": [
     "Schoenfeld BJ et al., J Strength Cond Res, 2017"
    ],
-   "status": "scheduled",
+   "status": "published",
    "category": "muscle",
    "hook_type": "versus",
    "series": "أيهما أفضل؟",
@@ -402,6 +402,15 @@
    "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@cec9c920f4e78e565a53b381770e6bc2bff76ac3/reels/r014/r014-video-3f725c4e8f.mp4",
    "publish_at": "2026-11-17T18:00:00+03:00",
    "metricool_post_ids": {
+    "instagram": 431481189,
+    "youtube": 431481218
+   },
+   "published_at": "2026-11-17T18:00:00+03:00",
+   "links": {
+    "instagram": "https://www.instagram.com/reel/Df2OITKjOlM/",
+    "youtube": "https://www.youtube.com/shorts/cMxUpgz19WA"
+   },
+   "metricool_post_id": {
     "instagram": 431481189,
     "youtube": 431481218
    }
