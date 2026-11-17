@@ -1,0 +1,41 @@
+{
+  "reel_id": "r014",
+  "reviewed_on": "2026-11-17",
+  "method": "Abstract and citation read directly from the PubMed record (PMID 27174923); full author list from the McMaster University Experts record. The plan's seed source (Schoenfeld et al., J Strength Cond Res, 2017, PMID 28834797) could not be read in this run (PubMed served a browser check, the other records were blocked), so it is not cited and no claim rests on it.",
+  "claims": [
+    {
+      "claim_id": "r014-c1",
+      "claim": "In a 12-week randomized trial of 49 resistance-trained young men, one group lifted light loads (about 30-50% 1RM, 20-25 repetitions per set) and the other heavy loads (about 75-90% 1RM, 8-12 repetitions), with every set to volitional failure.",
+      "source_title": "Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in resistance-trained young men",
+      "authors": "Morton RW, Oikawa SY, Wavell CG, Mazara N, McGlory C, Quadrilatero J, Baechler BL, Baker SK, Phillips SM",
+      "year": 2016,
+      "journal": "J Appl Physiol (1985) 121(1):129-138",
+      "DOI_or_URL": "https://doi.org/10.1152/japplphysiol.00154.2016 | PMID 27174923 | records: https://pubmed.ncbi.nlm.nih.gov/27174923/ and https://experts.mcmaster.ca/scholarly-works/61716",
+      "study_type": "Randomized trial, two groups, 12 weeks of whole-body resistance training; 49 resistance-trained men aged about 23 (higher-repetition group n = 24, lower-repetition group n = 25)",
+      "finding": "Abstract: subjects were randomly allocated to a higher-repetition group (about 30-50% 1RM, 20-25 repetitions per set) or a lower-repetition group (about 75-90% 1RM, 8-12 repetitions per set); all sets were performed to volitional failure."
+    },
+    {
+      "claim_id": "r014-c2",
+      "claim": "Muscle growth (lean body mass and type I and type II fiber cross-sectional area) increased similarly in both groups.",
+      "source_title": "Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in resistance-trained young men",
+      "authors": "Morton RW et al.",
+      "year": 2016,
+      "journal": "J Appl Physiol (1985) 121(1):129-138",
+      "DOI_or_URL": "https://doi.org/10.1152/japplphysiol.00154.2016 | PMID 27174923",
+      "study_type": "As above",
+      "finding": "Abstract: lean body mass and type I and type II muscle fiber cross-sectional area increased following training (P < 0.01) with no significant differences between groups. Conclusion: load, when exercises are performed to volitional failure, does not dictate hypertrophy or, for the most part, strength gains."
+    },
+    {
+      "claim_id": "r014-c3",
+      "claim": "Strength rose in both groups, but bench press 1RM rose more with heavy loads (about 14 kg versus 9 kg); it was the only lift with a significant difference.",
+      "source_title": "Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in resistance-trained young men",
+      "authors": "Morton RW et al.",
+      "year": 2016,
+      "journal": "J Appl Physiol (1985) 121(1):129-138",
+      "DOI_or_URL": "https://doi.org/10.1152/japplphysiol.00154.2016 | PMID 27174923",
+      "study_type": "As above",
+      "finding": "Abstract: 1RM strength increased for all exercises in both groups (P < 0.01), with only the change in bench press being significantly different between groups (higher-repetition 9 +/- 1 vs lower-repetition 14 +/- 1 kg, P = 0.012)."
+    }
+  ],
+  "limitations": "One randomized trial of 49 young, resistance-trained men over 12 weeks; women, beginners and older adults were not studied. Every set went to volitional failure, so the result applies to sets taken close to failure, not to easy light sets. Only the bench press showed a significant strength difference in favour of heavy loads; other lifts did not differ significantly. The plan's claim that heavy loads build more strength is therefore narrowed to 'bench press strength rose more with heavy loads in this study', and the takeaway is hedged ('قد يكفي'). The meta-analysis seed source was not verified in this run and is not cited."
+}
