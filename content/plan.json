@@ -390,7 +390,7 @@
    "seed_sources": [
     "Schoenfeld BJ et al., J Strength Cond Res, 2017"
    ],
-   "status": "rendered",
+   "status": "scheduled",
    "category": "muscle",
    "hook_type": "versus",
    "series": "أيهما أفضل؟",
@@ -399,7 +399,12 @@
    "evidence_note": "Seed meta-analysis (Schoenfeld 2017) could not be read this run; script rests on Morton et al. 2016 (PMID 27174923), strength claim narrowed to bench press.",
    "rendered_at": "2026-11-17T13:46:11Z",
    "video": "reels/r014/r014-video-3f725c4e8f.mp4",
-   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@cec9c920f4e78e565a53b381770e6bc2bff76ac3/reels/r014/r014-video-3f725c4e8f.mp4"
+   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@cec9c920f4e78e565a53b381770e6bc2bff76ac3/reels/r014/r014-video-3f725c4e8f.mp4",
+   "publish_at": "2026-11-17T18:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 431481189,
+    "youtube": 431481218
+   }
   },
   {
    "id": "r015",
