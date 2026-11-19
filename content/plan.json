@@ -429,7 +429,13 @@
    "status": "planned",
    "category": "muscle",
    "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟"
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Lifting straps (SKDK, the owner's link)",
+    "spot": "bio 1",
+    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
+   }
   },
   {
    "id": "r022",
@@ -445,7 +451,13 @@
    "category": "muscle",
    "hook_type": "how_many",
    "series": "خرافة أم حقيقة؟",
-   "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle"
+   "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle",
+   "template": "B",
+   "affiliate": {
+    "product": "Digital food scale (protein powder on hold)",
+    "spot": "bio 2",
+    "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
+   }
   },
   {
    "id": "r013",
@@ -460,7 +472,13 @@
    "status": "planned",
    "category": "fat_loss",
    "hook_type": "mistake",
-   "series": "خطأ شائع"
+   "series": "خطأ شائع",
+   "template": "A",
+   "affiliate": {
+    "product": "Large water bottle",
+    "spot": "bio 5",
+    "caption_line": "🔗 قارورة ماء كبيرة: بديل سهل عن المشروبات المحلاة طوال اليوم. الرابط في البايو."
+   }
   },
   {
    "id": "r016",
@@ -475,7 +493,12 @@
    "status": "planned",
    "category": "muscle",
    "hook_type": "how_many",
-   "series": "أيهما أفضل؟"
+   "series": "أيهما أفضل؟",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
   },
   {
    "id": "r023",
@@ -491,7 +514,12 @@
    "category": "muscle",
    "hook_type": "situation",
    "series": "خرافة أم حقيقة؟",
-   "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation"
+   "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
   },
   {
    "id": "r026",
@@ -509,7 +537,12 @@
    "category": "muscle",
    "hook_type": "situation",
    "series": "خطأ شائع",
-   "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice"
+   "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice",
+   "template": "A",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
   },
   {
    "id": "r017",
@@ -524,7 +557,13 @@
    "status": "planned",
    "category": "muscle",
    "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟"
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Shaker bottle (protein powder on hold)",
+    "spot": "bio 4",
+    "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
+   }
   },
   {
    "id": "r027",
@@ -543,7 +582,14 @@
    "category": "muscle",
    "hook_type": "situation",
    "series": "خرافة أم حقيقة؟",
-   "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket"
+   "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket",
+   "template": "B",
+   "affiliate": {
+    "product": "Creatine monohydrate (supplement: on hold until the owner clears it)",
+    "spot": "bio 5",
+    "caption_line": "🔗 كرياتين مونوهيدرات: النوع الذي استخدمته أغلب الدراسات. الرابط في البايو.",
+    "hold": true
+   }
   },
   {
    "id": "r020",
@@ -559,7 +605,13 @@
    "status": "planned",
    "category": "muscle",
    "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟"
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Resistance bands",
+    "spot": "bio 3",
+    "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
+   }
   },
   {
    "id": "r028",
@@ -576,7 +628,13 @@
    "category": "muscle",
    "hook_type": "how_many",
    "series": "none",
-   "idea_from": "owner 2026-11-15: remake of r002 (142 views, 8.6 s average watch) with the current rules; the old one had no Blanket and the old voice"
+   "idea_from": "owner 2026-11-15: remake of r002 (142 views, 8.6 s average watch) with the current rules; the old one had no Blanket and the old voice",
+   "template": "A",
+   "affiliate": {
+    "product": "Digital food scale (protein powder on hold)",
+    "spot": "bio 2",
+    "caption_line": "🔗 ميزان مطبخ رقمي: يساعدك تحسب بروتين يومك بالغرام. الرابط في البايو."
+   }
   },
   {
    "id": "r018",
@@ -591,7 +649,13 @@
    "status": "planned",
    "category": "fat_loss",
    "hook_type": "versus",
-   "series": "أيهما أفضل؟"
+   "series": "أيهما أفضل؟",
+   "template": "A",
+   "affiliate": {
+    "product": "Digital food scale",
+    "spot": "bio 2",
+    "caption_line": "🔗 ميزان مطبخ رقمي: تتابع حصصك في أسابيع الحمية وأسابيع الاستراحة. الرابط في البايو."
+   }
   },
   {
    "id": "r024",
@@ -607,7 +671,13 @@
    "category": "muscle",
    "hook_type": "myth",
    "series": "خرافة أم حقيقة؟",
-   "idea_from": "r004 and r006: a gym habit tested against a study, with a rule to apply today"
+   "idea_from": "r004 and r006: a gym habit tested against a study, with a rule to apply today",
+   "template": "B",
+   "affiliate": {
+    "product": "Resistance bands",
+    "spot": "bio 3",
+    "caption_line": "🔗 أشرطة مقاومة: للإحماء الحركي قبل التمرين. الرابط في البايو."
+   }
   },
   {
    "id": "r021",
@@ -623,7 +693,12 @@
    "status": "planned",
    "category": "muscle",
    "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟"
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
   },
   {
    "id": "r025",
@@ -639,7 +714,12 @@
    "category": "muscle",
    "hook_type": "versus",
    "series": "أيهما أفضل؟",
-   "idea_from": "r006 (sets) and r005 (frequency): how to train for muscle, answered with one clear number"
+   "idea_from": "r006 (sets) and r005 (frequency): how to train for muscle, answered with one clear number",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
   },
   {
    "id": "r019",
@@ -654,8 +734,34 @@
    "status": "planned",
    "category": "fat_loss",
    "hook_type": "yes_no",
-   "series": "خرافة أم حقيقة؟"
+   "series": "خرافة أم حقيقة؟",
+   "template": "A",
+   "affiliate": {
+    "product": "Bathroom scale",
+    "spot": "bio 5",
+    "caption_line": "🔗 ميزان وزن رقمي: إذا قررت تتابع وزنك أسبوعيًا. الرابط في البايو."
+   }
   }
  ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics."
+ "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics.",
+ "affiliate": {
+  "program": "Amazon.sa Associates",
+  "tracking_id": "uxoxufit-21",
+  "registered_sites": [
+   "https://www.instagram.com/uuxuuoouuxuu/"
+  ],
+  "live": false,
+  "live_note": "Product lines go into captions only when this is true. It turns true when the owner confirms that the five Instagram bio links are live (owner, 2026-11-20).",
+  "supplements_on_hold": true,
+  "supplements_note": "Creatine and protein powder links wait until the owner has checked the SFDA rules and asked GCAM whether commission links need a Mawthooq licence.",
+  "bio_links": [
+   "1 أحزمة معصم للسحب (lifting straps)",
+   "2 ميزان مطبخ رقمي (food scale)",
+   "3 أشرطة مقاومة (resistance bands)",
+   "4 شيكر بروتين (shaker bottle)",
+   "5 حزام رفع أثقال (weightlifting belt) by default, or the current Reel's product when its spot is bio 5"
+  ],
+  "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
+  "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
+ }
 }

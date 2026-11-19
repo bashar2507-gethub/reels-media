@@ -92,6 +92,8 @@ of 2026-11-15 (`docs/GROWTH.md`): the first 3 seconds, watch time and sends deci
   like, comment with their experience or opinion, send to a friend. Rotate the two so each comes up regularly; the
   caption always carries the full set. Professional and tied to the video's value: no begging or pressure
   («لا تنسَ»), no "comment YES", no "tag three friends", no promises. «تابعنا» works for both Instagram and YouTube.
+  For an item with `"template": "A"` (step 4b), saving the Reel («احفظ المقطع») may be one of the two (owner,
+  2026-11-20, taking the 14 Nov Reel as a template); the follow invitation stays.
   Examples:
   «إذا أفادك، اضغط إعجاب وأرسله لصديق يتمرن معك، وتابعنا لحقيقة جديدة كل ثلاثة أيام.»
   «جرّبتها من قبل؟ شاركنا تجربتك في التعليقات، وتابعنا لحقائق اللياقة من الدراسات.»
@@ -130,6 +132,24 @@ of 2026-11-15 (`docs/GROWTH.md`): the first 3 seconds, watch time and sends deci
 - Check it: `python3 -c` with `app.timeline.narration_text` and `build_timeline(script, EspeakTTS("ar", 210), tmp)`
   must run without errors and give 55 to 75 words, 6 to 8 scenes, a hook of at most 8 words and a call to action of
   at most 14.
+
+## 4b. Templates and the affiliate line (owner, 2026-11-20)
+
+The owner joined Amazon.sa Associates (tracking ID `uxoxufit-21`); his Instagram account is the only registered site.
+The plan and its reasons are in the doc "UXOXU Affiliate Posting Plan" (https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj);
+the settings are `affiliate` in `content/plan.json`, and each planned item has `template` and `affiliate`.
+- Template: write the script in the pattern of the item's `template`. A follows the 14 Nov Reel (r012): a yes/no
+  question about a daily habit, one or two trials with their numbers on screen, an honest limit, a "try this"
+  takeaway. B follows the 17 Nov Reel (r014): a versus or myth question in its series, one trial with three or four
+  numbers on screen, one turn, a takeaway with a number. These are patterns, not wording to copy; hook first (step 5a)
+  and every rule in step 4 still apply.
+- Caption: only when `affiliate.live` is true, the item's `affiliate.caption_line` is set and the item is not on hold
+  (`affiliate.hold` on the item, or a supplement while `affiliate.supplements_on_hold` is true), add after the takeaway
+  bullets, each on its own line, the item's `caption_line` and then the plan's `affiliate.disclosure_caption`.
+  Otherwise add nothing about products.
+- Never: a product or a link in the narration, on screen or in `first_comment`; a URL in any caption; prices, star
+  ratings or Amazon reviews; any wording that says or implies the study tested the product; anything about products
+  in `youtube_description` while YouTube is not in `affiliate.registered_sites`.
 
 ## 5. Narration (ElevenLabs connector, about 1 credit per character)
 
@@ -257,3 +277,12 @@ If a call errors, check `getScheduledPosts` before trying again, so no duplicate
    `remake_of`, end with a reminder for the owner, with both old links from that item: archive the old Instagram
    Reel (⋯ ثم «أرشفة») and set the old Short to «غير مدرج» in YouTube Studio. Claude never deletes or archives a
    published post; the owner does.
+   When the caption carried a product line (step 4b), remind the owner to share the Reel to his Story with a link
+   sticker for that product and the Story disclosure from the plan doc, and to put the link in bio slot 5 when the
+   item's `affiliate.spot` is "bio 5".
+4. Monthly snapshot (first run of each month): add to the final message Instagram followers and the month's Reel views
+   and reach (from the performance log), YouTube subscribers and views (Metricool), and ask the owner for his
+   Associates clicks, ordered items and earnings (Claude cannot sign in there). Name any milestone reached: about 500
+   Instagram followers (Amazon's usual bar for social pages); YouTube about 500 subscribers or Instagram near 1,000
+   (reapply to the Influencer Program); 3 qualifying sales are due within 180 days of sign-up (around mid-May 2027).
+   Save the snapshot in `content/analytics/monthly.json`, one entry per month.

@@ -32,5 +32,7 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Library page: https://claude.ai/artifact/3xktcPAsz3jeNUW2fuudKo (database collection `reels`).
 - Weekly trend research (owner, 2026-11-15): every Sunday morning a scheduled run follows `docs/TRENDS.md` and sends
   the owner ideas to approve; nothing enters `content/plan.json` without his yes.
+- Amazon.sa Associates (owner, 2026-11-20): tracking ID `uxoxufit-21`; Instagram is the only registered site, so no
+  affiliate links or product lines anywhere else. Rules: `docs/RUNBOOK.md` step 4b and `affiliate` in `content/plan.json`.
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`

@@ -73,5 +73,8 @@ the steps and `docs/APPROVED_STEPS.md` (Arabic) what the owner approved. The own
   nothing is deleted. He archives poc1 (same topic as r001) now.
 - Weekly trend research: asked for on 2026-11-15. Every Sunday a scheduled run follows `docs/TRENDS.md` and sends the
   owner a numbered list of ideas with their view or search numbers and evidence; ideas enter the plan only with his yes.
+- Amazon.sa affiliate layer: approved on 2026-11-20 (doc "UXOXU Affiliate Posting Plan"). Product lines start when the
+  owner confirms his bio links (`affiliate.live`); supplements wait for his SFDA and GCAM checks; the 14 Nov and 17 Nov
+  Reels are the templates (A and B).
 - More than 10 Reels a month needs a paid Metricool plan (Free = 20 posts a month).
 - Instagram profile: a readable name and a bio that promises what the account gives; only the owner can change it.
