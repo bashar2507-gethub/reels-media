@@ -418,7 +418,7 @@
   {
    "id": "r029",
    "subject": "Gym tools: what studies say about lifting straps, a lifting belt and resistance bands",
-   "status": "rendered",
+   "status": "scheduled",
    "category": "muscle",
    "template": "B",
    "series": "none",
@@ -447,7 +447,13 @@
    "rendered_video": "reels/r029/r029-video-3ca5684b51.mp4",
    "render_run_id": 44751548696,
    "narration_credits_total": 1145,
-   "owner_edit": "2026-11-20 16:58: say each study's university and sample; تَسْتَخْدِم with diacritics; his female character in the straps part (new s2b, study on ten trained women). Second take 696 credits (first take 449, kept as content/audio/r029_narration_v1*)"
+   "owner_edit": "2026-11-20 16:58: say each study's university and sample; تَسْتَخْدِم with diacritics; his female character in the straps part (new s2b, study on ten trained women). Second take 696 credits (first take 449, kept as content/audio/r029_narration_v1*)",
+   "metricool_post_ids": {
+    "instagram": 435642808,
+    "youtube": 435642464
+   },
+   "publish_at": "2026-11-20T18:00:00+03:00",
+   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@90e19195ce440a30fc2488242788b7c45ba52bf0/reels/r029/r029-video-3ca5684b51.mp4"
   },
   {
    "id": "r015",
