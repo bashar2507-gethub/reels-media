@@ -1,0 +1,200 @@
+{
+ "purpose": "r030 second pass: each character alone on a green key background, to composite the duo scenes in code so faces and proportions stay on-model (the duo edits drew mouths and noses)",
+ "width": 720,
+ "height": 1280,
+ "character": "Blanket and Marah",
+ "images": [
+  {
+   "key": "b_cross1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and composed with his arms crossed over his chest, his head turned slightly to the right side of the picture, relaxed confident posture. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_cross2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and composed with his arms crossed over his chest, his head turned slightly to the right side of the picture, relaxed confident posture. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "b_thumb1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and deadpan facing the viewer, his left hand raised at chest height with the thumb pointing sideways to the right side of the picture; his right arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_thumb2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and deadpan facing the viewer, his left hand raised at chest height with the thumb pointing sideways to the right side of the picture; his right arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "b_deadpan1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands very still facing the viewer, arms crossed, head tilted down a little, completely deadpan and unimpressed. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_deadpan2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands very still facing the viewer, arms crossed, head tilted down a little, completely deadpan and unimpressed. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "b_finger1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm facing the viewer and raises one index finger beside his head like a professor making a point; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_finger2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm facing the viewer and raises one index finger beside his head like a professor making a point; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "b_wait1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm, turned slightly to the right side of the picture, and holds up one open palm toward the right side as if saying 'wait'; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_wait2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm, turned slightly to the right side of the picture, and holds up one open palm toward the right side as if saying 'wait'; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "b_fist1",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and extends one arm straight out toward the right side of the picture with a closed fist, offering a fist bump; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap."
+  },
+  {
+   "key": "b_fist2",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man with smooth light-gray skin, navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot. He stands calm and extends one arm straight out toward the right side of the picture with a closed fist, offering a fist bump; the other arm hangs relaxed at his side. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters except the letter B on his cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_hop1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She has just hopped in, mid-bounce with one knee lifted, waving both open hands cheerfully at the viewer, her ponytail swinging; joyful, graceful pose. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_hop2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She has just hopped in, mid-bounce with one knee lifted, waving both open hands cheerfully at the viewer, her ponytail swinging; joyful, graceful pose. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_hips1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands with both hands on her hips, one hip popped, leaning slightly toward the left side of the picture with her head tilted playfully, confident and cheeky. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_hips2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands with both hands on her hips, one hip popped, leaning slightly toward the left side of the picture with her head tilted playfully, confident and cheeky. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_welcome1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful welcoming pose: one hand resting on her chest, the other arm opened toward the viewer with the palm up, one foot crossed lightly in front of the other. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_welcome2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful welcoming pose: one hand resting on her chest, the other arm opened toward the viewer with the palm up, one foot crossed lightly in front of the other. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_cap1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a cute confident pose, one hand touching the brim of her cap, the other hand raised with one index finger up, one hip popped. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_cap2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a cute confident pose, one hand touching the brim of her cap, the other hand raised with one index finger up, one hip popped. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_toast1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands cheerfully raising a pink insulated tumbler with a straw toward the viewer like a toast, the other hand on her hip. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_toast2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands cheerfully raising a pink insulated tumbler with a straw toward the viewer like a toast, the other hand on her hip. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_chin1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands curious and thoughtful, one index finger tapping her chin, the other hand on her hip, head tilted, weight on one leg. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_chin2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands curious and thoughtful, one index finger tapping her chin, the other hand on her hip, head tilted, weight on one leg. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_poke1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She leans playfully toward the left side of the picture and pokes the air in that direction with one index finger, the other hand on her hip, teasing. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_poke2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She leans playfully toward the left side of the picture and pokes the air in that direction with one index finger, the other hand on her hip, teasing. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_temple1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands proud and confident, tapping her temple with one index finger as if she knows a secret, the other hand on her hip. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_temple2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands proud and confident, tapping her temple with one index finger as if she knows a secret, the other hand on her hip. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_whisper1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She leans toward the viewer with one hand cupped beside the side of her face as if whispering a secret, the other hand on her knee, playful. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_whisper2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She leans toward the viewer with one hand cupped beside the side of her face as if whispering a secret, the other hand on her knee, playful. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_jump1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She jumps joyfully with both knees bent in the air, one arm extended straight toward the left side of the picture with a closed fist for a fist bump, the other arm raised in celebration, ponytail flying. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_jump2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She jumps joyfully with both knees bent in the air, one arm extended straight toward the left side of the picture with a closed fist for a fist bump, the other arm raised in celebration, ponytail flying. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, with a little space around, nothing cropped. Plain flat solid pure green background (#00FF00): no floor, no shadow, no gradient, no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  }
+ ]
+}
