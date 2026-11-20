@@ -335,6 +335,6 @@
     }
   },
   "narration": {
-    "note": "dialogue mix already in content/audio/r030_narration.mp3 (scripts/mix_dialogue.py)"
+    "note": "dialogue mix already in content/audio/r030_narration.mp3 (scripts/mix_dialogue.py) (remixed 2026-11-21: short words get a readable highlight)"
   }
 }

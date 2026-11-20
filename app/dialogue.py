@@ -49,7 +49,8 @@ def voiced_span(samples: np.ndarray, threshold_db: float = -42.0, pad: float = 0
 
 
 def letter_weight(word: str) -> int:
-    return max(1, len(re.sub(r"[^\w]", "", word)))
+    # at least 3, so a two-letter word such as «في» still gets a readable highlight
+    return max(3, len(re.sub(r"[^\w]", "", word)))
 
 
 def spread_words(text: str, start: float, end: float) -> list[dict]:
