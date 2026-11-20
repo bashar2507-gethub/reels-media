@@ -1,0 +1,48 @@
+{
+  "job": "r030-solo",
+  "ok": [
+    "b_cross1",
+    "b_cross2",
+    "b_thumb1",
+    "b_thumb2",
+    "b_deadpan1",
+    "b_deadpan2",
+    "b_finger1",
+    "b_finger2",
+    "b_wait1",
+    "b_wait2",
+    "b_fist1",
+    "b_fist2",
+    "m_hop1",
+    "m_hop2",
+    "m_hips1",
+    "m_hips2",
+    "m_welcome1",
+    "m_welcome2",
+    "m_cap1",
+    "m_cap2",
+    "m_toast1",
+    "m_chin1",
+    "m_chin2",
+    "m_poke1",
+    "m_poke2",
+    "m_temple1",
+    "m_temple2",
+    "m_whisper1",
+    "m_whisper2",
+    "m_jump1",
+    "m_jump2"
+  ],
+  "errors": {
+    "m_toast2": "KeyError: 'images'"
+  },
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": false
+}
