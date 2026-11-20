@@ -1,0 +1,176 @@
+{
+ "purpose": "r030 intro Reel: Blanket and Marah, 14 scenes, two options each",
+ "width": 720,
+ "height": 1280,
+ "character": "Blanket and Marah",
+ "images": [
+  {
+   "key": "s01a",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). He stands calm and composed in the gym, arms crossed over his chest, giving a small confident nod, relaxed posture. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s01b",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). He stands calm and composed in the gym, arms crossed over his chest, giving a small confident nod, relaxed posture. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s02a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Blanket stands on the left, arms crossed, calm, his head turned slightly toward her. Marah has just hopped into the frame on the right, one foot lifted mid-bounce, waving both hands cheerfully at the viewer, her ponytail swinging. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s02b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Blanket stands on the left, arms crossed, calm, his head turned slightly toward her. Marah has just hopped into the frame on the right, one foot lifted mid-bounce, waving both hands cheerfully at the viewer, her ponytail swinging. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s03a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Blanket on the left faces the viewer deadpan and points his thumb sideways toward Marah. Marah on the right talks animatedly, one hand raised counting on her fingers, the other hand on her hip. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s03b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Blanket on the left faces the viewer deadpan and points his thumb sideways toward Marah. Marah on the right talks animatedly, one hand raised counting on her fingers, the other hand on her hip. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s04a",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She stands facing the viewer in a graceful welcoming pose: one hand on her chest, the other arm opened wide in greeting, weight on one leg with a gentle hip tilt, cheerful and elegant. Her hands are empty. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s04b",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She stands facing the viewer in a graceful welcoming pose: one hand on her chest, the other arm opened wide in greeting, weight on one leg with a gentle hip tilt, cheerful and elegant. Her hands are empty. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s05a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right leans toward Blanket with both hands on her hips, teasing him playfully. Blanket on the left stands upright with his arms crossed, unimpressed. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s05b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right leans toward Blanket with both hands on her hips, teasing him playfully. Blanket on the left stands upright with his arms crossed, unimpressed. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s06a",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). Close-up from the chest up: he stares straight at the viewer, perfectly still, arms crossed, deadpan. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s06b",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). Close-up from the chest up: he stares straight at the viewer, perfectly still, arms crossed, deadpan. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s07a",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). He raises one index finger like a calm professor making a point, the other arm relaxed at his side, composed and wise. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s07b",
+   "edit": true,
+   "reference": "images/refs/blanket_front_dark.png",
+   "prompt": "Keep this exact character: Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot). He raises one index finger like a calm professor making a point, the other arm relaxed at his side, composed and wise. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s08a",
+   "edit": true,
+   "reference": "assets/characters/marah/pose_cap_touch.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She touches the brim of her cap with one hand and raises the other index finger playfully, leaning slightly to one side, mischievous and charming. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s08b",
+   "edit": true,
+   "reference": "assets/characters/marah/pose_cap_touch.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She touches the brim of her cap with one hand and raises the other index finger playfully, leaning slightly to one side, mischievous and charming. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s09a",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She raises her pink tumbler with a straw toward the viewer like a cheerful toast, her other hand on her hip, bright and lively. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s09b",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). She raises her pink tumbler with a straw toward the viewer like a cheerful toast, her other hand on her hip, bright and lively. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s10a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right taps her chin with one finger, curious, looking up at Blanket. Blanket on the left calmly holds up one open palm toward her as if saying wait. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s10b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right taps her chin with one finger, curious, looking up at Blanket. Blanket on the left calmly holds up one open palm toward her as if saying wait. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s11a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right rises on tiptoe beside Blanket and playfully pokes his upper arm with one finger. Blanket on the left stays perfectly still with his arms crossed. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s11b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right rises on tiptoe beside Blanket and playfully pokes his upper arm with one finger. Blanket on the left stays perfectly still with his arms crossed. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s12a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right taps her temple with one finger as if her head is full of questions. Blanket on the left raises one index finger like a calm professor. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s12b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah on the right taps her temple with one finger as if her head is full of questions. Blanket on the left raises one index finger like a calm professor. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s13a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah stands slightly in front and leans toward the viewer, cupping one hand beside her face as if whispering a secret. Blanket stands behind her in the background with his arms crossed, looking at her. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s13b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah stands slightly in front and leans toward the viewer, cupping one hand beside her face as if whispering a secret. Blanket stands behind her in the background with his arms crossed, looking at her. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  },
+  {
+   "key": "s14a",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah, mid-jump with joy, bumps fists with Blanket, who calmly offers his fist with a straight arm. Their two fists touch between them. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap."
+  },
+  {
+   "key": "s14b",
+   "edit": true,
+   "reference": "images/refs/duo_front.png",
+   "prompt": "Keep both characters exactly as in the image: on the left Blanket, the tall muscular man (navy cap with the letter B, silver whistle on a black cord, khaki cargo shorts, barefoot); on the right Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink headphones around her neck, pink smartwatch, white socks and white sneakers). Marah, mid-jump with joy, bumps fists with Blanket, who calmly offers his fist with a straight arm. Their two fists touch between them. Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Faces stay completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands per character, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Background: a dark petrol-teal gym at night with warm amber rim light and a few plain weights softly out of focus. Vertical 9:16; the characters fill the lower two thirds with calm empty space above their heads. No text, captions, logos or letters anywhere, except the letter B on his cap. Clean, polished illustration."
+  }
+ ]
+}
