@@ -6,8 +6,8 @@
  "model_id": "eleven_v4",
  "language_code": "ar",
  "generated_on": "2026-11-20",
- "credits": 984,
- "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886)",
+ "credits": 1112,
+ "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3)",
  "timing_source": "letter-count spread over each take's voiced span (app/dialogue.py)",
  "duration_s": 69.35,
  "words": [
@@ -72,7 +72,7 @@
    "end": 4.116
   },
   {
-   "text": "مرح",
+   "text": "مَرَحْ",
    "type": "word",
    "start": 4.14,
    "end": 4.347
@@ -168,7 +168,7 @@
    "end": 13.453
   },
   {
-   "text": "مرح!",
+   "text": "مَرَحْ!",
    "type": "word",
    "start": 13.486,
    "end": 13.869
