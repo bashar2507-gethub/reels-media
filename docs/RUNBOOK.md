@@ -27,6 +27,8 @@ Talk to the owner in Arabic. Report only what tools confirmed.
   tomorrow. If a post for the chosen Reel already exists, do not create another.
 - One Reel a day: if any plan item was published or scheduled for today (Asia/Riyadh), for example
   because the owner asked for an earlier post, stop: today's Reel is already out.
+- Owner's chat Reel: if `manual_reel_date` in `content/plan.json` is today's date (Asia/Riyadh), stop and change
+  nothing: the owner's chat is making today's Reel. End with one line saying so.
 
 ## 1b. Performance log (data loop, from 2026-11-15)
 

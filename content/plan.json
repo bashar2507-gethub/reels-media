@@ -416,6 +416,20 @@
    }
   },
   {
+   "id": "r029",
+   "subject": "Gym tools: what studies say about lifting straps, a lifting belt and resistance bands",
+   "status": "planned",
+   "category": "muscle",
+   "template": "B",
+   "series": "none",
+   "idea_from": "owner 2026-11-20: today's Reel about gym tools and their benefits from real studies, matching the products in his bio; made in his chat",
+   "affiliate": {
+    "product": "Lifting straps, weightlifting belt, resistance bands",
+    "spot": "bio 1, 5, 3",
+    "caption_line": "🔗 الأدوات في المقطع (أحزمة المعصم، وحزام الرفع، وأشرطة المقاومة): روابطها في البايو."
+   }
+  },
+  {
    "id": "r015",
    "subject": "You do not need to train to failure",
    "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
@@ -750,8 +764,8 @@
   "registered_sites": [
    "https://www.instagram.com/uuxuuoouuxuu/"
   ],
-  "live": false,
-  "live_note": "Product lines go into captions only when this is true. It turns true when the owner confirms that the five Instagram bio links are live (owner, 2026-11-20).",
+  "live": true,
+  "live_note": "Product lines go into captions only when this is true. The owner confirmed on 2026-11-20 (15:56 Riyadh) that he put the product links in his Instagram bio.",
   "supplements_on_hold": true,
   "supplements_note": "Creatine and protein powder links wait until the owner has checked the SFDA rules and asked GCAM whether commission links need a Mawthooq licence.",
   "bio_links": [
@@ -763,5 +777,6 @@
   ],
   "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
   "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
- }
+ },
+ "manual_reel_date": "2026-11-20"
 }
