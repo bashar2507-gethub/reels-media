@@ -72,7 +72,9 @@ def main() -> int:
             continue
         try:
             if item.get("reference"):
-                img = edit_from_reference(Path(item["reference"]), character_prompt(item["prompt"], job.get("character", ""), job.get("style")),
+                # "edit": the prompt is an edit instruction used as written (e.g. swap the person, keep the pose)
+                prompt = item["prompt"] if item.get("edit") else character_prompt(item["prompt"], job.get("character", ""), job.get("style"))
+                img = edit_from_reference(Path(item["reference"]), prompt,
                                           token, job.get("edit_model", EDIT_MODEL), size=(w, h))
             else:
                 img = generate(full_prompt(item["prompt"], item.get("style", "still_life")), token, width=w, height=h)

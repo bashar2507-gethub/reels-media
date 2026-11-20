@@ -1,0 +1,26 @@
+{
+ "purpose": "r029 s2b second try: keep the s2 deadlift with straps and swap The Blanket for the owner's female character",
+ "width": 720,
+ "height": 1280,
+ "character": "the owner's female character: gray-skinned faceless athletic woman, golden-blonde high ponytail, plain navy cap, dark purple crop top and shorts, pink headphones and smartwatch, white socks and sneakers",
+ "images": [
+  {
+   "key": "k1",
+   "edit": true,
+   "reference": "images/r029-char/s2.jpg",
+   "prompt": "Replace the man with a fit athletic woman and keep everything else exactly the same: the same side-view deadlift pose, the same barbell with large plain black plates, the same black lifting straps wrapped around both hands and the bar, the same dark teal background, the same size and position in the frame, the same flat cartoon style with clean black outlines. The woman has smooth gray skin and a faceless smooth oval head with only two round glowing white eyes (no mouth, no nose), a long golden-blonde high ponytail coming out of the back of a plain navy baseball cap with no letter, a dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. Remove the whistle and the cargo shorts. No text, no letters, no logos."
+  },
+  {
+   "key": "k2",
+   "edit": true,
+   "reference": "images/r029-char/s2.jpg",
+   "prompt": "Change only the person: turn him into a woman with a slim, toned athletic build, a long golden-blonde ponytail through the back of a plain navy cap, a dark purple crop top and dark purple shorts, pink headphones around her neck, a pink smartwatch, white socks and white sneakers. Keep her skin smooth gray and her face blank with only two round glowing white eyes. Keep the deadlift pose, the black lifting straps on her hands around the bar, the barbell and plates, the background and the framing unchanged. No whistle. No text or logos."
+  },
+  {
+   "key": "k3",
+   "edit": true,
+   "reference": "images/r029-char/s2.jpg",
+   "prompt": "Redraw this exact scene with a female lifter instead of the male one: same camera, same side-view deadlift with straight arms, hands wrapped in black lifting straps holding the bar near the knees, same barbell and black plates, same dark teal background and empty space above. The female lifter: gray skin, faceless oval head with two glowing white eyes only, golden-blonde high ponytail, plain navy baseball cap, dark purple crop top, dark purple shorts, pink headphones on her neck, pink watch, white socks, white sneakers. No whistle, no letters on the cap, no text."
+  }
+ ]
+}
