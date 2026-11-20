@@ -1,0 +1,205 @@
+{
+ "reel_id": "r029",
+ "script": {
+  "reel_id": "r029",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r029.json",
+  "language": "ar",
+  "cover_at_seconds": 1.2,
+  "character": "The Blanket",
+  "intro_transition": "flash",
+  "intro_position": "after_hook",
+  "hook_type": "number",
+  "template": "B",
+  "scenes": [
+   {
+    "id": "s1",
+    "visual": "r029-s1",
+    "fallback": "dumbbell",
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -0.5,
+     -0.4
+    ],
+    "image_file": "images/r029-char/s1.jpg",
+    "sentences": [
+     {
+      "say": "ثلاث أدوات في الجيم: هل تفيدك فعلًا؟",
+      "style": "title"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "visual": "r029-s2",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.2,
+     0.0
+    ],
+    "image_file": "images/r029-char/s2.jpg",
+    "sentences": [
+     {
+      "say": "أحزمة المعصم: في دراسة، رفع عشرون رجلًا بها في الديدلفت نحو عشرة بالمئة أكثر.",
+      "overlay": {
+       "big": "+10%",
+       "small": "أقصى وزن في الديدلفت · 20 رجلًا",
+       "from": "عشرة",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "visual": "r029-s3",
+    "fallback": "dumbbell",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -0.2,
+     0.1
+    ],
+    "image_file": "images/r029-char/s3.jpg",
+    "sentences": [
+     {
+      "say": "حزام الرفع: في سكوات ثقيل بتسعين بالمئة، صار الرفع أسرع.",
+      "overlay": {
+       "big": "90%",
+       "small": "من أقصى وزن · 14 رجلًا",
+       "from": "بتسعين",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s4",
+    "visual": "r029-s4",
+    "fallback": "orbs",
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     0.0,
+     0.2
+    ],
+    "image_file": "images/r029-char/s4.jpg",
+    "sentences": [
+     {
+      "say": "والمفاجأة: نشاط عضلات الظهر والأرجل لم يقل مع الحزام."
+     }
+    ]
+   },
+   {
+    "id": "s5",
+    "visual": "r029-s5",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.3,
+     -0.1
+    ],
+    "image_file": "images/r029-char/s5.jpg",
+    "sentences": [
+     {
+      "say": "أشرطة المقاومة: ثماني دراسات وجدت أنها تبني قوة مثل الأوزان.",
+      "overlay": {
+       "big": "8",
+       "small": "دراسات: قوة مماثلة للأوزان",
+       "from": "ثماني",
+       "y": 330
+      }
+     }
+    ]
+   },
+   {
+    "id": "s6",
+    "visual": "r029-s6",
+    "fallback": "scale",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -0.3,
+     0.0
+    ],
+    "image_file": "images/r029-char/s6.jpg",
+    "sentences": [
+     {
+      "say": "الخلاصة: أحزمة المعصم للسحب الثقيل، والحزام للمجموعات الثقيلة، والأشرطة للبيت والسفر."
+     }
+    ]
+   },
+   {
+    "id": "s7",
+    "visual": "r029-s7",
+    "fallback": "bookmark",
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     0.0,
+     -0.2
+    ],
+    "image_file": "images/r029-char/s7.jpg",
+    "sentences": [
+     {
+      "say": "أي أداة تستخدم؟ اكتبها في التعليقات، وتابعنا لحقائق الجيم من الدراسات."
+     }
+    ]
+   }
+  ],
+  "post": {
+   "networks": [
+    "instagram",
+    "youtube"
+   ],
+   "cover_ms": 1200,
+   "ai_generated_label": true,
+   "youtube_title": "أدوات الجيم: هل تفيد أحزمة المعصم والحزام والأشرطة؟",
+   "youtube_tags": [
+    "أدوات الجيم",
+    "أحزمة المعصم",
+    "حزام الرفع",
+    "أشرطة المقاومة",
+    "ديدلفت",
+    "سكوات",
+    "بناء العضلات",
+    "جيم"
+   ],
+   "caption": "ثلاث أدوات في الجيم: هل تفيدك فعلًا؟\n\nجمعنا ما تقوله الدراسات عن ثلاث أدوات شائعة. في دراسة على 20 رجلًا كان أقصى وزن في الديدلفت مع أحزمة المعصم أعلى بنحو 10% (نحو 177 مقابل 161 كغ في المتوسط)، وفي دراسة على 10 نساء متدرّبات أدّين بها تكرارات أكثر. وفي دراسة على 14 رجلًا كان السكوات عند 90% من أقصى وزن أسرع مع حزام الرفع، دون فرق في نشاط عضلات الظهر والأرجل. ومراجعة لثماني دراسات وجدت أن التمرين بأشرطة المقاومة يعطي زيادة قوة مماثلة للأوزان.\n\nالخلاصة:\n• أحزمة المعصم تفيد في السحب الثقيل حين تتعب قبضتك قبل ظهرك\n• حزام الرفع للمجموعات الثقيلة، لا لكل تمرين\n• أشرطة المقاومة بديل عملي في البيت والسفر\n• دراسات صغيرة وقصيرة، فالأرقام تقريبية وقد تختلف من شخص لآخر\n\n🔗 الأدوات في المقطع (أحزمة المعصم، وحزام الرفع، وأشرطة المقاومة): روابطها في البايو.\nإفصاح: روابط المنتجات في البايو روابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.\n\n💬 أي أداة تستخدم في تمرينك؟ شاركنا تجربتك أو رأيك في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرّن معك.\n➕ تابع الحساب لحقيقة جديدة عن اللياقة كل ثلاثة أيام.\n\nالمصادر:\nJukic et al., J Strength Cond Res, 2020\nTrahey et al., J Strength Cond Res, 2023\nZink et al., J Strength Cond Res, 2001\nLopes et al., SAGE Open Med, 2019\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#أدوات_الجيم #بناء_العضلات #تمارين_المقاومة #جيم #لياقة",
+   "first_comment": "💬 أي أداة تستخدم في تمرينك: أحزمة المعصم أم حزام الرفع أم أشرطة المقاومة؟ شاركنا تجربتك أو رأيك في التعليقات.",
+   "youtube_description": "أدوات الجيم مثل أحزمة المعصم وحزام الرفع وأشرطة المقاومة: هل تفيد فعلًا؟ هذا المقطع يلخص ما وجدته دراسات على الديدلفت والسكوات، ومراجعة لثماني دراسات عن أشرطة المقاومة.\nالنتيجة: مع أحزمة المعصم كان أقصى وزن في الديدلفت أعلى بنحو 10% في دراسة على 20 رجلًا، ومع الحزام كان السكوات الثقيل أسرع دون فرق في نشاط عضلات الظهر والأرجل، وأشرطة المقاومة أعطت زيادة قوة مماثلة للأوزان. الخلاصة: أحزمة المعصم للسحب الثقيل، والحزام للمجموعات الثقيلة، والأشرطة للبيت والسفر.\n\n💬 أي أداة تستخدم في تمرينك؟ شاركنا تجربتك أو رأيك في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرّن معك.\n🔔 اشترك في القناة لحقيقة جديدة عن اللياقة كل ثلاثة أيام.\n\nالمصادر:\nJukic et al., J Strength Cond Res, 2020\nTrahey et al., J Strength Cond Res, 2023\nZink et al., J Strength Cond Res, 2001\nLopes et al., SAGE Open Med, 2019\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#أدوات_الجيم #بناء_العضلات #جيم"
+  }
+ },
+ "narration": {
+  "url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/8J9fK4Qar1xhSQlkWrFV/vjm6LeAQARbBcMG1QGve/content.mp3?Expires=1795190400&KeyName=assets-cdn-key-1&Signature=8aom23TP7paKZRHfk7ZMCR1MO1Q=",
+  "words_url": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/ihB8yKlKk6Tk3GF3E751/qoyS8tby6H7i9hx88AR6/words.json?response-content-disposition=attachment%3B%20filename%3D%22transcript-qoyS8tby6H7i9hx88AR6-words.json%22&Expires=1795190400&KeyName=assets-cdn-key-1&Signature=EcRWfmsQKk8bdFa0oszhLNpND3s=",
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "vjm6LeAQARbBcMG1QGve",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-11-20",
+  "credits": 449,
+  "duration_s": 41.6
+ }
+}
