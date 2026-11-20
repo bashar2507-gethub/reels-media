@@ -21,7 +21,8 @@ and shorts, pink headphones and watch, white sneakers, gray skin, faceless with 
   Dialogue (owner, 2026-11-20, first in the intro Reel r030): Blanket speaks a little faster ([quickly]) and Marah
   keeps the same lively pace. From now on Marah asks the questions and brings the common wrong information, and
   Blanket corrects it from the studies. Poses: Blanket calm and rational; Marah feminine, attractive and eye-catching,
-  always family-friendly. Light reaction sounds and a quiet, steady audience-laugh bed sit under the dialogue.
+  always family-friendly. No jumping poses for Marah (owner, 2026-11-20 22:45): she stands in graceful,
+  feminine poses. Her name is pronounced مَرَحْ (from مرح, fun) and is written with these diacritics in narration. Light reaction sounds and a quiet, steady audience-laugh bed sit under the dialogue.
 
 ## The brief
 

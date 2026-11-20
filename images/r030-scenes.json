@@ -20,10 +20,9 @@
     "scale": 0.9
    },
    {
-    "src": "images/r030-solo/m_hop1.jpg",
-    "x": 0.75,
-    "scale": 0.81,
-    "lift": 0.05
+    "src": "images/r030-faces/m_wave1a.jpg",
+    "x": 0.76,
+    "scale": 0.81
    }
   ],
   "s03": [
@@ -151,14 +150,14 @@
   "s14": [
    {
     "src": "images/r030-solo/b_fist1.jpg",
-    "x": 0.264,
-    "scale": 0.82
+    "x": 0.2746,
+    "scale": 0.86
    },
    {
-    "src": "images/r030-solo/m_jump1.jpg",
-    "x": 0.7326,
-    "scale": 0.74,
-    "lift": 0.138
+    "src": "images/r030-faces/m_bump3a.jpg",
+    "x": 0.7522,
+    "scale": 0.78,
+    "floor": 0.925
    }
   ]
  }
