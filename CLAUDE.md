@@ -24,8 +24,8 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Voice (owner's choice from 2026-10-24): ElevenLabs «Jeddawi Echo», voice_id `yXEnnEln9armDCyhkXcA`, model `eleven_v4`,
   Arabic. Do not use «عبدالله سعدون» (`t9akNmCDhz230CEXOYmn`) any more. Its natural pace is about 105-110 wpm
   and it has its own pauses, so no pauses are added between sentences.
-- Velvet's voice (owner's choice, 2026-11-20): ElevenLabs «Nora S - Saudi Natural & Calm», voice_id
-  `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`, Arabic, only for Velvet's own lines. The narration and Blanket stay
+- Marah's voice (owner's choice, 2026-11-20): ElevenLabs «Nora S - Saudi Natural & Calm», voice_id
+  `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`, Arabic, only for Marah's own lines. The narration and Blanket stay
   Jeddawi Echo.
 - Metricool brand `7461887`, timezone Asia/Riyadh. Instagram @uuxuuoouuxuu, YouTube channel
   "The equalizer" (@bashar2507). Free plan: 20 published posts a month, one per network.
@@ -38,8 +38,8 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Amazon.sa Associates (owner, 2026-11-20): tracking ID `uxoxufit-21`; Instagram is the only registered site, so no
   affiliate links or product lines anywhere else. Rules: `docs/RUNBOOK.md` step 4b and `affiliate` in `content/plan.json`.
 - Characters (owner's brief, 2026-11-20): `docs/CHARACTERS.md`. Blanket is calm, serious and analytical, with minimal,
-  deliberate movements; Velvet, the female character from the owner's own images (blonde ponytail, navy cap, purple top
-  and shorts, pink headphones and watch; sheets and pose references in `assets/characters/velvet/`), is cheerful, curious
-  and expressive. Keep both consistent in every video. Use Velvet when he asks or a study is on women; first used in r029 s2b.
+  deliberate movements; Marah, the female character from the owner's own images (blonde ponytail, navy cap, purple top
+  and shorts, pink headphones and watch; sheets and pose references in `assets/characters/marah/`), is cheerful, curious
+  and expressive. Keep both consistent in every video. Use Marah when he asks or a study is on women; first used in r029 s2b.
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`

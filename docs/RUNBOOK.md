@@ -183,10 +183,10 @@ re-render of an older Reel. The performance log compares the two by `intro`.
 
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 
-Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`); Velvet joins when the owner asks or a
+Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`); Marah joins when the owner asks or a
 study is on women. Poses follow `docs/CHARACTERS.md`: Blanket calm, minimal and deliberate, never exaggerated or
-childish; Velvet expressive, dynamic and curious. For Velvet use `assets/characters/velvet/move_<exercise>.png` or
-`pose_<name>.png` (list in `assets/characters/velvet/README.md`), otherwise `assets/characters/velvet/reference_front.png`,
+childish; Marah expressive, dynamic and curious. For Marah use `assets/characters/marah/move_<exercise>.png` or
+`pose_<name>.png` (list in `assets/characters/marah/README.md`), otherwise `assets/characters/marah/reference_front.png`,
 or `images/refs/female_front_dark_headroom.png` for a scene with an overlay, and describe her as in that README. Before step 6:
 
 1. Write `images/queue/<id>-char.json`: `{"purpose", "width": 720, "height": 1280, "character": "The Blanket: a gray

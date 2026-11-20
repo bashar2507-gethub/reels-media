@@ -1,21 +1,22 @@
 # Blanket universe: the two characters
 
-The owner's character brief (2026-11-20), kept as he wrote it. It is the reference for every video, animation, story
+The owner's character brief (2026-11-20), kept as he wrote it, except that he renamed the female character from
+Velvet to Marah (مرح, "joy") the same evening. It is the reference for every video, animation, story
 and comedy idea; both characters stay consistent whatever the subject, setting or style. Designs, dialogue styles,
 voices, backstories and relationships can be developed later, only with the owner.
 
-Current designs: Blanket, `assets/characters/blanket/README.md`; Velvet, `assets/characters/velvet/README.md` (the
+Current designs: Blanket, `assets/characters/blanket/README.md`; Marah, `assets/characters/marah/README.md` (the
 owner's sheets, 2026-11-20, and 9:16 pose and exercise references: blonde ponytail through a navy cap, purple top
 and shorts, pink headphones and watch, white sneakers, gray skin, faceless with two glowing white eyes).
 
 ## In the Reels
 
 - Scene images: Blanket stands and moves calmly, with minimal, deliberate poses and controlled reactions; never
-  overly energetic, childish or exaggerated. Velvet has more expressive body language: dynamic movements, curiosity,
+  overly energetic, childish or exaggerated. Marah has more expressive body language: dynamic movements, curiosity,
   excitement, playful reactions, an occasional exaggerated gesture.
-- Velvet appears when the owner asks or when a study is on women (first in r029, scene s2b). When both are in a scene,
-  the contrast carries it: Blanket composed, Velvet reacting.
-- Voices: the narration and Blanket stay Jeddawi Echo. Velvet's voice is ElevenLabs «Nora S - Saudi Natural & Calm»
+- Marah appears when the owner asks or when a study is on women (first in r029, scene s2b). When both are in a scene,
+  the contrast carries it: Blanket composed, Marah reacting.
+- Voices: the narration and Blanket stay Jeddawi Echo. Marah's voice is ElevenLabs «Nora S - Saudi Natural & Calm»
   (`FZeLZd39ejvLgzR2gY0t`, eleven_v4; the owner's choice of three tested on 2026-11-20), for her own lines only.
   How Reels give her lines (a short exchange with Blanket, for example) is still to be agreed with the owner.
 
@@ -48,11 +49,11 @@ thinking.
 Behavior: Minimal, deliberate movements. Subtle expressions. Controlled reactions. He should never appear overly
 energetic, childish, or exaggerated.
 
-### 2. VELVET – THE FEMALE CHARACTER
+### 2. MARAH – THE FEMALE CHARACTER
 
 Personality: Cheerful, playful, spontaneous, curious, lovable, expressive, and unintentionally funny.
 
-Velvet is a new female character introduced into the Blanket universe. She is intelligent and confident, but her
+Marah is a new female character introduced into the Blanket universe. She is intelligent and confident, but her
 spontaneous nature, occasional naivety, overconfidence, and unexpected reactions create humorous situations.
 
 * Energetic and playful.
@@ -73,16 +74,16 @@ exaggerated gestures. Her humor should feel natural rather than forced.
 
 ### 3. CHARACTER DYNAMIC
 
-Blanket and Velvet are opposites, and their contrast is the foundation of their chemistry.
+Blanket and Marah are opposites, and their contrast is the foundation of their chemistry.
 
 * Blanket represents logic, discipline, and control.
-* Velvet represents spontaneity, curiosity, and emotion.
+* Marah represents spontaneity, curiosity, and emotion.
 * Blanket thinks before acting.
-* Velvet often acts before thinking.
+* Marah often acts before thinking.
 * Blanket explains things seriously.
-* Velvet reacts in unexpected ways.
+* Marah reacts in unexpected ways.
 * Blanket maintains composure.
-* Velvet creates unpredictable situations.
+* Marah creates unpredictable situations.
 
 Their comedy should emerge naturally from their contrasting personalities, reactions, misunderstandings, and
 interactions.

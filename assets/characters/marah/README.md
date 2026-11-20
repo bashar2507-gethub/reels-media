@@ -1,4 +1,4 @@
-# Velvet: the owner's female character (from 2026-11-20)
+# Marah (مرح): the owner's female character (from 2026-11-20; named Velvet until the owner renamed her that evening)
 
 Blanket's companion. Personality and role: `docs/CHARACTERS.md` (cheerful, curious, expressive; Blanket is the calm
 one). Design, from the owner's own images: gray skin, a faceless oval head with only two round glowing white eyes (no
