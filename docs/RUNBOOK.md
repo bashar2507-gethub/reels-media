@@ -183,7 +183,9 @@ re-render of an older Reel. The performance log compares the two by `intro`.
 
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 
-Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`). Before step 6:
+Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`); Velvet joins when the owner asks or a
+study is on women. Poses follow `docs/CHARACTERS.md`: Blanket calm, minimal and deliberate, never exaggerated or
+childish; Velvet expressive, dynamic and curious. Before step 6:
 
 1. Write `images/queue/<id>-char.json`: `{"purpose", "width": 720, "height": 1280, "character": "The Blanket: a gray
    faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the
