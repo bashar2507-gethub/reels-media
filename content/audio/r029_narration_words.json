@@ -1,0 +1,705 @@
+{
+  "voice": "Jeddawi Echo",
+  "voice_id": "yXEnnEln9armDCyhkXcA",
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generation_id": "XkXB1AaeiTrSd3LqcjZ2",
+  "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+  "generated_on": "2026-11-20",
+  "credits": 696,
+  "duration_s": 62.0,
+  "note": "second take, asked for by the owner on 2026-11-20 16:58: institutions and samples in the narration, تَسْتَخْدِم with diacritics",
+  "words": [
+    {
+      "text": "ثلاث",
+      "type": "word",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "text": "أدوات",
+      "type": "word",
+      "start": 0.48,
+      "end": 0.96
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 1.04,
+      "end": 1.08
+    },
+    {
+      "text": "الجيم:",
+      "type": "word",
+      "start": 1.12,
+      "end": 1.84
+    },
+    {
+      "text": "هل",
+      "type": "word",
+      "start": 1.92,
+      "end": 2.0
+    },
+    {
+      "text": "تفيدك",
+      "type": "word",
+      "start": 2.08,
+      "end": 2.56
+    },
+    {
+      "text": "فعلًا؟",
+      "type": "word",
+      "start": 2.64,
+      "end": 3.36
+    },
+    {
+      "text": "أحزمة",
+      "type": "word",
+      "start": 3.68,
+      "end": 4.16
+    },
+    {
+      "text": "المعصم:",
+      "type": "word",
+      "start": 4.32,
+      "end": 5.12
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 5.2,
+      "end": 5.28
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 5.52,
+      "end": 5.76
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 5.84,
+      "end": 6.0
+    },
+    {
+      "text": "جامعة",
+      "type": "word",
+      "start": 6.04,
+      "end": 6.48
+    },
+    {
+      "text": "تشارلز",
+      "type": "word",
+      "start": 6.56,
+      "end": 7.04
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 7.12,
+      "end": 7.2
+    },
+    {
+      "text": "براغ",
+      "type": "word",
+      "start": 7.28,
+      "end": 7.68
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 7.76,
+      "end": 7.92
+    },
+    {
+      "text": "عشرين",
+      "type": "word",
+      "start": 8.0,
+      "end": 8.4
+    },
+    {
+      "text": "رجلًا،",
+      "type": "word",
+      "start": 8.48,
+      "end": 9.2
+    },
+    {
+      "text": "رفعوا",
+      "type": "word",
+      "start": 9.36,
+      "end": 9.6
+    },
+    {
+      "text": "بها",
+      "type": "word",
+      "start": 9.68,
+      "end": 9.84
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 9.92,
+      "end": 10.0
+    },
+    {
+      "text": "الديدلفت",
+      "type": "word",
+      "start": 10.08,
+      "end": 10.64
+    },
+    {
+      "text": "نحو",
+      "type": "word",
+      "start": 10.8,
+      "end": 11.04
+    },
+    {
+      "text": "عشرة",
+      "type": "word",
+      "start": 11.12,
+      "end": 11.6
+    },
+    {
+      "text": "بالمئة",
+      "type": "word",
+      "start": 11.68,
+      "end": 12.16
+    },
+    {
+      "text": "أكثر.",
+      "type": "word",
+      "start": 12.24,
+      "end": 12.88
+    },
+    {
+      "text": "وفي",
+      "type": "word",
+      "start": 12.96,
+      "end": 13.2
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 13.44,
+      "end": 13.68
+    },
+    {
+      "text": "أمريكية",
+      "type": "word",
+      "start": 13.76,
+      "end": 14.4
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 14.48,
+      "end": 14.72
+    },
+    {
+      "text": "عشر",
+      "type": "word",
+      "start": 14.8,
+      "end": 15.04
+    },
+    {
+      "text": "نساء",
+      "type": "word",
+      "start": 15.12,
+      "end": 15.52
+    },
+    {
+      "text": "متدرّبات،",
+      "type": "word",
+      "start": 15.6,
+      "end": 16.72
+    },
+    {
+      "text": "زادت",
+      "type": "word",
+      "start": 16.8,
+      "end": 17.2
+    },
+    {
+      "text": "تكراراتهن",
+      "type": "word",
+      "start": 17.28,
+      "end": 18.16
+    },
+    {
+      "text": "بها.",
+      "type": "word",
+      "start": 18.24,
+      "end": 18.96
+    },
+    {
+      "text": "حزام",
+      "type": "word",
+      "start": 19.04,
+      "end": 19.44
+    },
+    {
+      "text": "الرفع:",
+      "type": "word",
+      "start": 19.52,
+      "end": 20.24
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 20.32,
+      "end": 20.4
+    },
+    {
+      "text": "دراسة",
+      "type": "word",
+      "start": 20.48,
+      "end": 20.96
+    },
+    {
+      "text": "نُشرت",
+      "type": "word",
+      "start": 21.04,
+      "end": 21.44
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 21.52,
+      "end": 21.6
+    },
+    {
+      "text": "مجلة",
+      "type": "word",
+      "start": 21.68,
+      "end": 22.08
+    },
+    {
+      "text": "أبحاث",
+      "type": "word",
+      "start": 22.12,
+      "end": 22.48
+    },
+    {
+      "text": "القوة",
+      "type": "word",
+      "start": 22.56,
+      "end": 23.04
+    },
+    {
+      "text": "واللياقة",
+      "type": "word",
+      "start": 23.12,
+      "end": 23.76
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 23.92,
+      "end": 24.16
+    },
+    {
+      "text": "أربعة",
+      "type": "word",
+      "start": 24.2,
+      "end": 24.64
+    },
+    {
+      "text": "عشر",
+      "type": "word",
+      "start": 24.72,
+      "end": 24.96
+    },
+    {
+      "text": "رجلًا،",
+      "type": "word",
+      "start": 25.04,
+      "end": 25.68
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 25.76,
+      "end": 25.84
+    },
+    {
+      "text": "سكوات",
+      "type": "word",
+      "start": 25.92,
+      "end": 26.24
+    },
+    {
+      "text": "ثقيل",
+      "type": "word",
+      "start": 26.4,
+      "end": 26.88
+    },
+    {
+      "text": "بتسعين",
+      "type": "word",
+      "start": 26.96,
+      "end": 27.52
+    },
+    {
+      "text": "بالمئة،",
+      "type": "word",
+      "start": 27.68,
+      "end": 28.36
+    },
+    {
+      "text": "صار",
+      "type": "word",
+      "start": 28.4,
+      "end": 28.64
+    },
+    {
+      "text": "الرفع",
+      "type": "word",
+      "start": 28.72,
+      "end": 29.04
+    },
+    {
+      "text": "أسرع.",
+      "type": "word",
+      "start": 29.12,
+      "end": 29.76
+    },
+    {
+      "text": "والمفاجأة:",
+      "type": "word",
+      "start": 29.84,
+      "end": 30.88
+    },
+    {
+      "text": "نشاط",
+      "type": "word",
+      "start": 30.96,
+      "end": 31.36
+    },
+    {
+      "text": "عضلات",
+      "type": "word",
+      "start": 31.48,
+      "end": 31.76
+    },
+    {
+      "text": "الظهر",
+      "type": "word",
+      "start": 31.84,
+      "end": 32.24
+    },
+    {
+      "text": "والأرجل",
+      "type": "word",
+      "start": 32.32,
+      "end": 33.04
+    },
+    {
+      "text": "لم",
+      "type": "word",
+      "start": 33.12,
+      "end": 33.36
+    },
+    {
+      "text": "يَقِلّ",
+      "type": "word",
+      "start": 33.44,
+      "end": 33.76
+    },
+    {
+      "text": "مع",
+      "type": "word",
+      "start": 33.84,
+      "end": 33.92
+    },
+    {
+      "text": "الحزام.",
+      "type": "word",
+      "start": 34.0,
+      "end": 34.88
+    },
+    {
+      "text": "أشرطة",
+      "type": "word",
+      "start": 34.96,
+      "end": 35.44
+    },
+    {
+      "text": "المقاومة:",
+      "type": "word",
+      "start": 35.56,
+      "end": 36.48
+    },
+    {
+      "text": "مراجعة",
+      "type": "word",
+      "start": 36.56,
+      "end": 37.12
+    },
+    {
+      "text": "لباحثين",
+      "type": "word",
+      "start": 37.2,
+      "end": 37.92
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 38.0,
+      "end": 38.08
+    },
+    {
+      "text": "جامعة",
+      "type": "word",
+      "start": 38.12,
+      "end": 38.56
+    },
+    {
+      "text": "ولاية",
+      "type": "word",
+      "start": 38.64,
+      "end": 39.12
+    },
+    {
+      "text": "ساو",
+      "type": "word",
+      "start": 39.2,
+      "end": 39.44
+    },
+    {
+      "text": "باولو",
+      "type": "word",
+      "start": 39.52,
+      "end": 39.84
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 39.88,
+      "end": 39.92
+    },
+    {
+      "text": "البرازيل",
+      "type": "word",
+      "start": 39.96,
+      "end": 40.56
+    },
+    {
+      "text": "جمعت",
+      "type": "word",
+      "start": 40.8,
+      "end": 41.2
+    },
+    {
+      "text": "ثماني",
+      "type": "word",
+      "start": 41.28,
+      "end": 41.68
+    },
+    {
+      "text": "دراسات",
+      "type": "word",
+      "start": 41.88,
+      "end": 42.32
+    },
+    {
+      "text": "على",
+      "type": "word",
+      "start": 42.4,
+      "end": 42.56
+    },
+    {
+      "text": "مئتين",
+      "type": "word",
+      "start": 42.64,
+      "end": 43.12
+    },
+    {
+      "text": "وأربعة",
+      "type": "word",
+      "start": 43.2,
+      "end": 43.84
+    },
+    {
+      "text": "وعشرين",
+      "type": "word",
+      "start": 43.92,
+      "end": 44.32
+    },
+    {
+      "text": "شخصًا،",
+      "type": "word",
+      "start": 44.48,
+      "end": 45.12
+    },
+    {
+      "text": "ووجدت",
+      "type": "word",
+      "start": 45.2,
+      "end": 45.68
+    },
+    {
+      "text": "أنها",
+      "type": "word",
+      "start": 45.76,
+      "end": 46.16
+    },
+    {
+      "text": "تبني",
+      "type": "word",
+      "start": 46.24,
+      "end": 46.56
+    },
+    {
+      "text": "قوة",
+      "type": "word",
+      "start": 46.72,
+      "end": 47.2
+    },
+    {
+      "text": "مثل",
+      "type": "word",
+      "start": 47.28,
+      "end": 47.52
+    },
+    {
+      "text": "الأوزان.",
+      "type": "word",
+      "start": 47.6,
+      "end": 48.16
+    },
+    {
+      "text": "الخلاصة:",
+      "type": "word",
+      "start": 48.56,
+      "end": 49.52
+    },
+    {
+      "text": "أحزمة",
+      "type": "word",
+      "start": 49.6,
+      "end": 50.0
+    },
+    {
+      "text": "المعصم",
+      "type": "word",
+      "start": 50.08,
+      "end": 50.56
+    },
+    {
+      "text": "للسحب",
+      "type": "word",
+      "start": 50.6,
+      "end": 50.96
+    },
+    {
+      "text": "الثقيل،",
+      "type": "word",
+      "start": 51.04,
+      "end": 51.84
+    },
+    {
+      "text": "والحزام",
+      "type": "word",
+      "start": 51.92,
+      "end": 52.48
+    },
+    {
+      "text": "للمجموعات",
+      "type": "word",
+      "start": 52.52,
+      "end": 53.12
+    },
+    {
+      "text": "الثقيلة،",
+      "type": "word",
+      "start": 53.2,
+      "end": 54.0
+    },
+    {
+      "text": "والأشرطة",
+      "type": "word",
+      "start": 54.04,
+      "end": 54.72
+    },
+    {
+      "text": "للبيت",
+      "type": "word",
+      "start": 54.88,
+      "end": 55.36
+    },
+    {
+      "text": "والسفر.",
+      "type": "word",
+      "start": 55.44,
+      "end": 56.24
+    },
+    {
+      "text": "أي",
+      "type": "word",
+      "start": 56.28,
+      "end": 56.48
+    },
+    {
+      "text": "أداة",
+      "type": "word",
+      "start": 56.56,
+      "end": 56.88
+    },
+    {
+      "text": "تَسْتَخْدِم؟",
+      "type": "word",
+      "start": 56.96,
+      "end": 57.84
+    },
+    {
+      "text": "اكتبها",
+      "type": "word",
+      "start": 57.88,
+      "end": 58.24
+    },
+    {
+      "text": "في",
+      "type": "word",
+      "start": 58.32,
+      "end": 58.4
+    },
+    {
+      "text": "التعليقات،",
+      "type": "word",
+      "start": 58.44,
+      "end": 59.28
+    },
+    {
+      "text": "وتابعنا",
+      "type": "word",
+      "start": 59.36,
+      "end": 59.92
+    },
+    {
+      "text": "لحقائق",
+      "type": "word",
+      "start": 60.0,
+      "end": 60.56
+    },
+    {
+      "text": "الجيم",
+      "type": "word",
+      "start": 60.64,
+      "end": 60.96
+    },
+    {
+      "text": "من",
+      "type": "word",
+      "start": 61.04,
+      "end": 61.12
+    },
+    {
+      "text": "الدراسات.",
+      "type": "word",
+      "start": 61.2,
+      "end": 62.08
+    }
+  ],
+  "audio": "r029_narration.mp3"
+}
