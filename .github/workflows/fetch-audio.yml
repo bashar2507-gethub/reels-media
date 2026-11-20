@@ -1,0 +1,52 @@
+name: Fetch Audio
+
+# Downloads paid ElevenLabs takes (signed links that expire in a few hours) listed in
+# audio_queue/<id>.json as {"files": {"content/audio/...mp3": "<signed url>"}} and commits
+# them, so the takes are kept in the repo and never need to be generated again.
+on:
+  push:
+    branches: [main]
+    paths: ["audio_queue/*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-audio
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download queued audio
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, urllib.request
+          for job in sorted(pathlib.Path("audio_queue").glob("*.json")):
+              files = json.loads(job.read_text())["files"]
+              for path, url in files.items():
+                  out = pathlib.Path(path)
+                  if out.exists() and out.stat().st_size > 0:
+                      continue
+                  out.parent.mkdir(parents=True, exist_ok=True)
+                  with urllib.request.urlopen(url, timeout=60) as r:
+                      data = r.read()
+                  out.write_bytes(data)
+                  print(f"{path}: {len(data)} bytes")
+          PY
+      - name: Commit results
+        run: |
+          git config user.name "reels-render"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/audio
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "Fetched audio takes"
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
