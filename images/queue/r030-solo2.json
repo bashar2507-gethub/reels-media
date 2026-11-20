@@ -1,0 +1,62 @@
+{
+ "purpose": "r030 owner's edit (2026-11-20 22:45): no jumping poses for Marah; graceful feminine standing poses instead (wave, fist bump, lean from his wall pose)",
+ "width": 720,
+ "height": 1280,
+ "character": "Marah",
+ "images": [
+  {
+   "key": "m_lean1",
+   "edit": true,
+   "reference": "assets/characters/marah/pose_lean_wall.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. Remove the wall and all text. She now stands freely in the same graceful feminine pose: one hand resting behind her head, the other hand resting on her hip, her body in a soft S-curve with the weight on one leg and the other leg crossed lightly in front with only the toe touching the floor. Elegant, confident and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_lean2",
+   "edit": true,
+   "reference": "assets/characters/marah/pose_lean_wall.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. Remove the wall and all text. She now stands freely in the same graceful feminine pose: one hand resting behind her head, the other hand resting on her hip, her body in a soft S-curve with the weight on one leg and the other leg crossed lightly in front with only the toe touching the floor. Elegant, confident and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_lean3",
+   "edit": true,
+   "reference": "assets/characters/marah/pose_lean_wall.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. Remove the wall and all text. She now stands freely in the same graceful feminine pose: one hand resting behind her head, the other hand resting on her hip, her body in a soft S-curve with the weight on one leg and the other leg crossed lightly in front with only the toe touching the floor. Elegant, confident and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Smooth, refined linework."
+  },
+  {
+   "key": "m_wave1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her weight on one leg and the other knee bent softly inward, waving cheerfully at the viewer with one open hand raised beside her face, the other hand resting on her hip, her ponytail swaying. Elegant, cute and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_wave2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her weight on one leg and the other knee bent softly inward, waving cheerfully at the viewer with one open hand raised beside her face, the other hand resting on her hip, her ponytail swaying. Elegant, cute and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_wave3",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her weight on one leg and the other knee bent softly inward, waving cheerfully at the viewer with one open hand raised beside her face, the other hand resting on her hip, her ponytail swaying. Elegant, cute and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Smooth, refined linework."
+  },
+  {
+   "key": "m_bump1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her legs crossed lightly at the ankles, one arm extended straight out toward the left side of the picture at shoulder height with a closed fist for a fist bump, the other hand resting on her hip, body turned slightly toward the left. Elegant, cheerful and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap."
+  },
+  {
+   "key": "m_bump2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her legs crossed lightly at the ankles, one arm extended straight out toward the left side of the picture at shoulder height with a closed fist for a fist bump, the other hand resting on her hip, body turned slightly toward the left. Elegant, cheerful and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Clean, polished, high-quality illustration."
+  },
+  {
+   "key": "m_bump3",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman with smooth light-gray skin, a long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers. She stands in a graceful feminine pose with her legs crossed lightly at the ankles, one arm extended straight out toward the left side of the picture at shoulder height with a closed fist for a fist bump, the other hand resting on her hip, body turned slightly toward the left. Elegant, cheerful and family-friendly. Keep the head and face exactly as in the image: a completely blank smooth face with only two round glowing white eyes; no mouth, no smile, no lips, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, two legs, natural proportions, no extra limbs. Full body from cap to shoes, centred, nothing cropped, both feet on the ground. Dark petrol-teal background with no objects. Same flat 2D cartoon style with clean bold black outlines and soft cel shading. No text, no letters, no letter on her cap. Smooth, refined linework."
+  }
+ ]
+}
