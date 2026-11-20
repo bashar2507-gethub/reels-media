@@ -1,0 +1,23 @@
+{
+ "purpose": "r029 s2b: the owner's female character (his images, 2026-11-20) with lifting straps, for the study on ten trained women; three options",
+ "width": 720,
+ "height": 1280,
+ "character": "The Blanket's female training partner: a gray-skinned faceless athletic woman with a smooth oval head and two round glowing white eyes, the face blank apart from the eyes (no mouth, no nose), a long golden-blonde high ponytail coming out of the back of a plain navy baseball cap, a dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white socks and white sneakers",
+ "images": [
+  {
+   "key": "f1",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "side view: she bends at the hips with a flat back and lifts a plain barbell loaded with large plain black plates from the floor to her knees in a deadlift; both arms hang straight down and her hands, wrapped in plain black lifting straps, hold the bar at knee height. Both hands stay below her waist; nothing is above her head. She holds nothing else: no drink, no bottle. She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose. No text, no symbols, no numbers anywhere. All weights, plates and straps are plain and unmarked, with no logos."
+  },
+  {
+   "key": "f2",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "three-quarter front view: she stands tall at the top of a deadlift, holding a plain barbell loaded with large plain black plates against her thighs with straight arms, her hands wrapped in plain black lifting straps around the bar, shoulders back. Nothing is above her head. She holds nothing else: no drink, no bottle. She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose. No text, no symbols, no numbers anywhere. All weights, plates and straps are plain and unmarked, with no logos."
+  },
+  {
+   "key": "f3",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "she stands relaxed and holds up a pair of plain black lifting straps in one hand at chest height to show them, while a plain barbell loaded with large plain black plates rests on the floor beside her feet. She holds nothing else: no drink, no bottle. She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose. No text, no symbols, no numbers anywhere. All weights, plates and straps are plain and unmarked, with no logos."
+  }
+ ]
+}
