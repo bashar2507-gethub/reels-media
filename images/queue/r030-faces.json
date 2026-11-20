@@ -1,0 +1,68 @@
+{
+ "purpose": "r030: blank Marah's face on the new standing poses (the pose edits drew a mouth and nose)",
+ "width": 720,
+ "height": 1280,
+ "character": "Marah",
+ "images": [
+  {
+   "key": "m_wave1a",
+   "edit": true,
+   "reference": "images/r030-solo2/m_wave1.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_wave1b",
+   "edit": true,
+   "reference": "images/r030-solo2/m_wave1.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_wave2a",
+   "edit": true,
+   "reference": "images/r030-solo2/m_wave2.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_wave2b",
+   "edit": true,
+   "reference": "images/r030-solo2/m_wave2.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_bump1a",
+   "edit": true,
+   "reference": "images/r030-solo2/m_bump1.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_bump1b",
+   "edit": true,
+   "reference": "images/r030-solo2/m_bump1.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_bump3a",
+   "edit": true,
+   "reference": "images/r030-solo2/m_bump3.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_bump3b",
+   "edit": true,
+   "reference": "images/r030-solo2/m_bump3.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text."
+  },
+  {
+   "key": "m_lean2a",
+   "edit": true,
+   "reference": "images/r030-solo2/m_lean2.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text. Also remove the lighter rectangular panel behind her so the background is one plain dark petrol-teal colour."
+  },
+  {
+   "key": "m_lean2b",
+   "edit": true,
+   "reference": "images/r030-solo2/m_lean2.jpg",
+   "prompt": "Edit only the face: remove the mouth, lips, teeth, smile, nose, eyebrows and blush, so the face becomes a completely blank smooth light-gray oval with only two round glowing white eyes and no other features. Keep everything else exactly identical: the same pose, hands, fingers, body, hair, cap, headphones, clothes, shoes, colours, line style and dark petrol-teal background. No text. Also remove the lighter rectangular panel behind her so the background is one plain dark petrol-teal colour."
+  }
+ ]
+}
