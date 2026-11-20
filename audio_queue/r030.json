@@ -1,5 +1,5 @@
 {
- "purpose": "r030 intro: 23 dialogue takes (Blanket = Jeddawi Echo, Marah = Nora S, eleven_v4, one take each) and 7 sound effects (eleven_text_to_sound_v3), flow KAazJcSYSOLIXjDUZfvx",
+ "purpose": "r030 intro: 23 dialogue takes (Blanket = Jeddawi Echo, Marah = Nora S, eleven_v4, one take each) and 7 sound effects (eleven_text_to_sound_v3), flow KAazJcSYSOLIXjDUZfvx; L02b and L05b: the name with diacritics مَرَحْ (owner, 2026-11-20 22:45)",
  "files": {
   "content/audio/r030/L01.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/4PTtknJ0I7rD7vnNdnB9/1388u12pSP6SlnJm8m8M/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=GOVeYXWEEiG-CgmRmGpoCnnZTkg=",
   "content/audio/r030/L02.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/LXjC7xlfDVfLGrS87dj3/ClLujUBU70BzUKpWNRJw/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=vhN8FRQ6qXy_5PxzKJnERYFj6tw=",
@@ -30,6 +30,8 @@
   "content/audio/r030/sfx_crickets.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/woWfvFG69MZMEmjufUSf/9vvoK9Ahea4UQjtOjNht/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=yJODB7aNm5ocSLsZ9i2fJPsm8fs=",
   "content/audio/r030/sfx_slurp.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/5Ps2RHia7LOeIYCQ2xEF/0qASl0CvZtRnAQPALTbg/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=H9cQXdihK6k4ReLKR5dYCkwm-jw=",
   "content/audio/r030/sfx_fist_bump.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/XvKdFnTx5ED9SSdTKw5m/nz8g3U1WBpeCQtavbGuh/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=we593wsB9sd602s3QUuv2Knsck0=",
-  "content/audio/r030/sfx_bed.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/fI0O3QVdtCXcseNoCOYy/YRuOIqMcA7qvu2ywOh1c/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=rABzv_3B9v4MxKXXhFTnghSzDmY="
+  "content/audio/r030/sfx_bed.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/fI0O3QVdtCXcseNoCOYy/YRuOIqMcA7qvu2ywOh1c/content.mp3?Expires=1795208400&KeyName=assets-cdn-key-1&Signature=rABzv_3B9v4MxKXXhFTnghSzDmY=",
+  "content/audio/r030/L02b.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/IU3YkdklNHbQSBv3zhjg/wwobXf1K2QdSRYMIq23G/content.mp3?Expires=1795212000&KeyName=assets-cdn-key-1&Signature=lUxTurWIqZVuRZuLUGzRDvxPVmo=",
+  "content/audio/r030/L05b.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/d4JfFQpcYyiPPA3ZA09o/kEQv5aa0rZ2GlYMLvr5u/content.mp3?Expires=1795212000&KeyName=assets-cdn-key-1&Signature=CKEsagpc32suMa64OQan9SuLvzw="
  }
 }
