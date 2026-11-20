@@ -9,10 +9,9 @@
   "language_code": "ar",
   "generated_on": "2026-11-20",
   "credits": 1424,
-  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3); owner's edits 2026-11-20 23:36: no laughs, no crickets, no laugh bed; Blanket said in English; قَاعِدَتِي; new lines L03, L15, L19 (7 takes, 312 credits)",
+  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3); owner's edits 2026-11-20 23:36: no laughs, no crickets, no laugh bed; Blanket said in English; قَاعِدَتِي; new lines L03, L15, L19 (7 takes, 312 credits); water bit (L10-L12, scene s09) removed at the owner's request (2026-11-20 23:52)",
   "sfx": {
     "pop_in": "sfx_pop_in.mp3",
-    "slurp": "sfx_slurp.mp3",
     "fist_bump": "sfx_fist_bump.mp3"
   },
   "lines": [
@@ -86,34 +85,6 @@
       "file": "L09c.mp3",
       "text": "[mischievously] وقَاعِدَتِي: الكلام أول... والدراسة نشوف!",
       "gap_before": 0.25
-    },
-    {
-      "id": "L10",
-      "speaker": "Marah",
-      "file": "L10.mp3",
-      "text": "[excited] نصيحة اليوم: اشربوا موية!",
-      "gap_before": 0.7,
-      "sfx_after": [
-        {
-          "name": "slurp",
-          "gain_db": -13,
-          "delay": 0.05
-        }
-      ]
-    },
-    {
-      "id": "L11",
-      "speaker": "Blanket",
-      "file": "L11.mp3",
-      "text": "[flatly] المصدر؟",
-      "gap_before": 0.6
-    },
-    {
-      "id": "L12",
-      "speaker": "Marah",
-      "file": "L12.mp3",
-      "text": "[playful] ... الموية!",
-      "gap_before": 0.45
     },
     {
       "id": "L13",

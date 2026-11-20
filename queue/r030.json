@@ -188,34 +188,6 @@
         ]
       },
       {
-        "id": "s09",
-        "visual": "r030-s09",
-        "fallback": "flow",
-        "zoom": [
-          1.0,
-          1.05
-        ],
-        "pan": [
-          0.0,
-          0.0
-        ],
-        "image_file": "images/r030-scenes/s09.jpg",
-        "sentences": [
-          {
-            "say": "نصيحة اليوم: اشربوا موية!",
-            "speaker": "Marah"
-          },
-          {
-            "say": "المصدر؟",
-            "speaker": "Blanket"
-          },
-          {
-            "say": "الموية!",
-            "speaker": "Marah"
-          }
-        ]
-      },
-      {
         "id": "s10",
         "visual": "r030-s10",
         "fallback": "flow",
