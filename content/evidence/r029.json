@@ -1,0 +1,52 @@
+{
+ "reel_id": "r029",
+ "reviewed_on": "2026-11-20",
+ "method": "Sources found by WebSearch and read on publisher or institutional records: the Abertay University research record for Jukic et al. 2020 (title, authors, journal, volume, pages, DOI, sample, 1RM values), the PubMed record for Trahey et al. 2023 (PMID 37729509; design, sample, results, conclusion), the IAT Leipzig sport database record for Zink et al. 2001 (journal, volume, pages, sample, protocol, results, conclusion) and the DOAJ record for Lopes et al. 2019 (authors, journal, DOI, number of studies, effect sizes, conclusion).",
+ "limitations": "All four sources are small or short. Jukic 2020: 20 men, a single 1RM test with and without straps (an acute comparison, not training). Trahey 2023: 10 trained women; the abstract gives no repetition counts, so only 'more repetitions' is said. Zink 2001: 14 healthy men, single squats at 90% 1RM; it measured speed and the EMG of thigh, hip and lower-back muscles, not the abdominal muscles, and not long-term effects or injury, so the Reel says only that the lift was faster and that back and leg muscle activity did not drop. Lopes 2019: 8 studies with different populations and protocols; it found no difference in strength gains, so the Reel says 'similar', not 'better'. Straps raise what the grip allows on pulls; they do not make the back stronger.",
+ "claims": [
+  {
+   "claim_id": "r029-c1",
+   "claim": "In 20 men, the deadlift one-repetition maximum was about 10% higher with lifting straps than without (177.0 vs 160.6 kg on average).",
+   "source_title": "The use of lifting straps alters the entire load-velocity profile during the deadlift exercise",
+   "authors": "Jukic I, Garcia-Ramos A, Malecek J, Omcirk D, Tufano JJ",
+   "year": 2020,
+   "journal": "J Strength Cond Res 34(12):3331-3337",
+   "DOI_or_URL": "https://doi.org/10.1519/JSC.0000000000003850 | record: https://rke.abertay.ac.uk/en/publications/the-use-of-lifting-straps-alters-the-entire-load-velocity-profile/",
+   "study_type": "Within-subject comparison; 20 men; incremental deadlift loading tests to 1RM in two sessions, with and without straps",
+   "finding": "1RM 177.0 +/- 28.9 kg with straps vs 160.6 +/- 26.0 kg without (g = 0.56, p < 0.001); straps changed the whole load-velocity profile."
+  },
+  {
+   "claim_id": "r029-c2",
+   "claim": "In 10 resistance-trained women, lifting straps allowed more deadlift repetitions at 80% 1RM without lowering bar velocity, and grip strength dropped less.",
+   "source_title": "The Effect of Lifting Straps on Deadlift Performance in Females",
+   "authors": "Trahey KM, Lapp EM, Talipan TN, Guydan TJ, Krupka AJ, Ellis CE",
+   "year": 2023,
+   "journal": "J Strength Cond Res 37(10):1924-1928",
+   "DOI_or_URL": "https://doi.org/10.1519/JSC.0000000000004494 | PMID 37729509 | https://pubmed.ncbi.nlm.nih.gov/37729509/",
+   "study_type": "Within-subject repeated-measures design; 10 resistance-trained women; 3 sets to failure at 80% 1RM with and without straps",
+   "finding": "Straps allowed significantly more repetitions; mean and peak bar velocity did not differ; grip strength loss was significantly lower with straps."
+  },
+  {
+   "claim_id": "r029-c3",
+   "claim": "In 14 healthy men squatting at 90% 1RM, the lift was faster with a weight belt, with no difference in thigh, hip or lower-back muscle activity.",
+   "source_title": "The effects of a weight belt on trunk and leg muscle activity and joint kinematics during the squat exercise",
+   "authors": "Zink AJ et al. (full author list not shown on the record read)",
+   "year": 2001,
+   "journal": "J Strength Cond Res 15(2):235-240",
+   "DOI_or_URL": "record: https://www.iat.uni-leipzig.de/datenbanken/iks/drv-rugby/Record/4006218",
+   "study_type": "Within-subject comparison; 14 healthy men; parallel back squat at 90% 1RM with and without a belt; EMG of vastus lateralis, biceps femoris, adductor magnus, gluteus maximus and erector spinae",
+   "finding": "Belt trials were significantly faster overall and in both phases (p < 0.05) and bar velocity was higher; no significant EMG differences for any muscle and no joint-angle differences."
+  },
+  {
+   "claim_id": "r029-c4",
+   "claim": "A systematic review and meta-analysis of 8 studies found similar strength gains from elastic resistance training and conventional resistance training.",
+   "source_title": "Effects of training with elastic resistance versus conventional resistance on muscular strength: A systematic review and meta-analysis",
+   "authors": "Lopes JSS, Machado AF, Micheletti JK, de Almeida AC, Cavina AP, Pastre CM",
+   "year": 2019,
+   "journal": "SAGE Open Med 7:2050312119831116",
+   "DOI_or_URL": "https://doi.org/10.1177/2050312119831116 | record: https://doaj.org/article/f76933a02f3a4ff08fd3d81de9169831",
+   "study_type": "Systematic review and meta-analysis of 8 studies",
+   "finding": "No difference for upper-limb strength (SMD -0.011, 95% CI -0.40 to 0.19) or lower-limb strength (SMD 0.09, 95% CI -0.18 to 0.35); elastic training 'is able to promote similar strength gains'."
+  }
+ ]
+}

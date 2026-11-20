@@ -427,7 +427,21 @@
     "product": "Lifting straps, weightlifting belt, resistance bands",
     "spot": "bio 1, 5, 3",
     "caption_line": "🔗 الأدوات في المقطع (أحزمة المعصم، وحزام الرفع، وأشرطة المقاومة): روابطها في البايو."
-   }
+   },
+   "hook_idea": "ثلاث أدوات في الجيم: هل تفيدك فعلًا؟",
+   "hook_type": "number",
+   "claims": [
+    "In 20 men, the deadlift one-repetition maximum was about 10% higher with lifting straps than without (177.0 vs 160.6 kg on average).",
+    "In 10 resistance-trained women, lifting straps allowed more deadlift repetitions at 80% 1RM without lowering bar velocity, and grip strength dropped less.",
+    "In 14 healthy men squatting at 90% 1RM, the lift was faster with a weight belt, with no difference in thigh, hip or lower-back muscle activity.",
+    "A systematic review and meta-analysis of 8 studies found similar strength gains from elastic resistance training and conventional resistance training."
+   ],
+   "seed_sources": [
+    "Jukic I et al., J Strength Cond Res, 2020",
+    "Trahey KM et al., J Strength Cond Res, 2023",
+    "Zink AJ et al., J Strength Cond Res, 2001",
+    "Lopes JSS et al., SAGE Open Med, 2019"
+   ]
   },
   {
    "id": "r015",
