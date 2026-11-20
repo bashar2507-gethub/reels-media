@@ -1,0 +1,43 @@
+{
+  "job": "r030-char",
+  "ok": [
+    "s01a",
+    "s01b",
+    "s02a",
+    "s02b",
+    "s03a",
+    "s03b",
+    "s04a",
+    "s04b",
+    "s05a",
+    "s05b",
+    "s06a",
+    "s06b",
+    "s07a",
+    "s07b",
+    "s08a",
+    "s08b",
+    "s09a",
+    "s09b",
+    "s10a",
+    "s10b",
+    "s11a",
+    "s11b",
+    "s12a",
+    "s12b",
+    "s13a",
+    "s13b",
+    "s14a",
+    "s14b"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
