@@ -46,6 +46,8 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
   `scripts/mix_dialogue.py --spec content/<id>_dialogue.json` (no speed change); takes are kept in the repo through the
   "Fetch Audio" workflow (`audio_queue/<id>.json`) before their signed links expire. Two-character scenes are composed
   from solo cut-outs by `scripts/compose_scenes.py` (duo edits drew mouths). Future format: Marah brings the common
-  question or myth, Blanket corrects it with the studies.
+  question or myth, Blanket corrects it with the studies. The owner hears every take before it is mixed; words the
+  voice gets wrong he records himself, and the recording is converted to the character's voice with ElevenLabs
+  speech-to-speech (`eleven_multilingual_sts_v2`) (owner, 2026-11-21).
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`
