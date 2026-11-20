@@ -1,0 +1,25 @@
+{
+  "job": "r030-solo2",
+  "ok": [
+    "m_lean1",
+    "m_lean2",
+    "m_wave1",
+    "m_wave2",
+    "m_wave3",
+    "m_bump1",
+    "m_bump2",
+    "m_bump3"
+  ],
+  "errors": {
+    "m_lean3": "KeyError: 'images'"
+  },
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": false
+}
