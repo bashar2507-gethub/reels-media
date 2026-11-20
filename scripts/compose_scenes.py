@@ -62,7 +62,7 @@ def cutout(path: Path) -> Image.Image:
     from scipy import ndimage
     rgb = np.asarray(Image.open(path).convert("RGB")).astype(np.float32)
     r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
-    teal = (np.minimum(g, b) - r > 9) & (r < 0.6 * np.minimum(g, b) + 4) & ((r + g + b) / 3 < 120)
+    teal = (np.minimum(g, b) - r > 9) & (r < 0.6 * np.minimum(g, b) + 4) & ((r + g + b) / 3 < 120) & (g >= b - 4)  # navy cap: b > g
     labels, _ = ndimage.label(teal)
     border = np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))
     bg = np.isin(labels, border[border > 0])

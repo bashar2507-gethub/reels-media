@@ -154,10 +154,10 @@
     "scale": 0.86
    },
    {
-    "src": "images/r030-faces/m_bump3a.jpg",
-    "x": 0.7522,
+    "src": "images/r030-faces/m_bump1a_neutral.jpg",
+    "x": 0.7461,
     "scale": 0.78,
-    "floor": 0.925
+    "floor": 0.9169
    }
   ]
  }
