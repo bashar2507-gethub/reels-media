@@ -24,6 +24,9 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Voice (owner's choice from 2026-10-24): ElevenLabs «Jeddawi Echo», voice_id `yXEnnEln9armDCyhkXcA`, model `eleven_v4`,
   Arabic. Do not use «عبدالله سعدون» (`t9akNmCDhz230CEXOYmn`) any more. Its natural pace is about 105-110 wpm
   and it has its own pauses, so no pauses are added between sentences.
+- Velvet's voice (owner's choice, 2026-11-20): ElevenLabs «Nora S - Saudi Natural & Calm», voice_id
+  `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`, Arabic, only for Velvet's own lines. The narration and Blanket stay
+  Jeddawi Echo.
 - Metricool brand `7461887`, timezone Asia/Riyadh. Instagram @uuxuuoouuxuu, YouTube channel
   "The equalizer" (@bashar2507). Free plan: 20 published posts a month, one per network.
 - Media links: `https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@<commit>/reels/<id>/<file>`.

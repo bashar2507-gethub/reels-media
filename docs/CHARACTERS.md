@@ -15,8 +15,9 @@ and shorts, pink headphones and watch, white sneakers, gray skin, faceless with 
   excitement, playful reactions, an occasional exaggerated gesture.
 - Velvet appears when the owner asks or when a study is on women (first in r029, scene s2b). When both are in a scene,
   the contrast carries it: Blanket composed, Velvet reacting.
-- The narration stays the one approved voice (Jeddawi Echo). Velvet has no voice yet; giving her one, or writing
-  dialogue between them, waits for the owner's choice.
+- Voices: the narration and Blanket stay Jeddawi Echo. Velvet's voice is ElevenLabs «Nora S - Saudi Natural & Calm»
+  (`FZeLZd39ejvLgzR2gY0t`, eleven_v4; the owner's choice of three tested on 2026-11-20), for her own lines only.
+  How Reels give her lines (a short exchange with Blanket, for example) is still to be agreed with the owner.
 
 ## The brief
 

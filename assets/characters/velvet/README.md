@@ -4,7 +4,8 @@ Blanket's companion. Personality and role: `docs/CHARACTERS.md` (cheerful, curio
 one). Design, from the owner's own images: gray skin, a faceless oval head with only two round glowing white eyes (no
 mouth, no nose), a long golden-blonde high ponytail through the back of a plain navy cap, a dark purple short-sleeve
 crop top, dark purple shorts, pink over-ear headphones, a pink smartwatch, white crew socks and white sneakers, and
-sometimes a pink tumbler with a straw. First used in r029 (scene s2b).
+sometimes a pink tumbler with a straw. First used in r029 (scene s2b). Voice (owner's choice, 2026-11-20): ElevenLabs
+«Nora S - Saudi Natural & Calm», voice_id `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`.
 
 ## The owner's sheets (`sheets/`, as he sent them)
 
