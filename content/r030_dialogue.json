@@ -8,8 +8,8 @@
   "model_id": "eleven_v4",
   "language_code": "ar",
   "generated_on": "2026-11-20",
-  "credits": 984,
-  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886)",
+  "credits": 1112,
+  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3)",
   "sfx": {
     "laugh_small": "sfx_laugh_small.mp3",
     "laugh_big": "sfx_laugh_big.mp3",
@@ -33,8 +33,8 @@
     {
       "id": "L02",
       "speaker": "Blanket",
-      "file": "L02.mp3",
-      "text": "[quickly] وهذي مرح... اللي تشوفونها الحين.",
+      "file": "L02b.mp3",
+      "text": "[quickly] وهذي مَرَحْ... اللي تشوفونها الحين.",
       "gap_before": 0.2
     },
     {
@@ -68,8 +68,8 @@
     {
       "id": "L05",
       "speaker": "Marah",
-      "file": "L05.mp3",
-      "text": "[excited] [warmly] أنا مرح! أحب الجيم، وأحب الأسئلة... وأحبكم أكثر. حيّاكم معنا!",
+      "file": "L05b.mp3",
+      "text": "[excited] [warmly] أنا مَرَحْ! أحب الجيم، وأحب الأسئلة... وأحبكم أكثر. حيّاكم معنا!",
       "gap_before": 0.6
     },
     {
