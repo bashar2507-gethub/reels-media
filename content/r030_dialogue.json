@@ -1,0 +1,266 @@
+{
+  "reel_id": "r030",
+  "folder": "content/audio/r030",
+  "voices": {
+    "Blanket": "Jeddawi Echo yXEnnEln9armDCyhkXcA",
+    "Marah": "Nora S FZeLZd39ejvLgzR2gY0t"
+  },
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generated_on": "2026-11-20",
+  "credits": 984,
+  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886)",
+  "sfx": {
+    "laugh_small": "sfx_laugh_small.mp3",
+    "laugh_big": "sfx_laugh_big.mp3",
+    "pop_in": "sfx_pop_in.mp3",
+    "crickets": "sfx_crickets.mp3",
+    "slurp": "sfx_slurp.mp3",
+    "fist_bump": "sfx_fist_bump.mp3"
+  },
+  "bed": {
+    "file": "sfx_bed.mp3",
+    "gain_db": 9
+  },
+  "lines": [
+    {
+      "id": "L01",
+      "speaker": "Blanket",
+      "file": "L01.mp3",
+      "text": "[warmly] [quickly] هلا والله. أنا بلانكيت... اللي شفتوه من أول المقاطع.",
+      "gap_before": 0.0
+    },
+    {
+      "id": "L02",
+      "speaker": "Blanket",
+      "file": "L02.mp3",
+      "text": "[quickly] وهذي مرح... اللي تشوفونها الحين.",
+      "gap_before": 0.2
+    },
+    {
+      "id": "L03",
+      "speaker": "Marah",
+      "file": "L03.mp3",
+      "text": "[excited] هلا هلا هلا!",
+      "gap_before": 0.35,
+      "sfx_before": [
+        {
+          "name": "pop_in",
+          "gain_db": -12,
+          "advance": 0.3
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "speaker": "Blanket",
+      "file": "L04.mp3",
+      "text": "[sarcastic] [quickly] تسأل كثير... تتكلم أكثر... وإزعاجها؟ ما له حدود.",
+      "gap_before": 0.3,
+      "sfx_after": [
+        {
+          "name": "laugh_small",
+          "gain_db": 4,
+          "delay": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "speaker": "Marah",
+      "file": "L05.mp3",
+      "text": "[excited] [warmly] أنا مرح! أحب الجيم، وأحب الأسئلة... وأحبكم أكثر. حيّاكم معنا!",
+      "gap_before": 0.6
+    },
+    {
+      "id": "L06",
+      "speaker": "Marah",
+      "file": "L06.mp3",
+      "text": "[playful] وبعدين... إنت اللي شادّها حبّتين! ابتسم شوي.",
+      "gap_before": 0.3
+    },
+    {
+      "id": "L07",
+      "speaker": "Blanket",
+      "file": "L07.mp3",
+      "text": "[flatly] أنا مبتسم.",
+      "gap_before": 1.3,
+      "sfx_before": [
+        {
+          "name": "crickets",
+          "gain_db": 2,
+          "advance": 1.25
+        }
+      ],
+      "sfx_after": [
+        {
+          "name": "laugh_big",
+          "gain_db": 8,
+          "delay": 0.05
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "speaker": "Blanket",
+      "file": "L08.mp3",
+      "text": "[quickly] قاعدتي: الدراسة أول، والكلام بعدين.",
+      "gap_before": 1.0
+    },
+    {
+      "id": "L09",
+      "speaker": "Marah",
+      "file": "L09.mp3",
+      "text": "[mischievously] وقاعدتي: الكلام أول... والدراسة نشوف!",
+      "gap_before": 0.25,
+      "sfx_after": [
+        {
+          "name": "laugh_small",
+          "gain_db": 4,
+          "delay": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "speaker": "Marah",
+      "file": "L10.mp3",
+      "text": "[excited] نصيحة اليوم: اشربوا موية!",
+      "gap_before": 0.7,
+      "sfx_after": [
+        {
+          "name": "slurp",
+          "gain_db": -13,
+          "delay": 0.05
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "speaker": "Blanket",
+      "file": "L11.mp3",
+      "text": "[flatly] المصدر؟",
+      "gap_before": 0.6
+    },
+    {
+      "id": "L12",
+      "speaker": "Marah",
+      "file": "L12.mp3",
+      "text": "[playful] ... الموية!",
+      "gap_before": 0.45,
+      "sfx_after": [
+        {
+          "name": "laugh_small",
+          "gain_db": 4,
+          "delay": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "speaker": "Marah",
+      "file": "L13.mp3",
+      "text": "[curious] يعني صدق الكارديو يحرق العضل؟",
+      "gap_before": 0.75
+    },
+    {
+      "id": "L14",
+      "speaker": "Blanket",
+      "file": "L14.mp3",
+      "text": "[quickly] هذا مقطع كامل. اصبري.",
+      "gap_before": 0.25
+    },
+    {
+      "id": "L15",
+      "speaker": "Marah",
+      "file": "L15.mp3",
+      "text": "[playful] أنا جيت عشان أخليه يضحك.",
+      "gap_before": 0.4
+    },
+    {
+      "id": "L16",
+      "speaker": "Blanket",
+      "file": "L16.mp3",
+      "text": "[sarcastic] بالتوفيق.",
+      "gap_before": 0.3,
+      "sfx_after": [
+        {
+          "name": "laugh_small",
+          "gain_db": 4,
+          "delay": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "speaker": "Marah",
+      "file": "L17.mp3",
+      "text": "[curious] أنا أسأل الأسئلة اللي في بالكم...",
+      "gap_before": 0.65
+    },
+    {
+      "id": "L18",
+      "speaker": "Blanket",
+      "file": "L18.mp3",
+      "text": "[quickly] وأنا أجاوب... بالدراسات.",
+      "gap_before": 0.2
+    },
+    {
+      "id": "L19",
+      "speaker": "Marah",
+      "file": "L19.mp3",
+      "text": "[whispers] لا تقولون له... بس هو أطيب واحد في الجيم.",
+      "gap_before": 0.45,
+      "voice_gain_db": 7
+    },
+    {
+      "id": "L20",
+      "speaker": "Blanket",
+      "file": "L20.mp3",
+      "text": "[flatly] سمعتك.",
+      "gap_before": 0.35,
+      "sfx_after": [
+        {
+          "name": "laugh_small",
+          "gain_db": 4,
+          "delay": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "speaker": "Marah",
+      "file": "L21.mp3",
+      "text": "[excited] اكتبوا سؤالكم في التعليقات، وتابعونا!",
+      "gap_before": 0.6
+    },
+    {
+      "id": "L22",
+      "speaker": "Blanket",
+      "file": "L22.mp3",
+      "text": "[quickly] سؤال واحد بس.",
+      "gap_before": 0.25
+    },
+    {
+      "id": "L23",
+      "speaker": "Marah",
+      "file": "L23.mp3",
+      "text": "[laughs] بلانكيييت!",
+      "gap_before": 0.15,
+      "sfx_before": [
+        {
+          "name": "fist_bump",
+          "gain_db": -11,
+          "advance": 0.12
+        }
+      ],
+      "sfx_after": [
+        {
+          "name": "laugh_big",
+          "gain_db": 8,
+          "delay": 0.0
+        }
+      ]
+    }
+  ]
+}

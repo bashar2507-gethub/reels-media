@@ -15,7 +15,8 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Every health claim needs a verified source in `content/evidence/<id>.json`. No exaggerated
   claims or guaranteed results; hedge limited evidence.
 - Only media we have rights to: Cairo fonts (OFL), FLUX.1-schnell images (Apache-2.0), procedural
-  backgrounds, the licensed ElevenLabs voice on the paid plan. No music.
+  backgrounds, the licensed ElevenLabs voice on the paid plan, and light ElevenLabs sound effects plus a quiet
+  audience-laugh bed under dialogue Reels (owner, 2026-11-20; first in r030). No music.
 - Never substitute the voice or model, never speed up or time-stretch narration.
 - One narration take per Reel (about 400 credits). Never re-run a paid generation to retry.
 
@@ -41,5 +42,10 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
   deliberate movements; Marah, the female character from the owner's own images (blonde ponytail, navy cap, purple top
   and shorts, pink headphones and watch; sheets and pose references in `assets/characters/marah/`), is cheerful, curious
   and expressive. Keep both consistent in every video. Use Marah when he asks or a study is on women; first used in r029 s2b.
+- Dialogue Reels (owner, 2026-11-20; first r030): one take per line in each character's voice, mixed by
+  `scripts/mix_dialogue.py --spec content/<id>_dialogue.json` (no speed change); takes are kept in the repo through the
+  "Fetch Audio" workflow (`audio_queue/<id>.json`) before their signed links expire. Two-character scenes are composed
+  from solo cut-outs by `scripts/compose_scenes.py` (duo edits drew mouths). Future format: Marah brings the common
+  question or myth, Blanket corrects it with the studies.
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`

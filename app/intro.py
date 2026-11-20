@@ -37,7 +37,7 @@ def prepend(main: Path, out: Path, transition: str = "flash", spec: VideoSpec = 
     tmp = out.with_name(out.stem + ".part.mp4")
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(INTRO), "-i", str(main),
                     "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-                    *x264_args(spec), *aac_args(spec), *mp4_args(), str(tmp)], check=True)
+                    *x264_args(spec), *aac_args(spec), *mp4_args(), "-shortest", str(tmp)], check=True)  # sound never outlasts the picture
     tmp.replace(out)
     return out
 
@@ -83,6 +83,6 @@ def insert_after(main: Path, out: Path, at: float, transition: str = "flash", sp
     tmp = out.with_name(out.stem + ".part.mp4")
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(main), "-i", str(INTRO),
                     "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-                    *x264_args(spec), *aac_args(spec), *mp4_args(), str(tmp)], check=True)
+                    *x264_args(spec), *aac_args(spec), *mp4_args(), "-shortest", str(tmp)], check=True)  # sound never outlasts the picture
     tmp.replace(out)
     return out

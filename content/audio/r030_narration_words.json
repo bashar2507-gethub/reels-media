@@ -1,0 +1,634 @@
+{
+ "voices": {
+  "Blanket": "Jeddawi Echo yXEnnEln9armDCyhkXcA",
+  "Marah": "Nora S FZeLZd39ejvLgzR2gY0t"
+ },
+ "model_id": "eleven_v4",
+ "language_code": "ar",
+ "generated_on": "2026-11-20",
+ "credits": 984,
+ "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886)",
+ "timing_source": "letter-count spread over each take's voiced span (app/dialogue.py)",
+ "duration_s": 69.35,
+ "words": [
+  {
+   "text": "هلا",
+   "type": "word",
+   "start": 0.18,
+   "end": 0.421
+  },
+  {
+   "text": "والله.",
+   "type": "word",
+   "start": 0.442,
+   "end": 0.843
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 0.877,
+   "end": 1.118
+  },
+  {
+   "text": "بلانكيت",
+   "type": "word",
+   "start": 1.139,
+   "end": 1.7
+  },
+  {
+   "text": "اللي",
+   "type": "word",
+   "start": 1.749,
+   "end": 2.07
+  },
+  {
+   "text": "شفتوه",
+   "type": "word",
+   "start": 2.098,
+   "end": 2.499
+  },
+  {
+   "text": "من",
+   "type": "word",
+   "start": 2.534,
+   "end": 2.694
+  },
+  {
+   "text": "أول",
+   "type": "word",
+   "start": 2.708,
+   "end": 2.949
+  },
+  {
+   "text": "المقاطع.",
+   "type": "word",
+   "start": 2.97,
+   "end": 3.531
+  },
+  {
+   "text": "وهذي",
+   "type": "word",
+   "start": 3.84,
+   "end": 4.116
+  },
+  {
+   "text": "مرح",
+   "type": "word",
+   "start": 4.14,
+   "end": 4.347
+  },
+  {
+   "text": "اللي",
+   "type": "word",
+   "start": 4.365,
+   "end": 4.641
+  },
+  {
+   "text": "تشوفونها",
+   "type": "word",
+   "start": 4.665,
+   "end": 5.217
+  },
+  {
+   "text": "الحين.",
+   "type": "word",
+   "start": 5.265,
+   "end": 5.61
+  },
+  {
+   "text": "هلا",
+   "type": "word",
+   "start": 6.05,
+   "end": 6.571
+  },
+  {
+   "text": "هلا",
+   "type": "word",
+   "start": 6.617,
+   "end": 7.138
+  },
+  {
+   "text": "هلا!",
+   "type": "word",
+   "start": 7.183,
+   "end": 7.705
+  },
+  {
+   "text": "تسأل",
+   "type": "word",
+   "start": 8.11,
+   "end": 8.59
+  },
+  {
+   "text": "كثير",
+   "type": "word",
+   "start": 8.631,
+   "end": 9.111
+  },
+  {
+   "text": "تتكلم",
+   "type": "word",
+   "start": 9.152,
+   "end": 9.752
+  },
+  {
+   "text": "أكثر",
+   "type": "word",
+   "start": 9.804,
+   "end": 10.283
+  },
+  {
+   "text": "وإزعاجها؟",
+   "type": "word",
+   "start": 10.325,
+   "end": 11.284
+  },
+  {
+   "text": "ما",
+   "type": "word",
+   "start": 11.368,
+   "end": 11.607
+  },
+  {
+   "text": "له",
+   "type": "word",
+   "start": 11.628,
+   "end": 11.868
+  },
+  {
+   "text": "حدود.",
+   "type": "word",
+   "start": 11.889,
+   "end": 12.368
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 13.07,
+   "end": 13.453
+  },
+  {
+   "text": "مرح!",
+   "type": "word",
+   "start": 13.486,
+   "end": 13.869
+  },
+  {
+   "text": "أحب",
+   "type": "word",
+   "start": 13.902,
+   "end": 14.284
+  },
+  {
+   "text": "الجيم،",
+   "type": "word",
+   "start": 14.318,
+   "end": 14.955
+  },
+  {
+   "text": "وأحب",
+   "type": "word",
+   "start": 15.011,
+   "end": 15.521
+  },
+  {
+   "text": "الأسئلة",
+   "type": "word",
+   "start": 15.565,
+   "end": 16.458
+  },
+  {
+   "text": "وأحبكم",
+   "type": "word",
+   "start": 16.536,
+   "end": 17.301
+  },
+  {
+   "text": "أكثر.",
+   "type": "word",
+   "start": 17.368,
+   "end": 17.878
+  },
+  {
+   "text": "حيّاكم",
+   "type": "word",
+   "start": 17.922,
+   "end": 18.56
+  },
+  {
+   "text": "معنا!",
+   "type": "word",
+   "start": 18.615,
+   "end": 19.126
+  },
+  {
+   "text": "وبعدين",
+   "type": "word",
+   "start": 19.53,
+   "end": 20.249
+  },
+  {
+   "text": "إنت",
+   "type": "word",
+   "start": 20.312,
+   "end": 20.672
+  },
+  {
+   "text": "اللي",
+   "type": "word",
+   "start": 20.703,
+   "end": 21.182
+  },
+  {
+   "text": "شادّها",
+   "type": "word",
+   "start": 21.224,
+   "end": 21.824
+  },
+  {
+   "text": "حبّتين!",
+   "type": "word",
+   "start": 21.876,
+   "end": 22.475
+  },
+  {
+   "text": "ابتسم",
+   "type": "word",
+   "start": 22.527,
+   "end": 23.127
+  },
+  {
+   "text": "شوي.",
+   "type": "word",
+   "start": 23.179,
+   "end": 23.539
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 24.93,
+   "end": 25.254
+  },
+  {
+   "text": "مبتسم.",
+   "type": "word",
+   "start": 25.283,
+   "end": 25.823
+  },
+  {
+   "text": "قاعدتي:",
+   "type": "word",
+   "start": 26.93,
+   "end": 27.454
+  },
+  {
+   "text": "الدراسة",
+   "type": "word",
+   "start": 27.5,
+   "end": 28.112
+  },
+  {
+   "text": "أول،",
+   "type": "word",
+   "start": 28.165,
+   "end": 28.427
+  },
+  {
+   "text": "والكلام",
+   "type": "word",
+   "start": 28.45,
+   "end": 29.062
+  },
+  {
+   "text": "بعدين.",
+   "type": "word",
+   "start": 29.115,
+   "end": 29.552
+  },
+  {
+   "text": "وقاعدتي:",
+   "type": "word",
+   "start": 29.9,
+   "end": 30.811
+  },
+  {
+   "text": "الكلام",
+   "type": "word",
+   "start": 30.89,
+   "end": 31.671
+  },
+  {
+   "text": "أول",
+   "type": "word",
+   "start": 31.739,
+   "end": 32.129
+  },
+  {
+   "text": "والدراسة",
+   "type": "word",
+   "start": 32.163,
+   "end": 33.204
+  },
+  {
+   "text": "نشوف!",
+   "type": "word",
+   "start": 33.294,
+   "end": 33.815
+  },
+  {
+   "text": "نصيحة",
+   "type": "word",
+   "start": 34.62,
+   "end": 35.177
+  },
+  {
+   "text": "اليوم:",
+   "type": "word",
+   "start": 35.225,
+   "end": 35.782
+  },
+  {
+   "text": "اشربوا",
+   "type": "word",
+   "start": 35.83,
+   "end": 36.498
+  },
+  {
+   "text": "موية!",
+   "type": "word",
+   "start": 36.556,
+   "end": 37.001
+  },
+  {
+   "text": "المصدر؟",
+   "type": "word",
+   "start": 37.7,
+   "end": 38.362
+  },
+  {
+   "text": "الموية!",
+   "type": "word",
+   "start": 38.93,
+   "end": 39.813
+  },
+  {
+   "text": "يعني",
+   "type": "word",
+   "start": 40.7,
+   "end": 41.074
+  },
+  {
+   "text": "صدق",
+   "type": "word",
+   "start": 41.107,
+   "end": 41.387
+  },
+  {
+   "text": "الكارديو",
+   "type": "word",
+   "start": 41.412,
+   "end": 42.16
+  },
+  {
+   "text": "يحرق",
+   "type": "word",
+   "start": 42.225,
+   "end": 42.599
+  },
+  {
+   "text": "العضل؟",
+   "type": "word",
+   "start": 42.632,
+   "end": 43.099
+  },
+  {
+   "text": "هذا",
+   "type": "word",
+   "start": 43.45,
+   "end": 43.723
+  },
+  {
+   "text": "مقطع",
+   "type": "word",
+   "start": 43.746,
+   "end": 44.11
+  },
+  {
+   "text": "كامل.",
+   "type": "word",
+   "start": 44.141,
+   "end": 44.505
+  },
+  {
+   "text": "اصبري.",
+   "type": "word",
+   "start": 44.536,
+   "end": 44.991
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 45.49,
+   "end": 45.783
+  },
+  {
+   "text": "جيت",
+   "type": "word",
+   "start": 45.809,
+   "end": 46.102
+  },
+  {
+   "text": "عشان",
+   "type": "word",
+   "start": 46.128,
+   "end": 46.519
+  },
+  {
+   "text": "أخليه",
+   "type": "word",
+   "start": 46.553,
+   "end": 47.042
+  },
+  {
+   "text": "يضحك.",
+   "type": "word",
+   "start": 47.085,
+   "end": 47.476
+  },
+  {
+   "text": "بالتوفيق.",
+   "type": "word",
+   "start": 47.87,
+   "end": 49.103
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 49.92,
+   "end": 50.141
+  },
+  {
+   "text": "أسأل",
+   "type": "word",
+   "start": 50.16,
+   "end": 50.454
+  },
+  {
+   "text": "الأسئلة",
+   "type": "word",
+   "start": 50.48,
+   "end": 50.995
+  },
+  {
+   "text": "اللي",
+   "type": "word",
+   "start": 51.04,
+   "end": 51.334
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 51.36,
+   "end": 51.507
+  },
+  {
+   "text": "بالكم",
+   "type": "word",
+   "start": 51.52,
+   "end": 51.888
+  },
+  {
+   "text": "وأنا",
+   "type": "word",
+   "start": 52.18,
+   "end": 52.56
+  },
+  {
+   "text": "أجاوب",
+   "type": "word",
+   "start": 52.593,
+   "end": 53.069
+  },
+  {
+   "text": "بالدراسات.",
+   "type": "word",
+   "start": 53.11,
+   "end": 53.966
+  },
+  {
+   "text": "لا",
+   "type": "word",
+   "start": 54.55,
+   "end": 54.764
+  },
+  {
+   "text": "تقولون",
+   "type": "word",
+   "start": 54.783,
+   "end": 55.426
+  },
+  {
+   "text": "له",
+   "type": "word",
+   "start": 55.482,
+   "end": 55.697
+  },
+  {
+   "text": "بس",
+   "type": "word",
+   "start": 55.716,
+   "end": 55.93
+  },
+  {
+   "text": "هو",
+   "type": "word",
+   "start": 55.949,
+   "end": 56.163
+  },
+  {
+   "text": "أطيب",
+   "type": "word",
+   "start": 56.182,
+   "end": 56.611
+  },
+  {
+   "text": "واحد",
+   "type": "word",
+   "start": 56.648,
+   "end": 57.077
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 57.114,
+   "end": 57.329
+  },
+  {
+   "text": "الجيم.",
+   "type": "word",
+   "start": 57.347,
+   "end": 57.883
+  },
+  {
+   "text": "سمعتك.",
+   "type": "word",
+   "start": 58.34,
+   "end": 59.039
+  },
+  {
+   "text": "اكتبوا",
+   "type": "word",
+   "start": 59.76,
+   "end": 60.255
+  },
+  {
+   "text": "سؤالكم",
+   "type": "word",
+   "start": 60.298,
+   "end": 60.793
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 60.836,
+   "end": 61.001
+  },
+  {
+   "text": "التعليقات،",
+   "type": "word",
+   "start": 61.015,
+   "end": 61.758
+  },
+  {
+   "text": "وتابعونا!",
+   "type": "word",
+   "start": 61.823,
+   "end": 62.483
+  },
+  {
+   "text": "سؤال",
+   "type": "word",
+   "start": 62.85,
+   "end": 63.233
+  },
+  {
+   "text": "واحد",
+   "type": "word",
+   "start": 63.266,
+   "end": 63.649
+  },
+  {
+   "text": "بس.",
+   "type": "word",
+   "start": 63.682,
+   "end": 63.873
+  },
+  {
+   "text": "بلانكيييت!",
+   "type": "word",
+   "start": 64.1,
+   "end": 66.05
+  }
+ ],
+ "audio": "r030_narration.mp3"
+}

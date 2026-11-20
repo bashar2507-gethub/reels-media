@@ -1,0 +1,165 @@
+{
+ "out_dir": "images/r030-scenes",
+ "size": [
+  1080,
+  1920
+ ],
+ "scenes": {
+  "s01": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.5,
+    "scale": 1.3,
+    "floor": 0.99
+   }
+  ],
+  "s02": [
+   {
+    "src": "images/r030-solo/b_wait2.jpg",
+    "x": 0.33,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_hop1.jpg",
+    "x": 0.75,
+    "scale": 0.81,
+    "lift": 0.05
+   }
+  ],
+  "s03": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_hips1.jpg",
+    "x": 0.73,
+    "scale": 0.81
+   }
+  ],
+  "s04": [
+   {
+    "src": "images/r030-solo/m_welcome2.jpg",
+    "x": 0.5,
+    "scale": 1.3,
+    "floor": 0.99
+   }
+  ],
+  "s05": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_poke1.jpg",
+    "x": 0.72,
+    "scale": 0.81
+   }
+  ],
+  "s06": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.5,
+    "scale": 2.2,
+    "floor": 1.62,
+    "shadow": false
+   }
+  ],
+  "s07": [
+   {
+    "src": "images/r030-solo/b_finger1.jpg",
+    "x": 0.5,
+    "scale": 1.3,
+    "floor": 0.99
+   }
+  ],
+  "s08": [
+   {
+    "src": "images/r030-solo/m_cap2.jpg",
+    "x": 0.5,
+    "scale": 1.3,
+    "floor": 0.99
+   }
+  ],
+  "s09": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_toast1.jpg",
+    "x": 0.72,
+    "scale": 0.81
+   }
+  ],
+  "s10": [
+   {
+    "src": "images/r030-solo/b_finger2.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_chin1.jpg",
+    "x": 0.73,
+    "scale": 0.81
+   }
+  ],
+  "s11": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_cap1.jpg",
+    "x": 0.73,
+    "scale": 0.81
+   }
+  ],
+  "s12": [
+   {
+    "src": "images/r030-solo/b_finger1.jpg",
+    "x": 0.27,
+    "scale": 0.9
+   },
+   {
+    "src": "images/r030-solo/m_temple1.jpg",
+    "x": 0.72,
+    "scale": 0.86,
+    "floor": 1.07,
+    "shadow": false
+   }
+  ],
+  "s13": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.24,
+    "scale": 0.7,
+    "floor": 0.86
+   },
+   {
+    "src": "images/r030-solo/m_whisper1.jpg",
+    "x": 0.64,
+    "scale": 1.35,
+    "floor": 1.12,
+    "shadow": false
+   }
+  ],
+  "s14": [
+   {
+    "src": "images/r030-solo/b_fist1.jpg",
+    "x": 0.264,
+    "scale": 0.82
+   },
+   {
+    "src": "images/r030-solo/m_jump1.jpg",
+    "x": 0.7326,
+    "scale": 0.74,
+    "lift": 0.138
+   }
+  ]
+ }
+}

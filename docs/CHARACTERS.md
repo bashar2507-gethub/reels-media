@@ -18,7 +18,10 @@ and shorts, pink headphones and watch, white sneakers, gray skin, faceless with 
   the contrast carries it: Blanket composed, Marah reacting.
 - Voices: the narration and Blanket stay Jeddawi Echo. Marah's voice is ElevenLabs «Nora S - Saudi Natural & Calm»
   (`FZeLZd39ejvLgzR2gY0t`, eleven_v4; the owner's choice of three tested on 2026-11-20), for her own lines only.
-  How Reels give her lines (a short exchange with Blanket, for example) is still to be agreed with the owner.
+  Dialogue (owner, 2026-11-20, first in the intro Reel r030): Blanket speaks a little faster ([quickly]) and Marah
+  keeps the same lively pace. From now on Marah asks the questions and brings the common wrong information, and
+  Blanket corrects it from the studies. Poses: Blanket calm and rational; Marah feminine, attractive and eye-catching,
+  always family-friendly. Light reaction sounds and a quiet, steady audience-laugh bed sit under the dialogue.
 
 ## The brief
 
