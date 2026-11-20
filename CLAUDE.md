@@ -15,8 +15,8 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Every health claim needs a verified source in `content/evidence/<id>.json`. No exaggerated
   claims or guaranteed results; hedge limited evidence.
 - Only media we have rights to: Cairo fonts (OFL), FLUX.1-schnell images (Apache-2.0), procedural
-  backgrounds, the licensed ElevenLabs voice on the paid plan, and light ElevenLabs sound effects plus a quiet
-  audience-laugh bed under dialogue Reels (owner, 2026-11-20; first in r030). No music.
+  backgrounds, the licensed ElevenLabs voice on the paid plan, and a few light ElevenLabs sound effects under dialogue
+  Reels (owner, 2026-11-20; first in r030). No laughs, laugh bed or crickets: the owner found them cheap. No music.
 - Never substitute the voice or model, never speed up or time-stretch narration.
 - One narration take per Reel (about 400 credits). Never re-run a paid generation to retry.
 

@@ -6,628 +6,622 @@
  "model_id": "eleven_v4",
  "language_code": "ar",
  "generated_on": "2026-11-20",
- "credits": 1112,
- "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3)",
+ "credits": 1424,
+ "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3); owner's edits 2026-11-20 23:36: no laughs, no crickets, no laugh bed; Blanket said in English; قَاعِدَتِي; new lines L03, L15, L19 (7 takes, 312 credits)",
  "timing_source": "letter-count spread over each take's voiced span (app/dialogue.py)",
- "duration_s": 69.35,
+ "duration_s": 65.49,
  "words": [
   {
    "text": "هلا",
    "type": "word",
    "start": 0.18,
-   "end": 0.421
+   "end": 0.44
   },
   {
    "text": "والله.",
    "type": "word",
-   "start": 0.442,
-   "end": 0.843
+   "start": 0.463,
+   "end": 0.896
   },
   {
    "text": "أنا",
    "type": "word",
-   "start": 0.877,
-   "end": 1.118
+   "start": 0.934,
+   "end": 1.194
   },
   {
-   "text": "بلانكيت",
+   "text": "بلانكت",
    "type": "word",
-   "start": 1.139,
-   "end": 1.7
+   "start": 1.216,
+   "end": 1.736
   },
   {
    "text": "اللي",
    "type": "word",
-   "start": 1.749,
-   "end": 2.07
+   "start": 1.782,
+   "end": 2.128
   },
   {
    "text": "شفتوه",
    "type": "word",
-   "start": 2.098,
-   "end": 2.499
+   "start": 2.158,
+   "end": 2.592
   },
   {
    "text": "من",
    "type": "word",
-   "start": 2.534,
-   "end": 2.694
+   "start": 2.629,
+   "end": 2.803
   },
   {
    "text": "أول",
    "type": "word",
-   "start": 2.708,
-   "end": 2.949
+   "start": 2.818,
+   "end": 3.078
   },
   {
    "text": "المقاطع.",
    "type": "word",
-   "start": 2.97,
-   "end": 3.531
+   "start": 3.101,
+   "end": 3.707
   },
   {
    "text": "وهذي",
    "type": "word",
-   "start": 3.84,
-   "end": 4.116
+   "start": 4.02,
+   "end": 4.296
   },
   {
    "text": "مَرَحْ",
    "type": "word",
-   "start": 4.14,
-   "end": 4.347
+   "start": 4.32,
+   "end": 4.527
   },
   {
    "text": "اللي",
    "type": "word",
-   "start": 4.365,
-   "end": 4.641
+   "start": 4.545,
+   "end": 4.821
   },
   {
    "text": "تشوفونها",
    "type": "word",
-   "start": 4.665,
-   "end": 5.217
+   "start": 4.845,
+   "end": 5.397
   },
   {
    "text": "الحين.",
    "type": "word",
-   "start": 5.265,
-   "end": 5.61
+   "start": 5.445,
+   "end": 5.79
   },
   {
-   "text": "هلا",
+   "text": "أهلين",
    "type": "word",
-   "start": 6.05,
-   "end": 6.571
+   "start": 6.23,
+   "end": 6.767
   },
   {
-   "text": "هلا",
+   "text": "يا",
    "type": "word",
-   "start": 6.617,
-   "end": 7.138
+   "start": 6.813,
+   "end": 7.028
   },
   {
-   "text": "هلا!",
+   "text": "حلوين!",
    "type": "word",
-   "start": 7.183,
-   "end": 7.705
+   "start": 7.047,
+   "end": 7.583
   },
   {
    "text": "تسأل",
    "type": "word",
-   "start": 8.11,
-   "end": 8.59
+   "start": 7.99,
+   "end": 8.47
   },
   {
    "text": "كثير",
    "type": "word",
-   "start": 8.631,
-   "end": 9.111
+   "start": 8.511,
+   "end": 8.991
   },
   {
    "text": "تتكلم",
    "type": "word",
-   "start": 9.152,
-   "end": 9.752
+   "start": 9.032,
+   "end": 9.632
   },
   {
    "text": "أكثر",
    "type": "word",
-   "start": 9.804,
-   "end": 10.283
+   "start": 9.684,
+   "end": 10.163
   },
   {
    "text": "وإزعاجها؟",
    "type": "word",
-   "start": 10.325,
-   "end": 11.284
+   "start": 10.205,
+   "end": 11.164
   },
   {
    "text": "ما",
    "type": "word",
-   "start": 11.368,
-   "end": 11.607
+   "start": 11.248,
+   "end": 11.487
   },
   {
    "text": "له",
    "type": "word",
-   "start": 11.628,
-   "end": 11.868
+   "start": 11.508,
+   "end": 11.748
   },
   {
    "text": "حدود.",
    "type": "word",
-   "start": 11.889,
-   "end": 12.368
+   "start": 11.769,
+   "end": 12.248
   },
   {
    "text": "أنا",
    "type": "word",
-   "start": 13.07,
-   "end": 13.453
+   "start": 12.95,
+   "end": 13.333
   },
   {
    "text": "مَرَحْ!",
    "type": "word",
-   "start": 13.486,
-   "end": 13.869
+   "start": 13.366,
+   "end": 13.749
   },
   {
    "text": "أحب",
    "type": "word",
-   "start": 13.902,
-   "end": 14.284
+   "start": 13.782,
+   "end": 14.164
   },
   {
    "text": "الجيم،",
    "type": "word",
-   "start": 14.318,
-   "end": 14.955
+   "start": 14.198,
+   "end": 14.835
   },
   {
    "text": "وأحب",
    "type": "word",
-   "start": 15.011,
-   "end": 15.521
+   "start": 14.891,
+   "end": 15.401
   },
   {
    "text": "الأسئلة",
    "type": "word",
-   "start": 15.565,
-   "end": 16.458
+   "start": 15.445,
+   "end": 16.338
   },
   {
    "text": "وأحبكم",
    "type": "word",
-   "start": 16.536,
-   "end": 17.301
+   "start": 16.416,
+   "end": 17.181
   },
   {
    "text": "أكثر.",
    "type": "word",
-   "start": 17.368,
-   "end": 17.878
+   "start": 17.248,
+   "end": 17.758
   },
   {
    "text": "حيّاكم",
    "type": "word",
-   "start": 17.922,
-   "end": 18.56
+   "start": 17.802,
+   "end": 18.44
   },
   {
    "text": "معنا!",
    "type": "word",
-   "start": 18.615,
-   "end": 19.126
+   "start": 18.495,
+   "end": 19.006
   },
   {
    "text": "وبعدين",
    "type": "word",
-   "start": 19.53,
-   "end": 20.249
+   "start": 19.41,
+   "end": 20.129
   },
   {
    "text": "إنت",
    "type": "word",
-   "start": 20.312,
-   "end": 20.672
+   "start": 20.192,
+   "end": 20.552
   },
   {
    "text": "اللي",
    "type": "word",
-   "start": 20.703,
-   "end": 21.182
+   "start": 20.583,
+   "end": 21.062
   },
   {
    "text": "شادّها",
    "type": "word",
-   "start": 21.224,
-   "end": 21.824
+   "start": 21.104,
+   "end": 21.704
   },
   {
    "text": "حبّتين!",
    "type": "word",
-   "start": 21.876,
-   "end": 22.475
+   "start": 21.756,
+   "end": 22.355
   },
   {
    "text": "ابتسم",
    "type": "word",
-   "start": 22.527,
-   "end": 23.127
+   "start": 22.407,
+   "end": 23.007
   },
   {
    "text": "شوي.",
    "type": "word",
-   "start": 23.179,
-   "end": 23.539
+   "start": 23.059,
+   "end": 23.419
   },
   {
    "text": "أنا",
    "type": "word",
-   "start": 24.93,
-   "end": 25.254
+   "start": 24.41,
+   "end": 24.734
   },
   {
    "text": "مبتسم.",
    "type": "word",
-   "start": 25.283,
-   "end": 25.823
+   "start": 24.762,
+   "end": 25.303
   },
   {
-   "text": "قاعدتي:",
+   "text": "قَاعِدَتِي:",
    "type": "word",
-   "start": 26.93,
-   "end": 27.454
+   "start": 26.01,
+   "end": 26.503
   },
   {
    "text": "الدراسة",
    "type": "word",
-   "start": 27.5,
-   "end": 28.112
+   "start": 26.546,
+   "end": 27.121
   },
   {
    "text": "أول،",
    "type": "word",
-   "start": 28.165,
-   "end": 28.427
+   "start": 27.171,
+   "end": 27.417
   },
   {
    "text": "والكلام",
    "type": "word",
-   "start": 28.45,
-   "end": 29.062
+   "start": 27.439,
+   "end": 28.014
   },
   {
    "text": "بعدين.",
    "type": "word",
-   "start": 29.115,
-   "end": 29.552
+   "start": 28.064,
+   "end": 28.474
   },
   {
-   "text": "وقاعدتي:",
+   "text": "وقَاعِدَتِي:",
    "type": "word",
-   "start": 29.9,
-   "end": 30.811
+   "start": 28.82,
+   "end": 29.749
   },
   {
    "text": "الكلام",
    "type": "word",
-   "start": 30.89,
-   "end": 31.671
+   "start": 29.83,
+   "end": 30.626
   },
   {
    "text": "أول",
    "type": "word",
-   "start": 31.739,
-   "end": 32.129
+   "start": 30.696,
+   "end": 31.094
   },
   {
    "text": "والدراسة",
    "type": "word",
-   "start": 32.163,
-   "end": 33.204
+   "start": 31.129,
+   "end": 32.191
   },
   {
    "text": "نشوف!",
    "type": "word",
-   "start": 33.294,
-   "end": 33.815
+   "start": 32.283,
+   "end": 32.814
   },
   {
    "text": "نصيحة",
    "type": "word",
-   "start": 34.62,
-   "end": 35.177
+   "start": 33.62,
+   "end": 34.177
   },
   {
    "text": "اليوم:",
    "type": "word",
-   "start": 35.225,
-   "end": 35.782
+   "start": 34.225,
+   "end": 34.782
   },
   {
    "text": "اشربوا",
    "type": "word",
-   "start": 35.83,
-   "end": 36.498
+   "start": 34.83,
+   "end": 35.498
   },
   {
    "text": "موية!",
    "type": "word",
-   "start": 36.556,
-   "end": 37.001
+   "start": 35.556,
+   "end": 36.001
   },
   {
    "text": "المصدر؟",
    "type": "word",
-   "start": 37.7,
-   "end": 38.362
+   "start": 36.7,
+   "end": 37.362
   },
   {
    "text": "الموية!",
    "type": "word",
-   "start": 38.93,
-   "end": 39.813
+   "start": 37.93,
+   "end": 38.813
   },
   {
    "text": "يعني",
    "type": "word",
-   "start": 40.7,
-   "end": 41.074
+   "start": 39.7,
+   "end": 40.074
   },
   {
    "text": "صدق",
    "type": "word",
-   "start": 41.107,
-   "end": 41.387
+   "start": 40.107,
+   "end": 40.387
   },
   {
    "text": "الكارديو",
    "type": "word",
-   "start": 41.412,
-   "end": 42.16
+   "start": 40.412,
+   "end": 41.16
   },
   {
    "text": "يحرق",
    "type": "word",
-   "start": 42.225,
-   "end": 42.599
+   "start": 41.225,
+   "end": 41.599
   },
   {
    "text": "العضل؟",
    "type": "word",
-   "start": 42.632,
-   "end": 43.099
+   "start": 41.632,
+   "end": 42.099
   },
   {
    "text": "هذا",
    "type": "word",
-   "start": 43.45,
-   "end": 43.723
+   "start": 42.45,
+   "end": 42.723
   },
   {
    "text": "مقطع",
    "type": "word",
-   "start": 43.746,
-   "end": 44.11
+   "start": 42.746,
+   "end": 43.11
   },
   {
    "text": "كامل.",
    "type": "word",
-   "start": 44.141,
-   "end": 44.505
+   "start": 43.141,
+   "end": 43.505
   },
   {
    "text": "اصبري.",
    "type": "word",
-   "start": 44.536,
-   "end": 44.991
+   "start": 43.536,
+   "end": 43.99
   },
   {
    "text": "أنا",
    "type": "word",
-   "start": 45.49,
-   "end": 45.783
+   "start": 44.49,
+   "end": 44.832
   },
   {
    "text": "جيت",
    "type": "word",
-   "start": 45.809,
-   "end": 46.102
+   "start": 44.862,
+   "end": 45.204
   },
   {
    "text": "عشان",
    "type": "word",
-   "start": 46.128,
-   "end": 46.519
+   "start": 45.234,
+   "end": 45.69
   },
   {
-   "text": "أخليه",
+   "text": "أجنّنه.",
    "type": "word",
-   "start": 46.553,
-   "end": 47.042
-  },
-  {
-   "text": "يضحك.",
-   "type": "word",
-   "start": 47.085,
-   "end": 47.476
+   "start": 45.73,
+   "end": 46.3
   },
   {
    "text": "بالتوفيق.",
    "type": "word",
-   "start": 47.87,
-   "end": 49.103
+   "start": 46.71,
+   "end": 47.943
   },
   {
    "text": "أنا",
    "type": "word",
-   "start": 49.92,
-   "end": 50.141
+   "start": 48.76,
+   "end": 48.981
   },
   {
    "text": "أسأل",
    "type": "word",
-   "start": 50.16,
-   "end": 50.454
+   "start": 49.0,
+   "end": 49.294
   },
   {
    "text": "الأسئلة",
    "type": "word",
-   "start": 50.48,
-   "end": 50.995
+   "start": 49.32,
+   "end": 49.835
   },
   {
    "text": "اللي",
    "type": "word",
-   "start": 51.04,
-   "end": 51.334
+   "start": 49.88,
+   "end": 50.174
   },
   {
    "text": "في",
    "type": "word",
-   "start": 51.36,
-   "end": 51.507
+   "start": 50.2,
+   "end": 50.347
   },
   {
    "text": "بالكم",
    "type": "word",
-   "start": 51.52,
-   "end": 51.888
+   "start": 50.36,
+   "end": 50.728
   },
   {
    "text": "وأنا",
    "type": "word",
-   "start": 52.18,
-   "end": 52.56
+   "start": 51.02,
+   "end": 51.4
   },
   {
    "text": "أجاوب",
    "type": "word",
-   "start": 52.593,
-   "end": 53.069
+   "start": 51.433,
+   "end": 51.909
   },
   {
    "text": "بالدراسات.",
    "type": "word",
-   "start": 53.11,
-   "end": 53.966
+   "start": 51.95,
+   "end": 52.806
   },
   {
-   "text": "لا",
+   "text": "بيني",
    "type": "word",
-   "start": 54.55,
-   "end": 54.764
+   "start": 53.39,
+   "end": 53.832
   },
   {
-   "text": "تقولون",
+   "text": "وبينكم",
    "type": "word",
-   "start": 54.783,
-   "end": 55.426
+   "start": 53.87,
+   "end": 54.532
   },
   {
-   "text": "له",
+   "text": "أنا",
    "type": "word",
-   "start": 55.482,
-   "end": 55.697
+   "start": 54.59,
+   "end": 54.921
   },
   {
-   "text": "بس",
+   "text": "أقصد",
    "type": "word",
-   "start": 55.716,
-   "end": 55.93
+   "start": 54.95,
+   "end": 55.392
   },
   {
-   "text": "هو",
+   "text": "أجنّنه،",
    "type": "word",
-   "start": 55.949,
-   "end": 56.163
+   "start": 55.43,
+   "end": 55.982
   },
   {
-   "text": "أطيب",
+   "text": "عشان",
    "type": "word",
-   "start": 56.182,
-   "end": 56.611
+   "start": 56.03,
+   "end": 56.472
   },
   {
-   "text": "واحد",
+   "text": "ردة",
    "type": "word",
-   "start": 56.648,
-   "end": 57.077
+   "start": 56.51,
+   "end": 56.841
   },
   {
-   "text": "في",
+   "text": "فعله",
    "type": "word",
-   "start": 57.114,
-   "end": 57.329
+   "start": 56.87,
+   "end": 57.312
   },
   {
-   "text": "الجيم.",
+   "text": "تضحك.",
    "type": "word",
-   "start": 57.347,
-   "end": 57.883
+   "start": 57.35,
+   "end": 57.792
   },
   {
    "text": "سمعتك.",
    "type": "word",
-   "start": 58.34,
-   "end": 59.039
+   "start": 58.24,
+   "end": 58.939
   },
   {
    "text": "اكتبوا",
    "type": "word",
-   "start": 59.76,
-   "end": 60.255
+   "start": 59.66,
+   "end": 60.155
   },
   {
    "text": "سؤالكم",
    "type": "word",
-   "start": 60.298,
-   "end": 60.793
+   "start": 60.198,
+   "end": 60.693
   },
   {
    "text": "في",
    "type": "word",
-   "start": 60.836,
-   "end": 61.001
+   "start": 60.736,
+   "end": 60.901
   },
   {
    "text": "التعليقات،",
    "type": "word",
-   "start": 61.015,
-   "end": 61.758
+   "start": 60.915,
+   "end": 61.658
   },
   {
    "text": "وتابعونا!",
    "type": "word",
-   "start": 61.823,
-   "end": 62.483
+   "start": 61.723,
+   "end": 62.383
   },
   {
    "text": "سؤال",
    "type": "word",
-   "start": 62.85,
-   "end": 63.233
+   "start": 62.75,
+   "end": 63.133
   },
   {
    "text": "واحد",
    "type": "word",
-   "start": 63.266,
-   "end": 63.649
+   "start": 63.166,
+   "end": 63.549
   },
   {
    "text": "بس.",
    "type": "word",
-   "start": 63.682,
-   "end": 63.873
+   "start": 63.582,
+   "end": 63.773
   },
   {
-   "text": "بلانكيييت!",
+   "text": "بلانكت!",
    "type": "word",
-   "start": 64.1,
-   "end": 66.05
+   "start": 64.0,
+   "end": 64.791
   }
  ],
  "audio": "r030_narration.mp3"

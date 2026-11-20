@@ -22,7 +22,7 @@ and shorts, pink headphones and watch, white sneakers, gray skin, faceless with 
   keeps the same lively pace. From now on Marah asks the questions and brings the common wrong information, and
   Blanket corrects it from the studies. Poses: Blanket calm and rational; Marah feminine, attractive and eye-catching,
   always family-friendly. No jumping poses for Marah (owner, 2026-11-20 22:45): she stands in graceful,
-  feminine poses. Her name is pronounced مَرَحْ (from مرح, fun) and is written with these diacritics in narration. Light reaction sounds and a quiet, steady audience-laugh bed sit under the dialogue.
+  feminine poses. Her name is pronounced مَرَحْ (from مرح, fun) and is written with these diacritics in narration. A few light sound effects (a pop, a slurp, a fist bump) may sit under the dialogue; no laughs, laugh bed or crickets (owner, 2026-11-20 23:36). Blanket's name is written in English in the voice text so it is said «بلانكت», without the ي; captions write «بلانكت».
 
 ## The brief
 

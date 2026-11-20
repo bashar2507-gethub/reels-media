@@ -95,7 +95,7 @@ def mix(lines: list[dict], sfx: dict[str, Path], bed: Path | None, out_mp3: Path
             events.append((max(0.0, t - fx.get("advance", 0.5)), fx))
         voice_parts.append((t, clip))
         length = len(clip) / RATE
-        words += spread_words(spoken_text(line["text"]), t + 0.03, t + length - 0.03)
+        words += spread_words(line.get("say") or spoken_text(line["text"]), t + 0.03, t + length - 0.03)
         for fx in line.get("sfx_after", []):
             events.append((t + length + fx.get("delay", 0.05), fx))
         t += length

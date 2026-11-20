@@ -8,27 +8,21 @@
   "model_id": "eleven_v4",
   "language_code": "ar",
   "generated_on": "2026-11-20",
-  "credits": 1112,
-  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3)",
+  "credits": 1424,
+  "note": "intro Reel with the owner's dialogue and the suggested extra lines (2026-11-20 21:30); one take per line, flow KAazJcSYSOLIXjDUZfvx; sound effects eleven_text_to_sound_v3 (about 98 credits; the 23 takes cost 886); L02 and L05 retaken with the name written مَرَحْ at the owner's request (128 credits; first takes kept as L02.mp3, L05.mp3); owner's edits 2026-11-20 23:36: no laughs, no crickets, no laugh bed; Blanket said in English; قَاعِدَتِي; new lines L03, L15, L19 (7 takes, 312 credits)",
   "sfx": {
-    "laugh_small": "sfx_laugh_small.mp3",
-    "laugh_big": "sfx_laugh_big.mp3",
     "pop_in": "sfx_pop_in.mp3",
-    "crickets": "sfx_crickets.mp3",
     "slurp": "sfx_slurp.mp3",
     "fist_bump": "sfx_fist_bump.mp3"
-  },
-  "bed": {
-    "file": "sfx_bed.mp3",
-    "gain_db": 9
   },
   "lines": [
     {
       "id": "L01",
       "speaker": "Blanket",
-      "file": "L01.mp3",
-      "text": "[warmly] [quickly] هلا والله. أنا بلانكيت... اللي شفتوه من أول المقاطع.",
-      "gap_before": 0.0
+      "file": "L01c.mp3",
+      "text": "[warmly] [quickly] هلا والله. أنا Blanket... اللي شفتوه من أول المقاطع.",
+      "gap_before": 0.0,
+      "say": "هلا والله. أنا بلانكت اللي شفتوه من أول المقاطع."
     },
     {
       "id": "L02",
@@ -40,8 +34,8 @@
     {
       "id": "L03",
       "speaker": "Marah",
-      "file": "L03.mp3",
-      "text": "[excited] هلا هلا هلا!",
+      "file": "L03c.mp3",
+      "text": "[excited] أهلين يا حلوين!",
       "gap_before": 0.35,
       "sfx_before": [
         {
@@ -56,14 +50,7 @@
       "speaker": "Blanket",
       "file": "L04.mp3",
       "text": "[sarcastic] [quickly] تسأل كثير... تتكلم أكثر... وإزعاجها؟ ما له حدود.",
-      "gap_before": 0.3,
-      "sfx_after": [
-        {
-          "name": "laugh_small",
-          "gain_db": 4,
-          "delay": 0.0
-        }
-      ]
+      "gap_before": 0.3
     },
     {
       "id": "L05",
@@ -84,42 +71,21 @@
       "speaker": "Blanket",
       "file": "L07.mp3",
       "text": "[flatly] أنا مبتسم.",
-      "gap_before": 1.3,
-      "sfx_before": [
-        {
-          "name": "crickets",
-          "gain_db": 2,
-          "advance": 1.25
-        }
-      ],
-      "sfx_after": [
-        {
-          "name": "laugh_big",
-          "gain_db": 8,
-          "delay": 0.05
-        }
-      ]
+      "gap_before": 0.9
     },
     {
       "id": "L08",
       "speaker": "Blanket",
-      "file": "L08.mp3",
-      "text": "[quickly] قاعدتي: الدراسة أول، والكلام بعدين.",
-      "gap_before": 1.0
+      "file": "L08c.mp3",
+      "text": "[quickly] قَاعِدَتِي: الدراسة أول، والكلام بعدين.",
+      "gap_before": 0.6
     },
     {
       "id": "L09",
       "speaker": "Marah",
-      "file": "L09.mp3",
-      "text": "[mischievously] وقاعدتي: الكلام أول... والدراسة نشوف!",
-      "gap_before": 0.25,
-      "sfx_after": [
-        {
-          "name": "laugh_small",
-          "gain_db": 4,
-          "delay": 0.0
-        }
-      ]
+      "file": "L09c.mp3",
+      "text": "[mischievously] وقَاعِدَتِي: الكلام أول... والدراسة نشوف!",
+      "gap_before": 0.25
     },
     {
       "id": "L10",
@@ -147,14 +113,7 @@
       "speaker": "Marah",
       "file": "L12.mp3",
       "text": "[playful] ... الموية!",
-      "gap_before": 0.45,
-      "sfx_after": [
-        {
-          "name": "laugh_small",
-          "gain_db": 4,
-          "delay": 0.0
-        }
-      ]
+      "gap_before": 0.45
     },
     {
       "id": "L13",
@@ -173,8 +132,8 @@
     {
       "id": "L15",
       "speaker": "Marah",
-      "file": "L15.mp3",
-      "text": "[playful] أنا جيت عشان أخليه يضحك.",
+      "file": "L15c.mp3",
+      "text": "[playful] أنا جيت عشان أجنّنه.",
       "gap_before": 0.4
     },
     {
@@ -182,14 +141,7 @@
       "speaker": "Blanket",
       "file": "L16.mp3",
       "text": "[sarcastic] بالتوفيق.",
-      "gap_before": 0.3,
-      "sfx_after": [
-        {
-          "name": "laugh_small",
-          "gain_db": 4,
-          "delay": 0.0
-        }
-      ]
+      "gap_before": 0.3
     },
     {
       "id": "L17",
@@ -208,8 +160,8 @@
     {
       "id": "L19",
       "speaker": "Marah",
-      "file": "L19.mp3",
-      "text": "[whispers] لا تقولون له... بس هو أطيب واحد في الجيم.",
+      "file": "L19c.mp3",
+      "text": "[whispers] بيني وبينكم... أنا أقصد أجنّنه، عشان ردة فعله تضحك.",
       "gap_before": 0.45,
       "voice_gain_db": 7
     },
@@ -218,14 +170,7 @@
       "speaker": "Blanket",
       "file": "L20.mp3",
       "text": "[flatly] سمعتك.",
-      "gap_before": 0.35,
-      "sfx_after": [
-        {
-          "name": "laugh_small",
-          "gain_db": 4,
-          "delay": 0.0
-        }
-      ]
+      "gap_before": 0.35
     },
     {
       "id": "L21",
@@ -244,8 +189,8 @@
     {
       "id": "L23",
       "speaker": "Marah",
-      "file": "L23.mp3",
-      "text": "[laughs] بلانكيييت!",
+      "file": "L23c.mp3",
+      "text": "[playful] Blanket!",
       "gap_before": 0.15,
       "sfx_before": [
         {
@@ -254,13 +199,7 @@
           "advance": 0.12
         }
       ],
-      "sfx_after": [
-        {
-          "name": "laugh_big",
-          "gain_db": 8,
-          "delay": 0.0
-        }
-      ]
+      "say": "بلانكت!"
     }
   ]
 }
