@@ -1,8 +1,8 @@
 {
  "reel_id": "r029",
  "reviewed_on": "2026-11-20",
- "method": "Sources found by WebSearch and read on publisher or institutional records: the Abertay University research record for Jukic et al. 2020 (title, authors, journal, volume, pages, DOI, sample, 1RM values), the PubMed record for Trahey et al. 2023 (PMID 37729509; design, sample, results, conclusion), the IAT Leipzig sport database record for Zink et al. 2001 (journal, volume, pages, sample, protocol, results, conclusion) and the DOAJ record for Lopes et al. 2019 (authors, journal, DOI, number of studies, effect sizes, conclusion).",
- "limitations": "All four sources are small or short. Jukic 2020: 20 men, a single 1RM test with and without straps (an acute comparison, not training). Trahey 2023: 10 trained women; the abstract gives no repetition counts, so only 'more repetitions' is said. Zink 2001: 14 healthy men, single squats at 90% 1RM; it measured speed and the EMG of thigh, hip and lower-back muscles, not the abdominal muscles, and not long-term effects or injury, so the Reel says only that the lift was faster and that back and leg muscle activity did not drop. Lopes 2019: 8 studies with different populations and protocols; it found no difference in strength gains, so the Reel says 'similar', not 'better'. Straps raise what the grip allows on pulls; they do not make the back stronger.",
+ "method": "Sources found by WebSearch and read on publisher or institutional records: the Abertay University research record for Jukic et al. 2020 (title, authors, journal, volume, pages, DOI, sample, 1RM values), the PubMed record for Trahey et al. 2023 (PMID 37729509; design, sample, results, conclusion), the IAT Leipzig sport database record for Zink et al. 2001 (journal, volume, pages, sample, protocol, results, conclusion) and the DOAJ record for Lopes et al. 2019 (authors, journal, DOI, number of studies, effect sizes, conclusion). On 2026-11-20 the owner asked for each study's university and sample to be said in the Reel. Read for that: the Czech R&D results registry record RIV/00216208:11510/20:10418185 (https://starfos.tacr.cz/vysledky-vyzkumu/RIV%2F00216208%3A11510%2F20%3A10418185), which registers the 2020 straps paper as a result of Charles University (organisation number 00216208, Faculty of Physical Education and Sport), and the Abertay record, which names Tufano's institution as Charles University; the LVHN Scholarly Works record for Trahey et al. 2023 (https://scholarlyworks.lvhn.org/surgery/10267/), a repository of Lehigh Valley Health Network in the United States; and the PMC full text of Lopes et al. 2019 (https://pmc.ncbi.nlm.nih.gov/articles/PMC6383082), with each author's affiliation and the total sample. No record that could be opened showed the institution of Zink et al. 2001 (PubMed shows a check page here), so the Reel names its journal instead.",
+ "limitations": "All four sources are small or short. Jukic 2020: 20 men, a single 1RM test with and without straps (an acute comparison, not training). Trahey 2023: 10 trained women; the abstract gives no repetition counts, so only 'more repetitions' is said. Zink 2001: 14 healthy men, single squats at 90% 1RM; it measured speed and the EMG of thigh, hip and lower-back muscles, not the abdominal muscles, and not long-term effects or injury, so the Reel says only that the lift was faster and that back and leg muscle activity did not drop. Lopes 2019: 8 studies with different populations and protocols; it found no difference in strength gains, so the Reel says 'similar', not 'better'. Straps raise what the grip allows on pulls; they do not make the back stronger. Institutions: Jukic 2020 is registered by Charles University in Prague; the abstract does not say where testing took place. Trahey 2023 is said to be an American study because Lehigh Valley Health Network (Pennsylvania) lists it; its testing site is not stated on the records read. Lopes 2019: four of the six authors are at São Paulo State University (Presidente Prudente), the others at UNIVAR/Federal University of Mato Grosso and the Federal University of São Carlos, so the Reel says 'researchers from São Paulo State University in Brazil'.",
  "claims": [
   {
    "claim_id": "r029-c1",
@@ -13,7 +13,9 @@
    "journal": "J Strength Cond Res 34(12):3331-3337",
    "DOI_or_URL": "https://doi.org/10.1519/JSC.0000000000003850 | record: https://rke.abertay.ac.uk/en/publications/the-use-of-lifting-straps-alters-the-entire-load-velocity-profile/",
    "study_type": "Within-subject comparison; 20 men; incremental deadlift loading tests to 1RM in two sessions, with and without straps",
-   "finding": "1RM 177.0 +/- 28.9 kg with straps vs 160.6 +/- 26.0 kg without (g = 0.56, p < 0.001); straps changed the whole load-velocity profile."
+   "finding": "1RM 177.0 +/- 28.9 kg with straps vs 160.6 +/- 26.0 kg without (g = 0.56, p < 0.001); straps changed the whole load-velocity profile.",
+   "institution": "Charles University, Faculty of Physical Education and Sport, Prague (registered result RIV/00216208:11510/20:10418185); Tufano listed at Charles University",
+   "spoken_as": "دراسة من جامعة تشارلز في براغ على عشرين رجلًا: نحو عشرة بالمئة أكثر في الديدلفت"
   },
   {
    "claim_id": "r029-c2",
@@ -24,7 +26,9 @@
    "journal": "J Strength Cond Res 37(10):1924-1928",
    "DOI_or_URL": "https://doi.org/10.1519/JSC.0000000000004494 | PMID 37729509 | https://pubmed.ncbi.nlm.nih.gov/37729509/",
    "study_type": "Within-subject repeated-measures design; 10 resistance-trained women; 3 sets to failure at 80% 1RM with and without straps",
-   "finding": "Straps allowed significantly more repetitions; mean and peak bar velocity did not differ; grip strength loss was significantly lower with straps."
+   "finding": "Straps allowed significantly more repetitions; mean and peak bar velocity did not differ; grip strength loss was significantly lower with straps.",
+   "institution": "Listed by Lehigh Valley Health Network (Pennsylvania, USA) Scholarly Works; testing site not stated on the records read",
+   "spoken_as": "دراسة أمريكية على عشر نساء متدرّبات: تكرارات أكثر بالأحزمة"
   },
   {
    "claim_id": "r029-c3",
@@ -35,7 +39,9 @@
    "journal": "J Strength Cond Res 15(2):235-240",
    "DOI_or_URL": "record: https://www.iat.uni-leipzig.de/datenbanken/iks/drv-rugby/Record/4006218",
    "study_type": "Within-subject comparison; 14 healthy men; parallel back squat at 90% 1RM with and without a belt; EMG of vastus lateralis, biceps femoris, adductor magnus, gluteus maximus and erector spinae",
-   "finding": "Belt trials were significantly faster overall and in both phases (p < 0.05) and bar velocity was higher; no significant EMG differences for any muscle and no joint-angle differences."
+   "finding": "Belt trials were significantly faster overall and in both phases (p < 0.05) and bar velocity was higher; no significant EMG differences for any muscle and no joint-angle differences.",
+   "institution": "Not shown on the records read; the Reel names the journal (Journal of Strength and Conditioning Research)",
+   "spoken_as": "دراسة نُشرت في مجلة أبحاث القوة واللياقة على أربعة عشر رجلًا"
   },
   {
    "claim_id": "r029-c4",
@@ -46,7 +52,10 @@
    "journal": "SAGE Open Med 7:2050312119831116",
    "DOI_or_URL": "https://doi.org/10.1177/2050312119831116 | record: https://doaj.org/article/f76933a02f3a4ff08fd3d81de9169831",
    "study_type": "Systematic review and meta-analysis of 8 studies",
-   "finding": "No difference for upper-limb strength (SMD -0.011, 95% CI -0.40 to 0.19) or lower-limb strength (SMD 0.09, 95% CI -0.18 to 0.35); elastic training 'is able to promote similar strength gains'."
+   "finding": "No difference for upper-limb strength (SMD -0.011, 95% CI -0.40 to 0.19) or lower-limb strength (SMD 0.09, 95% CI -0.18 to 0.35); elastic training 'is able to promote similar strength gains'.",
+   "institution": "São Paulo State University, Presidente Prudente (4 of 6 authors); UNIVAR / Federal University of Mato Grosso; Federal University of São Carlos",
+   "participants": "224 individuals aged 15-88 across the 8 included studies ('comprising a total of 224 individuals aged between 15 and 88 years', PMC6383082)",
+   "spoken_as": "مراجعة لباحثين من جامعة ولاية ساو باولو في البرازيل: ثماني دراسات على 224 شخصًا"
   }
  ]
 }
