@@ -1,0 +1,25 @@
+{
+  "job": "r030-faces",
+  "ok": [
+    "m_wave1a",
+    "m_wave1b",
+    "m_wave2a",
+    "m_wave2b",
+    "m_bump1a",
+    "m_bump1b",
+    "m_bump3a",
+    "m_bump3b",
+    "m_lean2a",
+    "m_lean2b"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
