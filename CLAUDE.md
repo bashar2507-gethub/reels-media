@@ -36,7 +36,7 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
   affiliate links or product lines anywhere else. Rules: `docs/RUNBOOK.md` step 4b and `affiliate` in `content/plan.json`.
 - Characters (owner's brief, 2026-11-20): `docs/CHARACTERS.md`. Blanket is calm, serious and analytical, with minimal,
   deliberate movements; Velvet, the female character from the owner's own images (blonde ponytail, navy cap, purple top
-  and shorts, pink headphones and watch; reference `images/refs/female_front_dark_headroom.png`), is cheerful, curious and
-  expressive. Keep both consistent in every video. Use Velvet when he asks or a study is on women; first used in r029 s2b.
+  and shorts, pink headphones and watch; sheets and pose references in `assets/characters/velvet/`), is cheerful, curious
+  and expressive. Keep both consistent in every video. Use Velvet when he asks or a study is on women; first used in r029 s2b.
 - Local build: `python scripts/run_poc1.py --script content/<id>.json --narration content/audio/<id>_narration_words.json --out output/<id>_release --release --visuals auto`
 - Tests: `python -m pytest`

@@ -185,7 +185,9 @@ re-render of an older Reel. The performance log compares the two by `intro`.
 
 Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`); Velvet joins when the owner asks or a
 study is on women. Poses follow `docs/CHARACTERS.md`: Blanket calm, minimal and deliberate, never exaggerated or
-childish; Velvet expressive, dynamic and curious. Before step 6:
+childish; Velvet expressive, dynamic and curious. For Velvet use `assets/characters/velvet/move_<exercise>.png` or
+`pose_<name>.png` (list in `assets/characters/velvet/README.md`), otherwise `assets/characters/velvet/reference_front.png`,
+or `images/refs/female_front_dark_headroom.png` for a scene with an overlay, and describe her as in that README. Before step 6:
 
 1. Write `images/queue/<id>-char.json`: `{"purpose", "width": 720, "height": 1280, "character": "The Blanket: a gray
    faceless muscular humanoid with a smooth oval head and two round glowing white eyes, the face blank apart from the

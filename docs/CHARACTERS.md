@@ -4,9 +4,9 @@ The owner's character brief (2026-11-20), kept as he wrote it. It is the referen
 and comedy idea; both characters stay consistent whatever the subject, setting or style. Designs, dialogue styles,
 voices, backstories and relationships can be developed later, only with the owner.
 
-Current designs: Blanket, `assets/characters/blanket/README.md` and `images/refs/blanket_front_dark.png`; Velvet,
-`images/refs/female_front_dark_headroom.png` from the owner's own images (blonde ponytail through a navy cap, purple
-top and shorts, pink headphones and watch, white sneakers, gray skin, faceless with two glowing white eyes).
+Current designs: Blanket, `assets/characters/blanket/README.md`; Velvet, `assets/characters/velvet/README.md` (the
+owner's sheets, 2026-11-20, and 9:16 pose and exercise references: blonde ponytail through a navy cap, purple top
+and shorts, pink headphones and watch, white sneakers, gray skin, faceless with two glowing white eyes).
 
 ## In the Reels
 
