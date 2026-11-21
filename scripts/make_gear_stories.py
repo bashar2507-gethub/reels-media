@@ -70,7 +70,7 @@ def sticker_hint(d, y: int) -> None:
 
 
 def footer(d, y: int = 1060) -> None:
-    centred(d, y, "#إعلان  ·  رابط عمولة من أمازون، لا يؤثر على سعرك", font("SemiBold", 32), MUTED)
+    centred(d, y, "#إعلان", font("ExtraBold", 34), MUTED)
 
 
 MARAH_SKIN = (161.0, 164.0, 165.0)  # median skin of assets/characters/marah/reference_front.png
