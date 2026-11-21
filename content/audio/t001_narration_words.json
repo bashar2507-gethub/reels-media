@@ -1,0 +1,303 @@
+{
+ "voices": {
+  "Blanket": "Jeddawi Echo yXEnnEln9armDCyhkXcA"
+ },
+ "model_id": "eleven_v4",
+ "language_code": "ar",
+ "generated_on": "2026-11-21",
+ "credits": 515,
+ "note": "Blanket's TikTok intro (owner, 2026-11-21); first takes T1-T5 (263 credits), owner's edits T2b, T4b, T5b (252 credits)",
+ "timing_source": "letter-count spread over each take's voiced span (app/dialogue.py)",
+ "duration_s": 23.14,
+ "words": [
+  {
+   "text": "هلا",
+   "type": "word",
+   "start": 0.18,
+   "end": 0.527
+  },
+  {
+   "text": "والله",
+   "type": "word",
+   "start": 0.558,
+   "end": 1.137
+  },
+  {
+   "text": "أنا",
+   "type": "word",
+   "start": 1.187,
+   "end": 1.534
+  },
+  {
+   "text": "بلانكت.",
+   "type": "word",
+   "start": 1.565,
+   "end": 2.26
+  },
+  {
+   "text": "أنشر",
+   "type": "word",
+   "start": 2.73,
+   "end": 3.027
+  },
+  {
+   "text": "حقائق",
+   "type": "word",
+   "start": 3.053,
+   "end": 3.424
+  },
+  {
+   "text": "الجيم",
+   "type": "word",
+   "start": 3.456,
+   "end": 3.827
+  },
+  {
+   "text": "من",
+   "type": "word",
+   "start": 3.859,
+   "end": 4.082
+  },
+  {
+   "text": "الدراسات",
+   "type": "word",
+   "start": 4.101,
+   "end": 4.695
+  },
+  {
+   "text": "على",
+   "type": "word",
+   "start": 4.746,
+   "end": 4.969
+  },
+  {
+   "text": "إنستغرام",
+   "type": "word",
+   "start": 4.988,
+   "end": 5.582
+  },
+  {
+   "text": "ويوتيوب",
+   "type": "word",
+   "start": 5.633,
+   "end": 6.153
+  },
+  {
+   "text": "ومن",
+   "type": "word",
+   "start": 6.198,
+   "end": 6.42
+  },
+  {
+   "text": "اليوم،",
+   "type": "word",
+   "start": 6.44,
+   "end": 6.811
+  },
+  {
+   "text": "بديت",
+   "type": "word",
+   "start": 6.843,
+   "end": 7.14
+  },
+  {
+   "text": "أنشر",
+   "type": "word",
+   "start": 7.165,
+   "end": 7.462
+  },
+  {
+   "text": "هنا.",
+   "type": "word",
+   "start": 7.488,
+   "end": 7.711
+  },
+  {
+   "text": "وقريب",
+   "type": "word",
+   "start": 8.29,
+   "end": 8.796
+  },
+  {
+   "text": "بينضم",
+   "type": "word",
+   "start": 8.84,
+   "end": 9.346
+  },
+  {
+   "text": "معي",
+   "type": "word",
+   "start": 9.39,
+   "end": 9.694
+  },
+  {
+   "text": "أحد",
+   "type": "word",
+   "start": 9.72,
+   "end": 10.024
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 10.05,
+   "end": 10.354
+  },
+  {
+   "text": "المقاطع.",
+   "type": "word",
+   "start": 10.38,
+   "end": 11.088
+  },
+  {
+   "text": "ما",
+   "type": "word",
+   "start": 11.61,
+   "end": 11.962
+  },
+  {
+   "text": "راح",
+   "type": "word",
+   "start": 11.993,
+   "end": 12.345
+  },
+  {
+   "text": "أقول",
+   "type": "word",
+   "start": 12.376,
+   "end": 12.845
+  },
+  {
+   "text": "مين",
+   "type": "word",
+   "start": 12.886,
+   "end": 13.238
+  },
+  {
+   "text": "بس",
+   "type": "word",
+   "start": 13.269,
+   "end": 13.621
+  },
+  {
+   "text": "خلّوها",
+   "type": "word",
+   "start": 13.652,
+   "end": 14.239
+  },
+  {
+   "text": "مفاجأة",
+   "type": "word",
+   "start": 14.29,
+   "end": 14.994
+  },
+  {
+   "text": "مفاجأة",
+   "type": "word",
+   "start": 15.056,
+   "end": 15.76
+  },
+  {
+   "text": "تتكلم",
+   "type": "word",
+   "start": 15.821,
+   "end": 16.408
+  },
+  {
+   "text": "كثير.",
+   "type": "word",
+   "start": 16.46,
+   "end": 16.929
+  },
+  {
+   "text": "اشترك",
+   "type": "word",
+   "start": 17.53,
+   "end": 17.867
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 17.896,
+   "end": 18.098
+  },
+  {
+   "text": "القناة",
+   "type": "word",
+   "start": 18.116,
+   "end": 18.52
+  },
+  {
+   "text": "وحط",
+   "type": "word",
+   "start": 18.555,
+   "end": 18.757
+  },
+  {
+   "text": "لايك،",
+   "type": "word",
+   "start": 18.775,
+   "end": 19.045
+  },
+  {
+   "text": "وبالمرّة",
+   "type": "word",
+   "start": 19.068,
+   "end": 19.54
+  },
+  {
+   "text": "مرّ",
+   "type": "word",
+   "start": 19.581,
+   "end": 19.783
+  },
+  {
+   "text": "على",
+   "type": "word",
+   "start": 19.8,
+   "end": 20.002
+  },
+  {
+   "text": "حساباتي",
+   "type": "word",
+   "start": 20.02,
+   "end": 20.492
+  },
+  {
+   "text": "في",
+   "type": "word",
+   "start": 20.533,
+   "end": 20.735
+  },
+  {
+   "text": "إنستغرام",
+   "type": "word",
+   "start": 20.752,
+   "end": 21.291
+  },
+  {
+   "text": "ويوتيوب",
+   "type": "word",
+   "start": 21.338,
+   "end": 21.81
+  },
+  {
+   "text": "وخذ",
+   "type": "word",
+   "start": 21.851,
+   "end": 22.053
+  },
+  {
+   "text": "لك",
+   "type": "word",
+   "start": 22.071,
+   "end": 22.273
+  },
+  {
+   "text": "لفّة!",
+   "type": "word",
+   "start": 22.29,
+   "end": 22.492
+  }
+ ],
+ "audio": "t001_narration.mp3"
+}

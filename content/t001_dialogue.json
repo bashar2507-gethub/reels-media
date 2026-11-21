@@ -1,0 +1,52 @@
+{
+  "reel_id": "t001",
+  "folder": "content/audio/t001",
+  "voices": {
+    "Blanket": "Jeddawi Echo yXEnnEln9armDCyhkXcA"
+  },
+  "model_id": "eleven_v4",
+  "language_code": "ar",
+  "generated_on": "2026-11-21",
+  "credits": 515,
+  "note": "Blanket's TikTok intro (owner, 2026-11-21); first takes T1-T5 (263 credits), owner's edits T2b, T4b, T5b (252 credits)",
+  "sfx": {},
+  "lines": [
+    {
+      "id": "T1",
+      "speaker": "Blanket",
+      "file": "T1.mp3",
+      "text": "[warmly] [quickly] هلا والله... أنا Blanket.",
+      "say": "هلا والله أنا بلانكت.",
+      "gap_before": 0.0
+    },
+    {
+      "id": "T2",
+      "speaker": "Blanket",
+      "file": "T2b.mp3",
+      "text": "[quickly] أنشر حقائق الـ gym من الدراسات على إنستغرام ويوتيوب... ومن اليوم، بديت أنشر هنا.",
+      "say": "أنشر حقائق الجيم من الدراسات على إنستغرام ويوتيوب ومن اليوم، بديت أنشر هنا.",
+      "gap_before": 0.35
+    },
+    {
+      "id": "T3",
+      "speaker": "Blanket",
+      "file": "T3.mp3",
+      "text": "[flatly] وقريب... بينضم معي أحد في المقاطع.",
+      "gap_before": 0.5
+    },
+    {
+      "id": "T4",
+      "speaker": "Blanket",
+      "file": "T4b.mp3",
+      "text": "[sarcastic] ما راح أقول مين... بس خلّوها مفاجأة... مفاجأة تتكلم كثير.",
+      "gap_before": 0.4
+    },
+    {
+      "id": "T5",
+      "speaker": "Blanket",
+      "file": "T5b.mp3",
+      "text": "[quickly] اشترك في القناة وحط لايك، وبالمرّة مرّ على حساباتي في إنستغرام ويوتيوب وخذ لك لفّة!",
+      "gap_before": 0.5
+    }
+  ]
+}

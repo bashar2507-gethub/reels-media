@@ -1,0 +1,136 @@
+{
+  "reel_id": "t001",
+  "status": "SCRIPTED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/t001.json",
+  "language": "ar",
+  "cover_at_seconds": 1.0,
+  "character": "The Blanket",
+  "format": "dialogue",
+  "intro_transition": "flash",
+  "intro_position": "after_hook",
+  "template": "B",
+  "rate_wpm": [
+    80,
+    170
+  ],
+  "target_s": [
+    15,
+    40
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "visual": "t001-s1",
+      "fallback": "flow",
+      "zoom": [
+        1.0,
+        1.08
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_file": "images/r030-scenes/s01.jpg",
+      "sentences": [
+        {
+          "say": "هلا والله أنا بلانكت."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "visual": "t001-s2",
+      "fallback": "flow",
+      "zoom": [
+        1.0,
+        1.04
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_file": "images/t001-scenes/s2.jpg",
+      "sentences": [
+        {
+          "say": "أنشر حقائق الجيم من الدراسات على إنستغرام ويوتيوب ومن اليوم، بديت أنشر هنا.",
+          "overlay": {
+            "big": "IG + YouTube",
+            "small": "@uuxuuoouuxuu · @bashar2507",
+            "from": "إنستغرام",
+            "y": 330
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "visual": "t001-s3",
+      "fallback": "flow",
+      "zoom": [
+        1.0,
+        1.1
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_file": "images/r030-scenes/s06.jpg",
+      "sentences": [
+        {
+          "say": "وقريب بينضم معي أحد في المقاطع."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "visual": "t001-s4",
+      "fallback": "flow",
+      "zoom": [
+        1.0,
+        1.12
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_file": "reels/r030/teaser/bench.jpg",
+      "sentences": [
+        {
+          "say": "ما راح أقول مين بس خلّوها مفاجأة مفاجأة تتكلم كثير."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "visual": "t001-s5",
+      "fallback": "flow",
+      "zoom": [
+        1.0,
+        1.04
+      ],
+      "pan": [
+        0.0,
+        0.0
+      ],
+      "image_file": "images/t001-scenes/s5.jpg",
+      "sentences": [
+        {
+          "say": "اشترك في القناة وحط لايك، وبالمرّة مرّ على حساباتي في إنستغرام ويوتيوب وخذ لك لفّة!",
+          "overlay": {
+            "big": "@uuxuuoouuxuu",
+            "small": "YouTube: @bashar2507",
+            "from": "حساباتي",
+            "y": 330
+          }
+        }
+      ]
+    }
+  ],
+  "post": {
+    "networks": [
+      "tiktok"
+    ],
+    "note": "posted by the owner in the TikTok app (not through Metricool)"
+  }
+}

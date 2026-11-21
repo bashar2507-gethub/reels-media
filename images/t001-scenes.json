@@ -1,0 +1,25 @@
+{
+ "out_dir": "images/t001-scenes",
+ "size": [
+  1080,
+  1920
+ ],
+ "scenes": {
+  "s2": [
+   {
+    "src": "images/r030-solo/b_finger1.jpg",
+    "x": 0.5,
+    "scale": 1.08,
+    "floor": 0.99
+   }
+  ],
+  "s5": [
+   {
+    "src": "images/r030-solo/b_wait2.jpg",
+    "x": 0.44,
+    "scale": 1.08,
+    "floor": 0.99
+   }
+  ]
+ }
+}
