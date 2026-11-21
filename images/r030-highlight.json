@@ -1,0 +1,25 @@
+{
+ "out_dir": "reels/r030/highlight",
+ "size": [
+  1080,
+  1920
+ ],
+ "scenes": {
+  "cover": [
+   {
+    "src": "images/r030-solo/b_cross1.jpg",
+    "x": 0.36,
+    "scale": 1.8,
+    "floor": 1.37,
+    "shadow": false
+   },
+   {
+    "src": "images/r030-faces/m_wave1a.jpg",
+    "x": 0.66,
+    "scale": 1.62,
+    "floor": 1.32,
+    "shadow": false
+   }
+  ]
+ }
+}
