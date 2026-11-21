@@ -1,10 +1,13 @@
 {
- "purpose": "t001: Blanket's TikTok intro, 5 takes (Jeddawi Echo, eleven_v4, one take each, 263 credits); waiting for the owner's listen",
+ "purpose": "t001: Blanket's TikTok intro, 5 takes (Jeddawi Echo, eleven_v4, one take each, 263 credits); waiting for the owner's listen; T2b/T4b/T5b: owner's edits 12:43 (gym in English, new lines; 252 credits)",
  "files": {
   "content/audio/t001/T1.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/xU9bYIEV8hADrMfR1wL7/mC6hATxxwhytOCoxhSHx/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=qsg-nAwgZWmSuWtOnH2SR3OAzrY=",
   "content/audio/t001/T2.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/vZ2EYXP6ABzhOdX2aWm8/X0SJ8PxI0YPSzUGlCMCx/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=3lmkvH1Hp9jJWFY-2MDEl3soNZI=",
   "content/audio/t001/T3.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/wrtTXPlk4CzqitfGNXU9/PtLV1rldKvttf0PrK8YN/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=2egxzMIGcw7A5HCZ3czM5DWribU=",
   "content/audio/t001/T4.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/pP5AY0y9p6CO6R4mb8Ww/zp1ffAH4acFRaJ2ehoxF/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=UbQSUUx-7ciPg9J8dgwEHwToXHQ=",
-  "content/audio/t001/T5.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/9vnG4k9C89jIou2Wa4cT/bcyQtsGxjM1fnuOshQGU/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=bR7JzWeKk84_M7k65yznp10_EaQ="
+  "content/audio/t001/T5.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/9vnG4k9C89jIou2Wa4cT/bcyQtsGxjM1fnuOshQGU/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=bR7JzWeKk84_M7k65yznp10_EaQ=",
+  "content/audio/t001/T2b.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/VK85LwXUn5qDbrUiiBhc/jeNRZNfozHFVMoSEfG3t/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=pC99JJ39TA9Y51Ln5mgTPbnWayM=",
+  "content/audio/t001/T4b.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/34ykgOQfCO4fvBwyCn53/XmTLmJ8zhfXZxSvchq4N/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=Ea4akw4cZ1Fcu49EKbgZ1a6fI-A=",
+  "content/audio/t001/T5b.mp3": "https://elevenlabsusercontent.com/database/workspace/2532e496cb8c4cf1bd272f8a0fc31b76/content_generation/xV8T2L1j4NOr93ydb0XO/Zfkb4C08BW6RxwjcSgGx/content.mp3?Expires=1795262400&KeyName=assets-cdn-key-1&Signature=1WmHxC3nOtyzTjJ3cVfZw7o8dho="
  }
 }
