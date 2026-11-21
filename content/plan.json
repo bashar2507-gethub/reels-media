@@ -801,6 +801,15 @@
     "youtube": 436115993
    },
    "story": "reels/r030/r030-story.mp4 (owner posts it to the highlight «تعرف علينا» after the Reel)"
+  },
+  {
+   "id": "t001",
+   "status": "published",
+   "network": "tiktok",
+   "topic": "Blanket's TikTok intro",
+   "published_at": "2026-11-21T13:10:00+03:00",
+   "by": "owner, in the TikTok app",
+   "video": "reels/t001/t001-tiktok.mp4"
   }
  ],
  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics.",
