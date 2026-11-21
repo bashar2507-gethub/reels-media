@@ -487,6 +487,36 @@
    }
   },
   {
+   "id": "r031",
+   "subject": "How to train the chest in the gym",
+   "muscle": "chest",
+   "hook_idea": "كيف تبني صدرك في الجيم؟",
+   "claims": [
+    "In a bench press electromyography study a moderate incline (about 30 degrees) raised upper chest activity compared with a flat bench, while steeper angles shifted work to the front shoulder",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Rodríguez-Ridao D et al., Int J Environ Res Public Health, 2020 (five bench inclinations, PMID 33049982)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "how_many",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "bench press (barbell or machine chest press)",
+    "incline press about 30 degrees",
+    "cable or machine fly"
+   ],
+   "characters": "Blanket on the bench (assets/characters/blanket/move_bench.png); Marah on the chest press machine",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+  },
+  {
    "id": "r022",
    "subject": "How much protein one meal can use for muscle",
    "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
@@ -506,6 +536,42 @@
     "product": "Digital food scale (protein powder on hold)",
     "spot": "bio 2",
     "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
+   }
+  },
+  {
+   "id": "r032",
+   "subject": "How to train the back in the gym",
+   "muscle": "back",
+   "hook_idea": "كم تمرين يحتاج ظهرك؟",
+   "claims": [
+    "In the lat pull-down, a pronated grip (wide or medium) gave similar or more lat activity than other grips and is a sound default",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Lusk SJ et al., J Strength Cond Res, 2010 (grip width and forearm orientation in the lat pull-down, PMID 20543740)",
+    "Andersen V et al., J Strength Cond Res, 2014 (grip width in the lat pull-down, PMID 24662157)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "how_many",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "lat pull-down",
+    "seated cable row or machine row",
+    "pull-up or assisted pull-up"
+   ],
+   "characters": "Blanket on the pull-down and row (move_pulldown.png, move_row.png); Marah on the assisted pull-up",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "affiliate": {
+    "product": "Lifting straps (the owner's link)",
+    "spot": "bio 1",
+    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
    }
   },
   {
@@ -530,6 +596,36 @@
    }
   },
   {
+   "id": "r033",
+   "subject": "How to train the shoulders in the gym",
+   "muscle": "shoulders",
+   "hook_idea": "أكتاف عريضة: وش التمارين الصح؟",
+   "claims": [
+    "Pressing works mostly the front deltoid; the side deltoid is worked most by lateral raises, and the rear deltoid by reverse flyes",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Campos YAC et al., J Hum Kinet, 2020 (different shoulder exercises and deltoid portions, PMID 33312291)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "mistake",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "shoulder press (dumbbell or machine)",
+    "lateral raise (dumbbell or cable)",
+    "reverse fly machine"
+   ],
+   "characters": "Blanket on the overhead press (move_ohp.png); Marah doing lateral raises",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+  },
+  {
    "id": "r016",
    "subject": "Rest between sets",
    "hook_idea": "كم ترتاح بين المجموعات؟",
@@ -547,6 +643,42 @@
    "affiliate": {
     "product": null,
     "note": "No product helps this takeaway; no product line."
+   }
+  },
+  {
+   "id": "r034",
+   "subject": "How to train the legs (quads) in the gym",
+   "muscle": "quads",
+   "hook_idea": "تمرين الرجل: سكوات ولا مكينة؟",
+   "claims": [
+    "Deeper squats grew the glutes and adductors more than half squats, with similar quadriceps growth; the leg extension adds direct quadriceps work",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Kubo K et al., Eur J Appl Physiol, 2019 (squat depth and lower limb muscle volumes, PMID 31230110)",
+    "Pedrosa GF et al., Eur J Sport Sci, 2022 (leg extension partials at long muscle lengths)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "versus",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "squat or hack squat",
+    "leg press",
+    "leg extension"
+   ],
+   "characters": "Blanket squatting (move_squat.png); Marah on the leg press",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "affiliate": {
+    "product": "Weightlifting belt (default bio 5 link)",
+    "spot": "bio 5",
+    "caption_line": "🔗 حزام رفع الأثقال: لمن يرفع أوزان ثقيلة في السكوات. الرابط في البايو."
    }
   },
   {
@@ -568,6 +700,41 @@
    "affiliate": {
     "product": null,
     "note": "No product helps this takeaway; no product line."
+   }
+  },
+  {
+   "id": "r035",
+   "subject": "How to train the hamstrings in the gym",
+   "muscle": "hamstrings",
+   "hook_idea": "الخلفية: جالس ولا منبطح؟",
+   "claims": [
+    "Seated leg curls (hamstrings trained at longer lengths) grew the hamstrings more than lying leg curls in the same people",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Maeo S et al., Med Sci Sports Exerc, 2021 (seated vs prone leg curl, PMID 33009197)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "versus",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "seated leg curl",
+    "Romanian deadlift",
+    "lying leg curl"
+   ],
+   "characters": "Blanket on the Romanian deadlift (move_deadlift.png); Marah on the seated leg curl",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "affiliate": {
+    "product": "Lifting straps (the owner's link)",
+    "spot": "bio 1",
+    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
    }
   },
   {
@@ -594,6 +761,41 @@
    }
   },
   {
+   "id": "r036",
+   "subject": "How to train the glutes in the gym",
+   "muscle": "glutes",
+   "hook_idea": "هيب ثرست ولا سكوات للمؤخرة؟",
+   "claims": [
+    "Over 9 weeks, hip thrusts and back squats gave similar glute growth; the squat also grew the quadriceps and adductors",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Plotkin DL et al., Front Physiol, 2023 (hip thrust vs back squat, PMID 37877099)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "versus",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "hip thrust (barbell or machine)",
+    "squat",
+    "cable kickback or abduction machine"
+   ],
+   "characters": "Marah leads (move_glute_bridge.png, move_squat.png); Blanket watches and gives the numbers",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "affiliate": {
+    "product": "Resistance bands (the owner's link)",
+    "spot": "bio 3",
+    "caption_line": "🔗 أشرطة المقاومة: للإحماء أو للتمرين في البيت. الرابط في البايو."
+   }
+  },
+  {
    "id": "r017",
    "subject": "The post-workout protein window",
    "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
@@ -613,6 +815,36 @@
     "spot": "bio 4",
     "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
    }
+  },
+  {
+   "id": "r037",
+   "subject": "How to train the biceps in the gym",
+   "muscle": "biceps",
+   "hook_idea": "البايسبس: وش أفضل تمرين؟",
+   "claims": [
+    "In the preacher curl, training the first half of the movement (the stretched position) gave more growth than training the last half",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Pedrosa GF et al., Sports (Basel), 2023 (initial vs final range of motion in the arm curl, PMID 36828324)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "versus",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "preacher curl (machine or EZ bar)",
+    "incline dumbbell curl",
+    "cable curl"
+   ],
+   "characters": "Blanket on the preacher curl; Marah doing cable curls",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
   },
   {
    "id": "r027",
@@ -641,6 +873,36 @@
    }
   },
   {
+   "id": "r038",
+   "subject": "How to train the triceps in the gym",
+   "muscle": "triceps",
+   "hook_idea": "الترايسبس: فوق الراس ولا تحت؟",
+   "claims": [
+    "Overhead triceps extensions grew the triceps more than pushdowns over 12 weeks in the same people",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Maeo S et al., Eur J Sport Sci, 2023 (overhead vs neutral arm position, PMID 35819335)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "versus",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "overhead cable or dumbbell extension",
+    "cable pushdown",
+    "dips or close-grip press"
+   ],
+   "characters": "Blanket on dips (move_dips.png) and the overhead extension; Marah on the pushdown",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+  },
+  {
    "id": "r020",
    "subject": "Muscle memory after a break",
    "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
@@ -661,6 +923,36 @@
     "spot": "bio 3",
     "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
    }
+  },
+  {
+   "id": "r039",
+   "subject": "How to train the calves in the gym",
+   "muscle": "calves",
+   "hook_idea": "سمانتك ما تكبر؟",
+   "claims": [
+    "Calf raises in the stretched half of the movement grew the gastrocnemius more than the full range or the shortened half",
+    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+   ],
+   "seed_sources": [
+    "Kassiano W et al., J Strength Cond Res, 2023 (partial range at long muscle lengths, PMID 37015016)",
+    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "situation",
+   "series": "تمرين العضلة",
+   "template": "C",
+   "exercises": [
+    "standing calf raise machine",
+    "seated calf raise",
+    "leg press calf raise"
+   ],
+   "characters": "Blanket on the standing calf raise; Marah on the seated calf raise",
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
   },
   {
    "id": "r028",
@@ -823,7 +1115,7 @@
    "video": "reels/t001/t001-tiktok.mp4"
   }
  ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics.",
+ "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item.",
  "affiliate": {
   "program": "Amazon.sa Associates",
   "tracking_id": "uxoxufit-21",
