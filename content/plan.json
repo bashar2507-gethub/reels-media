@@ -793,14 +793,25 @@
   },
   {
    "id": "r030",
-   "status": "scheduled",
+   "status": "published",
    "topic": "intro: Blanket and Marah",
    "publish_at": "2026-11-21T18:00:00+03:00",
    "metricool_post_id": {
     "instagram": 436115946,
     "youtube": 436115993
    },
-   "story": "reels/r030/r030-story.mp4 (owner posts it to the highlight «تعرف علينا» after the Reel)"
+   "story": "reels/r030/r030-story.mp4 (owner posts it to the highlight «تعرف علينا» after the Reel)",
+   "published": {
+    "published_at": "2026-11-21T18:00:00+03:00",
+    "links": {
+     "instagram": "https://www.instagram.com/reel/DgAg0LnjU06/",
+     "youtube": "https://www.youtube.com/shorts/Yr_x2hE2PPI"
+    },
+    "metricool_post_id": {
+     "instagram": 436115946,
+     "youtube": 436115993
+    }
+   }
   },
   {
    "id": "t001",
