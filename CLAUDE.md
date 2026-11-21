@@ -28,8 +28,9 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Marah's voice (owner's choice, 2026-11-20): ElevenLabs «Nora S - Saudi Natural & Calm», voice_id
   `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`, Arabic, only for Marah's own lines. The narration and Blanket stay
   Jeddawi Echo.
-- Metricool brand `7461887`, timezone Asia/Riyadh. Instagram @uuxuuoouuxuu, YouTube channel
-  "The equalizer" (@bashar2507). Free plan: 20 published posts a month, one per network.
+- Metricool brand `7461887`, timezone Asia/Riyadh. Instagram @blanket_fitness, YouTube channel
+  "Blanket_Fitness" (@Blanket_Fitness); renamed by the owner on 2026-11-21 (before: @uuxuuoouuxuu, "The equalizer"
+  @bashar2507). TikTok is posted by the owner in the app, not through Metricool. Free plan: 20 published posts a month, one per network.
 - Media links: `https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@<commit>/reels/<id>/<file>`.
 - Rendering runs in GitHub Actions ("Render Reel", on pushes to `queue/*.json`); the workspace
   cannot download ElevenLabs files, so the job downloads the narration from its signed link.
