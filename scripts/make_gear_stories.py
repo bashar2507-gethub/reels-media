@@ -73,12 +73,36 @@ def footer(d, y: int = 1060) -> None:
     centred(d, y, "#إعلان  ·  رابط عمولة من أمازون، لا يؤثر على سعرك", font("SemiBold", 32), MUTED)
 
 
-def base(blanket: Image.Image, x: float) -> Image.Image:
+MARAH_SKIN = (161.0, 164.0, 165.0)  # median skin of assets/characters/marah/reference_front.png
+
+
+def match_skin(src: Path, dst: Path, target=MARAH_SKIN) -> Path:
+    """Pull the grey skin of a generated Marah image to her reference tone.
+
+    Skin is the low-saturation mid-grey; white socks, shoes and the eyes (brighter) and the dark
+    outfit are left alone. The gain is faded in with a soft mask so the edges do not band.
+    """
+    import numpy as np
+    a = np.asarray(Image.open(src).convert("RGB")).astype(np.float32)
+    mx, mn = a.max(2), a.min(2)
+    hard = (mx - mn < 18) & (mx > 120) & (mx < 215)
+    gain = np.array(target, np.float32) / np.median(a[hard], 0)
+    soft = np.asarray(Image.fromarray((hard * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2)),
+                      np.float32)[..., None] / 255
+    out = a * (1 - soft) + np.clip(a * gain, 0, 255) * soft
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    Image.fromarray(out.round().astype(np.uint8)).save(dst, quality=95)
+    return dst
+
+
+def base(blanket: Image.Image, x: float, marah: Image.Image | None = None) -> Image.Image:
     canvas = background(W, H)
     shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(shade).rectangle([0, 0, W, 1000], fill=(4, 14, 16, 120))
     canvas.alpha_composite(shade.filter(ImageFilter.GaussianBlur(120)))
     place(canvas, blanket, x, 0.62, floor=1.16)
+    if marah is not None:  # r030 keeps Marah at 0.9 of Blanket's scale
+        place(canvas, marah, 1 - x, 0.56, floor=1.16)
     return canvas
 
 
@@ -90,9 +114,12 @@ def main() -> int:
     out = ROOT / args.out
     out.mkdir(parents=True, exist_ok=True)
     blanket = cutout(ROOT / args.blanket)
+    poses = ["m_welcome2", "m_hips1", "m_cap1", "m_chin1", "m_welcome2"]
+    marahs = {p: cutout(match_skin(ROOT / f"images/r030-solo/{p}.jpg", ROOT / f"images/gear-stories/{p}.jpg"))
+              for p in set(poses)}
 
     # opening story
-    c = base(blanket, 0.5)
+    c = base(blanket, 0.24, marahs[poses[0]])
     d = ImageDraw.Draw(c, "RGBA")
     pill(d, 300, "Blanket Fitness", font("ExtraBold", 40), (29, 18, 6), AMBER)
     centred(d, 430, "أدواتي المفضلة", font("Black", 120), FG)
@@ -103,7 +130,7 @@ def main() -> int:
     c.convert("RGB").save(out / "00-intro.jpg", quality=93)
 
     for i, (num, name, lines) in enumerate(TOOLS):
-        c = base(blanket, 0.78 if i % 2 == 0 else 0.22)
+        c = base(blanket, 0.78 if i % 2 == 0 else 0.22, marahs[poses[i + 1]])
         d = ImageDraw.Draw(c, "RGBA")
         pill(d, 280, f"أدواتي المفضلة  ·  {num}", font("ExtraBold", 38), (29, 18, 6), AMBER)
         y = centred(d, 420, name, font("Black", 96), FG)
