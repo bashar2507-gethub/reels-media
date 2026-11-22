@@ -47,7 +47,8 @@ Every run, before picking the Reel (background: `docs/GROWTH.md`):
 ## 2. Pick the Reel
 
 In `content/plan.json` take the first item whose status is `rendered` (already built: go to
-step 7). Otherwise take the first `planned` item. A `queued` item older than 2 hours whose
+step 7). Otherwise take the first `planned` item. Skip items with `"made_in"` (a dialogue Reel the owner makes in chat, such as r040):
+leave them `planned` and take the next item. A `queued` item older than 2 hours whose
 `reels/<id>/status.json` is missing has a stalled render: report it and take the next item.
 
 A `rendered` item whose `reels/<id>/status.json` lists no AI images (`visuals.ai` is empty) gets
@@ -153,6 +154,9 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
   sessions). Scenes follow the item's `characters`: Blanket and Marah demonstrate on the machines (step 5b). The item's
   `narrator` says who speaks (owner, 2026-11-22: the series alternates): `blanket` is his voice as always, `marah` is
   hers (step 5), written in her cheerful voice and in the feminine first person. Same word and scene limits as step 4.
+  Machines only (owner, 2026-11-22): every exercise shown and named is on a gym machine or cable, never free weights;
+  the item's `exercises` are already machine ones. The call to action always ends with the item's `next_episode`
+  (for example «تابعونا، المقطع الجاي عن الظهر بتقديم مرح»), within the 14-word limit.
 - Caption: only when `affiliate.live` is true, the item's `affiliate.caption_line` is set and the item is not on hold
   (`affiliate.hold` on the item, or a supplement while `affiliate.supplements_on_hold` is true), add after the takeaway
   bullets, each on its own line, the item's `caption_line` and then the plan's `affiliate.disclosure_caption`.
@@ -166,6 +170,8 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
 1. `creative_create_flow(name="UXOXU Reel <id>")`.
 2. `creative_generate_speech(flow_id, model_id="eleven_v4", voice_id="yXEnnEln9armDCyhkXcA",
    (or voice_id="FZeLZd39ejvLgzR2gY0t", Marah's «Nora S», when the item's `narrator` is `marah`; owner, 2026-11-22)
+   When the item has `"delivery": "whisper"` (owner, 2026-11-22, first r027), put `[whispers] ` before every sentence
+   in the prompt only; the tags never go into `say` or `show`, and the transcript check ignores them.
    generations_count=1, prompt=narration_text(script))`. One take only. Never call it again to
    retry: if it fails, stop and report.
 3. Poll `creative_get_flow_run_status` until `all_completed`. Keep `generations[0].id` and

@@ -465,26 +465,58 @@
    }
   },
   {
-   "id": "r015",
-   "subject": "You do not need to train to failure",
-   "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
+   "id": "r027",
+   "subject": "Creatine, whispered by Marah: the weight gained on creatine is mostly water, not fat (remake of r007)",
+   "remake_of": "r007",
+   "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
    "claims": [
-    "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
+    "Creatine often raises body weight by about 1-2 kg in the first week, mostly water held in muscle rather than fat",
+    "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
    ],
    "seed_sources": [
-    "Refalo MC et al., Sports Med, 2023",
-    "Grgic J et al., J Sport Health Sci, 2022"
+    "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
+    "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
    ],
    "status": "planned",
    "category": "muscle",
-   "hook_type": "myth",
+   "hook_type": "situation",
    "series": "خرافة أم حقيقة؟",
+   "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket",
    "template": "B",
    "affiliate": {
-    "product": "Lifting straps (SKDK, the owner's link)",
-    "spot": "bio 1",
-    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   }
+    "product": "Creatine monohydrate (supplement: on hold until the owner clears it)",
+    "spot": "bio 5",
+    "caption_line": "🔗 كرياتين مونوهيدرات: النوع الذي استخدمته أغلب الدراسات. الرابط في البايو.",
+    "hold": true
+   },
+   "narrator": "marah",
+   "delivery": "whisper",
+   "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it and the whole narration is a whisper (every sentence starts with the [whispers] tag; one take). Open by hinting that gym training Reels are coming soon, and that creatine got its own Reel first because it matters. The call to action says the next Reel opens a series on training each muscle on the gym machines, presented by Blanket and Marah.",
+   "publish_on": "2026-11-23"
+  },
+  {
+   "id": "r040",
+   "subject": "Intro to the series: training every muscle on the gym machines, and why machines",
+   "hook_idea": "تبي تبني عضل وما تعرف تستخدم الأوزان الحرة؟",
+   "claims": [
+    "In a systematic review and meta-analysis, free-weight and machine training gave similar muscle growth, and each improved strength most in the kind of test it trained",
+    "In a 12-week trial, training with free weights or machines gave similar gains in muscle thickness and strength"
+   ],
+   "seed_sources": [
+    "Haugen ME et al., BMC Sports Sci Med Rehabil, 2023 (free weights vs machines, PMID 37582807)",
+    "Schwanbeck SR et al., J Strength Cond Res, 2020 (free weights vs machines, PMID 32358310)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "situation",
+   "series": "تمرين العضلة",
+   "template": "dialogue",
+   "narrator": "dialogue",
+   "publish_on": "2026-11-26",
+   "made_in": "chat with the owner (dialogue: he hears every take before mixing)",
+   "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket.",
+   "idea_from": "owner, 2026-11-22",
+   "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت"
   },
   {
    "id": "r031",
@@ -509,35 +541,15 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "bench press (barbell or machine chest press)",
-    "incline press about 30 degrees",
-    "cable or machine fly"
+    "chest press machine",
+    "incline chest press machine",
+    "pec deck (machine fly)"
    ],
    "characters": "Blanket on the bench (assets/characters/blanket/move_bench.png); Marah on the chest press machine",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket"
-  },
-  {
-   "id": "r022",
-   "subject": "How much protein one meal can use for muscle",
-   "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
-   "claims": [
-    "The common idea that the body can use only about 30 g of protein per meal for muscle is too simple; spreading about 0.4 g/kg over at least four meals is a practical target"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Aragon AA, J Int Soc Sports Nutr, 2018 (How much protein can the body use in a single meal for muscle-building?)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle",
-   "template": "B",
-   "affiliate": {
-    "product": "Digital food scale (protein powder on hold)",
-    "spot": "bio 2",
-    "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
-   }
+   "narrator": "blanket",
+   "episode": 1,
+   "next_episode": "المقطع الجاي عن الظهر بتقديم مرح"
   },
   {
    "id": "r032",
@@ -564,8 +576,8 @@
    "template": "C",
    "exercises": [
     "lat pull-down",
-    "seated cable row or machine row",
-    "pull-up or assisted pull-up"
+    "seated cable row",
+    "machine row or assisted pull-up machine"
    ],
    "characters": "Blanket on the pull-down and row (move_pulldown.png, move_row.png); Marah on the assisted pull-up",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
@@ -574,28 +586,9 @@
     "spot": "bio 1",
     "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
    },
-   "narrator": "marah"
-  },
-  {
-   "id": "r013",
-   "subject": "Liquid calories and sugary drinks",
-   "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
-   "claims": [
-    "Sugar-sweetened drinks are associated with weight gain in adults and children"
-   ],
-   "seed_sources": [
-    "Malik VS et al., Am J Clin Nutr, 2013"
-   ],
-   "status": "planned",
-   "category": "fat_loss",
-   "hook_type": "mistake",
-   "series": "خطأ شائع",
-   "template": "A",
-   "affiliate": {
-    "product": "Large water bottle",
-    "spot": "bio 5",
-    "caption_line": "🔗 قارورة ماء كبيرة: بديل سهل عن المشروبات المحلاة طوال اليوم. الرابط في البايو."
-   }
+   "narrator": "marah",
+   "episode": 2,
+   "next_episode": "المقطع الجاي عن الأكتاف بتقديم بلانكت"
   },
   {
    "id": "r033",
@@ -620,33 +613,15 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "shoulder press (dumbbell or machine)",
-    "lateral raise (dumbbell or cable)",
-    "reverse fly machine"
+    "shoulder press machine",
+    "cable or machine lateral raise",
+    "reverse pec deck"
    ],
    "characters": "Blanket on the overhead press (move_ohp.png); Marah doing lateral raises",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket"
-  },
-  {
-   "id": "r016",
-   "subject": "Rest between sets",
-   "hook_idea": "كم ترتاح بين المجموعات؟",
-   "claims": [
-    "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ et al., J Strength Cond Res, 2016"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "أيهما أفضل؟",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
+   "narrator": "blanket",
+   "episode": 3,
+   "next_episode": "المقطع الجاي عن الرجل الأمامية بتقديم مرح"
   },
   {
    "id": "r034",
@@ -672,8 +647,8 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "squat or hack squat",
     "leg press",
+    "hack squat machine",
     "leg extension"
    ],
    "characters": "Blanket squatting (move_squat.png); Marah on the leg press",
@@ -683,28 +658,9 @@
     "spot": "bio 5",
     "caption_line": "🔗 حزام رفع الأثقال: لمن يرفع أوزان ثقيلة في السكوات. الرابط في البايو."
    },
-   "narrator": "marah"
-  },
-  {
-   "id": "r023",
-   "subject": "Caffeine before training",
-   "hook_idea": "قهوتك قبل التمرين ترفع أداءك فعلًا؟",
-   "claims": [
-    "Caffeine taken before exercise improves performance in many studies, at doses around 3-6 mg/kg"
-   ],
-   "seed_sources": [
-    "Guest NS et al., ISSN position stand: caffeine and exercise performance, J Int Soc Sports Nutr, 2021"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
+   "narrator": "marah",
+   "episode": 4,
+   "next_episode": "المقطع الجاي عن الفخذ الخلفي بتقديم بلانكت"
   },
   {
    "id": "r035",
@@ -730,8 +686,8 @@
    "template": "C",
    "exercises": [
     "seated leg curl",
-    "Romanian deadlift",
-    "lying leg curl"
+    "lying leg curl",
+    "45-degree back extension"
    ],
    "characters": "Blanket on the Romanian deadlift (move_deadlift.png); Marah on the seated leg curl",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
@@ -740,30 +696,9 @@
     "spot": "bio 1",
     "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
    },
-   "narrator": "blanket"
-  },
-  {
-   "id": "r026",
-   "subject": "Remake of r004: short sleep while dieting shifts loss from fat to muscle",
-   "remake_of": "r004",
-   "hook_idea": "تنام خمس ساعات وأنت في دايت؟",
-   "claims": [
-    "In a small controlled study (10 adults, two 14-day diets), 5.5 hours in bed instead of 8.5 gave a similar weight loss, but less of it was fat and more was fat-free mass"
-   ],
-   "seed_sources": [
-    "Nedeltcheva AV et al., Ann Intern Med, 2010 (PMID 20921542; verified for r004)",
-    "Wang X et al., Sleep, 2018 (sleep restriction during caloric restriction; a hint to verify)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خطأ شائع",
-   "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice",
-   "template": "A",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
+   "narrator": "blanket",
+   "episode": 5,
+   "next_episode": "المقطع الجاي عن المؤخرة بتقديم مرح"
   },
   {
    "id": "r036",
@@ -771,7 +706,7 @@
    "muscle": "glutes",
    "hook_idea": "هيب ثرست ولا سكوات للمؤخرة؟",
    "claims": [
-    "Over 9 weeks, hip thrusts and back squats gave similar glute growth; the squat also grew the quadriceps and adductors",
+    "Over 9 weeks, the hip thrust and the squat gave similar glute growth; the hip thrust trains the glutes directly and is done here on the hip thrust machine",
     "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
     "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
    ],
@@ -788,9 +723,9 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "hip thrust (barbell or machine)",
-    "squat",
-    "cable kickback or abduction machine"
+    "hip thrust machine",
+    "hip abduction machine",
+    "glute kickback machine or cable kickback"
    ],
    "characters": "Marah leads and narrates (move_glute_bridge.png, move_squat.png); Blanket appears beside her",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
@@ -799,28 +734,9 @@
     "spot": "bio 3",
     "caption_line": "🔗 أشرطة المقاومة: للإحماء أو للتمرين في البيت. الرابط في البايو."
    },
-   "narrator": "marah"
-  },
-  {
-   "id": "r017",
-   "subject": "The post-workout protein window",
-   "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
-   "claims": [
-    "Total daily protein matters more than eating it immediately after training"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": "Shaker bottle (protein powder on hold)",
-    "spot": "bio 4",
-    "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
-   }
+   "narrator": "marah",
+   "episode": 6,
+   "next_episode": "المقطع الجاي عن البايسبس بتقديم بلانكت"
   },
   {
    "id": "r037",
@@ -845,39 +761,15 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "preacher curl (machine or EZ bar)",
-    "incline dumbbell curl",
-    "cable curl"
+    "preacher curl machine",
+    "cable curl",
+    "biceps curl machine"
    ],
    "characters": "Blanket on the preacher curl; Marah doing cable curls",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket"
-  },
-  {
-   "id": "r027",
-   "subject": "Remake of r007: the weight gained on creatine is mostly water, not fat",
-   "remake_of": "r007",
-   "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
-   "claims": [
-    "Creatine often raises body weight by about 1-2 kg in the first week, mostly water held in muscle rather than fat",
-    "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
-   ],
-   "seed_sources": [
-    "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
-    "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket",
-   "template": "B",
-   "affiliate": {
-    "product": "Creatine monohydrate (supplement: on hold until the owner clears it)",
-    "spot": "bio 5",
-    "caption_line": "🔗 كرياتين مونوهيدرات: النوع الذي استخدمته أغلب الدراسات. الرابط في البايو.",
-    "hold": true
-   }
+   "narrator": "blanket",
+   "episode": 7,
+   "next_episode": "المقطع الجاي عن الترايسبس بتقديم مرح"
   },
   {
    "id": "r038",
@@ -902,35 +794,15 @@
    "series": "تمرين العضلة",
    "template": "C",
    "exercises": [
-    "overhead cable or dumbbell extension",
+    "overhead cable extension",
     "cable pushdown",
-    "dips or close-grip press"
+    "assisted dip machine"
    ],
    "characters": "Blanket on dips (move_dips.png) and the overhead extension; Marah on the pushdown",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "marah"
-  },
-  {
-   "id": "r020",
-   "subject": "Muscle memory after a break",
-   "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
-   "claims": [
-    "Previously trained muscle tends to regain size faster after a training break"
-   ],
-   "seed_sources": [
-    "Seaborne RA et al., Sci Rep, 2018",
-    "Psilander N et al., J Appl Physiol, 2019"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": "Resistance bands",
-    "spot": "bio 3",
-    "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
-   }
+   "narrator": "marah",
+   "episode": 8,
+   "next_episode": "المقطع الجاي عن السمانة بتقديم بلانكت"
   },
   {
    "id": "r039",
@@ -956,12 +828,186 @@
    "template": "C",
    "exercises": [
     "standing calf raise machine",
-    "seated calf raise",
-    "leg press calf raise"
+    "seated calf raise machine",
+    "calf press on the leg press"
    ],
    "characters": "Blanket on the standing calf raise; Marah on the seated calf raise",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket"
+   "narrator": "blanket",
+   "episode": 9,
+   "next_episode": "آخر حلقة في السلسلة: ادعُ للمتابعة بدون ذكر حلقة قادمة"
+  },
+  {
+   "id": "r015",
+   "subject": "You do not need to train to failure",
+   "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
+   "claims": [
+    "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
+   ],
+   "seed_sources": [
+    "Refalo MC et al., Sports Med, 2023",
+    "Grgic J et al., J Sport Health Sci, 2022"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "myth",
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Lifting straps (SKDK, the owner's link)",
+    "spot": "bio 1",
+    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
+   }
+  },
+  {
+   "id": "r022",
+   "subject": "How much protein one meal can use for muscle",
+   "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
+   "claims": [
+    "The common idea that the body can use only about 30 g of protein per meal for muscle is too simple; spreading about 0.4 g/kg over at least four meals is a practical target"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ, Aragon AA, J Int Soc Sports Nutr, 2018 (How much protein can the body use in a single meal for muscle-building?)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "how_many",
+   "series": "خرافة أم حقيقة؟",
+   "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle",
+   "template": "B",
+   "affiliate": {
+    "product": "Digital food scale (protein powder on hold)",
+    "spot": "bio 2",
+    "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
+   }
+  },
+  {
+   "id": "r013",
+   "subject": "Liquid calories and sugary drinks",
+   "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
+   "claims": [
+    "Sugar-sweetened drinks are associated with weight gain in adults and children"
+   ],
+   "seed_sources": [
+    "Malik VS et al., Am J Clin Nutr, 2013"
+   ],
+   "status": "planned",
+   "category": "fat_loss",
+   "hook_type": "mistake",
+   "series": "خطأ شائع",
+   "template": "A",
+   "affiliate": {
+    "product": "Large water bottle",
+    "spot": "bio 5",
+    "caption_line": "🔗 قارورة ماء كبيرة: بديل سهل عن المشروبات المحلاة طوال اليوم. الرابط في البايو."
+   }
+  },
+  {
+   "id": "r016",
+   "subject": "Rest between sets",
+   "hook_idea": "كم ترتاح بين المجموعات؟",
+   "claims": [
+    "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ et al., J Strength Cond Res, 2016"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "how_many",
+   "series": "أيهما أفضل؟",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
+  },
+  {
+   "id": "r023",
+   "subject": "Caffeine before training",
+   "hook_idea": "قهوتك قبل التمرين ترفع أداءك فعلًا؟",
+   "claims": [
+    "Caffeine taken before exercise improves performance in many studies, at doses around 3-6 mg/kg"
+   ],
+   "seed_sources": [
+    "Guest NS et al., ISSN position stand: caffeine and exercise performance, J Int Soc Sports Nutr, 2021"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "situation",
+   "series": "خرافة أم حقيقة؟",
+   "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation",
+   "template": "B",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
+  },
+  {
+   "id": "r026",
+   "subject": "Remake of r004: short sleep while dieting shifts loss from fat to muscle",
+   "remake_of": "r004",
+   "hook_idea": "تنام خمس ساعات وأنت في دايت؟",
+   "claims": [
+    "In a small controlled study (10 adults, two 14-day diets), 5.5 hours in bed instead of 8.5 gave a similar weight loss, but less of it was fat and more was fat-free mass"
+   ],
+   "seed_sources": [
+    "Nedeltcheva AV et al., Ann Intern Med, 2010 (PMID 20921542; verified for r004)",
+    "Wang X et al., Sleep, 2018 (sleep restriction during caloric restriction; a hint to verify)"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "situation",
+   "series": "خطأ شائع",
+   "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice",
+   "template": "A",
+   "affiliate": {
+    "product": null,
+    "note": "No product helps this takeaway; no product line."
+   }
+  },
+  {
+   "id": "r017",
+   "subject": "The post-workout protein window",
+   "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
+   "claims": [
+    "Total daily protein matters more than eating it immediately after training"
+   ],
+   "seed_sources": [
+    "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "myth",
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Shaker bottle (protein powder on hold)",
+    "spot": "bio 4",
+    "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
+   }
+  },
+  {
+   "id": "r020",
+   "subject": "Muscle memory after a break",
+   "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
+   "claims": [
+    "Previously trained muscle tends to regain size faster after a training break"
+   ],
+   "seed_sources": [
+    "Seaborne RA et al., Sci Rep, 2018",
+    "Psilander N et al., J Appl Physiol, 2019"
+   ],
+   "status": "planned",
+   "category": "muscle",
+   "hook_type": "situation",
+   "series": "خرافة أم حقيقة؟",
+   "template": "B",
+   "affiliate": {
+    "product": "Resistance bands",
+    "spot": "bio 3",
+    "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
+   }
   },
   {
    "id": "r028",
@@ -1124,7 +1170,7 @@
    "video": "reels/t001/t001-tiktok.mp4"
   }
  ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes.",
+ "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes. 2026-11-22 (owner): new order. 23 Nov r027 (creatine, whispered by Marah, hints at the training series); 26 Nov r040 (series intro with Blanket and Marah, a dialogue Reel made in chat, so manual_reel_date is 26 Nov); then the series r031-r039 in a row, all on gym machines, each ending with the next episode and its presenter (`next_episode`); the other topics, r015 first, come after the series.",
  "affiliate": {
   "program": "Amazon.sa Associates",
   "tracking_id": "uxoxufit-21",
@@ -1145,5 +1191,5 @@
   "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
   "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
  },
- "manual_reel_date": "2026-11-20"
+ "manual_reel_date": "2026-11-26"
 }
