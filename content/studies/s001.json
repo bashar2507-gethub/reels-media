@@ -1,0 +1,21 @@
+{
+ "id": "s001",
+ "purpose": "Story for the «دراسات» highlight (owner, 2026-11-22): the French triceps and diabetes study, Marah's voice (Nora S, eleven_v4, one take, 280 credits).",
+ "out_dir": "reels/studies/s001",
+ "audio": "content/audio/studies/s001_marah.mp3",
+ "label": "دراسات  ·  01",
+ "title": "الترايسبس والسكري؟",
+ "subtitle": "تجربة على خلايا في المختبر، مو على ناس",
+ "source": ["Rutti S. et al., Scientific Reports, 2018", "doi: 10.1038/s41598-018-28117-2"],
+ "institution": "المركز الأوروبي لدراسة السكري، جامعة ستراسبورغ",
+ "character": {"src": "images/r030-solo/m_chin1.jpg", "match_skin": true, "x": 0.5, "scale": 0.8, "floor": 1.22},
+ "evidence": {"pmid": 29968746, "pmcid": "PMC6030123", "design": "in vitro: myotubes grown from biopsies of healthy donors; conditioned medium on rat beta cells and human islets", "finding": "triceps (type II) myotubes secreted more angiogenin and osteoprotegerin, which protected beta cells against inflammatory cytokines"},
+ "segments": [
+  {"start": 0.05, "end": 2.56, "text": "تعرفون إن الترايسبس له علاقة بالسكري؟"},
+  {"start": 2.92, "end": 11.25, "text": "دراسة من فرنسا: خلايا من عضلة الترايسبس، في المختبر، أفرزت مادتين حمت خلايا البنكرياس اللي تفرز الإنسولين."},
+  {"start": 11.57, "end": 12.28, "text": "بس انتبهوا!"},
+  {"start": 12.68, "end": 15.80, "text": "هذي تجربة على خلايا، مو على ناس يتمرنون."},
+  {"start": 16.14, "end": 18.15, "text": "يعني فكرة مبشّرة، مو علاج."},
+  {"start": 18.58, "end": 20.29, "text": "والمصدر قدامكم بالصورة."}
+ ]
+}
