@@ -514,7 +514,8 @@
     "cable or machine fly"
    ],
    "characters": "Blanket on the bench (assets/characters/blanket/move_bench.png); Marah on the chest press machine",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "narrator": "blanket"
   },
   {
    "id": "r022",
@@ -572,7 +573,8 @@
     "product": "Lifting straps (the owner's link)",
     "spot": "bio 1",
     "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   }
+   },
+   "narrator": "marah"
   },
   {
    "id": "r013",
@@ -623,7 +625,8 @@
     "reverse fly machine"
    ],
    "characters": "Blanket on the overhead press (move_ohp.png); Marah doing lateral raises",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "narrator": "blanket"
   },
   {
    "id": "r016",
@@ -679,7 +682,8 @@
     "product": "Weightlifting belt (default bio 5 link)",
     "spot": "bio 5",
     "caption_line": "🔗 حزام رفع الأثقال: لمن يرفع أوزان ثقيلة في السكوات. الرابط في البايو."
-   }
+   },
+   "narrator": "marah"
   },
   {
    "id": "r023",
@@ -704,9 +708,9 @@
   },
   {
    "id": "r035",
-   "subject": "How to train the hamstrings in the gym",
+   "subject": "How to train the hamstrings (back of the thigh, not the glutes) in the gym",
    "muscle": "hamstrings",
-   "hook_idea": "الخلفية: جالس ولا منبطح؟",
+   "hook_idea": "الفخذ الخلفي: تمرّنه جالس ولا منبطح؟",
    "claims": [
     "Seated leg curls (hamstrings trained at longer lengths) grew the hamstrings more than lying leg curls in the same people",
     "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
@@ -735,7 +739,8 @@
     "product": "Lifting straps (the owner's link)",
     "spot": "bio 1",
     "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   }
+   },
+   "narrator": "blanket"
   },
   {
    "id": "r026",
@@ -787,13 +792,14 @@
     "squat",
     "cable kickback or abduction machine"
    ],
-   "characters": "Marah leads (move_glute_bridge.png, move_squat.png); Blanket watches and gives the numbers",
+   "characters": "Marah leads and narrates (move_glute_bridge.png, move_squat.png); Blanket appears beside her",
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
    "affiliate": {
     "product": "Resistance bands (the owner's link)",
     "spot": "bio 3",
     "caption_line": "🔗 أشرطة المقاومة: للإحماء أو للتمرين في البيت. الرابط في البايو."
-   }
+   },
+   "narrator": "marah"
   },
   {
    "id": "r017",
@@ -844,7 +850,8 @@
     "cable curl"
    ],
    "characters": "Blanket on the preacher curl; Marah doing cable curls",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "narrator": "blanket"
   },
   {
    "id": "r027",
@@ -900,7 +907,8 @@
     "dips or close-grip press"
    ],
    "characters": "Blanket on dips (move_dips.png) and the overhead extension; Marah on the pushdown",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "narrator": "marah"
   },
   {
    "id": "r020",
@@ -952,7 +960,8 @@
     "leg press calf raise"
    ],
    "characters": "Blanket on the standing calf raise; Marah on the seated calf raise",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah"
+   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+   "narrator": "blanket"
   },
   {
    "id": "r028",
@@ -1115,7 +1124,7 @@
    "video": "reels/t001/t001-tiktok.mp4"
   }
  ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item.",
+ "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes.",
  "affiliate": {
   "program": "Amazon.sa Associates",
   "tracking_id": "uxoxufit-21",

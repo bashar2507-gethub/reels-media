@@ -150,8 +150,9 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
   scene; sets and reps with one overlay (for example `3 × 8–12`); how to pick the starting weight (a load that leaves
   about 2-3 repetitions in reserve at 12, then add a little once the top of the range is passed) with one overlay;
   the item's study as the turn, hedged to what it measured; weekly sets as the takeaway (about 10 per muscle over two
-  sessions). Scenes follow the item's `characters`: Blanket and Marah demonstrate on the machines (step 5b), Blanket
-  narrates in his voice as always. Same word and scene limits as step 4.
+  sessions). Scenes follow the item's `characters`: Blanket and Marah demonstrate on the machines (step 5b). The item's
+  `narrator` says who speaks (owner, 2026-11-22: the series alternates): `blanket` is his voice as always, `marah` is
+  hers (step 5), written in her cheerful voice and in the feminine first person. Same word and scene limits as step 4.
 - Caption: only when `affiliate.live` is true, the item's `affiliate.caption_line` is set and the item is not on hold
   (`affiliate.hold` on the item, or a supplement while `affiliate.supplements_on_hold` is true), add after the takeaway
   bullets, each on its own line, the item's `caption_line` and then the plan's `affiliate.disclosure_caption`.
@@ -164,6 +165,7 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
 
 1. `creative_create_flow(name="UXOXU Reel <id>")`.
 2. `creative_generate_speech(flow_id, model_id="eleven_v4", voice_id="yXEnnEln9armDCyhkXcA",
+   (or voice_id="FZeLZd39ejvLgzR2gY0t", Marah's «Nora S», when the item's `narrator` is `marah`; owner, 2026-11-22)
    generations_count=1, prompt=narration_text(script))`. One take only. Never call it again to
    retry: if it fails, stop and report.
 3. Poll `creative_get_flow_run_status` until `all_completed`. Keep `generations[0].id` and
