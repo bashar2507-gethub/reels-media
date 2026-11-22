@@ -170,8 +170,9 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
 1. `creative_create_flow(name="UXOXU Reel <id>")`.
 2. `creative_generate_speech(flow_id, model_id="eleven_v4", voice_id="yXEnnEln9armDCyhkXcA",
    (or voice_id="FZeLZd39ejvLgzR2gY0t", Marah's «Nora S», when the item's `narrator` is `marah`; owner, 2026-11-22)
-   When the item has `"delivery": "whisper"` (owner, 2026-11-22, first r027), put `[whispers] ` before every sentence
-   in the prompt only; the tags never go into `say` or `show`, and the transcript check ignores them.
+   A sentence marked `"whisper": true` in the script (owner, 2026-11-22, first r027: only a teaser or a secret is
+   whispered, never the whole Reel) gets `[whispers] ` before it in the prompt only; the tag never goes into `say`
+   or `show`, and the transcript check ignores it.
    generations_count=1, prompt=narration_text(script))`. One take only. Never call it again to
    retry: if it fails, stop and report.
 3. Poll `creative_get_flow_run_status` until `all_completed`. Keep `generations[0].id` and

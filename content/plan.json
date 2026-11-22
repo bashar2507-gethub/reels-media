@@ -466,7 +466,7 @@
   },
   {
    "id": "r027",
-   "subject": "Creatine, whispered by Marah: the weight gained on creatine is mostly water, not fat (remake of r007)",
+   "subject": "Creatine, presented by Marah: the weight gained on creatine is mostly water, not fat (remake of r007)",
    "remake_of": "r007",
    "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
    "claims": [
@@ -490,8 +490,7 @@
     "hold": true
    },
    "narrator": "marah",
-   "delivery": "whisper",
-   "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it and the whole narration is a whisper (every sentence starts with the [whispers] tag; one take). Open by hinting that gym training Reels are coming soon, and that creatine got its own Reel first because it matters. The call to action says the next Reel opens a series on training each muscle on the gym machines, presented by Blanket and Marah.",
+   "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it in her normal voice. Only the teaser about the coming series is whispered, as one secret-telling moment, for example «بقلكم سر! ترى قريب بنبدأ سلسلة تمارين كل عضلة على أجهزة الجيم...»; mark that sentence with \"whisper\": true in the script. Creatine got its own Reel first because it matters. The call to action says the next Reel opens the machine series, presented by Blanket and Marah.",
    "publish_on": "2026-11-23"
   },
   {
