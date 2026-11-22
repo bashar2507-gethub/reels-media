@@ -101,6 +101,28 @@ of 2026-11-15 (`docs/GROWTH.md`): the first 3 seconds, watch time and sends deci
   «إذا أفادك، اضغط إعجاب وأرسله لصديق يتمرن معك، وتابعنا لحقيقة جديدة كل ثلاثة أيام.»
   «جرّبتها من قبل؟ شاركنا تجربتك في التعليقات، وتابعنا لحقائق اللياقة من الدراسات.»
   «أرسل المقطع لمن يحاول خسارة الوزن، وتابعنا للحلقة القادمة من خرافة أم حقيقة.»
+  From 2026-11-22 (owner): every call to action carries the follow invitation plus at least one of «احفظ المقطع»,
+  «أرسله لصاحبك» or «التفاصيل/المصادر في الكابشن», chosen by the kind of Reel: save for a guide or workout you use
+  in the gym (the muscle series), send for a myth or a surprising fact (general topics), the caption when the Reel
+  gives a number or a study that needs its details. Series episodes end with the item's `next_episode`. If the
+  sentence would pass 14 words, use two short sentences in the last scene (at most 20 words in all). Bank to draw
+  from and vary (do not copy the same line twice in a row):
+  creatine/teaser: «جرّبت الكرياتين؟ قولنا في التعليقات، وتابعنا… المقطع الجاي بداية السلسلة!» ·
+  «أرسله لصاحبك اللي خايف من الكرياتين، وتابعنا عشان السر اللي قلته لكم.»
+  series intro: «تابعونا عشان ما تفوتك ولا عضلة، وأول حلقة عن الصدر مع بلانكت.» ·
+  «احفظ المقطع، وقولنا أي عضلة تبيها أول. الجاي الصدر بتقديم بلانكت.»
+  series episodes: «احفظ المقطع وجرّبه في تمرينك الجاي. المقطع الجاي عن <العضلة> بتقديم <الاسم>.» ·
+  «أرسله لصاحبك اللي يتمرن معك. والجاي عن <العضلة> مع <الاسم>.» ·
+  «وش الجهاز اللي تحبه لهالعضلة؟ علّق، وتابعنا: الجاي <العضلة> مع <الاسم>.» ·
+  «إذا أفادك اضغط لايك، وتابعنا. المقطع الجاي عن <العضلة> بتقديم <الاسم>.» ·
+  «جرّبها هالأسبوع وقولنا النتيجة. المقطع الجاي <العضلة> مع <الاسم>.»
+  last episode: «خلصت السلسلة! احفظها كلها، وقولنا وش الموضوع الجاي اللي تبونه.»
+  general topics: «كنت تصدّق هالخرافة؟ علّق بصراحة، وتابعنا لحقيقة جديدة كل ثلاثة أيام.» ·
+  «أرسله لأكثر واحد يحتاجه بين أصحابك، وتابعنا لحقائق الجيم من الدراسات.» ·
+  «المصادر كاملة في الكابشن. احفظه وتابعنا للحقيقة الجاية.»
+- Naming the study (owner, 2026-11-22): when the narration cites a study, it says which one in a few spoken words
+  (who or where and the year, for example «دراسة يابانية سنة ألفين وواحد وعشرين» or «مراجعة لعشرات الدراسات»), or says
+  «والمصدر في الكابشن». The caption always lists the full sources (authors, journal, year).
 - Hedge where the evidence is limited («قد»، «في دراسة»). No guarantees, no medical advice.
 - Spell numbers as words in `say`; put the numeric form as an unspoken annotation in `show`,
   for example `واحد فاصلة ستة غرام (1.6 g/kg)`. `show` must contain exactly the spoken words plus
