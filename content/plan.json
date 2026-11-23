@@ -477,7 +477,7 @@
     "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
     "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
    ],
-   "status": "rendered",
+   "status": "scheduled",
    "category": "muscle",
    "hook_type": "situation",
    "series": "خرافة أم حقيقة؟",
@@ -494,7 +494,12 @@
    "publish_on": "2026-11-23",
    "series_label": "خرافة أم حقيقة؟ · 1",
    "video": "reels/r027/r027-video-3138ef4b7c.mp4",
-   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@26fecd60bb95ed12a0ab92f212e9d5404ddd557f/reels/r027/r027-video-3138ef4b7c.mp4"
+   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@26fecd60bb95ed12a0ab92f212e9d5404ddd557f/reels/r027/r027-video-3138ef4b7c.mp4",
+   "publish_at": "2026-11-23T18:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 438820524,
+    "youtube": 438820552
+   }
   },
   {
    "id": "r040",
