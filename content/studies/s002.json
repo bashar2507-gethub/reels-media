@@ -6,9 +6,68 @@
  "label": "دراسات  ·  02",
  "title": "الحديد والمزاج",
  "subtitle": "يخفف الأعراض… ما يغني عن العلاج",
- "source": ["Gordon B.R. et al., JAMA Psychiatry, 2018", "doi: 10.1001/jamapsychiatry.2018.0572"],
+ "source": [
+  "Gordon B.R. et al., JAMA Psychiatry, 2018",
+  "doi: 10.1001/jamapsychiatry.2018.0572"
+ ],
  "institution": "مراجعة 33 تجربة عشوائية · 1,877 مشارك",
- "character": {"src": "images/r030-solo/m_welcome2.jpg", "match_skin": true, "x": 0.5, "scale": 0.8, "floor": 1.22},
- "evidence": {"pmid": 29800984, "design": "meta-analysis of 33 randomized clinical trials, 1,877 participants", "finding": "resistance training reduced depressive symptoms, delta 0.66 (95% CI 0.48-0.83), regardless of health status, prescribed volume or whether strength improved; smaller effect in blinded trials (0.56); authors: alternative and/or adjuvant therapy"},
- "segments": []
+ "character": {
+  "src": "images/r030-solo/m_welcome2.jpg",
+  "match_skin": true,
+  "x": 0.5,
+  "scale": 0.8,
+  "floor": 1.22
+ },
+ "evidence": {
+  "pmid": 29800984,
+  "design": "meta-analysis of 33 randomized clinical trials, 1,877 participants",
+  "finding": "resistance training reduced depressive symptoms, delta 0.66 (95% CI 0.48-0.83), regardless of health status, prescribed volume or whether strength improved; smaller effect in blinded trials (0.56); authors: alternative and/or adjuvant therapy"
+ },
+ "segments": [
+  {
+   "start": 0.03,
+   "end": 1.96,
+   "text": "الجيم مو بس للجسم…"
+  },
+  {
+   "start": 2.39,
+   "end": 4.82,
+   "text": "تدرون إنه ممكن يخفف أعراض الاكتئاب؟"
+  },
+  {
+   "start": 5.06,
+   "end": 9.16,
+   "text": "مراجعة جمعت ثلاثة وثلاثين تجربة على قرابة ألفين شخص:"
+  },
+  {
+   "start": 9.37,
+   "end": 13.48,
+   "text": "اللي سوّوا تمارين المقاومة، خفّت أعراضهم بشكل واضح،"
+  },
+  {
+   "start": 13.79,
+   "end": 16.12,
+   "text": "سواء زادت قوتهم كثير ولا لا."
+  },
+  {
+   "start": 16.39,
+   "end": 17.13,
+   "text": "بس انتبهوا!"
+  },
+  {
+   "start": 17.46,
+   "end": 20.06,
+   "text": "الحديد يساعد، ما يغني عن العلاج."
+  },
+  {
+   "start": 20.49,
+   "end": 23.29,
+   "text": "وإذا حاسّين إنكم مو بخير، كلّموا مختص."
+  },
+  {
+   "start": 23.63,
+   "end": 25.46,
+   "text": "والمصدر قدامكم بالصورة."
+  }
+ ]
 }
