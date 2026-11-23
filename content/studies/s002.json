@@ -23,5 +23,51 @@
   "design": "meta-analysis of 33 randomized clinical trials, 1,877 participants",
   "finding": "resistance training reduced depressive symptoms, delta 0.66 (95% CI 0.48-0.83), regardless of health status, prescribed volume or whether strength improved; smaller effect in blinded trials (0.56); authors: alternative and/or adjuvant therapy"
  },
- "segments": []
+ "segments": [
+  {
+   "start": 0.03,
+   "end": 2.79,
+   "text": "تمارين المقاومة مو بس للعضلات…"
+  },
+  {
+   "start": 3.09,
+   "end": 5.53,
+   "text": "تدرون إنها ممكن تخفف أعراض الاكتئاب؟"
+  },
+  {
+   "start": 5.78,
+   "end": 10.05,
+   "text": "مراجعة جمعت ثلاثة وثلاثين تجربة على قرابة ألفين شخص:"
+  },
+  {
+   "start": 10.3,
+   "end": 16.6,
+   "text": "اللي سوّوا تمارين تقوية العضلات، غالباً ثلاث مرات في الأسبوع وبشدة خفيفة لمتوسطة،"
+  },
+  {
+   "start": 17.0,
+   "end": 19.1,
+   "text": "خفّت أعراضهم بشكل واضح."
+  },
+  {
+   "start": 19.43,
+   "end": 20.21,
+   "text": "بس انتبهوا!"
+  },
+  {
+   "start": 20.47,
+   "end": 23.03,
+   "text": "التمرين يساعد، ما يغني عن العلاج."
+  },
+  {
+   "start": 23.34,
+   "end": 26.11,
+   "text": "وإذا حاسّين إنكم مو بخير، كلّموا مختص."
+  },
+  {
+   "start": 26.49,
+   "end": 28.17,
+   "text": "والمصدر قدامكم بالصورة."
+  }
+ ]
 }
