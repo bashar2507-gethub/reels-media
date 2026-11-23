@@ -1,0 +1,19 @@
+{
+  "job": "r027-char-r2",
+  "ok": [
+    "s1",
+    "s5",
+    "s7",
+    "s8"
+  ],
+  "errors": {},
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "passed": true
+}
