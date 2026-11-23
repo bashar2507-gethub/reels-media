@@ -1,1194 +1,1195 @@
 {
- "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 6 PM Asia/Riyadh (8 PM until 2026-11-14; the owner moved it on 2026-11-15)",
- "statuses": "planned -> queued -> rendered -> published | failed | skipped",
- "note": "Seed sources are starting points only. Every run verifies each source on PubMed or PMC before using it, and drops or softens any claim it cannot verify.",
- "items": [
-  {
-   "id": "poc1",
-   "subject": "Why weight loss can stall on a diet",
-   "status": "published",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
-    "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
-   },
-   "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published. 2026-11-15: the owner approved archiving it instead (same topic as r001); he archives the Instagram Reel and sets the Short to unlisted himself.",
-   "category": "fat_loss",
-   "hook_type": "why",
-   "series": "none"
-  },
-  {
-   "id": "r001",
-   "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
-   "status": "published",
-   "queued_at": "2026-10-21T05:00:00+03:00",
-   "narration_credits": 381,
-   "note": "Remake of poc1, owner-approved 2026-10-21 for Friday 20:00. Owner deletes the old poc1 posts himself (deleting published posts is not done by Claude). A scheduled run before 2026-10-24 20:05 should leave this item as scheduled (still PENDING is not a failure).",
-   "rendered_video": "reels/r001/r001-video-0ec769d4ef.mp4",
-   "scheduled_for": "2026-10-24T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 401689045,
-    "youtube": 401689078
-   },
-   "published_at": "2026-10-24T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
-    "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
-   },
-   "category": "fat_loss",
-   "hook_type": "why",
-   "series": "none"
-  },
-  {
-   "id": "r002",
-   "subject": "How much protein you need to build muscle",
-   "hook_idea": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
-   "claims": [
-    "With resistance training, the benefit of extra protein levels off around 1.6 g per kg of body weight per day"
-   ],
-   "seed_sources": [
-    "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
-   ],
-   "status": "published",
-   "narration_credits": 397,
-   "scheduled_for": "2026-10-17T13:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 398414732,
-    "youtube": 398414769
-   },
-   "note": "Published early at the owner's request (planned for 20:00).",
-   "published_at": "2026-10-17T13:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
-    "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
-   },
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "none"
-  },
-  {
-   "id": "r003",
-   "subject": "Ab exercises do not burn belly fat",
-   "hook_idea": "هل تمارين البطن تحرق دهون البطن؟",
-   "claims": [
-    "Training one body part does not selectively reduce the fat over it"
-   ],
-   "seed_sources": [
-    "Vispute SS et al., J Strength Cond Res, 2011",
-    "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
-   ],
-   "status": "published",
-   "narration_credits": 786,
-   "queued_at": "2026-10-21T04:28:00+03:00",
-   "render_run_id": "39457940913",
-   "note": "Redone at the owner's request with the Jeddawi Echo voice; previous take kept in git history.",
-   "scheduled_for": "2026-10-22T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 401671622,
-    "youtube": 401671669
-   },
-   "published_at": "2026-10-22T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
-    "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
-   },
-   "category": "muscle",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r004",
-   "subject": "Short sleep while dieting shifts loss from fat to muscle",
-   "hook_idea": "قلة النوم قد تجعل خسارتك من العضل لا من الدهون",
-   "claims": [
-    "In a small controlled study, dieters sleeping 5.5 hours lost less fat and more fat-free mass than at 8.5 hours"
-   ],
-   "seed_sources": [
-    "Nedeltcheva AV et al., Ann Intern Med, 2010"
-   ],
-   "status": "published",
-   "queued_at": "2026-10-23T19:24:00+03:00",
-   "narration_credits": 405,
-   "render_run_id": "39986286913",
-   "scheduled_for": "2026-10-23T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 404343669,
-    "youtube": 404343696
-   },
-   "published_at": "2026-10-23T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
-    "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
-   },
-   "category": "muscle",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r005",
-   "subject": "Training each muscle twice a week",
-   "hook_idea": "تمرين العضلة مرة في الأسبوع يكفي؟",
-   "claims": [
-    "Training a muscle at least twice a week tends to build more muscle than once a week, especially when it adds weekly volume"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ et al., Sports Med, 2016"
-   ],
-   "status": "published",
-   "queued_at": "2026-10-24T21:45:00+03:00",
-   "narration_credits": 352,
-   "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00.",
-   "scheduled_for": "2026-10-26T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 405190510,
-    "youtube": 405190567
-   },
-   "rendered_video": "reels/r005/r005-video-ab7dbb43f3.mp4",
-   "published_at": "2026-10-26T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/De9xtHzFWn9/",
-    "youtube": "https://www.youtube.com/shorts/FKN2l5il7xk"
-   },
-   "category": "muscle",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r006",
-   "subject": "Weekly sets for muscle growth",
-   "hook_idea": "كم مجموعة أسبوعيًا تحتاج العضلة لتنمو؟",
-   "claims": [
-    "More weekly sets per muscle are associated with more growth, with about 10 or more sets outperforming fewer"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
-   ],
-   "status": "published",
-   "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
-   "queued_at": "2026-10-27T20:20:00+03:00",
-   "narration_credits": 404,
-   "scheduled_for": "2026-10-29T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 409727279,
-    "youtube": 409727458
-   },
-   "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4",
-   "published_at": "2026-10-29T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DfFgeubAr9_/",
-    "youtube": "https://www.youtube.com/shorts/582Y_ffiOa4"
-   },
-   "metricool_post_id": {
-    "instagram": 409727279,
-    "youtube": 409727458
-   },
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "none"
-  },
-  {
-   "id": "r007",
-   "subject": "Creatine: effective and safe for healthy people",
-   "hook_idea": "الكرياتين: هل هو آمن ومفيد فعلًا؟",
-   "claims": [
-    "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
-   ],
-   "seed_sources": [
-    "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand)"
-   ],
-   "status": "published",
-   "queued_at": "2026-10-21T03:51:00+03:00",
-   "narration_credits": 777,
-   "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length.",
-   "published_at": "2026-10-21T04:15:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
-    "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
-   },
-   "metricool_post_ids": {
-    "instagram": 401656846,
-    "youtube": 401656888
-   },
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "none"
-  },
-  {
-   "id": "r008",
-   "subject": "Intermittent fasting versus calorie restriction",
-   "hook_idea": "الصيام المتقطع أفضل لخسارة الوزن؟",
-   "claims": [
-    "In a 12-month randomized trial, time-restricted eating with calorie restriction was not better than calorie restriction alone"
-   ],
-   "seed_sources": [
-    "Liu D et al., N Engl J Med, 2022"
-   ],
-   "status": "published",
-   "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00.",
-   "queued_at": "2026-10-31T12:31:00+03:00",
-   "narration_credits": 390,
-   "scheduled_for": "2026-11-02T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 412035081,
-    "youtube": 412035111
-   },
-   "rendered_video": "reels/r008/r008-video-120d840859.mp4",
-   "published_at": "2026-11-02T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DfPzhetAM8D/",
-    "youtube": "https://www.youtube.com/shorts/W_0o917DNXk"
-   },
-   "metricool_post_id": {
-    "instagram": 412035081,
-    "youtube": 412035111
-   },
-   "category": "fat_loss",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r009",
-   "subject": "Low-carb versus low-fat",
-   "hook_idea": "قليل الكربوهيدرات أم قليل الدهون؟",
-   "claims": [
-    "In the 12-month DIETFITS trial, healthy low-fat and healthy low-carb diets led to similar weight loss"
-   ],
-   "seed_sources": [
-    "Gardner CD et al., JAMA, 2018"
-   ],
-   "status": "published",
-   "queued_at": "2026-11-05T19:30:00+03:00",
-   "narration_credits": 446,
-   "evidence_note": "DIETFITS verified via NIHR Evidence record (PubMed/JAMA pages unreachable from workspace)",
-   "scheduled_for": "2026-11-05T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 417962524,
-    "youtube": 417962626
-   },
-   "rendered_video": "reels/r009/r009-video-e581e82513.mp4",
-   "published_at": "2026-11-05T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DfXibZnkX_N/",
-    "youtube": "https://www.youtube.com/shorts/x0Z7rxmEg_w"
-   },
-   "metricool_post_id": {
-    "instagram": 417962524,
-    "youtube": 417962626
-   },
-   "category": "fat_loss",
-   "hook_type": "versus",
-   "series": "none"
-  },
-  {
-   "id": "r010",
-   "subject": "Metabolism does not slow down after 30",
-   "hook_idea": "هل يبطؤ حرقك بعد الثلاثين؟",
-   "claims": [
-    "Adjusted for body size and composition, daily energy expenditure stays stable from about age 20 to 60"
-   ],
-   "seed_sources": [
-    "Pontzer H et al., Science, 2021"
-   ],
-   "status": "published",
-   "queued_at": "2026-11-08T19:27:00+03:00",
-   "narration_credits": 416,
-   "evidence_note": "Pontzer 2021 verified via Duke Scholars and Tilburg research records (PubMed/PMC unreachable from workspace)",
-   "scheduled_for": "2026-11-08T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 420879905,
-    "youtube": 420879925
-   },
-   "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4",
-   "published_at": "2026-11-08T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DffQgGekU-h/",
-    "youtube": "https://www.youtube.com/shorts/iXwE1SXHQow"
-   },
-   "metricool_post_id": {
-    "instagram": 420879905,
-    "youtube": 420879925
-   },
-   "category": "fat_loss",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r011",
-   "subject": "Everyday movement outside the gym (NEAT)",
-   "hook_idea": "حركتك اليومية خارج النادي قد تفرق أكثر مما تتوقع",
-   "claims": [
-    "Non-exercise activity varies widely between people and helps explain differences in fat gain"
-   ],
-   "seed_sources": [
-    "Levine JA et al., Science, 1999",
-    "Levine JA et al., Science, 2005"
-   ],
-   "status": "published",
-   "queued_at": "2026-11-11T19:25:00+03:00",
-   "narration_credits": 412,
-   "evidence_note": "Levine 1999 verified on PubMed (PMID 9880251); Levine 2005 verified via ASU research record (PubMed served a captcha)",
-   "scheduled_for": "2026-11-11T20:18:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 424691154,
-    "youtube": 424691393
-   },
-   "rendered_video": "reels/r011/r011-video-c6b3f7937f.mp4",
-   "note": "The scheduled run stopped at the usage limit (19:50) after queuing the render; the first render hung on GitHub's FFmpeg install. The owner's chat session restarted the render, added headroom to scene 2 and published at 20:18 instead of 20:00.",
-   "published_at": "2026-11-11T20:18:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/DfnAHtLlPqn/",
-    "youtube": "https://www.youtube.com/shorts/NNb2oPgBhwY"
-   },
-   "metricool_post_id": {
-    "instagram": 424691154,
-    "youtube": 424691393
-   },
-   "category": "fat_loss",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r012",
-   "subject": "Water before meals",
-   "hook_idea": "كوب ماء قبل الوجبة يساعد في خسارة الوزن؟",
-   "claims": [
-    "In a 12-week trial in middle-aged and older adults, 500 ml of water before meals plus a diet led to more weight loss"
-   ],
-   "seed_sources": [
-    "Dennis EA et al., Obesity, 2010"
-   ],
-   "status": "published",
-   "queued_at": "2026-11-11T20:07:00+03:00",
-   "narration_credits": 392,
-   "note": "Prepared on 2026-11-11 in the owner's chat (he asked to try Fable 5.2 on the next video), for the 2026-11-14 20:00 slot.",
-   "evidence_note": "Dennis 2010 verified via University of Kentucky and FAO AGRIS records, Parretti 2015 via the University of Birmingham record, Hakam 2024 via the Washington University record (PubMed and PMC served a captcha)",
-   "scheduled_for": "2026-11-14T20:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 424698728,
-    "youtube": 424698916
-   },
-   "rendered_video": "reels/r012/r012-video-0192c28410.mp4",
-   "published_at": "2026-11-14T20:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/Dfus6XVnC--/",
-    "youtube": "https://www.youtube.com/shorts/YOdwV6hgXIw"
-   },
-   "metricool_post_id": {
-    "instagram": 424698728,
-    "youtube": 424698916
-   },
-   "category": "fat_loss",
-   "hook_type": "yes_no",
-   "series": "none"
-  },
-  {
-   "id": "r014",
-   "subject": "Light versus heavy weights for muscle",
-   "hook_idea": "أوزان خفيفة أم ثقيلة لبناء العضل؟",
-   "claims": [
-    "Light and heavy loads build similar muscle when sets end close to failure; heavy loads build more strength"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ et al., J Strength Cond Res, 2017"
-   ],
-   "status": "published",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "أيهما أفضل؟",
-   "queued_at": "2026-11-17T13:41:00Z",
-   "intro_position": "after_hook",
-   "evidence_note": "Seed meta-analysis (Schoenfeld 2017) could not be read this run; script rests on Morton et al. 2016 (PMID 27174923), strength claim narrowed to bench press.",
-   "rendered_at": "2026-11-17T13:46:11Z",
-   "video": "reels/r014/r014-video-3f725c4e8f.mp4",
-   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@cec9c920f4e78e565a53b381770e6bc2bff76ac3/reels/r014/r014-video-3f725c4e8f.mp4",
-   "publish_at": "2026-11-17T18:00:00+03:00",
-   "metricool_post_ids": {
-    "instagram": 431481189,
-    "youtube": 431481218
-   },
-   "published_at": "2026-11-17T18:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/Df2OITKjOlM/",
-    "youtube": "https://www.youtube.com/shorts/cMxUpgz19WA"
-   },
-   "metricool_post_id": {
-    "instagram": 431481189,
-    "youtube": 431481218
-   }
-  },
-  {
-   "id": "r029",
-   "subject": "Gym tools: what studies say about lifting straps, a lifting belt and resistance bands",
-   "status": "published",
-   "category": "muscle",
-   "template": "B",
-   "series": "none",
-   "idea_from": "owner 2026-11-20: today's Reel about gym tools and their benefits from real studies, matching the products in his bio; made in his chat",
-   "affiliate": {
-    "product": "Lifting straps, weightlifting belt, resistance bands",
-    "spot": "bio 1, 5, 3",
-    "caption_line": "🔗 الأدوات في المقطع (أحزمة المعصم، وحزام الرفع، وأشرطة المقاومة): روابطها في البايو."
-   },
-   "hook_idea": "ثلاث أدوات في الجيم: هل تفيدك فعلًا؟",
-   "hook_type": "number",
-   "claims": [
-    "In 20 men, the deadlift one-repetition maximum was about 10% higher with lifting straps than without (177.0 vs 160.6 kg on average).",
-    "In 10 resistance-trained women, lifting straps allowed more deadlift repetitions at 80% 1RM without lowering bar velocity, and grip strength dropped less.",
-    "In 14 healthy men squatting at 90% 1RM, the lift was faster with a weight belt, with no difference in thigh, hip or lower-back muscle activity.",
-    "A systematic review and meta-analysis of 8 studies found similar strength gains from elastic resistance training and conventional resistance training."
-   ],
-   "seed_sources": [
-    "Jukic I et al., J Strength Cond Res, 2020",
-    "Trahey KM et al., J Strength Cond Res, 2023",
-    "Zink AJ et al., J Strength Cond Res, 2001",
-    "Lopes JSS et al., SAGE Open Med, 2019"
-   ],
-   "queued_at": "2026-11-20T16:10:00+03:00",
-   "narration_credits": 696,
-   "rendered_video": "reels/r029/r029-video-3ca5684b51.mp4",
-   "render_run_id": 44751548696,
-   "narration_credits_total": 1145,
-   "owner_edit": "2026-11-20 16:58: say each study's university and sample; تَسْتَخْدِم with diacritics; his female character in the straps part (new s2b, study on ten trained women). Second take 696 credits (first take 449, kept as content/audio/r029_narration_v1*)",
-   "metricool_post_ids": {
-    "instagram": 435642808,
-    "youtube": 435642464
-   },
-   "publish_at": "2026-11-20T18:00:00+03:00",
-   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@90e19195ce440a30fc2488242788b7c45ba52bf0/reels/r029/r029-video-3ca5684b51.mp4",
-   "published_at": "2026-11-20T18:00:00+03:00",
-   "links": {
-    "instagram": "https://www.instagram.com/reel/Df98oQykUtf/",
-    "youtube": "https://www.youtube.com/shorts/1MGHFn9mDgg"
-   },
-   "metricool_post_id": {
-    "instagram": 435642808,
-    "youtube": 435642464
-   }
-  },
-  {
-   "id": "r027",
-   "subject": "Creatine, presented by Marah: the weight gained on creatine is mostly water, not fat (remake of r007)",
-   "remake_of": "r007",
-   "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
-   "claims": [
-    "Creatine often raises body weight by about 1-2 kg in the first week, mostly water held in muscle rather than fat",
-    "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
-   ],
-   "seed_sources": [
-    "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
-    "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket",
-   "template": "B",
-   "affiliate": {
-    "product": "Creatine monohydrate (supplement: on hold until the owner clears it)",
-    "spot": "bio 5",
-    "caption_line": "🔗 كرياتين مونوهيدرات: النوع الذي استخدمته أغلب الدراسات. الرابط في البايو.",
-    "hold": true
-   },
-   "narrator": "marah",
-   "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it in her normal voice. Only the teaser about the coming series is whispered, as one secret-telling moment, for example «بقلكم سر! ترى قريب بنبدأ سلسلة تمارين كل عضلة على أجهزة الجيم...»; mark that sentence with \"whisper\": true in the script. Creatine got its own Reel first because it matters. The call to action says the next Reel opens the machine series, presented by Blanket and Marah.",
-   "publish_on": "2026-11-23"
-  },
-  {
-   "id": "r040",
-   "subject": "Intro to the series: training every muscle on the gym machines, and why machines",
-   "hook_idea": "تبي تبني عضل وما تعرف تستخدم الأوزان الحرة؟",
-   "claims": [
-    "In a systematic review and meta-analysis, free-weight and machine training gave similar muscle growth, and each improved strength most in the kind of test it trained",
-    "In a 12-week trial, training with free weights or machines gave similar gains in muscle thickness and strength"
-   ],
-   "seed_sources": [
-    "Haugen ME et al., BMC Sports Sci Med Rehabil, 2023 (free weights vs machines, PMID 37582807)",
-    "Schwanbeck SR et al., J Strength Cond Res, 2020 (free weights vs machines, PMID 32358310)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "تمرين العضلة",
-   "template": "dialogue",
-   "narrator": "dialogue",
-   "publish_on": "2026-11-26",
-   "made_in": "chat with the owner (dialogue: he hears every take before mixing)",
-   "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket.",
-   "idea_from": "owner, 2026-11-22",
-   "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت"
-  },
-  {
-   "id": "r031",
-   "subject": "How to train the chest in the gym",
-   "muscle": "chest",
-   "hook_idea": "كيف تبني صدرك في الجيم؟",
-   "claims": [
-    "In a bench press electromyography study a moderate incline (about 30 degrees) raised upper chest activity compared with a flat bench, while steeper angles shifted work to the front shoulder",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Rodríguez-Ridao D et al., Int J Environ Res Public Health, 2020 (five bench inclinations, PMID 33049982)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "chest press machine",
-    "incline chest press machine",
-    "pec deck (machine fly)"
-   ],
-   "characters": "Blanket on the bench (assets/characters/blanket/move_bench.png); Marah on the chest press machine",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket",
-   "episode": 1,
-   "next_episode": "المقطع الجاي عن الظهر بتقديم مرح"
-  },
-  {
-   "id": "r032",
-   "subject": "How to train the back in the gym",
-   "muscle": "back",
-   "hook_idea": "كم تمرين يحتاج ظهرك؟",
-   "claims": [
-    "In the lat pull-down, a pronated grip (wide or medium) gave similar or more lat activity than other grips and is a sound default",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Lusk SJ et al., J Strength Cond Res, 2010 (grip width and forearm orientation in the lat pull-down, PMID 20543740)",
-    "Andersen V et al., J Strength Cond Res, 2014 (grip width in the lat pull-down, PMID 24662157)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "lat pull-down",
-    "seated cable row",
-    "machine row or assisted pull-up machine"
-   ],
-   "characters": "Blanket on the pull-down and row (move_pulldown.png, move_row.png); Marah on the assisted pull-up",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "affiliate": {
-    "product": "Lifting straps (the owner's link)",
-    "spot": "bio 1",
-    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   },
-   "narrator": "marah",
-   "episode": 2,
-   "next_episode": "المقطع الجاي عن الأكتاف بتقديم بلانكت"
-  },
-  {
-   "id": "r033",
-   "subject": "How to train the shoulders in the gym",
-   "muscle": "shoulders",
-   "hook_idea": "أكتاف عريضة: وش التمارين الصح؟",
-   "claims": [
-    "Pressing works mostly the front deltoid; the side deltoid is worked most by lateral raises, and the rear deltoid by reverse flyes",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Campos YAC et al., J Hum Kinet, 2020 (different shoulder exercises and deltoid portions, PMID 33312291)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "mistake",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "shoulder press machine",
-    "cable or machine lateral raise",
-    "reverse pec deck"
-   ],
-   "characters": "Blanket on the overhead press (move_ohp.png); Marah doing lateral raises",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket",
-   "episode": 3,
-   "next_episode": "المقطع الجاي عن الرجل الأمامية بتقديم مرح"
-  },
-  {
-   "id": "r034",
-   "subject": "How to train the legs (quads) in the gym",
-   "muscle": "quads",
-   "hook_idea": "تمرين الرجل: سكوات ولا مكينة؟",
-   "claims": [
-    "Deeper squats grew the glutes and adductors more than half squats, with similar quadriceps growth; the leg extension adds direct quadriceps work",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Kubo K et al., Eur J Appl Physiol, 2019 (squat depth and lower limb muscle volumes, PMID 31230110)",
-    "Pedrosa GF et al., Eur J Sport Sci, 2022 (leg extension partials at long muscle lengths)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "leg press",
-    "hack squat machine",
-    "leg extension"
-   ],
-   "characters": "Blanket squatting (move_squat.png); Marah on the leg press",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "affiliate": {
-    "product": "Weightlifting belt (default bio 5 link)",
-    "spot": "bio 5",
-    "caption_line": "🔗 حزام رفع الأثقال: لمن يرفع أوزان ثقيلة في السكوات. الرابط في البايو."
-   },
-   "narrator": "marah",
-   "episode": 4,
-   "next_episode": "المقطع الجاي عن الفخذ الخلفي بتقديم بلانكت"
-  },
-  {
-   "id": "r035",
-   "subject": "How to train the hamstrings (back of the thigh, not the glutes) in the gym",
-   "muscle": "hamstrings",
-   "hook_idea": "الفخذ الخلفي: تمرّنه جالس ولا منبطح؟",
-   "claims": [
-    "Seated leg curls (hamstrings trained at longer lengths) grew the hamstrings more than lying leg curls in the same people",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Maeo S et al., Med Sci Sports Exerc, 2021 (seated vs prone leg curl, PMID 33009197)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "seated leg curl",
-    "lying leg curl",
-    "45-degree back extension"
-   ],
-   "characters": "Blanket on the Romanian deadlift (move_deadlift.png); Marah on the seated leg curl",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "affiliate": {
-    "product": "Lifting straps (the owner's link)",
-    "spot": "bio 1",
-    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   },
-   "narrator": "blanket",
-   "episode": 5,
-   "next_episode": "المقطع الجاي عن المؤخرة بتقديم مرح"
-  },
-  {
-   "id": "r036",
-   "subject": "How to train the glutes in the gym",
-   "muscle": "glutes",
-   "hook_idea": "هيب ثرست ولا سكوات للمؤخرة؟",
-   "claims": [
-    "Over 9 weeks, the hip thrust and the squat gave similar glute growth; the hip thrust trains the glutes directly and is done here on the hip thrust machine",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Plotkin DL et al., Front Physiol, 2023 (hip thrust vs back squat, PMID 37877099)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "hip thrust machine",
-    "hip abduction machine",
-    "glute kickback machine or cable kickback"
-   ],
-   "characters": "Marah leads and narrates (move_glute_bridge.png, move_squat.png); Blanket appears beside her",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "affiliate": {
-    "product": "Resistance bands (the owner's link)",
-    "spot": "bio 3",
-    "caption_line": "🔗 أشرطة المقاومة: للإحماء أو للتمرين في البيت. الرابط في البايو."
-   },
-   "narrator": "marah",
-   "episode": 6,
-   "next_episode": "المقطع الجاي عن البايسبس بتقديم بلانكت"
-  },
-  {
-   "id": "r037",
-   "subject": "How to train the biceps in the gym",
-   "muscle": "biceps",
-   "hook_idea": "البايسبس: وش أفضل تمرين؟",
-   "claims": [
-    "In the preacher curl, training the first half of the movement (the stretched position) gave more growth than training the last half",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Pedrosa GF et al., Sports (Basel), 2023 (initial vs final range of motion in the arm curl, PMID 36828324)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "preacher curl machine",
-    "cable curl",
-    "biceps curl machine"
-   ],
-   "characters": "Blanket on the preacher curl; Marah doing cable curls",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket",
-   "episode": 7,
-   "next_episode": "المقطع الجاي عن الترايسبس بتقديم مرح"
-  },
-  {
-   "id": "r038",
-   "subject": "How to train the triceps in the gym",
-   "muscle": "triceps",
-   "hook_idea": "الترايسبس: فوق الراس ولا تحت؟",
-   "claims": [
-    "Overhead triceps extensions grew the triceps more than pushdowns over 12 weeks in the same people",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Maeo S et al., Eur J Sport Sci, 2023 (overhead vs neutral arm position, PMID 35819335)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "overhead cable extension",
-    "cable pushdown",
-    "assisted dip machine"
-   ],
-   "characters": "Blanket on dips (move_dips.png) and the overhead extension; Marah on the pushdown",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "marah",
-   "episode": 8,
-   "next_episode": "المقطع الجاي عن السمانة بتقديم بلانكت"
-  },
-  {
-   "id": "r039",
-   "subject": "How to train the calves in the gym",
-   "muscle": "calves",
-   "hook_idea": "سمانتك ما تكبر؟",
-   "claims": [
-    "Calf raises in the stretched half of the movement grew the gastrocnemius more than the full range or the shortened half",
-    "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
-    "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
-   ],
-   "seed_sources": [
-    "Kassiano W et al., J Strength Cond Res, 2023 (partial range at long muscle lengths, PMID 37015016)",
-    "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
-    "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
-    "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "تمرين العضلة",
-   "template": "C",
-   "exercises": [
-    "standing calf raise machine",
-    "seated calf raise machine",
-    "calf press on the leg press"
-   ],
-   "characters": "Blanket on the standing calf raise; Marah on the seated calf raise",
-   "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
-   "narrator": "blanket",
-   "episode": 9,
-   "next_episode": "آخر حلقة في السلسلة: ادعُ للمتابعة بدون ذكر حلقة قادمة"
-  },
-  {
-   "id": "r015",
-   "subject": "You do not need to train to failure",
-   "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
-   "claims": [
-    "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
-   ],
-   "seed_sources": [
-    "Refalo MC et al., Sports Med, 2023",
-    "Grgic J et al., J Sport Health Sci, 2022"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": "Lifting straps (SKDK, the owner's link)",
-    "spot": "bio 1",
-    "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r022",
-   "subject": "How much protein one meal can use for muscle",
-   "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
-   "claims": [
-    "The common idea that the body can use only about 30 g of protein per meal for muscle is too simple; spreading about 0.4 g/kg over at least four meals is a practical target"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Aragon AA, J Int Soc Sports Nutr, 2018 (How much protein can the body use in a single meal for muscle-building?)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle",
-   "template": "B",
-   "affiliate": {
-    "product": "Digital food scale (protein powder on hold)",
-    "spot": "bio 2",
-    "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r013",
-   "subject": "Liquid calories and sugary drinks",
-   "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
-   "claims": [
-    "Sugar-sweetened drinks are associated with weight gain in adults and children"
-   ],
-   "seed_sources": [
-    "Malik VS et al., Am J Clin Nutr, 2013"
-   ],
-   "status": "planned",
-   "category": "fat_loss",
-   "hook_type": "mistake",
-   "series": "خطأ شائع",
-   "template": "A",
-   "affiliate": {
-    "product": "Large water bottle",
-    "spot": "bio 5",
-    "caption_line": "🔗 قارورة ماء كبيرة: بديل سهل عن المشروبات المحلاة طوال اليوم. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r016",
-   "subject": "Rest between sets",
-   "hook_idea": "كم ترتاح بين المجموعات؟",
-   "claims": [
-    "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ et al., J Strength Cond Res, 2016"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "أيهما أفضل؟",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
-  },
-  {
-   "id": "r023",
-   "subject": "Caffeine before training",
-   "hook_idea": "قهوتك قبل التمرين ترفع أداءك فعلًا؟",
-   "claims": [
-    "Caffeine taken before exercise improves performance in many studies, at doses around 3-6 mg/kg"
-   ],
-   "seed_sources": [
-    "Guest NS et al., ISSN position stand: caffeine and exercise performance, J Int Soc Sports Nutr, 2021"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
-  },
-  {
-   "id": "r026",
-   "subject": "Remake of r004: short sleep while dieting shifts loss from fat to muscle",
-   "remake_of": "r004",
-   "hook_idea": "تنام خمس ساعات وأنت في دايت؟",
-   "claims": [
-    "In a small controlled study (10 adults, two 14-day diets), 5.5 hours in bed instead of 8.5 gave a similar weight loss, but less of it was fat and more was fat-free mass"
-   ],
-   "seed_sources": [
-    "Nedeltcheva AV et al., Ann Intern Med, 2010 (PMID 20921542; verified for r004)",
-    "Wang X et al., Sleep, 2018 (sleep restriction during caloric restriction; a hint to verify)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خطأ شائع",
-   "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice",
-   "template": "A",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
-  },
-  {
-   "id": "r017",
-   "subject": "The post-workout protein window",
-   "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
-   "claims": [
-    "Total daily protein matters more than eating it immediately after training"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": "Shaker bottle (protein powder on hold)",
-    "spot": "bio 4",
-    "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r020",
-   "subject": "Muscle memory after a break",
-   "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
-   "claims": [
-    "Previously trained muscle tends to regain size faster after a training break"
-   ],
-   "seed_sources": [
-    "Seaborne RA et al., Sci Rep, 2018",
-    "Psilander N et al., J Appl Physiol, 2019"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "situation",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": "Resistance bands",
-    "spot": "bio 3",
-    "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r028",
-   "subject": "Remake of r002: how much protein a day builds muscle",
-   "remake_of": "r002",
-   "hook_idea": "وزنك ثمانين كيلو؟ هذا بروتينك في اليوم",
-   "claims": [
-    "With resistance training, the benefit of extra protein for muscle levels off around 1.6 g per kg of body weight per day; the upper confidence limit was about 2.2 g"
-   ],
-   "seed_sources": [
-    "Morton RW et al., Br J Sports Med, 2018 (meta-analysis of 49 trials; verified for r002)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "how_many",
-   "series": "none",
-   "idea_from": "owner 2026-11-15: remake of r002 (142 views, 8.6 s average watch) with the current rules; the old one had no Blanket and the old voice",
-   "template": "A",
-   "affiliate": {
-    "product": "Digital food scale (protein powder on hold)",
-    "spot": "bio 2",
-    "caption_line": "🔗 ميزان مطبخ رقمي: يساعدك تحسب بروتين يومك بالغرام. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r018",
-   "subject": "Diet breaks",
-   "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
-   "claims": [
-    "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
-   ],
-   "seed_sources": [
-    "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
-   ],
-   "status": "planned",
-   "category": "fat_loss",
-   "hook_type": "versus",
-   "series": "أيهما أفضل؟",
-   "template": "A",
-   "affiliate": {
-    "product": "Digital food scale",
-    "spot": "bio 2",
-    "caption_line": "🔗 ميزان مطبخ رقمي: تتابع حصصك في أسابيع الحمية وأسابيع الاستراحة. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r024",
-   "subject": "Static stretching before lifting",
-   "hook_idea": "الإطالة الثابتة قبل الحديد تضعف قوتك؟",
-   "claims": [
-    "Long static stretches right before lifting can slightly reduce maximal strength; short stretches have little effect"
-   ],
-   "seed_sources": [
-    "Simic L, Sarabon N, Markovic G, Scand J Med Sci Sports, 2013 (meta-analysis of pre-exercise static stretching)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟",
-   "idea_from": "r004 and r006: a gym habit tested against a study, with a rule to apply today",
-   "template": "B",
-   "affiliate": {
-    "product": "Resistance bands",
-    "spot": "bio 3",
-    "caption_line": "🔗 أشرطة مقاومة: للإحماء الحركي قبل التمرين. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r021",
-   "subject": "Does cardio kill muscle gains?",
-   "hook_idea": "هل الكارديو يقتل العضل؟",
-   "claims": [
-    "Combining endurance and strength training interferes little with muscle growth for most people; high running volume matters most"
-   ],
-   "seed_sources": [
-    "Wilson JM et al., J Strength Cond Res, 2012",
-    "Schumann M et al., Sports Med, 2022"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "myth",
-   "series": "خرافة أم حقيقة؟",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
-  },
-  {
-   "id": "r025",
-   "subject": "Slow or fast repetitions for muscle growth",
-   "hook_idea": "التكرار البطيء أم السريع: أيهما يبني عضلًا أكثر؟",
-   "claims": [
-    "Across a wide range of repetition durations (about 0.5 to 8 seconds) muscle growth was similar; very slow reps did not add more"
-   ],
-   "seed_sources": [
-    "Schoenfeld BJ, Ogborn DI, Krieger JW, Sports Med, 2015 (repetition duration and hypertrophy, meta-analysis)"
-   ],
-   "status": "planned",
-   "category": "muscle",
-   "hook_type": "versus",
-   "series": "أيهما أفضل؟",
-   "idea_from": "r006 (sets) and r005 (frequency): how to train for muscle, answered with one clear number",
-   "template": "B",
-   "affiliate": {
-    "product": null,
-    "note": "No product helps this takeaway; no product line."
-   }
-  },
-  {
-   "id": "r019",
-   "subject": "Weighing yourself regularly",
-   "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
-   "claims": [
-    "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
-   ],
-   "seed_sources": [
-    "Zheng Y et al., Obesity, 2015 (systematic review)"
-   ],
-   "status": "planned",
-   "category": "fat_loss",
-   "hook_type": "yes_no",
-   "series": "خرافة أم حقيقة؟",
-   "template": "A",
-   "affiliate": {
-    "product": "Bathroom scale",
-    "spot": "bio 5",
-    "caption_line": "🔗 ميزان وزن رقمي: إذا قررت تتابع وزنك أسبوعيًا. الرابط في البايو."
-   }
-  },
-  {
-   "id": "r030",
-   "status": "published",
-   "topic": "intro: Blanket and Marah",
-   "publish_at": "2026-11-21T18:00:00+03:00",
-   "metricool_post_id": {
-    "instagram": 436115946,
-    "youtube": 436115993
-   },
-   "story": "reels/r030/r030-story.mp4 (owner posts it to the highlight «تعرف علينا» after the Reel)",
-   "published": {
-    "published_at": "2026-11-21T18:00:00+03:00",
-    "links": {
-     "instagram": "https://www.instagram.com/reel/DgAg0LnjU06/",
-     "youtube": "https://www.youtube.com/shorts/Yr_x2hE2PPI"
+  "cadence": "10 Reels a month on Instagram and YouTube Shorts, published at 6 PM Asia/Riyadh (8 PM until 2026-11-14; the owner moved it on 2026-11-15)",
+  "statuses": "planned -> queued -> rendered -> published | failed | skipped",
+  "note": "Seed sources are starting points only. Every run verifies each source on PubMed or PMC before using it, and drops or softens any claim it cannot verify.",
+  "items": [
+    {
+      "id": "poc1",
+      "subject": "Why weight loss can stall on a diet",
+      "status": "published",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Deksxk4ib0o/",
+        "youtube": "https://www.youtube.com/shorts/SOWsUH3_Fks"
+      },
+      "note": "To be deleted by the owner on 2026-10-24 when the r001 remake is published. 2026-11-15: the owner approved archiving it instead (same topic as r001); he archives the Instagram Reel and sets the Short to unlisted himself.",
+      "category": "fat_loss",
+      "hook_type": "why",
+      "series": "none"
     },
-    "metricool_post_id": {
-     "instagram": 436115946,
-     "youtube": 436115993
+    {
+      "id": "r001",
+      "subject": "Remake of poc1 (weight-loss plateau) with the Jeddawi Echo voice and illustrative AI images",
+      "status": "published",
+      "queued_at": "2026-10-21T05:00:00+03:00",
+      "narration_credits": 381,
+      "note": "Remake of poc1, owner-approved 2026-10-21 for Friday 20:00. Owner deletes the old poc1 posts himself (deleting published posts is not done by Claude). A scheduled run before 2026-10-24 20:05 should leave this item as scheduled (still PENDING is not a failure).",
+      "rendered_video": "reels/r001/r001-video-0ec769d4ef.mp4",
+      "scheduled_for": "2026-10-24T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 401689045,
+        "youtube": 401689078
+      },
+      "published_at": "2026-10-24T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/De4oFFUgYRS/",
+        "youtube": "https://www.youtube.com/shorts/M7ot48cEHjY"
+      },
+      "category": "fat_loss",
+      "hook_type": "why",
+      "series": "none"
+    },
+    {
+      "id": "r002",
+      "subject": "How much protein you need to build muscle",
+      "hook_idea": "كم غرامًا من البروتين تحتاج فعلًا لبناء العضل؟",
+      "claims": [
+        "With resistance training, the benefit of extra protein levels off around 1.6 g per kg of body weight per day"
+      ],
+      "seed_sources": [
+        "Morton RW et al., Br J Sports Med, 2018 (meta-analysis)"
+      ],
+      "status": "published",
+      "narration_credits": 397,
+      "scheduled_for": "2026-10-17T13:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 398414732,
+        "youtube": 398414769
+      },
+      "note": "Published early at the owner's request (planned for 20:00).",
+      "published_at": "2026-10-17T13:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Del2SMAgbW4/",
+        "youtube": "https://www.youtube.com/shorts/OdhErdVeBec"
+      },
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none"
+    },
+    {
+      "id": "r003",
+      "subject": "Ab exercises do not burn belly fat",
+      "hook_idea": "هل تمارين البطن تحرق دهون البطن؟",
+      "claims": [
+        "Training one body part does not selectively reduce the fat over it"
+      ],
+      "seed_sources": [
+        "Vispute SS et al., J Strength Cond Res, 2011",
+        "Ramírez-Campillo R et al., J Strength Cond Res, 2013"
+      ],
+      "status": "published",
+      "narration_credits": 786,
+      "queued_at": "2026-10-21T04:28:00+03:00",
+      "render_run_id": "39457940913",
+      "note": "Redone at the owner's request with the Jeddawi Echo voice; previous take kept in git history.",
+      "scheduled_for": "2026-10-22T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 401671622,
+        "youtube": 401671669
+      },
+      "published_at": "2026-10-22T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DezeXF5DG0j/",
+        "youtube": "https://www.youtube.com/shorts/nvESS5RLk1g"
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r004",
+      "subject": "Short sleep while dieting shifts loss from fat to muscle",
+      "hook_idea": "قلة النوم قد تجعل خسارتك من العضل لا من الدهون",
+      "claims": [
+        "In a small controlled study, dieters sleeping 5.5 hours lost less fat and more fat-free mass than at 8.5 hours"
+      ],
+      "seed_sources": [
+        "Nedeltcheva AV et al., Ann Intern Med, 2010"
+      ],
+      "status": "published",
+      "queued_at": "2026-10-23T19:24:00+03:00",
+      "narration_credits": 405,
+      "render_run_id": "39986286913",
+      "scheduled_for": "2026-10-23T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 404343669,
+        "youtube": 404343696
+      },
+      "published_at": "2026-10-23T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/De2DpX2DkuU/",
+        "youtube": "https://www.youtube.com/shorts/63Gn6kwr_lw"
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r005",
+      "subject": "Training each muscle twice a week",
+      "hook_idea": "تمرين العضلة مرة في الأسبوع يكفي؟",
+      "claims": [
+        "Training a muscle at least twice a week tends to build more muscle than once a week, especially when it adds weekly volume"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ et al., Sports Med, 2016"
+      ],
+      "status": "published",
+      "queued_at": "2026-10-24T21:45:00+03:00",
+      "narration_credits": 352,
+      "note": "Made ahead on 2026-10-24 at the owner's request with his character 'The Blanket'; for 2026-10-26 20:00.",
+      "scheduled_for": "2026-10-26T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 405190510,
+        "youtube": 405190567
+      },
+      "rendered_video": "reels/r005/r005-video-ab7dbb43f3.mp4",
+      "published_at": "2026-10-26T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/De9xtHzFWn9/",
+        "youtube": "https://www.youtube.com/shorts/FKN2l5il7xk"
+      },
+      "category": "muscle",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r006",
+      "subject": "Weekly sets for muscle growth",
+      "hook_idea": "كم مجموعة أسبوعيًا تحتاج العضلة لتنمو؟",
+      "claims": [
+        "More weekly sets per muscle are associated with more growth, with about 10 or more sets outperforming fewer"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017"
+      ],
+      "status": "published",
+      "note": "Prepared on 2026-10-27 at the owner's request, ahead of the 2026-10-29 20:00 slot.",
+      "queued_at": "2026-10-27T20:20:00+03:00",
+      "narration_credits": 404,
+      "scheduled_for": "2026-10-29T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 409727279,
+        "youtube": 409727458
+      },
+      "rendered_video": "reels/r006/r006-video-d6ac254c4f.mp4",
+      "published_at": "2026-10-29T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfFgeubAr9_/",
+        "youtube": "https://www.youtube.com/shorts/582Y_ffiOa4"
+      },
+      "metricool_post_id": {
+        "instagram": 409727279,
+        "youtube": 409727458
+      },
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none"
+    },
+    {
+      "id": "r007",
+      "subject": "Creatine: effective and safe for healthy people",
+      "hook_idea": "الكرياتين: هل هو آمن ومفيد فعلًا؟",
+      "claims": [
+        "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
+      ],
+      "seed_sources": [
+        "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand)"
+      ],
+      "status": "published",
+      "queued_at": "2026-10-21T03:51:00+03:00",
+      "narration_credits": 777,
+      "note": "Owner's brief of 2026-10-21 (creatine: muscle or water?); owner-specified voice and ~60 s length.",
+      "published_at": "2026-10-21T04:15:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DevNH6tiIrX/",
+        "youtube": "https://www.youtube.com/shorts/wLkP4sPMOFM"
+      },
+      "metricool_post_ids": {
+        "instagram": 401656846,
+        "youtube": 401656888
+      },
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "none"
+    },
+    {
+      "id": "r008",
+      "subject": "Intermittent fasting versus calorie restriction",
+      "hook_idea": "الصيام المتقطع أفضل لخسارة الوزن؟",
+      "claims": [
+        "In a 12-month randomized trial, time-restricted eating with calorie restriction was not better than calorie restriction alone"
+      ],
+      "seed_sources": [
+        "Liu D et al., N Engl J Med, 2022"
+      ],
+      "status": "published",
+      "note": "Prepared on 2026-10-31 at the owner's request for 2026-11-02 20:00.",
+      "queued_at": "2026-10-31T12:31:00+03:00",
+      "narration_credits": 390,
+      "scheduled_for": "2026-11-02T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 412035081,
+        "youtube": 412035111
+      },
+      "rendered_video": "reels/r008/r008-video-120d840859.mp4",
+      "published_at": "2026-11-02T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfPzhetAM8D/",
+        "youtube": "https://www.youtube.com/shorts/W_0o917DNXk"
+      },
+      "metricool_post_id": {
+        "instagram": 412035081,
+        "youtube": 412035111
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r009",
+      "subject": "Low-carb versus low-fat",
+      "hook_idea": "قليل الكربوهيدرات أم قليل الدهون؟",
+      "claims": [
+        "In the 12-month DIETFITS trial, healthy low-fat and healthy low-carb diets led to similar weight loss"
+      ],
+      "seed_sources": [
+        "Gardner CD et al., JAMA, 2018"
+      ],
+      "status": "published",
+      "queued_at": "2026-11-05T19:30:00+03:00",
+      "narration_credits": 446,
+      "evidence_note": "DIETFITS verified via NIHR Evidence record (PubMed/JAMA pages unreachable from workspace)",
+      "scheduled_for": "2026-11-05T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 417962524,
+        "youtube": 417962626
+      },
+      "rendered_video": "reels/r009/r009-video-e581e82513.mp4",
+      "published_at": "2026-11-05T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfXibZnkX_N/",
+        "youtube": "https://www.youtube.com/shorts/x0Z7rxmEg_w"
+      },
+      "metricool_post_id": {
+        "instagram": 417962524,
+        "youtube": 417962626
+      },
+      "category": "fat_loss",
+      "hook_type": "versus",
+      "series": "none"
+    },
+    {
+      "id": "r010",
+      "subject": "Metabolism does not slow down after 30",
+      "hook_idea": "هل يبطؤ حرقك بعد الثلاثين؟",
+      "claims": [
+        "Adjusted for body size and composition, daily energy expenditure stays stable from about age 20 to 60"
+      ],
+      "seed_sources": [
+        "Pontzer H et al., Science, 2021"
+      ],
+      "status": "published",
+      "queued_at": "2026-11-08T19:27:00+03:00",
+      "narration_credits": 416,
+      "evidence_note": "Pontzer 2021 verified via Duke Scholars and Tilburg research records (PubMed/PMC unreachable from workspace)",
+      "scheduled_for": "2026-11-08T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 420879905,
+        "youtube": 420879925
+      },
+      "rendered_video": "reels/r010/r010-video-9fac2be80a.mp4",
+      "published_at": "2026-11-08T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DffQgGekU-h/",
+        "youtube": "https://www.youtube.com/shorts/iXwE1SXHQow"
+      },
+      "metricool_post_id": {
+        "instagram": 420879905,
+        "youtube": 420879925
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r011",
+      "subject": "Everyday movement outside the gym (NEAT)",
+      "hook_idea": "حركتك اليومية خارج النادي قد تفرق أكثر مما تتوقع",
+      "claims": [
+        "Non-exercise activity varies widely between people and helps explain differences in fat gain"
+      ],
+      "seed_sources": [
+        "Levine JA et al., Science, 1999",
+        "Levine JA et al., Science, 2005"
+      ],
+      "status": "published",
+      "queued_at": "2026-11-11T19:25:00+03:00",
+      "narration_credits": 412,
+      "evidence_note": "Levine 1999 verified on PubMed (PMID 9880251); Levine 2005 verified via ASU research record (PubMed served a captcha)",
+      "scheduled_for": "2026-11-11T20:18:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 424691154,
+        "youtube": 424691393
+      },
+      "rendered_video": "reels/r011/r011-video-c6b3f7937f.mp4",
+      "note": "The scheduled run stopped at the usage limit (19:50) after queuing the render; the first render hung on GitHub's FFmpeg install. The owner's chat session restarted the render, added headroom to scene 2 and published at 20:18 instead of 20:00.",
+      "published_at": "2026-11-11T20:18:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/DfnAHtLlPqn/",
+        "youtube": "https://www.youtube.com/shorts/NNb2oPgBhwY"
+      },
+      "metricool_post_id": {
+        "instagram": 424691154,
+        "youtube": 424691393
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r012",
+      "subject": "Water before meals",
+      "hook_idea": "كوب ماء قبل الوجبة يساعد في خسارة الوزن؟",
+      "claims": [
+        "In a 12-week trial in middle-aged and older adults, 500 ml of water before meals plus a diet led to more weight loss"
+      ],
+      "seed_sources": [
+        "Dennis EA et al., Obesity, 2010"
+      ],
+      "status": "published",
+      "queued_at": "2026-11-11T20:07:00+03:00",
+      "narration_credits": 392,
+      "note": "Prepared on 2026-11-11 in the owner's chat (he asked to try Fable 5.2 on the next video), for the 2026-11-14 20:00 slot.",
+      "evidence_note": "Dennis 2010 verified via University of Kentucky and FAO AGRIS records, Parretti 2015 via the University of Birmingham record, Hakam 2024 via the Washington University record (PubMed and PMC served a captcha)",
+      "scheduled_for": "2026-11-14T20:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 424698728,
+        "youtube": 424698916
+      },
+      "rendered_video": "reels/r012/r012-video-0192c28410.mp4",
+      "published_at": "2026-11-14T20:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Dfus6XVnC--/",
+        "youtube": "https://www.youtube.com/shorts/YOdwV6hgXIw"
+      },
+      "metricool_post_id": {
+        "instagram": 424698728,
+        "youtube": 424698916
+      },
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "none"
+    },
+    {
+      "id": "r014",
+      "subject": "Light versus heavy weights for muscle",
+      "hook_idea": "أوزان خفيفة أم ثقيلة لبناء العضل؟",
+      "claims": [
+        "Light and heavy loads build similar muscle when sets end close to failure; heavy loads build more strength"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ et al., J Strength Cond Res, 2017"
+      ],
+      "status": "published",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟",
+      "queued_at": "2026-11-17T13:41:00Z",
+      "intro_position": "after_hook",
+      "evidence_note": "Seed meta-analysis (Schoenfeld 2017) could not be read this run; script rests on Morton et al. 2016 (PMID 27174923), strength claim narrowed to bench press.",
+      "rendered_at": "2026-11-17T13:46:11Z",
+      "video": "reels/r014/r014-video-3f725c4e8f.mp4",
+      "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@cec9c920f4e78e565a53b381770e6bc2bff76ac3/reels/r014/r014-video-3f725c4e8f.mp4",
+      "publish_at": "2026-11-17T18:00:00+03:00",
+      "metricool_post_ids": {
+        "instagram": 431481189,
+        "youtube": 431481218
+      },
+      "published_at": "2026-11-17T18:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Df2OITKjOlM/",
+        "youtube": "https://www.youtube.com/shorts/cMxUpgz19WA"
+      },
+      "metricool_post_id": {
+        "instagram": 431481189,
+        "youtube": 431481218
+      }
+    },
+    {
+      "id": "r029",
+      "subject": "Gym tools: what studies say about lifting straps, a lifting belt and resistance bands",
+      "status": "published",
+      "category": "muscle",
+      "template": "B",
+      "series": "none",
+      "idea_from": "owner 2026-11-20: today's Reel about gym tools and their benefits from real studies, matching the products in his bio; made in his chat",
+      "affiliate": {
+        "product": "Lifting straps, weightlifting belt, resistance bands",
+        "spot": "bio 1, 5, 3",
+        "caption_line": "🔗 الأدوات في المقطع (أحزمة المعصم، وحزام الرفع، وأشرطة المقاومة): روابطها في البايو."
+      },
+      "hook_idea": "ثلاث أدوات في الجيم: هل تفيدك فعلًا؟",
+      "hook_type": "number",
+      "claims": [
+        "In 20 men, the deadlift one-repetition maximum was about 10% higher with lifting straps than without (177.0 vs 160.6 kg on average).",
+        "In 10 resistance-trained women, lifting straps allowed more deadlift repetitions at 80% 1RM without lowering bar velocity, and grip strength dropped less.",
+        "In 14 healthy men squatting at 90% 1RM, the lift was faster with a weight belt, with no difference in thigh, hip or lower-back muscle activity.",
+        "A systematic review and meta-analysis of 8 studies found similar strength gains from elastic resistance training and conventional resistance training."
+      ],
+      "seed_sources": [
+        "Jukic I et al., J Strength Cond Res, 2020",
+        "Trahey KM et al., J Strength Cond Res, 2023",
+        "Zink AJ et al., J Strength Cond Res, 2001",
+        "Lopes JSS et al., SAGE Open Med, 2019"
+      ],
+      "queued_at": "2026-11-20T16:10:00+03:00",
+      "narration_credits": 696,
+      "rendered_video": "reels/r029/r029-video-3ca5684b51.mp4",
+      "render_run_id": 44751548696,
+      "narration_credits_total": 1145,
+      "owner_edit": "2026-11-20 16:58: say each study's university and sample; تَسْتَخْدِم with diacritics; his female character in the straps part (new s2b, study on ten trained women). Second take 696 credits (first take 449, kept as content/audio/r029_narration_v1*)",
+      "metricool_post_ids": {
+        "instagram": 435642808,
+        "youtube": 435642464
+      },
+      "publish_at": "2026-11-20T18:00:00+03:00",
+      "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@90e19195ce440a30fc2488242788b7c45ba52bf0/reels/r029/r029-video-3ca5684b51.mp4",
+      "published_at": "2026-11-20T18:00:00+03:00",
+      "links": {
+        "instagram": "https://www.instagram.com/reel/Df98oQykUtf/",
+        "youtube": "https://www.youtube.com/shorts/1MGHFn9mDgg"
+      },
+      "metricool_post_id": {
+        "instagram": 435642808,
+        "youtube": 435642464
+      }
+    },
+    {
+      "id": "r027",
+      "subject": "Creatine, presented by Marah: the weight gained on creatine is mostly water, not fat (remake of r007)",
+      "remake_of": "r007",
+      "hook_idea": "زاد وزنك كيلو بعد الكرياتين؟",
+      "claims": [
+        "Creatine often raises body weight by about 1-2 kg in the first week, mostly water held in muscle rather than fat",
+        "Creatine monohydrate improves training adaptations and is considered safe for healthy people at recommended doses"
+      ],
+      "seed_sources": [
+        "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
+        "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
+      ],
+      "status": "queued",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "owner 2026-11-15: remake of r007 (10.2 s average watch, second best) with the current rules; the old one had no Blanket",
+      "template": "B",
+      "affiliate": {
+        "product": "Creatine monohydrate (supplement: on hold until the owner clears it)",
+        "spot": "bio 5",
+        "caption_line": "🔗 كرياتين مونوهيدرات: النوع الذي استخدمته أغلب الدراسات. الرابط في البايو.",
+        "hold": true
+      },
+      "narrator": "marah",
+      "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it in her normal voice. Only the teaser about the coming series is whispered, as one secret-telling moment, for example «بقلكم سر! ترى قريب بنبدأ سلسلة تمارين كل عضلة على أجهزة الجيم...»; mark that sentence with \"whisper\": true in the script. Creatine got its own Reel first because it matters. The call to action says the next Reel opens the machine series, presented by Blanket and Marah.",
+      "publish_on": "2026-11-23",
+      "series_label": "خرافة أم حقيقة؟ · 1"
+    },
+    {
+      "id": "r040",
+      "subject": "Intro to the series: training every muscle on the gym machines, and why machines",
+      "hook_idea": "تبي تبني عضل وما تعرف تستخدم الأوزان الحرة؟",
+      "claims": [
+        "In a systematic review and meta-analysis, free-weight and machine training gave similar muscle growth, and each improved strength most in the kind of test it trained",
+        "In a 12-week trial, training with free weights or machines gave similar gains in muscle thickness and strength"
+      ],
+      "seed_sources": [
+        "Haugen ME et al., BMC Sports Sci Med Rehabil, 2023 (free weights vs machines, PMID 37582807)",
+        "Schwanbeck SR et al., J Strength Cond Res, 2020 (free weights vs machines, PMID 32358310)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "تمرين العضلة",
+      "template": "dialogue",
+      "narrator": "dialogue",
+      "publish_on": "2026-11-26",
+      "made_in": "chat with the owner (dialogue: he hears every take before mixing)",
+      "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket.",
+      "idea_from": "owner, 2026-11-22",
+      "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت"
+    },
+    {
+      "id": "r031",
+      "subject": "How to train the chest in the gym",
+      "muscle": "chest",
+      "hook_idea": "كيف تبني صدرك في الجيم؟",
+      "claims": [
+        "In a bench press electromyography study a moderate incline (about 30 degrees) raised upper chest activity compared with a flat bench, while steeper angles shifted work to the front shoulder",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Rodríguez-Ridao D et al., Int J Environ Res Public Health, 2020 (five bench inclinations, PMID 33049982)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "chest press machine",
+        "incline chest press machine",
+        "pec deck (machine fly)"
+      ],
+      "characters": "Blanket on the bench (assets/characters/blanket/move_bench.png); Marah on the chest press machine",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "narrator": "blanket",
+      "episode": 1,
+      "next_episode": "المقطع الجاي عن الظهر بتقديم مرح"
+    },
+    {
+      "id": "r032",
+      "subject": "How to train the back in the gym",
+      "muscle": "back",
+      "hook_idea": "كم تمرين يحتاج ظهرك؟",
+      "claims": [
+        "In the lat pull-down, a pronated grip (wide or medium) gave similar or more lat activity than other grips and is a sound default",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Lusk SJ et al., J Strength Cond Res, 2010 (grip width and forearm orientation in the lat pull-down, PMID 20543740)",
+        "Andersen V et al., J Strength Cond Res, 2014 (grip width in the lat pull-down, PMID 24662157)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "lat pull-down",
+        "seated cable row",
+        "machine row or assisted pull-up machine"
+      ],
+      "characters": "Blanket on the pull-down and row (move_pulldown.png, move_row.png); Marah on the assisted pull-up",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "affiliate": {
+        "product": "Lifting straps (the owner's link)",
+        "spot": "bio 1",
+        "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
+      },
+      "narrator": "marah",
+      "episode": 2,
+      "next_episode": "المقطع الجاي عن الأكتاف بتقديم بلانكت"
+    },
+    {
+      "id": "r033",
+      "subject": "How to train the shoulders in the gym",
+      "muscle": "shoulders",
+      "hook_idea": "أكتاف عريضة: وش التمارين الصح؟",
+      "claims": [
+        "Pressing works mostly the front deltoid; the side deltoid is worked most by lateral raises, and the rear deltoid by reverse flyes",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Campos YAC et al., J Hum Kinet, 2020 (different shoulder exercises and deltoid portions, PMID 33312291)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "mistake",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "shoulder press machine",
+        "cable or machine lateral raise",
+        "reverse pec deck"
+      ],
+      "characters": "Blanket on the overhead press (move_ohp.png); Marah doing lateral raises",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "narrator": "blanket",
+      "episode": 3,
+      "next_episode": "المقطع الجاي عن الرجل الأمامية بتقديم مرح"
+    },
+    {
+      "id": "r034",
+      "subject": "How to train the legs (quads) in the gym",
+      "muscle": "quads",
+      "hook_idea": "تمرين الرجل: سكوات ولا مكينة؟",
+      "claims": [
+        "Deeper squats grew the glutes and adductors more than half squats, with similar quadriceps growth; the leg extension adds direct quadriceps work",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Kubo K et al., Eur J Appl Physiol, 2019 (squat depth and lower limb muscle volumes, PMID 31230110)",
+        "Pedrosa GF et al., Eur J Sport Sci, 2022 (leg extension partials at long muscle lengths)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "leg press",
+        "hack squat machine",
+        "leg extension"
+      ],
+      "characters": "Blanket squatting (move_squat.png); Marah on the leg press",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "affiliate": {
+        "product": "Weightlifting belt (default bio 5 link)",
+        "spot": "bio 5",
+        "caption_line": "🔗 حزام رفع الأثقال: لمن يرفع أوزان ثقيلة في السكوات. الرابط في البايو."
+      },
+      "narrator": "marah",
+      "episode": 4,
+      "next_episode": "المقطع الجاي عن الفخذ الخلفي بتقديم بلانكت"
+    },
+    {
+      "id": "r035",
+      "subject": "How to train the hamstrings (back of the thigh, not the glutes) in the gym",
+      "muscle": "hamstrings",
+      "hook_idea": "الفخذ الخلفي: تمرّنه جالس ولا منبطح؟",
+      "claims": [
+        "Seated leg curls (hamstrings trained at longer lengths) grew the hamstrings more than lying leg curls in the same people",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Maeo S et al., Med Sci Sports Exerc, 2021 (seated vs prone leg curl, PMID 33009197)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "seated leg curl",
+        "lying leg curl",
+        "45-degree back extension"
+      ],
+      "characters": "Blanket on the Romanian deadlift (move_deadlift.png); Marah on the seated leg curl",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "affiliate": {
+        "product": "Lifting straps (the owner's link)",
+        "spot": "bio 1",
+        "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
+      },
+      "narrator": "blanket",
+      "episode": 5,
+      "next_episode": "المقطع الجاي عن المؤخرة بتقديم مرح"
+    },
+    {
+      "id": "r036",
+      "subject": "How to train the glutes in the gym",
+      "muscle": "glutes",
+      "hook_idea": "هيب ثرست ولا سكوات للمؤخرة؟",
+      "claims": [
+        "Over 9 weeks, the hip thrust and the squat gave similar glute growth; the hip thrust trains the glutes directly and is done here on the hip thrust machine",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Plotkin DL et al., Front Physiol, 2023 (hip thrust vs back squat, PMID 37877099)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "hip thrust machine",
+        "hip abduction machine",
+        "glute kickback machine or cable kickback"
+      ],
+      "characters": "Marah leads and narrates (move_glute_bridge.png, move_squat.png); Blanket appears beside her",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "affiliate": {
+        "product": "Resistance bands (the owner's link)",
+        "spot": "bio 3",
+        "caption_line": "🔗 أشرطة المقاومة: للإحماء أو للتمرين في البيت. الرابط في البايو."
+      },
+      "narrator": "marah",
+      "episode": 6,
+      "next_episode": "المقطع الجاي عن البايسبس بتقديم بلانكت"
+    },
+    {
+      "id": "r037",
+      "subject": "How to train the biceps in the gym",
+      "muscle": "biceps",
+      "hook_idea": "البايسبس: وش أفضل تمرين؟",
+      "claims": [
+        "In the preacher curl, training the first half of the movement (the stretched position) gave more growth than training the last half",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Pedrosa GF et al., Sports (Basel), 2023 (initial vs final range of motion in the arm curl, PMID 36828324)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "preacher curl machine",
+        "cable curl",
+        "biceps curl machine"
+      ],
+      "characters": "Blanket on the preacher curl; Marah doing cable curls",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "narrator": "blanket",
+      "episode": 7,
+      "next_episode": "المقطع الجاي عن الترايسبس بتقديم مرح"
+    },
+    {
+      "id": "r038",
+      "subject": "How to train the triceps in the gym",
+      "muscle": "triceps",
+      "hook_idea": "الترايسبس: فوق الراس ولا تحت؟",
+      "claims": [
+        "Overhead triceps extensions grew the triceps more than pushdowns over 12 weeks in the same people",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Maeo S et al., Eur J Sport Sci, 2023 (overhead vs neutral arm position, PMID 35819335)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "overhead cable extension",
+        "cable pushdown",
+        "assisted dip machine"
+      ],
+      "characters": "Blanket on dips (move_dips.png) and the overhead extension; Marah on the pushdown",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "narrator": "marah",
+      "episode": 8,
+      "next_episode": "المقطع الجاي عن السمانة بتقديم بلانكت"
+    },
+    {
+      "id": "r039",
+      "subject": "How to train the calves in the gym",
+      "muscle": "calves",
+      "hook_idea": "سمانتك ما تكبر؟",
+      "claims": [
+        "Calf raises in the stretched half of the movement grew the gastrocnemius more than the full range or the shortened half",
+        "A practical start for beginners is 8-12 repetitions per set with a load that leaves about 2-3 repetitions in reserve; when the top of the range is passed, the load goes up a little (ACSM: about 2-10%)",
+        "About 10 or more hard sets per muscle per week, split over at least two sessions, gives more growth than fewer sets"
+      ],
+      "seed_sources": [
+        "Kassiano W et al., J Strength Cond Res, 2023 (partial range at long muscle lengths, PMID 37015016)",
+        "American College of Sports Medicine position stand, Progression models in resistance training for healthy adults, Med Sci Sports Exerc, 2009",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, J Sports Sci, 2017 (dose-response of weekly sets and muscle hypertrophy)",
+        "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
+        "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "تمرين العضلة",
+      "template": "C",
+      "exercises": [
+        "standing calf raise machine",
+        "seated calf raise machine",
+        "calf press on the leg press"
+      ],
+      "characters": "Blanket on the standing calf raise; Marah on the seated calf raise",
+      "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
+      "narrator": "blanket",
+      "episode": 9,
+      "next_episode": "آخر حلقة في السلسلة: ادعُ للمتابعة بدون ذكر حلقة قادمة"
+    },
+    {
+      "id": "r015",
+      "subject": "You do not need to train to failure",
+      "hook_idea": "لازم توصل للفشل العضلي في كل مجموعة؟",
+      "claims": [
+        "Stopping sets close to failure is effective for muscle growth; reaching complete failure is not required"
+      ],
+      "seed_sources": [
+        "Refalo MC et al., Sports Med, 2023",
+        "Grgic J et al., J Sport Health Sci, 2022"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟",
+      "template": "B",
+      "affiliate": {
+        "product": "Lifting straps (SKDK, the owner's link)",
+        "spot": "bio 1",
+        "caption_line": "🔗 أحزمة المعصم: تخفف الحمل عن قبضتك في تمارين السحب. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r022",
+      "subject": "How much protein one meal can use for muscle",
+      "hook_idea": "كم غرام بروتين في الوجبة يستفيد منها جسمك؟",
+      "claims": [
+        "The common idea that the body can use only about 30 g of protein per meal for muscle is too simple; spreading about 0.4 g/kg over at least four meals is a practical target"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Aragon AA, J Int Soc Sports Nutr, 2018 (How much protein can the body use in a single meal for muscle-building?)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r002 (protein, 8.6 s watch, 142 views) and r006 (sets, best Reel): a practical number for muscle",
+      "template": "B",
+      "affiliate": {
+        "product": "Digital food scale (protein powder on hold)",
+        "spot": "bio 2",
+        "caption_line": "🔗 ميزان مطبخ رقمي: تعرف كم غرام بروتين في وجبتك بدل التخمين. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r013",
+      "subject": "Liquid calories and sugary drinks",
+      "hook_idea": "السعرات التي تشربها لا تشعرك بالشبع",
+      "claims": [
+        "Sugar-sweetened drinks are associated with weight gain in adults and children"
+      ],
+      "seed_sources": [
+        "Malik VS et al., Am J Clin Nutr, 2013"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "mistake",
+      "series": "خطأ شائع",
+      "template": "A",
+      "affiliate": {
+        "product": "Large water bottle",
+        "spot": "bio 5",
+        "caption_line": "🔗 قارورة ماء كبيرة: بديل سهل عن المشروبات المحلاة طوال اليوم. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r016",
+      "subject": "Rest between sets",
+      "hook_idea": "كم ترتاح بين المجموعات؟",
+      "claims": [
+        "In trained men, about 3 minutes of rest between sets led to more strength and muscle than 1 minute"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ et al., J Strength Cond Res, 2016"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "أيهما أفضل؟",
+      "template": "B",
+      "affiliate": {
+        "product": null,
+        "note": "No product helps this takeaway; no product line."
+      }
+    },
+    {
+      "id": "r023",
+      "subject": "Caffeine before training",
+      "hook_idea": "قهوتك قبل التمرين ترفع أداءك فعلًا؟",
+      "claims": [
+        "Caffeine taken before exercise improves performance in many studies, at doses around 3-6 mg/kg"
+      ],
+      "seed_sources": [
+        "Guest NS et al., ISSN position stand: caffeine and exercise performance, J Int Soc Sports Nutr, 2021"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r007 (creatine, 10.2 s watch): a supplement gym-goers already use, opened from their own situation",
+      "template": "B",
+      "affiliate": {
+        "product": null,
+        "note": "No product helps this takeaway; no product line."
+      }
+    },
+    {
+      "id": "r026",
+      "subject": "Remake of r004: short sleep while dieting shifts loss from fat to muscle",
+      "remake_of": "r004",
+      "hook_idea": "تنام خمس ساعات وأنت في دايت؟",
+      "claims": [
+        "In a small controlled study (10 adults, two 14-day diets), 5.5 hours in bed instead of 8.5 gave a similar weight loss, but less of it was fat and more was fat-free mass"
+      ],
+      "seed_sources": [
+        "Nedeltcheva AV et al., Ann Intern Med, 2010 (PMID 20921542; verified for r004)",
+        "Wang X et al., Sleep, 2018 (sleep restriction during caloric restriction; a hint to verify)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خطأ شائع",
+      "idea_from": "owner 2026-11-15: remake of r004 (50% skip, second lowest after r006, and the most likes) with the current rules; the old one had no Blanket and the old voice",
+      "template": "A",
+      "affiliate": {
+        "product": null,
+        "note": "No product helps this takeaway; no product line."
+      }
+    },
+    {
+      "id": "r017",
+      "subject": "The post-workout protein window",
+      "hook_idea": "نافذة البروتين بعد التمرين: حقيقة أم مبالغة؟",
+      "claims": [
+        "Total daily protein matters more than eating it immediately after training"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Aragon AA, Krieger JW, J Int Soc Sports Nutr, 2013"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟",
+      "template": "B",
+      "affiliate": {
+        "product": "Shaker bottle (protein powder on hold)",
+        "spot": "bio 4",
+        "caption_line": "🔗 شيكر: يجهز لك مشروب البروتين في أي وقت يناسبك. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r020",
+      "subject": "Muscle memory after a break",
+      "hook_idea": "توقفت عن التمرين؟ عضلاتك تتذكر",
+      "claims": [
+        "Previously trained muscle tends to regain size faster after a training break"
+      ],
+      "seed_sources": [
+        "Seaborne RA et al., Sci Rep, 2018",
+        "Psilander N et al., J Appl Physiol, 2019"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "situation",
+      "series": "خرافة أم حقيقة؟",
+      "template": "B",
+      "affiliate": {
+        "product": "Resistance bands",
+        "spot": "bio 3",
+        "caption_line": "🔗 أشرطة مقاومة: تمرين خفيف في البيت أو السفر وقت الانقطاع. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r028",
+      "subject": "Remake of r002: how much protein a day builds muscle",
+      "remake_of": "r002",
+      "hook_idea": "وزنك ثمانين كيلو؟ هذا بروتينك في اليوم",
+      "claims": [
+        "With resistance training, the benefit of extra protein for muscle levels off around 1.6 g per kg of body weight per day; the upper confidence limit was about 2.2 g"
+      ],
+      "seed_sources": [
+        "Morton RW et al., Br J Sports Med, 2018 (meta-analysis of 49 trials; verified for r002)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "how_many",
+      "series": "none",
+      "idea_from": "owner 2026-11-15: remake of r002 (142 views, 8.6 s average watch) with the current rules; the old one had no Blanket and the old voice",
+      "template": "A",
+      "affiliate": {
+        "product": "Digital food scale (protein powder on hold)",
+        "spot": "bio 2",
+        "caption_line": "🔗 ميزان مطبخ رقمي: يساعدك تحسب بروتين يومك بالغرام. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r018",
+      "subject": "Diet breaks",
+      "hook_idea": "الاستراحة من الرجيم قد تحسّن النتيجة",
+      "claims": [
+        "In one trial in men with obesity, alternating two weeks of dieting with two-week breaks led to more fat loss than continuous dieting"
+      ],
+      "seed_sources": [
+        "Byrne NM et al., Int J Obes, 2018 (MATADOR)"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟",
+      "template": "A",
+      "affiliate": {
+        "product": "Digital food scale",
+        "spot": "bio 2",
+        "caption_line": "🔗 ميزان مطبخ رقمي: تتابع حصصك في أسابيع الحمية وأسابيع الاستراحة. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r024",
+      "subject": "Static stretching before lifting",
+      "hook_idea": "الإطالة الثابتة قبل الحديد تضعف قوتك؟",
+      "claims": [
+        "Long static stretches right before lifting can slightly reduce maximal strength; short stretches have little effect"
+      ],
+      "seed_sources": [
+        "Simic L, Sarabon N, Markovic G, Scand J Med Sci Sports, 2013 (meta-analysis of pre-exercise static stretching)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟",
+      "idea_from": "r004 and r006: a gym habit tested against a study, with a rule to apply today",
+      "template": "B",
+      "affiliate": {
+        "product": "Resistance bands",
+        "spot": "bio 3",
+        "caption_line": "🔗 أشرطة مقاومة: للإحماء الحركي قبل التمرين. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r021",
+      "subject": "Does cardio kill muscle gains?",
+      "hook_idea": "هل الكارديو يقتل العضل؟",
+      "claims": [
+        "Combining endurance and strength training interferes little with muscle growth for most people; high running volume matters most"
+      ],
+      "seed_sources": [
+        "Wilson JM et al., J Strength Cond Res, 2012",
+        "Schumann M et al., Sports Med, 2022"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "myth",
+      "series": "خرافة أم حقيقة؟",
+      "template": "B",
+      "affiliate": {
+        "product": null,
+        "note": "No product helps this takeaway; no product line."
+      }
+    },
+    {
+      "id": "r025",
+      "subject": "Slow or fast repetitions for muscle growth",
+      "hook_idea": "التكرار البطيء أم السريع: أيهما يبني عضلًا أكثر؟",
+      "claims": [
+        "Across a wide range of repetition durations (about 0.5 to 8 seconds) muscle growth was similar; very slow reps did not add more"
+      ],
+      "seed_sources": [
+        "Schoenfeld BJ, Ogborn DI, Krieger JW, Sports Med, 2015 (repetition duration and hypertrophy, meta-analysis)"
+      ],
+      "status": "planned",
+      "category": "muscle",
+      "hook_type": "versus",
+      "series": "أيهما أفضل؟",
+      "idea_from": "r006 (sets) and r005 (frequency): how to train for muscle, answered with one clear number",
+      "template": "B",
+      "affiliate": {
+        "product": null,
+        "note": "No product helps this takeaway; no product line."
+      }
+    },
+    {
+      "id": "r019",
+      "subject": "Weighing yourself regularly",
+      "hook_idea": "وزن نفسك بانتظام: مفيد أم مقلق؟",
+      "claims": [
+        "Regular self-weighing is associated with better weight loss and maintenance; if it causes anxiety, weigh less often"
+      ],
+      "seed_sources": [
+        "Zheng Y et al., Obesity, 2015 (systematic review)"
+      ],
+      "status": "planned",
+      "category": "fat_loss",
+      "hook_type": "yes_no",
+      "series": "خرافة أم حقيقة؟",
+      "template": "A",
+      "affiliate": {
+        "product": "Bathroom scale",
+        "spot": "bio 5",
+        "caption_line": "🔗 ميزان وزن رقمي: إذا قررت تتابع وزنك أسبوعيًا. الرابط في البايو."
+      }
+    },
+    {
+      "id": "r030",
+      "status": "published",
+      "topic": "intro: Blanket and Marah",
+      "publish_at": "2026-11-21T18:00:00+03:00",
+      "metricool_post_id": {
+        "instagram": 436115946,
+        "youtube": 436115993
+      },
+      "story": "reels/r030/r030-story.mp4 (owner posts it to the highlight «تعرف علينا» after the Reel)",
+      "published": {
+        "published_at": "2026-11-21T18:00:00+03:00",
+        "links": {
+          "instagram": "https://www.instagram.com/reel/DgAg0LnjU06/",
+          "youtube": "https://www.youtube.com/shorts/Yr_x2hE2PPI"
+        },
+        "metricool_post_id": {
+          "instagram": 436115946,
+          "youtube": 436115993
+        }
+      }
+    },
+    {
+      "id": "t001",
+      "status": "published",
+      "network": "tiktok",
+      "topic": "Blanket's TikTok intro",
+      "published_at": "2026-11-21T13:10:00+03:00",
+      "by": "owner, in the TikTok app",
+      "video": "reels/t001/t001-tiktok.mp4"
     }
-   }
+  ],
+  "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes. 2026-11-22 (owner): new order. 23 Nov r027 (creatine, whispered by Marah, hints at the training series); 26 Nov r040 (series intro with Blanket and Marah, a dialogue Reel made in chat, so manual_reel_date is 26 Nov); then the series r031-r039 in a row, all on gym machines, each ending with the next episode and its presenter (`next_episode`); the other topics, r015 first, come after the series.",
+  "affiliate": {
+    "program": "Amazon.sa Associates",
+    "tracking_id": "uxoxufit-21",
+    "registered_sites": [
+      "https://www.instagram.com/uuxuuoouuxuu/"
+    ],
+    "live": true,
+    "live_note": "Product lines go into captions only when this is true. The owner confirmed on 2026-11-20 (15:56 Riyadh) that he put the product links in his Instagram bio.",
+    "supplements_on_hold": true,
+    "supplements_note": "Creatine and protein powder links wait until the owner has checked the SFDA rules and asked GCAM whether commission links need a Mawthooq licence.",
+    "bio_links": [
+      "1 أحزمة معصم للسحب (lifting straps)",
+      "2 ميزان مطبخ رقمي (food scale)",
+      "3 أشرطة مقاومة (resistance bands)",
+      "4 شيكر بروتين (shaker bottle)",
+      "5 حزام رفع أثقال (weightlifting belt) by default, or the current Reel's product when its spot is bio 5"
+    ],
+    "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
+    "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
   },
-  {
-   "id": "t001",
-   "status": "published",
-   "network": "tiktok",
-   "topic": "Blanket's TikTok intro",
-   "published_at": "2026-11-21T13:10:00+03:00",
-   "by": "owner, in the TikTok app",
-   "video": "reels/t001/t001-tiktok.mp4"
-  }
- ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes. 2026-11-22 (owner): new order. 23 Nov r027 (creatine, whispered by Marah, hints at the training series); 26 Nov r040 (series intro with Blanket and Marah, a dialogue Reel made in chat, so manual_reel_date is 26 Nov); then the series r031-r039 in a row, all on gym machines, each ending with the next episode and its presenter (`next_episode`); the other topics, r015 first, come after the series.",
- "affiliate": {
-  "program": "Amazon.sa Associates",
-  "tracking_id": "uxoxufit-21",
-  "registered_sites": [
-   "https://www.instagram.com/uuxuuoouuxuu/"
-  ],
-  "live": true,
-  "live_note": "Product lines go into captions only when this is true. The owner confirmed on 2026-11-20 (15:56 Riyadh) that he put the product links in his Instagram bio.",
-  "supplements_on_hold": true,
-  "supplements_note": "Creatine and protein powder links wait until the owner has checked the SFDA rules and asked GCAM whether commission links need a Mawthooq licence.",
-  "bio_links": [
-   "1 أحزمة معصم للسحب (lifting straps)",
-   "2 ميزان مطبخ رقمي (food scale)",
-   "3 أشرطة مقاومة (resistance bands)",
-   "4 شيكر بروتين (shaker bottle)",
-   "5 حزام رفع أثقال (weightlifting belt) by default, or the current Reel's product when its spot is bio 5"
-  ],
-  "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
-  "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
- },
- "manual_reel_date": "2026-11-26"
+  "manual_reel_date": "2026-11-26"
 }

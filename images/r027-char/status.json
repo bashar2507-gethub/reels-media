@@ -19,5 +19,13 @@
   },
   "width": 720,
   "height": 1280,
-  "passed": true
+  "passed": true,
+  "replaced_with_owner_references": {
+    "s1": "assets/characters/marah/reference_front.png",
+    "s4": "assets/characters/marah/pose_rest_bench.png",
+    "s5": "assets/characters/marah/pose_jump.png",
+    "s7": "assets/characters/marah/pose_power_stance.png",
+    "s8": "assets/characters/marah/pose_cap_touch.png"
+  },
+  "note": "2026-11-23 visual check: s1, s5, s7, s8 drew a mouth, nose or eyebrows twice (first try and r027-char-r2); s4 drew a mouth line once. Per RUNBOOK 5b.3 they use the owner's own Marah references instead."
 }
