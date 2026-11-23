@@ -1,0 +1,14 @@
+{
+ "id": "s002",
+ "purpose": "Story for the «دراسات» highlight (owner, 2026-11-23): resistance training and depressive symptoms, Marah's voice (Nora S, eleven_v4, one take, 345 credits).",
+ "out_dir": "reels/studies/s002",
+ "audio": "content/audio/studies/s002_marah.mp3",
+ "label": "دراسات  ·  02",
+ "title": "الحديد والمزاج",
+ "subtitle": "يخفف الأعراض… ما يغني عن العلاج",
+ "source": ["Gordon B.R. et al., JAMA Psychiatry, 2018", "doi: 10.1001/jamapsychiatry.2018.0572"],
+ "institution": "مراجعة 33 تجربة عشوائية · 1,877 مشارك",
+ "character": {"src": "images/r030-solo/m_welcome2.jpg", "match_skin": true, "x": 0.5, "scale": 0.8, "floor": 1.22},
+ "evidence": {"pmid": 29800984, "design": "meta-analysis of 33 randomized clinical trials, 1,877 participants", "finding": "resistance training reduced depressive symptoms, delta 0.66 (95% CI 0.48-0.83), regardless of health status, prescribed volume or whether strength improved; smaller effect in blinded trials (0.56); authors: alternative and/or adjuvant therapy"},
+ "segments": []
+}
