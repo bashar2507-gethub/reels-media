@@ -477,7 +477,7 @@
     "Kreider RB et al., J Int Soc Sports Nutr, 2017 (ISSN position stand; verified for r007)",
     "Antonio J et al., J Int Soc Sports Nutr, 2021 (common questions and misconceptions about creatine; verified for r007)"
    ],
-   "status": "queued",
+   "status": "rendered",
    "category": "muscle",
    "hook_type": "situation",
    "series": "خرافة أم حقيقة؟",
@@ -492,7 +492,9 @@
    "narrator": "marah",
    "note_owner": "owner 2026-11-22: published on 2026-11-23 in place of r015. Marah presents it in her normal voice. Only the teaser about the coming series is whispered, as one secret-telling moment, for example «بقلكم سر! ترى قريب بنبدأ سلسلة تمارين كل عضلة على أجهزة الجيم...»; mark that sentence with \"whisper\": true in the script. Creatine got its own Reel first because it matters. The call to action says the next Reel opens the machine series, presented by Blanket and Marah.",
    "publish_on": "2026-11-23",
-   "series_label": "خرافة أم حقيقة؟ · 1"
+   "series_label": "خرافة أم حقيقة؟ · 1",
+   "video": "reels/r027/r027-video-3138ef4b7c.mp4",
+   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@26fecd60bb95ed12a0ab92f212e9d5404ddd557f/reels/r027/r027-video-3138ef4b7c.mp4"
   },
   {
    "id": "r040",
