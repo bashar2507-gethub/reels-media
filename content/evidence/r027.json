@@ -1,0 +1,45 @@
+{
+  "reel_id": "r027",
+  "remake_of": "r007",
+  "reviewed_on": "2026-11-23",
+  "method": "Sources found by WebSearch and read on records that could be opened in this run: the PubMed record for Kutz & Gunter 2003 (PMID 14636103; title, authors, journal, design, sample, dose, results, conclusion), the DOAJ record for Kreider et al. 2017 (authors, journal, volume, DOI, abstract) and the DOAJ, Nova Southeastern University and Kennesaw State University records for Antonio et al. 2021 (authors, journal, volume, article 13, DOI, PMID 33557850, abstract). PMC and PubMed showed a browser check for the two JISSN papers, so their full texts were not read: only their abstracts are cited, and the r007 claim of 1-2 kg in the first week (from full texts and the NIH fact sheet in October) is not used again. The NutraIngredients news summary of Antonio 2021 (16 Feb 2021) was read as background only and no claim rests on it.",
+  "claims": [
+    {
+      "claim_id": "r027-c1",
+      "claim": "في دراسة سنة ألفين وثلاثة على سبعة عشر رجلًا نشيطًا لمدة أربعة أسابيع، زاد وزن مجموعة الكرياتين نحو كيلو وسبعمئة غرام وزادت كمية الماء في الجسم، ونسبة الدهون لم تتغير.",
+      "source_title": "Creatine monohydrate supplementation on body weight and percent body fat",
+      "authors": "Kutz MR, Gunter MJ",
+      "year": 2003,
+      "journal": "Journal of Strength and Conditioning Research, 17(4):817-821",
+      "DOI_or_URL": "https://doi.org/10.1519/1533-4287(2003)017<0817:cmsobw>2.0.co;2 | PMID 14636103 | https://pubmed.ncbi.nlm.nih.gov/14636103/",
+      "study_type": "Controlled double-blind clinical trial, creatine vs placebo",
+      "population": "Active men",
+      "sample_size_if_known": "17",
+      "main_finding": "Creatine group: total body weight 90.42 to 92.12 kg (+1.70 kg) and body water 53.77 to 57.15 L, both significant; 'No significant changes were found in percent body fat or daily caloric intake in the creatine group.' Conclusion: 'weight gain ... may in part be due to water retention.'",
+      "limitations": "Small sample; high dose (30 g/day for 2 weeks, then 15 g/day for 2 weeks), well above the 3-5 g/day usually recommended; 4 weeks only; men only. The narration says the study, its year and sample and hedges the conclusion («جزء كبير منها ماء»); the caption names the high dose."
+    },
+    {
+      "claim_id": "r027-c2",
+      "claim": "الجرعة المعتادة ثلاثة إلى خمسة غرامات يوميًا.",
+      "source_title": "Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show?",
+      "authors": "Antonio J, Candow DG, Forbes SC, Gualano B, Jagim AR, Kreider RB, Rawson ES, Smith-Ryan AE, VanDusseldorp TA, Willoughby DS, Ziegenfuss TN",
+      "year": 2021,
+      "journal": "Journal of the International Society of Sports Nutrition, 18:13",
+      "DOI_or_URL": "https://doi.org/10.1186/s12970-021-00412-w | PMID 33557850",
+      "study_type": "Narrative review by an expert panel",
+      "main_finding": "Abstract: 'creatine supplementation is relatively well tolerated, especially at recommended dosages (i.e. 3-5 g/day or 0.1 g/kg of body mass/day).'"
+    },
+    {
+      "claim_id": "r027-c3",
+      "claim": "Caption only: creatine has been safe and well tolerated in healthy people in studies, and it can help training adaptations in high-intensity exercise.",
+      "source_title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "authors": "Kreider RB, Kalman DS, Antonio J, Ziegenfuss TN, Wildman R, Collins R, Candow DG, Kleiner SM, Almada AL, Lopez HL",
+      "year": 2017,
+      "journal": "Journal of the International Society of Sports Nutrition, vol. 14 (2017)",
+      "DOI_or_URL": "https://doi.org/10.1186/s12970-017-0173-z | PMID 28615996",
+      "study_type": "Position stand (review)",
+      "main_finding": "Abstract: supplementation 'increases intramuscular creatine concentrations which may help explain the observed improvements in high intensity exercise performance leading to greater training adaptations'; 'short and long-term supplementation (up to 30 g/day for 5 years) is safe and well-tolerated in healthy individuals'."
+    }
+  ],
+  "limitations": "The weight and body-water figures come from one small, short, high-dose trial in men; other people and doses may differ. Kidney disease or any medical condition: ask a doctor first (in the caption). No claim about product brands."
+}
