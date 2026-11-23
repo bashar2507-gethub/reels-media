@@ -1,0 +1,28 @@
+{
+ "purpose": "r027 second try for s1, s5, s7, s8 (first try drew a mouth, eyebrows or a white background; the s1 scale showed digits)",
+ "width": 720,
+ "height": 1280,
+ "character": "Marah: a gray-skinned faceless athletic woman with a smooth oval head and two round glowing white eyes (no mouth, no nose), a long golden-blonde high ponytail through the back of a plain navy baseball cap, a dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white crew socks and white sneakers",
+ "images": [
+  {
+   "key": "s1",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "she stands with both feet on a plain flat white bathroom scale that has no display and no screen at all, and looks down at it with her head tilted, one hand raised beside her head in surprise. Keep her head exactly like the reference: a completely smooth blank gray oval face with only two round glowing white eyes; absolutely no mouth, no lips, no nose, no eyebrows, no cheeks lines, no expression lines. Keep the plain dark petrol-teal background of the reference, no white background. No text, no digits, no symbols anywhere. Every prop is plain and unmarked."
+  },
+  {
+   "key": "s5",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "she jumps in the air with both arms raised high in joyful surprise, knees bent, ponytail swinging. Keep her head exactly like the reference: a completely smooth blank gray oval face with only two round glowing white eyes; absolutely no mouth, no lips, no nose, no eyebrows, no cheeks lines, no expression lines. Keep the plain dark petrol-teal background of the reference, no white background. No text, no digits, no symbols anywhere. Every prop is plain and unmarked."
+  },
+  {
+   "key": "s7",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "she leans slightly toward the viewer and holds one open hand up beside her cheek as if whispering a secret, the other hand with one finger raised. Keep her head exactly like the reference: a completely smooth blank gray oval face with only two round glowing white eyes; absolutely no mouth, no lips, no nose, no eyebrows, no cheeks lines, no expression lines. Keep the plain dark petrol-teal background of the reference, no white background. No text, no digits, no symbols anywhere. Every prop is plain and unmarked."
+  },
+  {
+   "key": "s8",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "she points toward the viewer with one hand in a friendly inviting gesture, the other hand touching the brim of her cap. Keep her head exactly like the reference: a completely smooth blank gray oval face with only two round glowing white eyes; absolutely no mouth, no lips, no nose, no eyebrows, no cheeks lines, no expression lines. Keep the plain dark petrol-teal background of the reference, no white background. No text, no digits, no symbols anywhere. Every prop is plain and unmarked."
+  }
+ ]
+}
