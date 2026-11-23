@@ -1,0 +1,48 @@
+{
+ "purpose": "r027 scene images with Marah (creatine and weight gain: water, not fat; she narrates). References are the owner's Marah sheets on the series' dark background, the headroom version for scenes with on-screen figures.",
+ "width": 720,
+ "height": 1280,
+ "character": "Marah: a gray-skinned faceless athletic woman with a smooth oval head and two round glowing white eyes (no mouth, no nose), a long golden-blonde high ponytail through the back of a plain navy baseball cap, a dark purple short-sleeve crop top, dark purple shorts, pink over-ear headphones around her neck, a pink smartwatch, white crew socks and white sneakers",
+ "images": [
+  {
+   "key": "s1",
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "she stands on a plain white bathroom scale and looks down at it in surprise, one hand on her cheek, the other holding a plain white unlabeled shaker bottle, playful and curious. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s2",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. she holds up a small plain white measuring scoop filled with fine white powder in one hand and a plain white unlabeled shaker bottle in the other, looking at the scoop with curiosity. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s3",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. she stands on a plain white bathroom scale, leaning forward to look down at it, hands on her knees, surprised. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s4",
+   "reference": "assets/characters/marah/pose_rest_bench.png",
+   "prompt": "she sits on a plain gym bench with a towel over her shoulder and drinks water through the straw of her plain pink tumbler, relaxed and cheerful. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s5",
+   "reference": "assets/characters/marah/pose_jump.png",
+   "prompt": "she jumps in the air with both arms up in joyful surprise, energetic and happy. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s6",
+   "reference": "images/refs/female_front_dark_headroom.png",
+   "prompt": "She stays small in the frame, in the lower half of the picture, with plain dark empty space above her head. she stands confidently and holds up a small plain white measuring scoop of white powder toward the viewer with one hand, the other hand on her hip, explaining. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s7",
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "she leans toward the viewer with one hand cupped beside her head as if whispering a secret, the other hand raised with one finger, playful and mischievous, an empty plain gym machine with a padded seat and a weight stack softly visible behind her. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  },
+  {
+   "key": "s8",
+   "reference": "assets/characters/marah/pose_cap_touch.png",
+   "prompt": "she touches the brim of her cap with one hand and points toward the viewer with the other in a friendly inviting gesture, cheerful. Her face is completely blank and smooth like an egg: only two round glowing white eyes, absolutely no mouth, no nose, no eyebrows, no expression lines. No text, no symbols, no numbers, no question marks anywhere. Every prop is plain and unmarked, with no labels or logos."
+  }
+ ]
+}
