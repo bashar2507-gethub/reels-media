@@ -1,0 +1,24 @@
+{
+ "reel_id": "r040",
+ "reviewed_on": "2026-11-26",
+ "method": "Abstract read on DOAJ (BMC Sports Sci Med Rehabil record) for Haugen 2023; PubMed record 37582807. Schwanbeck 2020 from its PubMed record 32358310 (seed source; not quoted on screen).",
+ "claims": [
+  {
+   "claim_id": "r040-c1",
+   "claim": "A 2023 systematic review and meta-analysis found similar muscle growth with machine-based and free-weight training.",
+   "source_title": "Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance: a systematic review and meta-analysis",
+   "authors": "Haugen ME, Vårvik FT, Larsen S, Haugen AS, van den Tillaar R, Bjørnsen T",
+   "year": 2023,
+   "journal": "BMC Sports Sci Med Rehabil 15:103",
+   "DOI_or_URL": "https://doi.org/10.1186/s13102-023-00713-4 | PMID 37582807 | https://doaj.org/article/a7282dba5e674176bde2a8239832d2f7",
+   "study_type": "Systematic review and meta-analysis: 13 studies, 1,016 participants; 5 studies measured hypertrophy",
+   "finding": "Direct comparison of hypertrophy: no difference between free-weight and machine training (SMD -0.055, 95% CI -0.397 to 0.287, p = 0.751). Strength gains were specific to the modality trained; the authors conclude the choice is down to individual preferences and goals."
+  },
+  {
+   "claim_id": "r040-c2",
+   "claim": "Machines guide the movement on a fixed path, which makes them easier to learn (practical statement, not presented as a study finding).",
+   "source_title": "none (practical description of selectorised machines)",
+   "finding": "Not attributed to a study in the narration."
+  }
+ ]
+}
