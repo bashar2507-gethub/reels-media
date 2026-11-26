@@ -103,7 +103,14 @@ def main() -> int:
     cover_at = script.get("cover_at_seconds", 1.0)
     from app import intro
     intro_info = None
-    if script.get("intro", True) and intro.INTRO.exists():   # THE BLANKET EFFECT on every Reel
+    if script.get("intro") == "marah" and intro.MARAH.exists():  # MARAH MOMENT opens the Reels she presents
+        body = video.with_name(video.stem + "_body.mp4")
+        video.replace(body)
+        transition = script.get("intro_transition", "flash")
+        intro.prepend(body, video, transition, path=intro.MARAH)  # her catchphrase starts the hook, so it goes first
+        cover_at += intro.offset(intro.MARAH)
+        intro_info = {"position": "start", "file": "assets/intro/marah_moment.mp4", "transition": transition}
+    elif script.get("intro", True) and intro.INTRO.exists():   # THE BLANKET EFFECT on every Reel
         body = video.with_name(video.stem + "_body.mp4")
         video.replace(body)
         transition = script.get("intro_transition", "flash")

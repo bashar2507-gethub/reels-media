@@ -26,3 +26,10 @@ def test_voiced_span_trims_silence():
 def test_short_words_get_a_minimum_share():
     words = dialogue.spread_words("في abcdef", 0.0, 1.0)
     assert words[0]["end"] - words[0]["start"] >= 0.3
+
+
+def test_intro_pick_uses_marah_moment_only_when_asked():
+    from app import intro
+    assert intro.pick({"intro": "marah"}).name == "marah_moment.mp4"
+    assert intro.pick({}).name == "blanket_effect.mp4"
+    assert intro.pick({"intro": True}).name == "blanket_effect.mp4"

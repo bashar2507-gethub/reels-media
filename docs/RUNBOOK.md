@@ -219,6 +219,12 @@ right). About two thirds of Instagram viewers left in the first 3 seconds while 
 `"intro_position": "after_hook"` in every script so the choice is visible; `"start"` (intro first) is only for a
 re-render of an older Reel. The performance log compares the two by `intro`.
 
+MARAH MOMENT (owner, 2026-11-26): in a Reel whose plan item has `"narrator": "marah"`, set `"intro": "marah"` in the
+script. The renderer then opens with `assets/intro/marah_moment.mp4` (1.4 s: Marah pops in with her raised finger,
+says «لحظة لحظة!», a pink ring and twinkles, no name tag) and skips THE BLANKET EFFECT. Her catchphrase is the start of
+the hook, so the script's first sentence is the hook question itself, without repeating «لحظة». Never rebuild or
+re-record it per Reel: it is one take, reused (`scripts/build_marah_intro.py` rebuilds the same file).
+
 ## 5b. Scene images with the owner's character (from 2026-10-24)
 
 Every scene shows "The Blanket" (read `assets/characters/blanket/README.md`); Marah joins when the owner asks or a

@@ -4,7 +4,7 @@
 
 Unlike Blanket's intro it is not a separate slate: it is the first 1.4 s of the hook itself. Marah pops in with
 her raised finger and says her catchphrase «لحظة لحظة!» (one ElevenLabs take, content/audio/marah/lahza_lahza.mp3),
-a pink ring bursts behind her, her eyes and fingertip twinkle, and a small «مرح» tag slides in. The hook question
+a pink ring bursts behind her and her eyes and fingertip twinkle (no name tag: owner, 2026-11-26). The hook question
 follows straight after. Research behind it: brand cues work in the first two seconds when a character is active in
 the scene and there is a sound signature (System1 x TikTok); a separate branded slate costs views (Billion Dollar
 Boy), which matches our own data on the Blanket intro.
@@ -137,7 +137,7 @@ def frames():
             star(d, left + tip[0] * s, top + tip[1] * s - 10, 110 * env, int(255 * env))
         im.alpha_composite(tw.filter(ImageFilter.GaussianBlur(1.2)))
         # «مرح» tag slides in from the right, 0.35-0.6 s, stays
-        q = min(max((t - 0.35) / 0.25, 0), 1)
+        q = 0  # name tag removed at the owner's request (2026-11-26)
         if q > 0:
             tag = Image.new("RGBA", (W, H), (0, 0, 0, 0))
             td = ImageDraw.Draw(tag)

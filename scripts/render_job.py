@@ -136,10 +136,12 @@ def build(reel_id: str, job: dict) -> dict:
     if gate.get("cover_at_seconds") is not None:  # the build reports the final cover time, intro included
         status["cover_at_seconds"] = gate["cover_at_seconds"]
         if gate.get("intro"):
-            status["intro"] = {"file": "assets/intro/blanket_effect.mp4", "offset_s": intro.offset(), **gate["intro"]}
-    elif script.get("intro", True) and intro.INTRO.exists():
-        status["cover_at_seconds"] = round(status["cover_at_seconds"] + intro.offset(), 2)
-        status["intro"] = {"file": "assets/intro/blanket_effect.mp4", "offset_s": intro.offset(),
+            path = intro.pick(script)
+            status["intro"] = {"file": path.relative_to(ROOT).as_posix(), "offset_s": intro.offset(path), **gate["intro"]}
+    elif script.get("intro", True) and intro.pick(script).exists():
+        path = intro.pick(script)
+        status["cover_at_seconds"] = round(status["cover_at_seconds"] + intro.offset(path), 2)
+        status["intro"] = {"file": path.relative_to(ROOT).as_posix(), "offset_s": intro.offset(path),
                            "transition": script.get("intro_transition", "flash")}
     status["passed"] = True
     return status
