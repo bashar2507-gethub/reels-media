@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "reels-render"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/audio
+          git add content/audio images/magnific 2>/dev/null || git add content/audio
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -q -m "Fetched audio takes"
           for attempt in 1 2 3; do
