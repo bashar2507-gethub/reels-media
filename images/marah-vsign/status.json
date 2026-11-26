@@ -1,0 +1,19 @@
+{
+  "job": "marah-vsign",
+  "ok": [],
+  "errors": {
+    "vsign_a1": "HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/qwen-image-edit-2509?_subdomain=queue' (Request ID: Root=1-6b08732f-6a262d333028f6df21bae059;542741e2-e42d-4a1c-bc3e-7f6c2ecfc633)\nFor more information check: https://developer.mozilla.org/en-US/",
+    "vsign_a2": "HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/qwen-image-edit-2509?_subdomain=queue' (Request ID: Root=1-6b087336-7e91ebf1397d608176b82dbb;c40b44a9-64d0-44f7-97c5-92ee041cb096)\nFor more information check: https://developer.mozilla.org/en-US/",
+    "vsign_b1": "HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/qwen-image-edit-2509?_subdomain=queue' (Request ID: Root=1-6b08733d-747e0c5d33cacd4335354fe3;fb39b91b-81f8-425c-93ef-d37796e4e1d5)\nFor more information check: https://developer.mozilla.org/en-US/",
+    "vsign_b2": "HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/qwen-image-edit-2509?_subdomain=queue' (Request ID: Root=1-6b087345-7d9abee8141ae74f7b4a2ba8;f5c6ef5d-bc7f-429b-906a-3d0d5657ac50)\nFor more information check: https://developer.mozilla.org/en-US/"
+  },
+  "token": {
+    "set": true,
+    "hf_prefix": true,
+    "length": 37,
+    "trimmed": false
+  },
+  "width": 768,
+  "height": 1344,
+  "passed": false
+}
