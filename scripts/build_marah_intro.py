@@ -34,6 +34,10 @@ W, H, FPS = SPEC.width, SPEC.height, SPEC.fps
 SR = SPEC.audio_rate
 DUR = 1.4
 POSE = ROOT / "images/r030-solo/m_poke1.jpg"
+# owner, 2026-11-26: the cute move is the V-sign selfie (Magnific, owner's choice of 1hand a); full-frame picture
+SELFIE = ROOT / "images/magnific/marah_vsign_1hand_a.jpg"
+SELFIE_EYE = (440, 448)       # the glowing eye inside the V, in source pixels (768x1344)
+SELFIE_FINGERS = (555, 378)   # tips of the V fingers
 VOICE = ROOT / "content/audio/marah/lahza_lahza.mp3"
 OUT = ROOT / "assets/intro/marah_moment.mp4"
 PINK = (240, 138, 180)
@@ -152,6 +156,50 @@ def frames():
         yield np.asarray(im.convert("RGB"))
 
 
+def frames_selfie():
+    """Full-frame V-sign selfie: pops in with a pink flash, the eye in the V twinkles, then the fingertips."""
+    src = Image.open(SELFIE).convert("RGB")
+    k = max(W / src.width, H / src.height)
+    base = src.resize((round(src.width * k), round(src.height * k)), Image.LANCZOS)
+    ox, oy = (base.width - W) / 2, (base.height - H) / 2
+    eye = (SELFIE_EYE[0] * k - ox, SELFIE_EYE[1] * k - oy)
+    tips = (SELFIE_FINGERS[0] * k - ox, SELFIE_FINGERS[1] * k - oy)
+    n = round(DUR * FPS)
+    for i in range(n):
+        t = i / FPS
+        z = max(1.0, 1.05 + 0.22 * (1 - ease_out_back(t / 0.32)))  # zooms in from 1.27 with a small overshoot, rests at 1.05
+        cw, ch = W / z, H / z
+        cx = eye[0] + (W / 2 - eye[0]) * min(t / 0.32, 1)  # starts centred on the V eye, settles on the frame
+        cy = eye[1] + (H / 2 - eye[1]) * min(t / 0.32, 1)
+        l = min(max(cx - cw / 2, 0), W - cw); u = min(max(cy - ch / 2, 0), H - ch)
+        frame = base.crop((round(l + ox), round(u + oy), round(l + ox + cw), round(u + oy + ch))).resize((W, H), Image.LANCZOS)
+        im = frame.convert("RGBA")
+        sx = lambda p: ((p[0] - l) * z, (p[1] - u) * z)
+        if t < 0.18:  # pink flash
+            fl = Image.new("RGBA", (W, H), PINK + (int(170 * (1 - t / 0.18)),))
+            im.alpha_composite(fl)
+        rt = (t - 0.08) / 0.47
+        if 0 <= rt <= 1:
+            ring = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            ex, ey = sx(eye)
+            r = 60 + 700 * (1 - (1 - rt) ** 3)
+            ImageDraw.Draw(ring).ellipse([ex - r, ey - r, ex + r, ey + r], outline=PINK + (int(220 * (1 - rt)),),
+                                         width=int(24 * (1 - rt)) + 4)
+            im.alpha_composite(ring.filter(ImageFilter.GaussianBlur(3)))
+        tw = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(tw)
+        q = (t - 0.30) / 0.40
+        if 0 <= q <= 1:
+            e = np.sin(np.pi * q); ex, ey = sx(eye)
+            star(d, ex, ey, 95 * e, int(255 * e))
+        q = (t - 0.45) / 0.50
+        if 0 <= q <= 1:
+            e = np.sin(np.pi * q); fx, fy = sx(tips)
+            star(d, fx, fy - 10, 120 * e, int(255 * e))
+        im.alpha_composite(tw.filter(ImageFilter.GaussianBlur(1.2)))
+        yield np.asarray(im.convert("RGB"))
+
+
 def sound() -> np.ndarray:
     n = int(DUR * SR)
     t = np.arange(n) / SR
@@ -193,7 +241,7 @@ def main() -> int:
            *x264_args(SPEC), *aac_args(SPEC), *mp4_args(), "-t", f"{DUR}", str(tmp)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     last = None
-    for fr in frames():
+    for fr in (frames_selfie() if SELFIE.exists() else frames()):
         proc.stdin.write(fr.tobytes())
         last = fr
     proc.stdin.close()
