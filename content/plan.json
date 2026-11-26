@@ -528,9 +528,9 @@
    "series": "تمرين العضلة",
    "template": "dialogue",
    "narrator": "dialogue",
-   "publish_on": "2026-11-26",
+   "publish_on": "2026-11-29",
    "made_in": "chat with the owner (dialogue: he hears every take before mixing)",
-   "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket.",
+   "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket. Not made on 26 Nov; the owner moved it to 29 Nov (asked 2026-11-26).",
    "idea_from": "owner, 2026-11-22",
    "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت"
   },
@@ -1186,7 +1186,7 @@
    "video": "reels/t001/t001-tiktok.mp4"
   }
  ],
- "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes. 2026-11-22 (owner): new order. 23 Nov r027 (creatine, whispered by Marah, hints at the training series); 26 Nov r040 (series intro with Blanket and Marah, a dialogue Reel made in chat, so manual_reel_date is 26 Nov); then the series r031-r039 in a row, all on gym machines, each ending with the next episode and its presenter (`next_episode`); the other topics, r015 first, come after the series.",
+ "order_note": "2026-11-15: planned items reordered by the first performance data. Muscle and training topics held Instagram viewers longer (average watch 8.6 s, 60% skipped in the first 3 s, 6 Reels) than fat-loss topics (5.1 s, 71%, 6 Reels), so training topics come first and fat-loss topics alternate with them. Re-checked every 5 published Reels from content/analytics/summary.json. 2026-11-15 (owner): four new ideas in the pattern of the best Reels so far (r006 sets, r007 creatine, r004 sleep, r002 protein: muscle-building, a practical number, the viewer's own situation) were added as r022-r025 and placed between the planned topics. 2026-11-15 (owner): the three best older Reels without the character (r004 sleep, r007 creatine, r002 protein) are remade with the current rules as r026-r028, one a week from December, between the new topics. 2026-11-22 (owner): the series «تمرين العضلة» (r031-r039, template C: one muscle per Reel, its gym exercises and machines, sets and reps, how to pick the starting weight, shown by Blanket and Marah) is placed one after each planned item. 2026-11-22 (owner): the series alternates narrators, Blanket (Jeddawi Echo) and Marah (Nora S), see `narrator`; the glutes Reel is Marah's. r035 is the hamstrings (back of the thigh), r036 the glutes. 2026-11-22 (owner): new order. 23 Nov r027 (creatine, whispered by Marah, hints at the training series); 26 Nov r040 (series intro with Blanket and Marah, a dialogue Reel made in chat, so manual_reel_date is 26 Nov); then the series r031-r039 in a row, all on gym machines, each ending with the next episode and its presenter (`next_episode`); the other topics, r015 first, come after the series. 2026-11-26 (owner): r040 was not made on 26 Nov; it moves to 29 Nov (manual_reel_date) and the series starts 2 Dec.",
  "affiliate": {
   "program": "Amazon.sa Associates",
   "tracking_id": "uxoxufit-21",
@@ -1207,5 +1207,5 @@
   "disclosure_caption": "إفصاح: رابط المنتج في البايو رابط عمولة من أمازون؛ قد أحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك.",
   "plan_doc": "https://claude.ai/artifact/DdfkEDvNHnEpqcR68NBxFj"
  },
- "manual_reel_date": "2026-11-26"
+ "manual_reel_date": "2026-11-29"
 }
