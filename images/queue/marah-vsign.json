@@ -1,0 +1,32 @@
+{
+ "purpose": "Marah V-sign selfie pose (owner's pose, 2026-11-26), rights-cleared remake of the Magnific tests 1hand_a (gym) and 1hand_b (plain); a = the cute move for her opener",
+ "width": 768,
+ "height": 1344,
+ "character": "Marah",
+ "images": [
+  {
+   "key": "vsign_a1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, pink headphones around her neck with no text or logo, one pink smartwatch on her left wrist only). Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Her face stays completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, no extra limbs. Close-up selfie shot, head and upper body filling the vertical frame, head tilted slightly, playful and cute. Only one hand is raised: her right hand beside her face makes a V sign (peace sign) with the index and middle fingers spread around her right glowing eye, palm toward the viewer. Her other arm is stretched toward the camera as if she is taking the selfie, the hand out of frame. Background: a dark petrol-teal gym at night with warm amber light and machines softly out of focus. Vertical 9:16. No text, captions, logos or letters anywhere."
+  },
+  {
+   "key": "vsign_a2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, pink headphones around her neck with no text or logo, one pink smartwatch on her left wrist only). Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Her face stays completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, no extra limbs. Close-up selfie shot, head and upper body filling the vertical frame, head tilted slightly, playful and cute. Only one hand is raised: her right hand beside her face makes a V sign (peace sign) with the index and middle fingers spread around her right glowing eye, palm toward the viewer. Her other arm is stretched toward the camera as if she is taking the selfie, the hand out of frame. Background: a dark petrol-teal gym at night with warm amber light and machines softly out of focus. Vertical 9:16. No text, captions, logos or letters anywhere. Clean, polished illustration."
+  },
+  {
+   "key": "vsign_b1",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, pink headphones around her neck with no text or logo, one pink smartwatch on her left wrist only). Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Her face stays completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, no extra limbs. Close-up selfie shot, head and upper body filling the vertical frame, head tilted slightly, playful and cute. Only one hand is raised: her right hand beside her face makes a V sign (peace sign) with the index and middle fingers spread around her right glowing eye, palm toward the viewer. Her other arm is stretched toward the camera as if she is taking the selfie, the hand out of frame. Background: a plain dark petrol-teal backdrop with a soft warm glow. Vertical 9:16. No text, captions, logos or letters anywhere."
+  },
+  {
+   "key": "vsign_b2",
+   "edit": true,
+   "reference": "assets/characters/marah/reference_front.png",
+   "prompt": "Keep this exact character: Marah, the athletic woman (long golden-blonde high ponytail through a plain navy cap, dark purple short-sleeve crop top, pink headphones around her neck with no text or logo, one pink smartwatch on her left wrist only). Same flat 2D cartoon style with clean bold black outlines and soft cel shading, smooth light-gray skin. Her face stays completely blank apart from two round glowing white eyes: no mouth, no nose, no eyebrows. Correct anatomy: exactly two arms and two hands, exactly five fingers on each hand, no extra limbs. Close-up selfie shot, head and upper body filling the vertical frame, head tilted slightly, playful and cute. Only one hand is raised: her right hand beside her face makes a V sign (peace sign) with the index and middle fingers spread around her right glowing eye, palm toward the viewer. Her other arm is stretched toward the camera as if she is taking the selfie, the hand out of frame. Background: a plain dark petrol-teal backdrop with a soft warm glow. Vertical 9:16. No text, captions, logos or letters anywhere. Clean, polished illustration."
+  }
+ ]
+}
