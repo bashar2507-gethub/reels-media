@@ -1,0 +1,63 @@
+{
+ "reel_id": "r031",
+ "reviewed_on": "2026-11-27",
+ "method": "Rodríguez-Ridao 2020 read in full text on PMC (PMC7579505); Schoenfeld 2017 title confirmed by search; Schoenfeld 2016, ACSM 2009 and Helms 2016 from their published records (seed sources in content/plan.json).",
+ "claims": [
+  {
+   "claim_id": "r031-c1",
+   "claim": "In a 2020 Spanish EMG study of the bench press at five inclinations, a 30 degree incline gave the highest upper (clavicular) pectoralis activity, and steeper inclines shifted work to the anterior deltoid.",
+   "source_title": "Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise",
+   "authors": "Rodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM",
+   "year": 2020,
+   "journal": "Int J Environ Res Public Health 17(19):7339",
+   "DOI_or_URL": "https://doi.org/10.3390/ijerph17197339 | PMID 33049982 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505",
+   "study_type": "Cross-sectional EMG study: 30 resistance-trained adults (University of Almería), free-weight barbell bench press at 0, 15, 30, 45 and 60 degrees, 60% 1RM, 8 reps",
+   "finding": "Upper pectoralis %MVIC highest at 30 degrees (about 30%), lower at 60 degrees; middle and lower pectoralis fell as incline rose; anterior deltoid rose with incline, highest at 60 degrees. Measured muscle activity, not growth; free-weight bench, not a machine.",
+   "on_screen": "«على البنش» and «نشاط» in the narration; the caption says it measured activity, not growth."
+  },
+  {
+   "claim_id": "r031-c2",
+   "claim": "About 10 or more weekly sets per muscle gave more growth than fewer sets.",
+   "source_title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis",
+   "authors": "Schoenfeld BJ, Ogborn D, Krieger JW",
+   "year": 2017,
+   "journal": "J Sports Sci 35(11):1073-1082",
+   "DOI_or_URL": "PMID 27433992",
+   "study_type": "Systematic review and meta-analysis",
+   "finding": "Graded dose-response; 10+ weekly sets per muscle gave larger gains than fewer than 5."
+  },
+  {
+   "claim_id": "r031-c3",
+   "claim": "Training a muscle at least twice a week gave more growth than once a week.",
+   "source_title": "Effects of Resistance Training Frequency on Measures of Muscle Hypertrophy: A Systematic Review and Meta-Analysis",
+   "authors": "Schoenfeld BJ, Ogborn D, Krieger JW",
+   "year": 2016,
+   "journal": "Sports Med 46(11):1689-1697",
+   "DOI_or_URL": "PMID 27102172",
+   "study_type": "Systematic review and meta-analysis",
+   "finding": "Twice a week superior to once a week for hypertrophy when volume is equated or not."
+  },
+  {
+   "claim_id": "r031-c4",
+   "claim": "Beginners: 8-12 repetitions; increase the load by about 2-10% when the top of the range is exceeded.",
+   "source_title": "American College of Sports Medicine position stand. Progression models in resistance training for healthy adults",
+   "authors": "American College of Sports Medicine",
+   "year": 2009,
+   "journal": "Med Sci Sports Exerc 41(3):687-708",
+   "DOI_or_URL": "PMID 19204579",
+   "study_type": "Position stand",
+   "finding": "8-12 RM for novices; 2-10% load increase when 1-2 reps over the target can be done."
+  },
+  {
+   "claim_id": "r031-c5",
+   "claim": "Choose a load that leaves about 2-3 repetitions in reserve (practical guidance).",
+   "source_title": "Application of the Repetitions in Reserve-Based Rating of Perceived Exertion Scale for Resistance Training",
+   "authors": "Helms ER, Cronin J, Storey A, Zourdos MC",
+   "year": 2016,
+   "journal": "Strength Cond J 38(4):42-49",
+   "DOI_or_URL": "doi:10.1519/SSC.0000000000000218",
+   "study_type": "Narrative/practical review",
+   "finding": "RIR-based RPE scale for setting and adjusting load; presented as practical guidance, not a trial result."
+  }
+ ]
+}
