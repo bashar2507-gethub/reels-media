@@ -1,0 +1,244 @@
+{
+ "reel_id": "r040",
+ "script": {
+  "reel_id": "r040",
+  "status": "QUEUED",
+  "evidence_status": "REVIEWED",
+  "evidence": "content/evidence/r040.json",
+  "language": "ar",
+  "cover_at_seconds": 1.0,
+  "character": "The Blanket and Marah",
+  "format": "dialogue",
+  "dialogue": "content/r040_dialogue.json",
+  "intro": "marah",
+  "intro_transition": "flash",
+  "hook_type": "situation",
+  "series_label": "تمرين العضلة · المقدمة",
+  "template": "dialogue",
+  "rate_wpm": [
+   80,
+   160
+  ],
+  "target_s": [
+   25,
+   45
+  ],
+  "scenes": [
+   {
+    "id": "s01",
+    "visual": "r040-s01",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s01.jpg",
+    "sentences": [
+     {
+      "say": "تبي تبني عضل، بس بالـ machines؟",
+      "speaker": "Marah"
+     }
+    ]
+   },
+   {
+    "id": "s02",
+    "visual": "r040-s02",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s02.jpg",
+    "sentences": [
+     {
+      "say": "الـ machines تكفيك مسار ثابت، أسهل للمبتدئ، وتركّز على العضلة.",
+      "speaker": "Blanket"
+     }
+    ]
+   },
+   {
+    "id": "s03",
+    "visual": "r040-s03",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s03.jpg",
+    "sentences": [
+     {
+      "say": "جد؟ تبني عضل مثل الأوزان الحرة؟",
+      "speaker": "Marah"
+     }
+    ]
+   },
+   {
+    "id": "s04",
+    "visual": "r040-s04",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s04.jpg",
+    "sentences": [
+     {
+      "say": "إيه مراجعة ألفين وثلاثة وعشرين: النمو العضلي متقارب بينهم.",
+      "speaker": "Blanket",
+      "overlay": {
+       "big": "2023",
+       "small": "نمو العضل متقارب · المصدر في الكابشن",
+       "from": "ألفين"
+      }
+     }
+    ]
+   },
+   {
+    "id": "s05",
+    "visual": "r040-s05",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s05.jpg",
+    "sentences": [
+     {
+      "say": "طيب أي جهاز لكل عضلة؟ وكم وزن أبدأ؟",
+      "speaker": "Marah"
+     }
+    ]
+   },
+   {
+    "id": "s06",
+    "visual": "r040-s06",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s06.jpg",
+    "sentences": [
+     {
+      "say": "عشان كذا بنبدأ سلسلة تمارين العضلات وكل واحد فينا بيقدّم عضلة.",
+      "speaker": "Blanket",
+      "overlay": {
+       "big": "9",
+       "small": "عضلات · كلها على أجهزة الجيم",
+       "from": "سلسلة"
+      }
+     }
+    ]
+   },
+   {
+    "id": "s07",
+    "visual": "r040-s07",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s07.jpg",
+    "sentences": [
+     {
+      "say": "يعني بقدّم عضلة لحالي؟!",
+      "speaker": "Marah"
+     }
+    ]
+   },
+   {
+    "id": "s08",
+    "visual": "r040-s08",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.05
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s08.jpg",
+    "sentences": [
+     {
+      "say": "إيه للأسف.",
+      "speaker": "Blanket"
+     }
+    ]
+   },
+   {
+    "id": "s09",
+    "visual": "r040-s09",
+    "fallback": "flow",
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     0.0,
+     0.0
+    ],
+    "image_file": "images/r040-scenes-v2/s09.jpg",
+    "sentences": [
+     {
+      "say": "احفظوه وتابعونا!",
+      "speaker": "Marah"
+     }
+    ]
+   }
+  ],
+  "post": {
+   "networks": [
+    "instagram",
+    "youtube"
+   ],
+   "cover_ms": 2400,
+   "ai_generated_label": true,
+   "youtube_title": "تمارين الأجهزة في الجيم: سلسلة لكل عضلة",
+   "youtube_tags": [
+    "تمارين الأجهزة",
+    "أجهزة الجيم",
+    "بناء العضلات",
+    "تمارين للمبتدئين",
+    "جيم",
+    "أوزان حرة",
+    "بلانكت",
+    "مرح"
+   ],
+   "caption": "تبي تبني عضل… بس بالأجهزة؟ 🏋️\n\nبلانكت ومرح يبدؤون سلسلة جديدة: تمرين كل عضلة على أجهزة الجيم. في كل حلقة: التمارين، وعدد المجموعات، وكيف تختار وزن البداية.\n\nليش الأجهزة؟ مراجعة منهجية سنة 2023 جمعت 13 دراسة على 1,016 شخصًا، والدراسات الخمس التي قاست حجم العضلة لم تجد فرقًا في النمو العضلي بين الأجهزة والأوزان الحرة. والقوة تزيد أكثر في نوع التمرين الذي تتدرب عليه.\n\nالخلاصة:\n• تقدر تبني عضل على الأجهزة مثل الأوزان الحرة\n• الجهاز يمشّيك على مسار ثابت، فيكون أسهل للمبتدئ\n• اختر اللي يناسبك وتقدر تستمر عليه\n\n📅 أول حلقة: الصدر مع بلانكت، وبعدها الظهر مع مرح.\n\n💬 أي عضلة تبيها بعد الصدر والظهر؟ اكتبها في التعليقات.\n🔖 احفظ المقطع عشان ترجع له في الجيم.\n➕ تابع الحساب عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nHaugen ME et al. (2023). Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance: a systematic review and meta-analysis. BMC Sports Sci Med Rehabil 15:103. DOI: 10.1186/s13102-023-00713-4\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_الأجهزة #بناء_العضلات #جيم #تمارين_للمبتدئين #لياقة",
+   "first_comment": "💬 أي عضلة تبيها بعد الصدر والظهر؟ اكتبها في التعليقات.",
+   "youtube_description": "سلسلة تمارين كل عضلة على أجهزة الجيم: التمارين، وعدد المجموعات، وكيف تختار وزن البداية، يقدمها بلانكت ومرح. مراجعة منهجية 2023 (13 دراسة) لم تجد فرقًا في النمو العضلي بين الأجهزة والأوزان الحرة.\n\n💬 أي عضلة تبيها بعد الصدر والظهر؟ اكتبها في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرن معك.\n🔔 اشترك في القناة عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nHaugen ME et al. (2023). Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance: a systematic review and meta-analysis. BMC Sports Sci Med Rehabil 15:103. DOI: 10.1186/s13102-023-00713-4\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمارين_الأجهزة #بناء_العضلات #جيم"
+  }
+ },
+ "narration": {
+  "note": "dialogue mix already in content/audio/r040_narration.mp3 (scripts/mix_dialogue.py, shortened script approved by the owner 2026-11-27)"
+ }
+}
