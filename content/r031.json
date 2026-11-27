@@ -24,7 +24,7 @@
     0.0,
     -0.1
    ],
-   "image_file": "images/magnific/test1_duo_standing_b.jpg",
+   "image_file": "images/r031-char/s1.jpg",
    "sentences": [
     {
      "say": "كم جهاز يحتاج صدرك؟ ثلاثة بس.",
@@ -41,13 +41,13 @@
     1.07
    ],
    "pan": [
-    -0.1,
+    0.0,
     0.0
    ],
-   "image_file": "images/magnific/test2_chest_press_b_fixed4.jpg",
+   "image_file": "images/r031-char/s2.jpg",
    "sentences": [
     {
-     "say": "الأول: جهاز ضغط الصدر، ادفع ورجّع ببطء."
+     "say": "التمرين الأول: جهاز ضغط الصدر… ادفع لقدّام، ورجّع ببطء."
     }
    ]
   },
@@ -66,29 +66,10 @@
    "image_file": "images/r031-char/s3.jpg",
    "sentences": [
     {
-     "say": "الثاني: الضغط المائل، لأعلى الصدر."
-    }
-   ]
-  },
-  {
-   "id": "s4",
-   "visual": "r031-s4",
-   "fallback": "orbs",
-   "zoom": [
-    1.0,
-    1.05
-   ],
-   "pan": [
-    0.0,
-    0.0
-   ],
-   "image_file": "images/magnific/blanket_machine_b.jpg",
-   "sentences": [
-    {
-     "say": "دراسة إسبانية سنة ألفين وعشرين على البنش: زاوية ثلاثين درجة أعطت أعلى نشاط لأعلى الصدر، وفوقها يشتغل الكتف أكثر.",
+     "say": "التمرين الثاني: الضغط المائل على زاوية ثلاثين، لأعلى الصدر.",
      "overlay": {
       "big": "30°",
-      "small": "أعلى نشاط لأعلى الصدر",
+      "small": "زاوية المقعد",
       "from": "ثلاثين",
       "y": 330
      }
@@ -96,8 +77,8 @@
    ]
   },
   {
-   "id": "s5",
-   "visual": "r031-s5",
+   "id": "s4",
+   "visual": "r031-s4",
    "fallback": "flow",
    "zoom": [
     1.0,
@@ -107,75 +88,35 @@
     0.0,
     0.0
    ],
+   "image_file": "images/r031-char/s4.jpg",
+   "sentences": [
+    {
+     "say": "التمرين الثالث: جهاز الفراشة… ضم ذراعينك قدّام صدرك، وارجع بهدوء."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "r031-s5",
+   "fallback": "orbs",
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "pan": [
+    0.0,
+    0.0
+   ],
    "image_file": "images/r031-char/s5.jpg",
    "sentences": [
     {
-     "say": "الثالث: جهاز الفراشة، يعزل الصدر."
+     "say": "وزاوية الثلاثين مبنية على دراسة إسبانية، والمصدر في الكابشن."
     }
    ]
   },
   {
    "id": "s6",
    "visual": "r031-s6",
-   "fallback": "dumbbell",
-   "zoom": [
-    1.0,
-    1.06
-   ],
-   "pan": [
-    0.1,
-    0.0
-   ],
-   "image_file": "images/magnific/test1_duo_standing_a.jpg",
-   "sentences": [
-    {
-     "say": "ثلاث مجموعات من ثمانية لاثنعش،",
-     "overlay": {
-      "big": "3 × 8–12",
-      "small": "مجموعات × تكرارات",
-      "from": "ثلاث",
-      "y": 330
-     }
-    },
-    {
-     "say": "بوزن يخلّي معك تكرارين أو ثلاثة، وإذا عدّيت الاثنعش زِد شوي.",
-     "overlay": {
-      "big": "2–3",
-      "small": "تكرارات تبقى معك في آخر المجموعة",
-      "from": "تكرارين",
-      "y": 330
-     }
-    }
-   ]
-  },
-  {
-   "id": "s7",
-   "visual": "r031-s7",
-   "fallback": "scale",
-   "zoom": [
-    1.0,
-    1.07
-   ],
-   "pan": [
-    0.0,
-    0.0
-   ],
-   "image_file": "images/r031-char/s7.jpg",
-   "sentences": [
-    {
-     "say": "والأهم: عشر مجموعات بالأسبوع على يومين.",
-     "overlay": {
-      "big": "10+",
-      "small": "مجموعات للصدر أسبوعيًا · على يومين",
-      "from": "عشر",
-      "y": 330
-     }
-    }
-   ]
-  },
-  {
-   "id": "s8",
-   "visual": "r031-s8",
    "fallback": "bookmark",
    "zoom": [
     1.0,
@@ -185,10 +126,10 @@
     0.0,
     -0.2
    ],
-   "image_file": "images/magnific/marah_vsign_2hands_a.jpg",
+   "image_file": "images/r031-char/s6.jpg",
    "sentences": [
     {
-     "say": "احفظه وجرّبه، وتابعنا: المقطع الجاي عن الظهر بتقديم مرح."
+     "say": "احفظه وجرّبه، وتابعنا: الجاي عن الظهر بتقديم مرح."
     }
    ]
   }
@@ -211,8 +152,12 @@
    "جيم",
    "بلانكت"
   ],
-  "caption": "كم جهاز يحتاج صدرك في الجيم؟ ثلاثة بس 💪\n\nالحلقة الأولى من سلسلة «تمرين العضلة»: الصدر على أجهزة الجيم، مع بلانكت.\n\nالأجهزة:\n• جهاز ضغط الصدر (Chest Press): ادفع للأمام ورجّع ببطء\n• جهاز الضغط المائل (Incline Press): لأعلى الصدر\n• جهاز الفراشة (Pec Deck): يعزل الصدر\n\nكم وكيف؟\n• 3 مجموعات × 8–12 تكرار\n• وزن يخلّي معك 2–3 تكرارات في آخر المجموعة\n• إذا تعدّيت 12 تكرار، زِد الوزن شوي (2–10% تقريبًا)\n• 10 مجموعات أو أكثر للصدر في الأسبوع، مقسّمة على يومين\n\nليش زاوية خفيفة في الضغط المائل؟ دراسة إسبانية (جامعة ألميريا، 2020) على 30 متدربًا قاست النشاط الكهربائي للعضلات في ضغط البنش بخمس زوايا: زاوية 30 درجة أعطت أعلى نشاط لأعلى الصدر، والزوايا الأعلى نقلت الشغل للكتف الأمامي. الدراسة قاست نشاط العضلة وليس نموها.\n\n📅 المقطع الجاي: الظهر بتقديم مرح.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n🔖 احفظ المقطع عشان ترجع له في الجيم، وأرسله لصديق يتمرن معك.\n➕ تابع الحساب عشان ما تفوتك ولا عضلة.\n\nالمصادر:\nRodríguez-Ridao D et al. (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339\nSchoenfeld BJ, Ogborn D, Krieger JW (2017). Dose-response relationship between weekly resistance training volume and increases in muscle mass. J Sports Sci 35(11):1073-1082\nSchoenfeld BJ, Ogborn D, Krieger JW (2016). Effects of resistance training frequency on measures of muscle hypertrophy. Sports Med 46(11):1689-1697\nACSM position stand (2009). Progression models in resistance training for healthy adults. Med Sci Sports Exerc 41(3):687-708\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #بناء_العضلات #جيم #تمارين_للمبتدئين",
+  "caption": "كم جهاز يحتاج صدرك في الجيم؟ ثلاثة بس 💪\n\nالحلقة الأولى من سلسلة «تمرين العضلة»: الصدر على أجهزة الجيم، مع بلانكت.\n\n1️⃣ جهاز ضغط الصدر (Chest Press): ادفع للأمام، ورجّع ببطء\n2️⃣ جهاز الضغط المائل (Incline Chest Press): على زاوية 30 درجة تقريبًا، لأعلى الصدر\n3️⃣ جهاز الفراشة (Pec Deck / Machine Fly): ضم ذراعينك قدّام صدرك، وارجع بهدوء\n\nليش 30 درجة؟ دراسة إسبانية (جامعة ألميريا، 2020) على 30 متدربًا قاست نشاط عضلات الصدر والكتف في ضغط البنش بخمس زوايا: زاوية 30 درجة أعطت أعلى نشاط لأعلى الصدر، والزوايا الأعلى نقلت الشغل أكثر للكتف الأمامي. الدراسة كانت على البنش بالبار، وقاست نشاط العضلة وليس نموها.\n\n📅 المقطع الجاي: الظهر بتقديم مرح.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n🔖 احفظ المقطع عشان ترجع له في الجيم، وأرسله لصديق يتمرن معك.\n➕ تابع الحساب عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339. DOI: 10.3390/ijerph17197339\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #بناء_العضلات #جيم #تمارين_للمبتدئين",
   "first_comment": "💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.",
-  "youtube_description": "تمرين الصدر على أجهزة الجيم: ثلاثة أجهزة (ضغط الصدر، الضغط المائل، الفراشة)، 3 مجموعات من 8 إلى 12 تكرار، وكيف تختار وزن البداية. والخلاصة: 10 مجموعات أو أكثر للصدر في الأسبوع على يومين.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرن معك.\n🔔 اشترك في القناة عشان ما تفوتك ولا عضلة.\n\nالمصادر:\nRodríguez-Ridao D et al. (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339\nSchoenfeld BJ, Ogborn D, Krieger JW (2017). Dose-response relationship between weekly resistance training volume and increases in muscle mass. J Sports Sci 35(11):1073-1082\nSchoenfeld BJ, Ogborn D, Krieger JW (2016). Effects of resistance training frequency on measures of muscle hypertrophy. Sports Med 46(11):1689-1697\nACSM position stand (2009). Progression models in resistance training for healthy adults. Med Sci Sports Exerc 41(3):687-708\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #جيم"
- }
+  "youtube_description": "تمرين الصدر على أجهزة الجيم في ثلاثة أجهزة: ضغط الصدر، والضغط المائل على زاوية 30 درجة لأعلى الصدر، وجهاز الفراشة. زاوية 30 درجة مبنية على دراسة إسبانية قاست نشاط الصدر بخمس زوايا.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرن معك.\n🔔 اشترك في القناة عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339. DOI: 10.3390/ijerph17197339\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #جيم"
+ },
+ "target_s": [
+  26,
+  34
+ ]
 }
