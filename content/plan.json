@@ -522,7 +522,7 @@
     "Haugen ME et al., BMC Sports Sci Med Rehabil, 2023 (free weights vs machines, PMID 37582807)",
     "Schwanbeck SR et al., J Strength Cond Res, 2020 (free weights vs machines, PMID 32358310)"
    ],
-   "status": "queued",
+   "status": "scheduled",
    "category": "muscle",
    "hook_type": "situation",
    "series": "تمرين العضلة",
@@ -532,7 +532,14 @@
    "made_in": "chat with the owner (dialogue: he hears every take before mixing)",
    "note_owner": "owner 2026-11-22: Blanket and Marah together announce a series on training each muscle on gym machines rather than free weights, say why (machines guide the movement, are easier to learn and to load safely, and studies found similar growth), and that each muscle is presented by one of them. Ends: next Reel is the chest, presented by Blanket. Not made on 26 Nov; the owner moved it to 29 Nov (asked 2026-11-26).",
    "idea_from": "owner, 2026-11-22",
-   "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت"
+   "next_episode": "المقطع الجاي عن الصدر بتقديم بلانكت",
+   "scheduled_for": "2026-11-29T18:00:00+03:00",
+   "metricool_post_ids": {
+    "instagram": 444240444,
+    "youtube": 444240569
+   },
+   "media_url": "https://cdn.jsdelivr.net/gh/bashar2507-gethub/reels-media@e4052a0d615eba74e4322781aebfa462f945ec72/reels/r040/r040-video-2704525240.mp4",
+   "approved_by_owner": "2026-11-27 14:22 (shortened script and draft video)"
   },
   {
    "id": "r031",
