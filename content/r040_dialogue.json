@@ -7,58 +7,58 @@
  },
  "model_id": "eleven_v4",
  "language_code": "ar",
- "generated_on": "2026-11-26",
- "credits": 557,
- "note": "series intro; one take per line, flow EIRnvvExXvIfbYuoT8sU (496 credits); line 1 retaken more energetic at the owner's request (L1_marah_v2, 61 credits; first take kept as L1_marah.mp3). Opens with MARAH MOMENT. No music, no laughs.",
+ "generated_on": "2026-11-27",
+ "credits": 942,
+ "note": "series intro, shortened script approved by the owner 2026-11-27 14:04 (under 40 s, fast delivery, no speed change). One take per line, flow EIRnvvExXvIfbYuoT8sU; L1 is the owner's chosen v5 question take, L3 reused, S2/S4-S9 new (385 credits). Opens with MARAH MOMENT. No music, no laughs.",
  "lines": [
   {
    "id": "L01",
    "speaker": "Marah",
-   "file": "L1_marah_v2.mp3",
-   "text": "[energetic] [playful] تبي تبني عضل… بس الأوزان الحرة تخوّفك؟!",
+   "file": "L1_marah_v5_question.mp3",
+   "text": "[rushed] تبي تبني عضل، بس بالـ machines؟",
    "gap_before": 0.0
   },
   {
    "id": "L02",
    "speaker": "Blanket",
-   "file": "L2_blanket.mp3",
-   "text": "[calmly] الأجهزة تكفيك.",
-   "gap_before": 0.25
+   "file": "S2_blanket.mp3",
+   "text": "[quickly] [confident] الـ machines تكفيك… مسار ثابت، أسهل للمبتدئ، وتركّز على العضلة.",
+   "gap_before": 0.15
   },
   {
    "id": "L03",
    "speaker": "Marah",
    "file": "L3_marah.mp3",
    "text": "[surprised] جد؟ تبني عضل مثل الأوزان الحرة؟",
-   "gap_before": 0.2
+   "gap_before": 0.15
   },
   {
    "id": "L04",
    "speaker": "Blanket",
-   "file": "L4_blanket.mp3",
-   "text": "مراجعة سنة ألفين وثلاثة وعشرين جمعت دراسات كثيرة: النمو العضلي كان متقارب بين الأجهزة والأوزان الحرة.",
-   "gap_before": 0.25
+   "file": "S4_blanket.mp3",
+   "text": "[quickly] إيه… مراجعة ألفين وثلاثة وعشرين: النمو العضلي متقارب بينهم.",
+   "gap_before": 0.15
   },
   {
    "id": "L05",
    "speaker": "Marah",
-   "file": "L5_marah.mp3",
-   "text": "[excited] والجهاز يمشّيك على مسار ثابت، فتركّز على العضلة وأسهل تتعلمه!",
-   "gap_before": 0.25
+   "file": "S5_marah.mp3",
+   "text": "[quickly] [curious] طيب… أي جهاز لكل عضلة؟ وكم وزن أبدأ؟",
+   "gap_before": 0.15
   },
   {
    "id": "L06",
    "speaker": "Blanket",
-   "file": "L6_blanket.mp3",
-   "text": "عشان كذا بنبدأ سلسلة: كل عضلة على أجهزة الجيم. التمارين، وعدد المجموعات، وكيف تختار وزنك.",
-   "gap_before": 0.25
+   "file": "S6_blanket.mp3",
+   "text": "[quickly] عشان كذا بنبدأ سلسلة تمارين العضلات… وكل واحد فينا بيقدّم عضلة.",
+   "gap_before": 0.15
   },
   {
    "id": "L07",
    "speaker": "Marah",
-   "file": "L7_marah.mp3",
-   "text": "وكل عضلة يقدّمها واحد منّا!",
-   "gap_before": 0.2,
+   "file": "S7_marah.mp3",
+   "text": "[delighted] [excited] يعني بقدّم عضلة لحالي؟!",
+   "gap_before": 0.15,
    "sfx_before": [
     {
      "name": "pop_in",
@@ -70,16 +70,16 @@
   {
    "id": "L08",
    "speaker": "Blanket",
-   "file": "L8_blanket.mp3",
-   "text": "أول حلقة: الصدر… معي.",
-   "gap_before": 0.25
+   "file": "S8_blanket.mp3",
+   "text": "[reluctant] [sighs] إيه… للأسف.",
+   "gap_before": 0.2
   },
   {
    "id": "L09",
    "speaker": "Marah",
-   "file": "L9_marah.mp3",
-   "text": "[playfully] والظهر عليّ! احفظوا المقطع، وتابعونا عشان ما تفوتكم ولا عضلة.",
-   "gap_before": 0.2
+   "file": "S9_marah.mp3",
+   "text": "[playful] احفظوه وتابعونا!",
+   "gap_before": 0.15
   }
  ],
  "sfx": {

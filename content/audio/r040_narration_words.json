@@ -5,461 +5,359 @@
  },
  "model_id": "eleven_v4",
  "language_code": "ar",
- "generated_on": "2026-11-26",
- "credits": 557,
- "note": "series intro; one take per line, flow EIRnvvExXvIfbYuoT8sU (496 credits); line 1 retaken more energetic at the owner's request (L1_marah_v2, 61 credits; first take kept as L1_marah.mp3). Opens with MARAH MOMENT. No music, no laughs.",
+ "generated_on": "2026-11-27",
+ "credits": 942,
+ "note": "series intro, shortened script approved by the owner 2026-11-27 14:04 (under 40 s, fast delivery, no speed change). One take per line, flow EIRnvvExXvIfbYuoT8sU; L1 is the owner's chosen v5 question take, L3 reused, S2/S4-S9 new (385 credits). Opens with MARAH MOMENT. No music, no laughs.",
  "timing_source": "letter-count spread over each take's voiced span (app/dialogue.py)",
- "duration_s": 44.78,
+ "duration_s": 31.14,
  "words": [
   {
    "text": "تبي",
    "type": "word",
    "start": 0.18,
-   "end": 0.502
+   "end": 0.418
   },
   {
    "text": "تبني",
    "type": "word",
-   "start": 0.53,
-   "end": 0.959
+   "start": 0.439,
+   "end": 0.757
   },
   {
-   "text": "عضل",
+   "text": "عضل،",
    "type": "word",
-   "start": 0.997,
-   "end": 1.319
+   "start": 0.785,
+   "end": 1.023
   },
   {
    "text": "بس",
    "type": "word",
-   "start": 1.347,
-   "end": 1.669
+   "start": 1.044,
+   "end": 1.282
   },
   {
-   "text": "الأوزان",
+   "text": "بالـ",
    "type": "word",
-   "start": 1.697,
-   "end": 2.448
+   "start": 1.303,
+   "end": 1.621
   },
   {
-   "text": "الحرة",
+   "text": "machines؟",
    "type": "word",
-   "start": 2.513,
-   "end": 3.05
+   "start": 1.649,
+   "end": 2.285
   },
   {
-   "text": "تخوّفك؟!",
+   "text": "الـ",
    "type": "word",
-   "start": 3.097,
-   "end": 3.633
+   "start": 2.55,
+   "end": 2.817
   },
   {
-   "text": "الأجهزة",
+   "text": "machines",
    "type": "word",
-   "start": 3.99,
-   "end": 4.655
+   "start": 2.84,
+   "end": 3.552
   },
   {
-   "text": "تكفيك.",
+   "text": "تكفيك",
    "type": "word",
-   "start": 4.713,
-   "end": 5.189
-  },
-  {
-   "text": "جد؟",
-   "type": "word",
-   "start": 5.49,
-   "end": 5.808
-  },
-  {
-   "text": "تبني",
-   "type": "word",
-   "start": 5.836,
-   "end": 6.26
-  },
-  {
-   "text": "عضل",
-   "type": "word",
-   "start": 6.296,
-   "end": 6.614
-  },
-  {
-   "text": "مثل",
-   "type": "word",
-   "start": 6.642,
-   "end": 6.96
-  },
-  {
-   "text": "الأوزان",
-   "type": "word",
-   "start": 6.988,
-   "end": 7.729
-  },
-  {
-   "text": "الحرة؟",
-   "type": "word",
-   "start": 7.794,
-   "end": 8.324
-  },
-  {
-   "text": "مراجعة",
-   "type": "word",
-   "start": 8.68,
-   "end": 9.277
-  },
-  {
-   "text": "سنة",
-   "type": "word",
-   "start": 9.329,
-   "end": 9.627
-  },
-  {
-   "text": "ألفين",
-   "type": "word",
-   "start": 9.653,
-   "end": 10.15
-  },
-  {
-   "text": "وثلاثة",
-   "type": "word",
-   "start": 10.193,
-   "end": 10.79
-  },
-  {
-   "text": "وعشرين",
-   "type": "word",
-   "start": 10.842,
-   "end": 11.439
-  },
-  {
-   "text": "جمعت",
-   "type": "word",
-   "start": 11.49,
-   "end": 11.888
-  },
-  {
-   "text": "دراسات",
-   "type": "word",
-   "start": 11.923,
-   "end": 12.52
-  },
-  {
-   "text": "كثيرة:",
-   "type": "word",
-   "start": 12.571,
-   "end": 13.069
-  },
-  {
-   "text": "النمو",
-   "type": "word",
-   "start": 13.112,
-   "end": 13.609
-  },
-  {
-   "text": "العضلي",
-   "type": "word",
-   "start": 13.652,
-   "end": 14.249
-  },
-  {
-   "text": "كان",
-   "type": "word",
-   "start": 14.301,
-   "end": 14.599
-  },
-  {
-   "text": "متقارب",
-   "type": "word",
-   "start": 14.625,
-   "end": 15.222
-  },
-  {
-   "text": "بين",
-   "type": "word",
-   "start": 15.274,
-   "end": 15.572
-  },
-  {
-   "text": "الأجهزة",
-   "type": "word",
-   "start": 15.598,
-   "end": 16.294
-  },
-  {
-   "text": "والأوزان",
-   "type": "word",
-   "start": 16.355,
-   "end": 17.15
-  },
-  {
-   "text": "الحرة.",
-   "type": "word",
-   "start": 17.22,
-   "end": 17.717
-  },
-  {
-   "text": "والجهاز",
-   "type": "word",
-   "start": 18.07,
-   "end": 18.784
-  },
-  {
-   "text": "يمشّيك",
-   "type": "word",
-   "start": 18.846,
-   "end": 19.356
-  },
-  {
-   "text": "على",
-   "type": "word",
-   "start": 19.4,
-   "end": 19.706
+   "start": 3.614,
+   "end": 4.059
   },
   {
    "text": "مسار",
    "type": "word",
-   "start": 19.732,
-   "end": 20.14
+   "start": 4.098,
+   "end": 4.454
   },
   {
    "text": "ثابت،",
    "type": "word",
-   "start": 20.176,
-   "end": 20.584
+   "start": 4.485,
+   "end": 4.841
   },
   {
-   "text": "فتركّز",
+   "text": "أسهل",
    "type": "word",
-   "start": 20.619,
-   "end": 21.129
+   "start": 4.872,
+   "end": 5.228
+  },
+  {
+   "text": "للمبتدئ،",
+   "type": "word",
+   "start": 5.259,
+   "end": 5.882
+  },
+  {
+   "text": "وتركّز",
+   "type": "word",
+   "start": 5.936,
+   "end": 6.381
   },
   {
    "text": "على",
    "type": "word",
-   "start": 21.173,
-   "end": 21.479
+   "start": 6.419,
+   "end": 6.686
   },
   {
-   "text": "العضلة",
+   "text": "العضلة.",
    "type": "word",
-   "start": 21.506,
-   "end": 22.118
+   "start": 6.71,
+   "end": 7.244
   },
   {
-   "text": "وأسهل",
+   "text": "جد؟",
    "type": "word",
-   "start": 22.171,
-   "end": 22.681
+   "start": 7.5,
+   "end": 7.818
   },
   {
-   "text": "تتعلمه!",
+   "text": "تبني",
    "type": "word",
-   "start": 22.725,
-   "end": 23.337
+   "start": 7.846,
+   "end": 8.27
+  },
+  {
+   "text": "عضل",
+   "type": "word",
+   "start": 8.306,
+   "end": 8.624
+  },
+  {
+   "text": "مثل",
+   "type": "word",
+   "start": 8.652,
+   "end": 8.97
+  },
+  {
+   "text": "الأوزان",
+   "type": "word",
+   "start": 8.998,
+   "end": 9.739
+  },
+  {
+   "text": "الحرة؟",
+   "type": "word",
+   "start": 9.804,
+   "end": 10.334
+  },
+  {
+   "text": "إيه",
+   "type": "word",
+   "start": 10.59,
+   "end": 10.846
+  },
+  {
+   "text": "مراجعة",
+   "type": "word",
+   "start": 10.869,
+   "end": 11.382
+  },
+  {
+   "text": "ألفين",
+   "type": "word",
+   "start": 11.426,
+   "end": 11.854
+  },
+  {
+   "text": "وثلاثة",
+   "type": "word",
+   "start": 11.891,
+   "end": 12.404
+  },
+  {
+   "text": "وعشرين:",
+   "type": "word",
+   "start": 12.448,
+   "end": 12.961
+  },
+  {
+   "text": "النمو",
+   "type": "word",
+   "start": 13.006,
+   "end": 13.433
+  },
+  {
+   "text": "العضلي",
+   "type": "word",
+   "start": 13.47,
+   "end": 13.983
+  },
+  {
+   "text": "متقارب",
+   "type": "word",
+   "start": 14.028,
+   "end": 14.541
+  },
+  {
+   "text": "بينهم.",
+   "type": "word",
+   "start": 14.585,
+   "end": 15.013
+  },
+  {
+   "text": "طيب",
+   "type": "word",
+   "start": 15.26,
+   "end": 15.589
+  },
+  {
+   "text": "أي",
+   "type": "word",
+   "start": 15.618,
+   "end": 15.947
+  },
+  {
+   "text": "جهاز",
+   "type": "word",
+   "start": 15.976,
+   "end": 16.414
+  },
+  {
+   "text": "لكل",
+   "type": "word",
+   "start": 16.453,
+   "end": 16.782
+  },
+  {
+   "text": "عضلة؟",
+   "type": "word",
+   "start": 16.81,
+   "end": 17.249
+  },
+  {
+   "text": "وكم",
+   "type": "word",
+   "start": 17.287,
+   "end": 17.617
+  },
+  {
+   "text": "وزن",
+   "type": "word",
+   "start": 17.645,
+   "end": 17.974
+  },
+  {
+   "text": "أبدأ؟",
+   "type": "word",
+   "start": 18.003,
+   "end": 18.442
   },
   {
    "text": "عشان",
    "type": "word",
-   "start": 23.7,
-   "end": 24.134
+   "start": 18.69,
+   "end": 19.029
   },
   {
    "text": "كذا",
    "type": "word",
-   "start": 24.172,
-   "end": 24.498
+   "start": 19.058,
+   "end": 19.312
   },
   {
    "text": "بنبدأ",
    "type": "word",
-   "start": 24.526,
-   "end": 25.069
+   "start": 19.334,
+   "end": 19.757
   },
   {
-   "text": "سلسلة:",
+   "text": "سلسلة",
    "type": "word",
-   "start": 25.116,
-   "end": 25.659
+   "start": 19.794,
+   "end": 20.217
   },
   {
-   "text": "كل",
+   "text": "تمارين",
    "type": "word",
-   "start": 25.706,
-   "end": 26.032
+   "start": 20.254,
+   "end": 20.762
   },
   {
-   "text": "عضلة",
+   "text": "العضلات",
    "type": "word",
-   "start": 26.061,
-   "end": 26.495
-  },
-  {
-   "text": "على",
-   "type": "word",
-   "start": 26.533,
-   "end": 26.858
-  },
-  {
-   "text": "أجهزة",
-   "type": "word",
-   "start": 26.887,
-   "end": 27.43
-  },
-  {
-   "text": "الجيم.",
-   "type": "word",
-   "start": 27.477,
-   "end": 28.02
-  },
-  {
-   "text": "التمارين،",
-   "type": "word",
-   "start": 28.067,
-   "end": 28.936
-  },
-  {
-   "text": "وعدد",
-   "type": "word",
-   "start": 29.011,
-   "end": 29.446
-  },
-  {
-   "text": "المجموعات،",
-   "type": "word",
-   "start": 29.483,
-   "end": 30.461
-  },
-  {
-   "text": "وكيف",
-   "type": "word",
-   "start": 30.546,
-   "end": 30.98
-  },
-  {
-   "text": "تختار",
-   "type": "word",
-   "start": 31.018,
-   "end": 31.561
-  },
-  {
-   "text": "وزنك.",
-   "type": "word",
-   "start": 31.608,
-   "end": 32.042
+   "start": 20.806,
+   "end": 21.398
   },
   {
    "text": "وكل",
    "type": "word",
-   "start": 32.34,
-   "end": 32.718
-  },
-  {
-   "text": "عضلة",
-   "type": "word",
-   "start": 32.751,
-   "end": 33.255
-  },
-  {
-   "text": "يقدّمها",
-   "type": "word",
-   "start": 33.299,
-   "end": 34.055
+   "start": 21.45,
+   "end": 21.704
   },
   {
    "text": "واحد",
    "type": "word",
-   "start": 34.121,
-   "end": 34.625
+   "start": 21.726,
+   "end": 22.065
   },
   {
-   "text": "منّا!",
+   "text": "فينا",
    "type": "word",
-   "start": 34.669,
-   "end": 35.047
+   "start": 22.094,
+   "end": 22.433
   },
   {
-   "text": "أول",
+   "text": "بيقدّم",
    "type": "word",
-   "start": 35.39,
-   "end": 35.902
-  },
-  {
-   "text": "حلقة:",
-   "type": "word",
-   "start": 35.946,
-   "end": 36.628
-  },
-  {
-   "text": "الصدر",
-   "type": "word",
-   "start": 36.687,
-   "end": 37.54
-  },
-  {
-   "text": "معي.",
-   "type": "word",
-   "start": 37.614,
-   "end": 38.126
-  },
-  {
-   "text": "والظهر",
-   "type": "word",
-   "start": 38.43,
-   "end": 39.074
-  },
-  {
-   "text": "عليّ!",
-   "type": "word",
-   "start": 39.13,
-   "end": 39.453
-  },
-  {
-   "text": "احفظوا",
-   "type": "word",
-   "start": 39.481,
-   "end": 40.125
-  },
-  {
-   "text": "المقطع،",
-   "type": "word",
-   "start": 40.181,
-   "end": 40.825
-  },
-  {
-   "text": "وتابعونا",
-   "type": "word",
-   "start": 40.881,
-   "end": 41.741
-  },
-  {
-   "text": "عشان",
-   "type": "word",
-   "start": 41.815,
-   "end": 42.245
-  },
-  {
-   "text": "ما",
-   "type": "word",
-   "start": 42.282,
-   "end": 42.604
-  },
-  {
-   "text": "تفوتكم",
-   "type": "word",
-   "start": 42.632,
-   "end": 43.277
-  },
-  {
-   "text": "ولا",
-   "type": "word",
-   "start": 43.333,
-   "end": 43.655
+   "start": 22.462,
+   "end": 22.885
   },
   {
    "text": "عضلة.",
    "type": "word",
-   "start": 43.683,
-   "end": 44.113
+   "start": 22.922,
+   "end": 23.261
+  },
+  {
+   "text": "يعني",
+   "type": "word",
+   "start": 23.5,
+   "end": 23.929
+  },
+  {
+   "text": "بقدّم",
+   "type": "word",
+   "start": 23.966,
+   "end": 24.394
+  },
+  {
+   "text": "عضلة",
+   "type": "word",
+   "start": 24.432,
+   "end": 24.86
+  },
+  {
+   "text": "لحالي؟!",
+   "type": "word",
+   "start": 24.898,
+   "end": 25.433
+  },
+  {
+   "text": "إيه",
+   "type": "word",
+   "start": 25.74,
+   "end": 26.692
+  },
+  {
+   "text": "للأسف.",
+   "type": "word",
+   "start": 26.775,
+   "end": 28.362
+  },
+  {
+   "text": "احفظوه",
+   "type": "word",
+   "start": 28.71,
+   "end": 29.42
+  },
+  {
+   "text": "وتابعونا!",
+   "type": "word",
+   "start": 29.481,
+   "end": 30.428
   }
  ],
  "audio": "r040_narration.mp3"
