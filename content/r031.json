@@ -47,7 +47,7 @@
    "image_file": "images/magnific/blanket_chestpress_ref4.jpg",
    "sentences": [
     {
-     "say": "التمرين الأول: جهاز ضغط الصدر… ادفع لقدّام، ورجّع ببطء."
+     "say": "الأول: جهاز ضغط الصدر، الـ Chest Press. ظهرك على المسند، ادفع المقابض لقدّام، ورجّع ببطء."
     }
    ]
   },
@@ -66,10 +66,10 @@
    "image_file": "images/magnific/blanket_incline_ref4.jpg",
    "sentences": [
     {
-     "say": "التمرين الثاني: الضغط المائل على زاوية ثلاثين، لأعلى الصدر.",
+     "say": "الثاني: الضغط المائل، الـ Incline Press. على زاوية ثلاثين تقريبًا، ادفع لفوق، وانزل بهدوء.",
      "overlay": {
       "big": "30°",
-      "small": "زاوية المقعد",
+      "small": "زاوية المسند تقريبًا",
       "from": "ثلاثين",
       "y": 330
      }
@@ -91,32 +91,66 @@
    "image_file": "images/magnific/blanket_pecdeck_ref1.jpg",
    "sentences": [
     {
-     "say": "التمرين الثالث: جهاز الفراشة… ضم ذراعينك قدّام صدرك، وارجع بهدوء."
+     "say": "الثالث: الفراشة، الـ Pec Deck. افتح ذراعينك وكوعك مثني شوي، وضمّها قدّام صدرك ببطء."
     }
    ]
   },
   {
    "id": "s5",
    "visual": "r031-s5",
-   "fallback": "orbs",
+   "fallback": "dumbbell",
    "zoom": [
     1.0,
-    1.05
+    1.06
    ],
    "pan": [
-    0.0,
+    0.1,
     0.0
    ],
    "image_file": "images/magnific/test1_duo_standing_a.jpg",
    "sentences": [
     {
-     "say": "وزاوية الثلاثين مبنية على دراسة إسبانية، والمصدر في الكابشن."
+     "say": "لكل جهاز ثلاث مجموعات، من ثمانية لاثنعش تكرار،",
+     "overlay": {
+      "big": "3 × 8–12",
+      "small": "مجموعات × تكرارات لكل جهاز",
+      "from": "ثلاث",
+      "y": 330
+     }
+    },
+    {
+     "say": "وراحة دقيقة ونص لدقيقتين بينها.",
+     "overlay": {
+      "big": "1:30–2:00",
+      "small": "دقيقة راحة بين المجموعات",
+      "from": "دقيقة",
+      "y": 330
+     }
     }
    ]
   },
   {
    "id": "s6",
    "visual": "r031-s6",
+   "fallback": "scale",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "pan": [
+    0.0,
+    0.0
+   ],
+   "image_file": "images/magnific/blanket_chestpress_ref5.jpg",
+   "sentences": [
+    {
+     "say": "وإذا كمّلت الاثنعش بسهولة، زِد الوزن شوي. كيف تختار وزنك وراحتك؟ بالكابشن، وإذا تبونها بمقطع قولوا بالتعليقات."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "r031-s7",
    "fallback": "bookmark",
    "zoom": [
     1.0,
@@ -129,7 +163,7 @@
    "image_file": "images/magnific/marah_vsign_2hands_a.jpg",
    "sentences": [
     {
-     "say": "احفظه وجرّبه، وتابعنا: الجاي عن الظهر بتقديم مرح."
+     "say": "وزاوية الثلاثين من دراسة إسبانية، المصدر بالكابشن. احفظه وتابعنا: الجاي الظهر مع مرح."
     }
    ]
   }
@@ -152,12 +186,12 @@
    "جيم",
    "بلانكت"
   ],
-  "caption": "كم جهاز يحتاج صدرك في الجيم؟ ثلاثة بس 💪\n\nالحلقة الأولى من سلسلة «تمرين العضلة»: الصدر على أجهزة الجيم، مع بلانكت.\n\n1️⃣ جهاز ضغط الصدر (Chest Press): ادفع للأمام، ورجّع ببطء\n2️⃣ جهاز الضغط المائل (Incline Chest Press): على زاوية 30 درجة تقريبًا، لأعلى الصدر\n3️⃣ جهاز الفراشة (Pec Deck / Machine Fly): ضم ذراعينك قدّام صدرك، وارجع بهدوء\n\nليش 30 درجة؟ دراسة إسبانية (جامعة ألميريا، 2020) على 30 متدربًا قاست نشاط عضلات الصدر والكتف في ضغط البنش بخمس زوايا: زاوية 30 درجة أعطت أعلى نشاط لأعلى الصدر، والزوايا الأعلى نقلت الشغل أكثر للكتف الأمامي. الدراسة كانت على البنش بالبار، وقاست نشاط العضلة وليس نموها.\n\n📅 المقطع الجاي: الظهر بتقديم مرح.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n🔖 احفظ المقطع عشان ترجع له في الجيم، وأرسله لصديق يتمرن معك.\n➕ تابع الحساب عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339. DOI: 10.3390/ijerph17197339\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #بناء_العضلات #جيم #تمارين_للمبتدئين",
-  "first_comment": "💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.",
-  "youtube_description": "تمرين الصدر على أجهزة الجيم في ثلاثة أجهزة: ضغط الصدر، والضغط المائل على زاوية 30 درجة لأعلى الصدر، وجهاز الفراشة. زاوية 30 درجة مبنية على دراسة إسبانية قاست نشاط الصدر بخمس زوايا.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرن معك.\n🔔 اشترك في القناة عشان ما تفوتك ولا عضلة.\n\nالمصدر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339. DOI: 10.3390/ijerph17197339\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #جيم"
+  "caption": "كم جهاز يحتاج صدرك في الجيم؟ ثلاثة بس 💪\n\nالحلقة الأولى من سلسلة «تمرين العضلة»: الصدر على أجهزة الجيم، مع بلانكت.\n\n1️⃣ جهاز ضغط الصدر (Chest Press): ظهرك على المسند، ادفع المقابض لقدّام، ورجّع ببطء\n2️⃣ جهاز الضغط المائل (Incline Chest Press): المسند على زاوية 30 درجة تقريبًا، ادفع لفوق، وانزل بهدوء\n3️⃣ جهاز الفراشة (Pec Deck): افتح ذراعينك وكوعك مثني شوي، وضمّها قدّام صدرك ببطء\n\n📋 لكل جهاز: 3 مجموعات × 8–12 تكرار، وراحة دقيقة ونص لدقيقتين بين المجموعات.\n\n🏋️ كيف تختار وزنك؟ اختر وزن تقدر ترفعه 8–12 مرة بشكل صحيح، ويبقى معك تكرارين أو ثلاثة قبل ما تعجز. إذا كمّلت 12 تكرار بسهولة في مجموعتين ورا بعض، زِد الوزن شوي (تقريبًا 2–10%).\n\n⏱️ ليش دقيقة ونص لدقيقتين؟ مراجعة منهجية سنة 2024 لقت فايدة بسيطة للنمو العضلي لما تكون الراحة أكثر من دقيقة، وما لقت فرق واضح بعد الدقيقة ونص.\n\n📐 ليش 30 درجة؟ دراسة إسبانية (جامعة ألميريا، 2020) قاست نشاط الصدر في ضغط البنش بخمس زوايا: زاوية 30 درجة أعطت أعلى نشاط لأعلى الصدر، والزوايا الأعلى نقلت الشغل للكتف. الدراسة كانت على البنش بالبار، وقاست نشاط العضلة وليس نموها.\n\n🎬 تبي مقطع كامل عن اختيار الوزن والراحة؟ اطلبه في التعليقات.\n📅 المقطع الجاي: الظهر بتقديم مرح.\n\n💬 وش الجهاز اللي تحبه لتمرين الصدر؟ شاركنا في التعليقات.\n🔖 احفظ المقطع عشان ترجع له في الجيم، وأرسله لصديق يتمرن معك.\n➕ تابع الحساب عشان ما تفوتك ولا عضلة.\n\nالمصادر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339\nAmerican College of Sports Medicine (2009). Progression models in resistance training for healthy adults. Med Sci Sports Exerc 41(3):687-708\nSinger A, Wolf M, ... Schoenfeld BJ (2024). Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy. Front Sports Act Living 6:1429789\nHelms ER et al. (2016). Application of the Repetitions in Reserve-Based Rating of Perceived Exertion Scale for Resistance Training. Strength Cond J 38(4):42-49\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #بناء_العضلات #جيم #تمارين_للمبتدئين",
+  "first_comment": "🎬 تبي مقطع عن كيف تختار وزنك ومدة الراحة؟ اكتب «أبي» في التعليقات.",
+  "youtube_description": "تمرين الصدر على أجهزة الجيم في ثلاثة أجهزة: ضغط الصدر (Chest Press)، والضغط المائل (Incline Press) على زاوية 30 درجة تقريبًا، والفراشة (Pec Deck). لكل جهاز 3 مجموعات من 8 إلى 12 تكرار، مع راحة دقيقة ونص لدقيقتين، وزِد الوزن شوي لما تكمّل 12 بسهولة.\n\n💬 تبي مقطع عن اختيار الوزن والراحة؟ اطلبه في التعليقات.\n👍 إذا أفادك المقطع اضغط إعجاب، وأرسله لصديق يتمرن معك.\n🔔 اشترك في القناة عشان ما تفوتك ولا عضلة.\n\nالمصادر:\nRodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM (2020). Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise. Int J Environ Res Public Health 17(19):7339\nAmerican College of Sports Medicine (2009). Progression models in resistance training for healthy adults. Med Sci Sports Exerc 41(3):687-708\nSinger A, Wolf M, ... Schoenfeld BJ (2024). Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy. Front Sports Act Living 6:1429789\nHelms ER et al. (2016). Application of the Repetitions in Reserve-Based Rating of Perceived Exertion Scale for Resistance Training. Strength Cond J 38(4):42-49\n\nمعلومات عامة للتثقيف، ولا تغني عن استشارة مختص.\n\n#تمرين_صدر #تمارين_الأجهزة #جيم"
  },
  "target_s": [
-  26,
-  34
+  40,
+  60
  ]
 }
