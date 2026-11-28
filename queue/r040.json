@@ -239,6 +239,7 @@
   }
  },
  "narration": {
-  "note": "dialogue mix already in content/audio/r040_narration.mp3 (scripts/mix_dialogue.py, shortened script approved by the owner 2026-11-27)"
- }
+  "note": "dialogue mix in content/audio/r040_narration.mp3 (remixed 2026-11-28 with the faster takes); Marah's outro appended by the build"
+ },
+ "rerender_requested": "2026-11-28T10:35:33Z"
 }
