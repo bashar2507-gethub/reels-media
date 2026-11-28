@@ -25,6 +25,13 @@ media under `reels/`. To produce and publish a Reel, follow `docs/RUNBOOK.md` st
 - Voice (owner's choice from 2026-10-24): ElevenLabs «Jeddawi Echo», voice_id `yXEnnEln9armDCyhkXcA`, model `eleven_v4`,
   Arabic. Do not use «عبدالله سعدون» (`t9akNmCDhz230CEXOYmn`) any more. Its natural pace is about 105-110 wpm
   and it has its own pauses, so no pauses are added between sentences.
+- Faster delivery always (owner, 2026-11-28): every narration and every line, Blanket's and Marah's, explanations
+  included, is prompted with `[quickly]` at the start of each paragraph (the hook also `[energetic]`), fast but clear
+  (r031: about 130 wpm). It is the voice's own delivery, never a speed change of the file.
+- Marah's outro on every Reel (owner, 2026-11-28): `assets/outro/marah_outro.mp4` (scripts/build_marah_outro.py), her
+  V-sign selfie with follow, like, repost and comment icons popping in on her line «إذا عجبك المقطع، اعمل فولو، ولايك،
+  وريبوست، وبالمرّة اعطينا رأيك بالتعليقات!» (`content/audio/marah/outro_cta.mp3`). The build appends it unless a
+  script sets `"outro": false`; the narration's own last line stays short («احفظه عندك، وتابعنا للتمرين الجاي.»).
 - Marah's voice (owner's choice, 2026-11-20): ElevenLabs «Nora S - Saudi Natural & Calm», voice_id
   `FZeLZd39ejvLgzR2gY0t`, model `eleven_v4`, Arabic, only for Marah's own lines and for the Reels she narrates (plan items with `"narrator": "marah"`,
   owner 2026-11-22). Every other narration and Blanket stay Jeddawi Echo.

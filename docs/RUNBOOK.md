@@ -195,7 +195,9 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
    A sentence marked `"whisper": true` in the script (owner, 2026-11-22, first r027: only a teaser or a secret is
    whispered, never the whole Reel) gets `[whispers] ` before it in the prompt only; the tag never goes into `say`
    or `show`, and the transcript check ignores it.
-   generations_count=1, prompt=narration_text(script))`. One take only. Never call it again to
+   generations_count=1, prompt=narration_text(script))`, with `[quickly] ` before every paragraph and
+   `[quickly] [energetic] ` before the hook (owner, 2026-11-28: always the faster delivery; the tags never go into
+   `say` or `show`, and the transcript check ignores them). One take only. Never call it again to
    retry: if it fails, stop and report.
 3. Poll `creative_get_flow_run_status` until `all_completed`. Keep `generations[0].id` and
    `media[0].url` (a signed link that expires after 2 hours).
@@ -204,6 +206,14 @@ the settings are `affiliate` in `content/plan.json`, and each planned item has `
 5. `creative_transcribe_audio(flow_id, model_id="eleven_scribe_v1", connect_from=[node])`, poll
    until done, and keep `transcripts[0].words_download_url` and `word_count`.
    The transcript must match the narration text; if words are missing or changed, stop and report.
+
+## 5c. Marah's outro (owner, 2026-11-28)
+
+Every Reel ends with `assets/outro/marah_outro.mp4` (about 6.4 s): the build appends it after the call to action with a
+0.2 s crossfade (`app/intro.append`), and `status.json` records it under `outro`. So the narration's last scene is a
+short save-and-follow line, and the script's `target_s` counts the outro. A script opts out only with
+`"outro": false`. To change her line or picture, re-record one take, transcribe it to
+`content/audio/marah/outro_cta_words.json`, and run `python scripts/build_marah_outro.py`.
 
 ## 5a. THE BLANKET EFFECT intro (from 2026-10-31)
 
