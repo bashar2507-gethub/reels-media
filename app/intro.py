@@ -12,6 +12,7 @@ from .video_assembler import aac_args, mp4_args, x264_args
 ROOT = Path(__file__).resolve().parents[1]
 INTRO = ROOT / "assets" / "intro" / "blanket_effect.mp4"
 MARAH = ROOT / "assets" / "intro" / "marah_moment.mp4"
+OUTRO = ROOT / "assets" / "outro" / "marah_outro.mp4"  # owner, 2026-11-28: Marah's call to action ends every Reel
 TRANSITION = 0.2  # seconds of the intro's flash that overlap the Reel's first scene
 TRANSITIONS = {"flash": "fadewhite", "zoom": "zoomin", "circle": "circleopen", "slide": "slideup", "fade": "fade"}
 
@@ -45,6 +46,23 @@ def prepend(main: Path, out: Path, transition: str = "flash", spec: VideoSpec = 
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(path), "-i", str(main),
                     "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
                     *x264_args(spec), *aac_args(spec), *mp4_args(), "-shortest", str(tmp)], check=True)  # sound never outlasts the picture
+    tmp.replace(out)
+    return out
+
+
+def append(main: Path, out: Path, path: Path = OUTRO, transition: str = "fade", spec: VideoSpec = SPEC) -> Path:
+    """Reel + outro (Marah's call to action), joined by a short crossfade of picture and sound."""
+    off = round(duration(main) - TRANSITION, 3)
+    kind = TRANSITIONS.get(transition, "fade")
+    pcm = f"aformat=sample_rates={spec.audio_rate}:channel_layouts=stereo"
+    graph = (f"[0:v]fps={spec.fps},format=yuv420p,setsar=1[m];[1:v]fps={spec.fps},format=yuv420p,setsar=1[o];"
+             f"[m][o]xfade=transition={kind}:duration={TRANSITION}:offset={off:.3f},"
+             f"scale=out_color_matrix=bt709:out_range=tv,format=yuv420p[v];"
+             f"[0:a]{pcm}[ma];[1:a]{pcm}[oa];[ma][oa]acrossfade=d={TRANSITION}[a]")
+    tmp = out.with_name(out.stem + ".part.mp4")
+    subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(main), "-i", str(path),
+                    "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
+                    *x264_args(spec), *aac_args(spec), *mp4_args(), str(tmp)], check=True)
     tmp.replace(out)
     return out
 

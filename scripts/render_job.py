@@ -143,6 +143,8 @@ def build(reel_id: str, job: dict) -> dict:
         status["cover_at_seconds"] = round(status["cover_at_seconds"] + intro.offset(path), 2)
         status["intro"] = {"file": path.relative_to(ROOT).as_posix(), "offset_s": intro.offset(path),
                            "transition": script.get("intro_transition", "flash")}
+    if gate.get("outro"):
+        status["outro"] = gate["outro"]
     status["passed"] = True
     return status
 

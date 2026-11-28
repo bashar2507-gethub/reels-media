@@ -125,6 +125,12 @@ def main() -> int:
             intro.prepend(body, video, transition)
             cover_at += intro.offset()
             intro_info = {"position": "start", "transition": transition}
+    outro_info = None
+    if script.get("outro", "marah") and intro.OUTRO.exists():  # owner, 2026-11-28: Marah's outro ends every Reel
+        body = video.with_name(video.stem + "_main.mp4")
+        video.replace(body)
+        intro.append(body, video)
+        outro_info = {"file": "assets/outro/marah_outro.mp4", "duration_s": round(intro.duration(intro.OUTRO), 2)}
     render_seconds = time.time() - started
     cover = extract_cover(video, cover_at, out / f"{script['reel_id']}_cover.jpg")
 
@@ -144,7 +150,7 @@ def main() -> int:
     ]
     report["passed"] = report["passed"] and qa["passed"]
     report["warnings"] = [c["name"] for c in report["checks"] if c["severity"] == "soft" and not c["passed"]]
-    report.update({"cover_at_seconds": round(cover_at, 2), "intro": intro_info})
+    report.update({"cover_at_seconds": round(cover_at, 2), "intro": intro_info, "outro": outro_info})
     report.update({"render_seconds": round(render_seconds, 1), "cover": str(cover), "voice": voice_label,
                    "voice_metrics": voice.as_dict(), "caption_failures": qa["failures"], "visuals": image_report})
     (out / "media_gate.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
