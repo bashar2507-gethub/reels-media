@@ -1,0 +1,51 @@
+{
+  "reel_id": "r040",
+  "passed": true,
+  "run_id": "46135911579",
+  "built_at": "2026-11-28T10:36:53Z",
+  "build_seconds": 175,
+  "log_tail": "1 s window) [instagram]\n  PASS duration_instagram     37.17 s                            limit: 3 s to 15 min [instagram]\n  PASS duration_autopublish   37.17 s                            limit: 3 s to 15 min (Metricool help centre) [metricool]\n  PASS duration_target        37.17 s                            limit: 25-45 s [internal]\n  PASS audio_codec            aac                                limit: AAC [instagram]\n  PASS audio_sample_rate      48000 Hz                           limit: <= 48 kHz [instagram]\n  PASS audio_channels         2                                  limit: mono or stereo [instagram]\n  PASS audio_bitrate          121 kbps                           limit: 128 kbps [instagram]\n  PASS loudness               -16.1 LUFS                         limit: -16 +/- 2 LUFS [internal]\n  PASS true_peak              -1.2 dBTP                          limit: <= -1.0 dBTP [internal]\n  PASS no_long_silence        0 gaps                             limit: no silence >= 1.5 s [internal]\n  PASS av_duration_match      video 37.10 s, audio 37.17 s       limit: <= 0.1 s apart [internal]\n  PASS decodes_cleanly        no errors                          limit: full decode [internal]\n  PASS captions_rtl_order     20 positions checked               limit: highlight follows right-to-left reading [internal]\n  PASS speaking_rate          124 wpm                            limit: 80-160 Arabic words per minute [internal]\nvisuals: 9 AI, 0 procedural\nMEDIA GATE: PASSED | warnings: none\n",
+  "checks": "27/27",
+  "failed_checks": [],
+  "warnings": [],
+  "visuals": {
+    "ai": [
+      "r040-s01",
+      "r040-s02",
+      "r040-s03",
+      "r040-s04",
+      "r040-s05",
+      "r040-s06",
+      "r040-s07",
+      "r040-s08",
+      "r040-s09"
+    ],
+    "fallback": [],
+    "errors": {},
+    "token": {
+      "set": true,
+      "hf_prefix": true,
+      "length": 37,
+      "trimmed": false
+    }
+  },
+  "duration_s": 29.55,
+  "wpm": 124,
+  "video": "reels/r040/r040-video-e37b353a02.mp4",
+  "video_sha256": "e37b353a0236cba11b85b392b762f8a666f3c1278b6879bf3252b191a032916d",
+  "video_bytes": 11345455,
+  "cover": "reels/r040/r040-cover-3fe56b9aa7.jpg",
+  "cover_sha256": "3fe56b9aa7a96f02fb10e5f770ffb9fc8a525d5b543f3960a976dfd25e053bef",
+  "cover_bytes": 94981,
+  "cover_at_seconds": 2.27,
+  "intro": {
+    "file": "assets/intro/marah_moment.mp4",
+    "offset_s": 1.267,
+    "position": "start",
+    "transition": "flash"
+  },
+  "outro": {
+    "file": "assets/outro/marah_outro.mp4",
+    "duration_s": 6.4
+  }
+}
