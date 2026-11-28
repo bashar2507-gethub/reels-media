@@ -112,7 +112,9 @@ def frame(img: Image.Image, shown: dict[str, float]) -> Image.Image:
         if kind not in shown:
             continue
         p = ease_out_back(shown[kind] / 0.28)
-        size = max(1, int(SIZE * p))
+        size = int(SIZE * p)
+        if size < 24:
+            continue
         cx = gap + SIZE / 2 + i * (SIZE + gap)
         icon = draw_icon(kind, size)
         out.alpha_composite(icon, (int(cx - size / 2), int(ROW_Y - size / 2)))
