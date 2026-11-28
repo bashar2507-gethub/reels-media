@@ -1,20 +1,8 @@
 {
  "reel_id": "r031",
  "reviewed_on": "2026-11-27",
- "method": "Rodríguez-Ridao 2020 read in full text on PMC (PMC7579505); Schoenfeld 2017 title confirmed by search; Schoenfeld 2016, ACSM 2009 and Helms 2016 from their published records (seed sources in content/plan.json). Owner 2026-11-27: the Reel covers the three exercises only; sets/reps claims dropped. Owner 2026-11-28: script names each machine with how to do it, then sets, reps, rest and progression; weight choice and rest explained in the caption. Singer 2024 abstract read on frontiersin.org.",
+ "method": "Rodríguez-Ridao 2020 read in full text on PMC (PMC7579505); Schoenfeld 2017 title confirmed by search; Schoenfeld 2016, ACSM 2009 and Helms 2016 from their published records (seed sources in content/plan.json). Owner 2026-11-27: the Reel covers the three exercises only; sets/reps claims dropped. Owner 2026-11-28: script names each machine with how to do it, then sets, reps, rest and progression; weight choice and rest explained in the caption. Singer 2024 abstract read on frontiersin.org. Owner 2026-11-28 12:21: the Spanish incline study and the 30-degree angle removed; reps sourced in the caption only (Lopez 2021, abstract read on PMC).",
  "claims": [
-  {
-   "claim_id": "r031-c1",
-   "claim": "In a 2020 Spanish EMG study of the bench press at five inclinations, a 30 degree incline gave the highest upper (clavicular) pectoralis activity, and steeper inclines shifted work to the anterior deltoid.",
-   "source_title": "Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise",
-   "authors": "Rodríguez-Ridao D, Antequera-Vique JA, Martín-Fuentes I, Muyor JM",
-   "year": 2020,
-   "journal": "Int J Environ Res Public Health 17(19):7339",
-   "DOI_or_URL": "https://doi.org/10.3390/ijerph17197339 | PMID 33049982 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7579505",
-   "study_type": "Cross-sectional EMG study: 30 resistance-trained adults (University of Almería), free-weight barbell bench press at 0, 15, 30, 45 and 60 degrees, 60% 1RM, 8 reps",
-   "finding": "Upper pectoralis %MVIC highest at 30 degrees (about 30%), lower at 60 degrees; middle and lower pectoralis fell as incline rose; anterior deltoid rose with incline, highest at 60 degrees. Measured muscle activity, not growth; free-weight bench, not a machine.",
-   "on_screen": "«على البنش» and «نشاط» in the narration; the caption says it measured activity, not growth."
-  },
   {
    "claim_id": "r031-c2",
    "claim": "Beginners: 3 sets of 8-12 repetitions; increase the load by about 2-10% when the top of the range is exceeded.",
@@ -47,6 +35,17 @@
    "DOI_or_URL": "doi:10.1519/SSC.0000000000000218",
    "study_type": "Practical review",
    "finding": "RIR-based scale for choosing and adjusting load."
+  },
+  {
+   "claim_id": "r031-c5",
+   "claim": "Muscle growth was similar across low, moderate and high loads; strength rose more with moderate and high loads, so 8-12 reps is a practical middle (caption only).",
+   "source_title": "Resistance Training Load Effects on Muscle Hypertrophy and Strength Gain: Systematic Review and Network Meta-analysis",
+   "authors": "Lopez P, Radaelli R, Taaffe DR, Newton RU, Galvão DA, Trajano GS, Teodoro JL, Kraemer WJ, Häkkinen K, Pinto RS",
+   "year": 2021,
+   "journal": "Med Sci Sports Exerc 53(6):1206-1216",
+   "DOI_or_URL": "doi:10.1249/MSS.0000000000002585 | PMID 33433148 | https://pmc.ncbi.nlm.nih.gov/articles/pmc8126497",
+   "study_type": "Systematic review and network meta-analysis: 28 studies, 747 healthy adults",
+   "finding": "No differences in hypertrophy between loads (low >15RM, moderate 9-15RM, high <=8RM); strength gains superior for high and moderate vs low load."
   }
  ]
 }
