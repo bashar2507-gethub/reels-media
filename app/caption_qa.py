@@ -23,6 +23,10 @@ QA_SCALE = 2      # half-size render: enough for positions, four times less data
 SETTLE = 0.12     # sample after the caption's 90 ms fade-in has finished
 
 
+def _arabic(text: str) -> bool:
+    return any("\u0600" <= ch <= "\u06ff" for ch in text)
+
+
 def _pairs(timeline: Timeline) -> list[tuple[float, float, str]]:
     """For each caption with two or more highlight groups: a moment inside the first group's
     highlight and one inside the last group's, both after the caption's fade-in."""
@@ -31,7 +35,9 @@ def _pairs(timeline: Timeline) -> list[tuple[float, float, str]]:
         if sentence.style == "title":
             continue
         for caption in sentence.captions:
-            groups = highlight_groups(caption)
+            # An English term inside an Arabic caption (a machine name such as «الـ Chest Press») reads left to
+            # right by nature, so only the Arabic groups are compared.
+            groups = [g for g in highlight_groups(caption) if any(_arabic(caption.words[i].text) for i in g)]
             if len(groups) < 2:
                 continue
             first_start = caption.words[groups[0][0]].start

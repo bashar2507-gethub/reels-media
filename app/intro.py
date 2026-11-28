@@ -23,6 +23,18 @@ def duration(path: Path) -> float:
     return float(json.loads(out)["format"]["duration"])
 
 
+def video_duration(path: Path) -> float:
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration",
+                          "-of", "json", str(path)], capture_output=True, text=True, check=True).stdout
+    return float(json.loads(out)["streams"][0]["duration"])
+
+
+def video_start(path: Path) -> float:
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=start_time",
+                          "-of", "json", str(path)], capture_output=True, text=True, check=True).stdout
+    return float(json.loads(out)["streams"][0].get("start_time") or 0.0)
+
+
 def pick(script: dict) -> Path:
     """The intro a script asks for: Marah's moment for `"intro": "marah"`, otherwise THE BLANKET EFFECT."""
     return MARAH if script.get("intro") == "marah" else INTRO
@@ -52,13 +64,17 @@ def prepend(main: Path, out: Path, transition: str = "flash", spec: VideoSpec = 
 
 def append(main: Path, out: Path, path: Path = OUTRO, transition: str = "fade", spec: VideoSpec = SPEC) -> Path:
     """Reel + outro (Marah's call to action), joined by a short crossfade of picture and sound."""
-    off = round(duration(main) - TRANSITION, 3)
+    dm, do = video_duration(main), video_duration(path)
+    off = round(dm - TRANSITION, 3)
+    total = video_start(main) + dm + do - TRANSITION  # where the joined picture ends
     kind = TRANSITIONS.get(transition, "fade")
     pcm = f"aformat=sample_rates={spec.audio_rate}:channel_layouts=stereo"
+    # each sound is padded or cut to its picture first, so the crossfades line up and the lengths match
     graph = (f"[0:v]fps={spec.fps},format=yuv420p,setsar=1[m];[1:v]fps={spec.fps},format=yuv420p,setsar=1[o];"
              f"[m][o]xfade=transition={kind}:duration={TRANSITION}:offset={off:.3f},"
              f"scale=out_color_matrix=bt709:out_range=tv,format=yuv420p[v];"
-             f"[0:a]{pcm}[ma];[1:a]{pcm}[oa];[ma][oa]acrossfade=d={TRANSITION}[a]")
+             f"[0:a]{pcm},apad=whole_dur={dm:.3f},atrim=end={dm:.3f}[ma];"
+             f"[1:a]{pcm},apad=whole_dur={do:.3f},atrim=end={do:.3f}[oa];[ma][oa]acrossfade=d={TRANSITION},apad=whole_dur={total:.3f},atrim=end={total:.3f}[a]")
     tmp = out.with_name(out.stem + ".part.mp4")
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(main), "-i", str(path),
                     "-filter_complex", graph, "-map", "[v]", "-map", "[a]",

@@ -95,13 +95,13 @@
    "fallback": "dumbbell",
    "zoom": [
     1.0,
-    1.06
+    1.04
    ],
    "pan": [
     0.1,
     0.0
    ],
-   "image_file": "images/magnific/test1_duo_standing_a.jpg",
+   "image_file": "images/r031-char/s5_duo_low.jpg",
    "sentences": [
     {
      "say": "لكل جهاز ثلاث مجموعات، من ثمانية لاثنعش تكرار،",
