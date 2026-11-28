@@ -558,7 +558,7 @@
     "Schoenfeld BJ, Ogborn D, Krieger JW, Sports Med, 2016 (training frequency meta-analysis)",
     "Helms ER et al., Strength Cond J, 2016 (repetitions-in-reserve RPE scale)"
    ],
-   "status": "planned",
+   "status": "queued",
    "category": "muscle",
    "hook_type": "how_many",
    "series": "تمرين العضلة",
@@ -572,7 +572,9 @@
    "idea_from": "owner, 2026-11-22: one Reel per muscle on how to train it in the gym (machines, sets, starting weight), shown by Blanket and Marah",
    "narrator": "blanket",
    "episode": 1,
-   "next_episode": "المقطع الجاي عن الظهر بتقديم مرح"
+   "next_episode": "المقطع الجاي عن الظهر بتقديم مرح",
+   "made_in": "chat with the owner (approved 2026-11-28)",
+   "publish_on": "2026-12-02"
   },
   {
    "id": "r032",
