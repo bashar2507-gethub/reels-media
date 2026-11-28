@@ -1,0 +1,77 @@
+{
+ "words": [
+  {
+   "text": "إذا",
+   "type": "word",
+   "start": 0.074,
+   "end": 0.16
+  },
+  {
+   "text": "عجبك",
+   "type": "word",
+   "start": 0.24,
+   "end": 0.56
+  },
+  {
+   "text": "المقطع،",
+   "type": "word",
+   "start": 0.64,
+   "end": 1.36
+  },
+  {
+   "text": "اعمل",
+   "type": "word",
+   "start": 1.52,
+   "end": 1.84
+  },
+  {
+   "text": "فولو،",
+   "type": "word",
+   "start": 1.92,
+   "end": 2.44
+  },
+  {
+   "text": "ولايك،",
+   "type": "word",
+   "start": 2.56,
+   "end": 3.253
+  },
+  {
+   "text": "وريبوست…",
+   "type": "word",
+   "start": 3.307,
+   "end": 4.16
+  },
+  {
+   "text": "وبالمرّة،",
+   "type": "word",
+   "start": 4.32,
+   "end": 5.093
+  },
+  {
+   "text": "اعطينا",
+   "type": "word",
+   "start": 5.2,
+   "end": 5.6
+  },
+  {
+   "text": "رأيك",
+   "type": "word",
+   "start": 5.68,
+   "end": 5.92
+  },
+  {
+   "text": "بالتعليقات!",
+   "type": "word",
+   "start": 6.0,
+   "end": 7.04
+  }
+ ],
+ "voice": "Nora S (Marah)",
+ "voice_id": "FZeLZd39ejvLgzR2gY0t",
+ "model_id": "eleven_v4",
+ "generation_id": "hQtFyAG3GStFO4ncsrwf",
+ "credits": 98,
+ "generated_on": "2026-11-28",
+ "timing_source": "ElevenLabs eleven_scribe_v1 transcription (delivery tags left out)"
+}
