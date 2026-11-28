@@ -1,0 +1,483 @@
+{
+ "words": [
+  {
+   "text": "كم",
+   "type": "word",
+   "start": 0.147,
+   "end": 0.16
+  },
+  {
+   "text": "جهاز",
+   "type": "word",
+   "start": 0.2,
+   "end": 0.44
+  },
+  {
+   "text": "يحتاج",
+   "type": "word",
+   "start": 0.48,
+   "end": 0.72
+  },
+  {
+   "text": "صدرك؟",
+   "type": "word",
+   "start": 0.8,
+   "end": 1.32
+  },
+  {
+   "text": "ثلاثة",
+   "type": "word",
+   "start": 1.44,
+   "end": 1.76
+  },
+  {
+   "text": "بس.",
+   "type": "word",
+   "start": 1.84,
+   "end": 2.24
+  },
+  {
+   "text": "الأول:",
+   "type": "word",
+   "start": 2.667,
+   "end": 3.04
+  },
+  {
+   "text": "جهاز",
+   "type": "word",
+   "start": 3.2,
+   "end": 3.48
+  },
+  {
+   "text": "ضغط",
+   "type": "word",
+   "start": 3.52,
+   "end": 3.76
+  },
+  {
+   "text": "الصدر،",
+   "type": "word",
+   "start": 3.84,
+   "end": 4.24
+  },
+  {
+   "text": "الـ",
+   "type": "word",
+   "start": 4.32,
+   "end": 4.4
+  },
+  {
+   "text": "Chest",
+   "type": "word",
+   "start": 4.44,
+   "end": 4.64
+  },
+  {
+   "text": "Press.",
+   "type": "word",
+   "start": 4.72,
+   "end": 5.24
+  },
+  {
+   "text": "ظهرك",
+   "type": "word",
+   "start": 5.44,
+   "end": 5.68
+  },
+  {
+   "text": "على",
+   "type": "word",
+   "start": 5.76,
+   "end": 5.84
+  },
+  {
+   "text": "المسند،",
+   "type": "word",
+   "start": 5.88,
+   "end": 6.44
+  },
+  {
+   "text": "ادفع",
+   "type": "word",
+   "start": 6.56,
+   "end": 6.8
+  },
+  {
+   "text": "المقابض",
+   "type": "word",
+   "start": 6.92,
+   "end": 7.32
+  },
+  {
+   "text": "لقدّام،",
+   "type": "word",
+   "start": 7.36,
+   "end": 7.96
+  },
+  {
+   "text": "ورجّع",
+   "type": "word",
+   "start": 8.08,
+   "end": 8.48
+  },
+  {
+   "text": "ببطء.",
+   "type": "word",
+   "start": 8.56,
+   "end": 9.04
+  },
+  {
+   "text": "الثاني:",
+   "type": "word",
+   "start": 9.28,
+   "end": 9.88
+  },
+  {
+   "text": "الضغط",
+   "type": "word",
+   "start": 10.0,
+   "end": 10.32
+  },
+  {
+   "text": "المائل،",
+   "type": "word",
+   "start": 10.44,
+   "end": 10.88
+  },
+  {
+   "text": "الـ",
+   "type": "word",
+   "start": 10.96,
+   "end": 11.04
+  },
+  {
+   "text": "Incline",
+   "type": "word",
+   "start": 11.12,
+   "end": 11.52
+  },
+  {
+   "text": "Press.",
+   "type": "word",
+   "start": 11.6,
+   "end": 12.08
+  },
+  {
+   "text": "ظهرك",
+   "type": "word",
+   "start": 12.24,
+   "end": 12.48
+  },
+  {
+   "text": "على",
+   "type": "word",
+   "start": 12.56,
+   "end": 12.64
+  },
+  {
+   "text": "المسند",
+   "type": "word",
+   "start": 12.68,
+   "end": 13.04
+  },
+  {
+   "text": "المائل،",
+   "type": "word",
+   "start": 13.16,
+   "end": 13.64
+  },
+  {
+   "text": "ادفع",
+   "type": "word",
+   "start": 13.76,
+   "end": 14.0
+  },
+  {
+   "text": "لفوق،",
+   "type": "word",
+   "start": 14.08,
+   "end": 14.6
+  },
+  {
+   "text": "وانزل",
+   "type": "word",
+   "start": 14.72,
+   "end": 15.04
+  },
+  {
+   "text": "بهدوء.",
+   "type": "word",
+   "start": 15.08,
+   "end": 15.72
+  },
+  {
+   "text": "الثالث:",
+   "type": "word",
+   "start": 15.893,
+   "end": 16.44
+  },
+  {
+   "text": "الفراشة،",
+   "type": "word",
+   "start": 16.56,
+   "end": 17.28
+  },
+  {
+   "text": "الـ",
+   "type": "word",
+   "start": 17.36,
+   "end": 17.44
+  },
+  {
+   "text": "Pec",
+   "type": "word",
+   "start": 17.52,
+   "end": 17.68
+  },
+  {
+   "text": "Deck.",
+   "type": "word",
+   "start": 17.76,
+   "end": 18.12
+  },
+  {
+   "text": "افتح",
+   "type": "word",
+   "start": 18.24,
+   "end": 18.48
+  },
+  {
+   "text": "ذراعينك",
+   "type": "word",
+   "start": 18.56,
+   "end": 19.16
+  },
+  {
+   "text": "وكوعك",
+   "type": "word",
+   "start": 19.2,
+   "end": 19.64
+  },
+  {
+   "text": "مثني",
+   "type": "word",
+   "start": 19.68,
+   "end": 19.92
+  },
+  {
+   "text": "شوي،",
+   "type": "word",
+   "start": 20.0,
+   "end": 20.44
+  },
+  {
+   "text": "وضمّها",
+   "type": "word",
+   "start": 20.56,
+   "end": 20.96
+  },
+  {
+   "text": "قدّام",
+   "type": "word",
+   "start": 21.04,
+   "end": 21.36
+  },
+  {
+   "text": "صدرك",
+   "type": "word",
+   "start": 21.44,
+   "end": 21.76
+  },
+  {
+   "text": "ببطء.",
+   "type": "word",
+   "start": 21.84,
+   "end": 22.32
+  },
+  {
+   "text": "لكل",
+   "type": "word",
+   "start": 22.613,
+   "end": 22.72
+  },
+  {
+   "text": "جهاز",
+   "type": "word",
+   "start": 22.8,
+   "end": 23.2
+  },
+  {
+   "text": "ثلاث",
+   "type": "word",
+   "start": 23.28,
+   "end": 23.44
+  },
+  {
+   "text": "مجموعات،",
+   "type": "word",
+   "start": 23.52,
+   "end": 24.12
+  },
+  {
+   "text": "من",
+   "type": "word",
+   "start": 24.24,
+   "end": 24.32
+  },
+  {
+   "text": "ثمانية",
+   "type": "word",
+   "start": 24.4,
+   "end": 24.8
+  },
+  {
+   "text": "لاثنعش",
+   "type": "word",
+   "start": 24.92,
+   "end": 25.2
+  },
+  {
+   "text": "تكرار،",
+   "type": "word",
+   "start": 25.28,
+   "end": 25.893
+  },
+  {
+   "text": "وراحة",
+   "type": "word",
+   "start": 25.947,
+   "end": 26.24
+  },
+  {
+   "text": "دقيقة",
+   "type": "word",
+   "start": 26.28,
+   "end": 26.56
+  },
+  {
+   "text": "ونص",
+   "type": "word",
+   "start": 26.64,
+   "end": 26.92
+  },
+  {
+   "text": "لدقيقتين",
+   "type": "word",
+   "start": 26.96,
+   "end": 27.52
+  },
+  {
+   "text": "بينها.",
+   "type": "word",
+   "start": 27.64,
+   "end": 28.091
+  },
+  {
+   "text": "زِد",
+   "type": "word",
+   "start": 28.16,
+   "end": 28.32
+  },
+  {
+   "text": "الوزن",
+   "type": "word",
+   "start": 28.4,
+   "end": 28.76
+  },
+  {
+   "text": "إذا",
+   "type": "word",
+   "start": 28.8,
+   "end": 28.96
+  },
+  {
+   "text": "كمّلت",
+   "type": "word",
+   "start": 29.04,
+   "end": 29.36
+  },
+  {
+   "text": "الاثنعش",
+   "type": "word",
+   "start": 29.4,
+   "end": 29.76
+  },
+  {
+   "text": "بسهولة،",
+   "type": "word",
+   "start": 29.84,
+   "end": 30.36
+  },
+  {
+   "text": "ولتفاصيل",
+   "type": "word",
+   "start": 30.48,
+   "end": 31.04
+  },
+  {
+   "text": "الوزن",
+   "type": "word",
+   "start": 31.12,
+   "end": 31.44
+  },
+  {
+   "text": "والراحة",
+   "type": "word",
+   "start": 31.52,
+   "end": 32.0
+  },
+  {
+   "text": "شوف",
+   "type": "word",
+   "start": 32.08,
+   "end": 32.24
+  },
+  {
+   "text": "الكابشن.",
+   "type": "word",
+   "start": 32.28,
+   "end": 32.971
+  },
+  {
+   "text": "احفظه",
+   "type": "word",
+   "start": 33.04,
+   "end": 33.36
+  },
+  {
+   "text": "عندك،",
+   "type": "word",
+   "start": 33.4,
+   "end": 33.88
+  },
+  {
+   "text": "وتابعنا",
+   "type": "word",
+   "start": 33.92,
+   "end": 34.4
+  },
+  {
+   "text": "للتمرين",
+   "type": "word",
+   "start": 34.48,
+   "end": 34.88
+  },
+  {
+   "text": "الجاي.",
+   "type": "word",
+   "start": 34.96,
+   "end": 35.44
+  }
+ ],
+ "voice": "Jeddawi Echo",
+ "voice_id": "yXEnnEln9armDCyhkXcA",
+ "model_id": "eleven_v4",
+ "language_code": "ar",
+ "generation_id": "LOSebIoxTUXl8Lh3XS2u",
+ "timing_source": "ElevenLabs eleven_scribe_v1 transcription",
+ "generated_on": "2026-11-28",
+ "credits": 566,
+ "duration_s": 35.4,
+ "note": "one take, every paragraph prompted with [quickly] (owner 2026-11-28: faster pace always); the tags' zero-length transcript tokens are left out, and the words match the narration text (78)",
+ "audio": "r031_narration.mp3"
+}
